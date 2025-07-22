@@ -1,0 +1,34 @@
+# Java
+1. [Installation and Setup](javainstallation.md)
+2. [Data Types](javadatatypes.md)
+3. [Operators](operators_java.md)
+4. [Control Flow](control_flow_java.md)
+5. [Methods](methods_java.md)
+6. [Object-Oriented Programming (OOP)](javaoop.md)
+7. [Annotations](javaannotations.md)
+8. [[javacollectionsframework|Collections]]
+9. [Java Streams](javastreams.md)
+10. [Exceptions](javaexceptions.md)
+11. [Input/Output (I/O)](io_java.md)
+    1. [Files and Directories](files_directories_java.md)
+    2. [Input and Output Streams](io_streams_java.md)
+    3. [Serialization](serialization_java.md)
+12. [Concurrency](javaconcurrency.md)
+13. [Databases](databases_java.md)
+    1. [JDBC](JDBC.md)
+    2. [Hibernate](hibernate_java.md)
+    3. [JPA](jpa_java.md)
+14. [Frameworks](java_frameworks.md)
+15. [Testing](testing_java.md)
+    1. [JUnit](junit_java.md)
+    2. [Mockito](mockito_java.md)
+16. Management
+    1. [Maven](javamaven.md)
+    2. [Introduction to Gradle](gradle_intro_java.md)
+    3. [Dependency Management](dependency_management_java.md)
+17. Best Practices
+    4. [Code Style](code_style_java.md)
+    5. [Refactoring](refactoring_java.md)
+    6. [Design Patterns](design_patterns_java.md)
+- - - 
+#java 

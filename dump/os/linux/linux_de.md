@@ -1,0 +1,7 @@
+- [Introduction to Desktop Environments](introduction_desktop_environments.md)
+- [GNOME](gnome.md)
+    1. [Basic Configuration](gnome_configuration.md)
+- [KDE Plasma](kde_plasma.md)
+    1. [Basic Configuration](kde_configuration.md)
+- [XFCE](xfce.md)
+- [Other Lightweight Environments](other_lightweight_desktops.md)

@@ -1,0 +1,3 @@
+
+- - - 
+[[typescriptgenerics| Genericos]] #typescript 

@@ -1,0 +1,25 @@
+# Spring 
+- [[springroughnotes|Rough Notes]]
+- **Basic**
+	- [Keybinds](springkeybinds.md)
+	- [Spring Architecture](spring_architecture.md)
+	- [Setting Up a Project](spring_setup.md)
+		- [Lombok](springlombok.md)
+- **Core Concepts**
+	- [Spring Beans and Lifecycle](spring_beans.md)
+	- [Spring Context](spring_context.md)
+	- [AOP (Aspect-Oriented Programming)](spring_aop.md)
+	- [Dependency Injection and Inversion of Control (IoC)](spring_dependency_injection.md)
+- **Data Access**
+	- [Spring JDBC](spring_jdbc.md)
+	- [Spring Data JPA](spring_data_jpa.md)
+	- [Transactions in Spring](spring_transactions.md)
+- **Web Development**
+	- [Spring MVC Basics](spring_mvc_basics.md)
+	- [Controllers](spring_controllers.md)
+	- [View Resolvers and Templates](spring_view_resolvers.md)
+		- [Thymeleaf](thymeleaf.md)
+	- [RESTful APIs](spring_rest_apis.md)
+- **[Security](spring_security.md)**
+ - - - 
+#spring 

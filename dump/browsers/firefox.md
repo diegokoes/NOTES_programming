@@ -1,0 +1,3 @@
+# Firefox
+
+- [[firefoxkeybinds|Firefox Keybinds]] 

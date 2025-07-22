@@ -1,0 +1,23 @@
+{
+  "showIndentGuide": true,
+  "spellcheck": false,
+  "autoPairBrackets": false,
+  "showLineNumber": true,
+  "trashOption": "none",
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "attachmentFolderPath": "Assets",
+  "focusNewTab": false,
+  "showInlineTitle": true,
+  "newFileLocation": "current",
+  "livePreview": true,
+  "propertiesInDocument": "visible",
+  "autoPairMarkdown": false,
+  "newFileFolderPath": "dump",
+  "strictLineBreaks": false,
+  "defaultViewMode": "source",
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "userIgnoreFilters": null,
+  "tabSize": 5
+}

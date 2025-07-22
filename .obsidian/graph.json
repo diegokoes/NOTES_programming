@@ -1,0 +1,184 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#mainindex  ",
+      "color": {
+        "a": 1,
+        "rgb": 2368548
+      }
+    },
+    {
+      "query": "tag:#nodejs",
+      "color": {
+        "a": 1,
+        "rgb": 35351
+      }
+    },
+    {
+      "query": "tag:#java  ",
+      "color": {
+        "a": 1,
+        "rgb": 15485771
+      }
+    },
+    {
+      "query": "tag:#angular  ",
+      "color": {
+        "a": 1,
+        "rgb": 9306306
+      }
+    },
+    {
+      "query": "tag:#react  ",
+      "color": {
+        "a": 1,
+        "rgb": 54783
+      }
+    },
+    {
+      "query": "tag:#html  ",
+      "color": {
+        "a": 1,
+        "rgb": 12077312
+      }
+    },
+    {
+      "query": "tag:#css  ",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "tag:#sass  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711888
+      }
+    },
+    {
+      "query": "tag:#bootstrap  ",
+      "color": {
+        "a": 1,
+        "rgb": 10035642
+      }
+    },
+    {
+      "query": "tag:#spring  ",
+      "color": {
+        "a": 1,
+        "rgb": 16775495
+      }
+    },
+    {
+      "query": "tag:#javascript  ",
+      "color": {
+        "a": 1,
+        "rgb": 16759552
+      }
+    },
+    {
+      "query": "tag:#linux  ",
+      "color": {
+        "a": 1,
+        "rgb": 14324991
+      }
+    },
+    {
+      "query": "tag:#conceptsprotocols  ",
+      "color": {
+        "a": 1,
+        "rgb": 14385303
+      }
+    },
+    {
+      "query": "tag:#typescript  ",
+      "color": {
+        "a": 1,
+        "rgb": 19322
+      }
+    },
+    {
+      "query": "tag:#mongodb  ",
+      "color": {
+        "a": 1,
+        "rgb": 5896036
+      }
+    },
+    {
+      "query": "tag:#obsidian",
+      "color": {
+        "a": 1,
+        "rgb": 8537586
+      }
+    },
+    {
+      "query": "tag:#workout",
+      "color": {
+        "a": 1,
+        "rgb": 11696467
+      }
+    },
+    {
+      "query": "tag:#recipes  ",
+      "color": {
+        "a": 1,
+        "rgb": 14937250
+      }
+    },
+    {
+      "query": "tag:#rol  ",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tag:#jakartaee  ",
+      "color": {
+        "a": 1,
+        "rgb": 16751964
+      }
+    },
+    {
+      "query": "tag:#proxmox  ",
+      "color": {
+        "a": 1,
+        "rgb": 16737792
+      }
+    },
+    {
+      "query": "tag:#windows  ",
+      "color": {
+        "a": 1,
+        "rgb": 22015
+      }
+    },
+    {
+      "query": "tag:#python  ",
+      "color": {
+        "a": 1,
+        "rgb": 16699500
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.60104166666667,
+  "lineSizeMultiplier": 1.171875,
+  "collapse-forces": false,
+  "centerStrength": 0.0501389317690645,
+  "repelStrength": 20,
+  "linkStrength": 0.903735720901513,
+  "linkDistance": 500,
+  "scale": 0.028245212095071342,
+  "close": true
+}

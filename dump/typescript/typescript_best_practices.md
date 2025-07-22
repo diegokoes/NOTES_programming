@@ -1,0 +1,5 @@
+- [TypeScript Coding Standards](typescript_coding_standards.md)
+- [Optimizing for Large Projects](typescript_optimization.md)
+- [Common Patterns and Anti-Patterns](typescript_patterns.md)
+- - - 
+#typescript 

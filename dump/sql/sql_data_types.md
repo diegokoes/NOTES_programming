@@ -1,0 +1,4 @@
+- [Numeric types](numeric_type_sql.md)
+- [Character types](character_types_sql.md)
+- [Date and time types](date_time_types_sql.md)
+- [Binary types](binary_types_sql.md)

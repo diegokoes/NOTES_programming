@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "subtags_hidden": "multitext",
+    "tags_hidden[]": "multitext",
+    "subtags_hidden[]": "multitext",
+    "tags_hidden": "multitext",
+    "completed": "checkbox",
+    "rating": "text"
+  }
+}

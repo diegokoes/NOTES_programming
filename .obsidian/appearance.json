@@ -1,0 +1,13 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Neovim",
+  "accentColor": "",
+  "nativeMenus": false,
+  "showViewHeader": true,
+  "enabledCssSnippets": [
+    "linewidth"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 15,
+  "showRibbon": false
+}

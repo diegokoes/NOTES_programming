@@ -1,0 +1,4 @@
+- [Creating tables](create_tables.md)
+- [Altering tables](alter_tables.md)
+- [Dropping and truncating tables](drop_truncate_tables.md)
+- [Constraints](sql_constraints.md)

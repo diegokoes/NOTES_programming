@@ -1,0 +1,6 @@
+{
+  "format": "DD-MM-YYYY",
+  "folder": "dump/dailynote",
+  "autorun": true,
+  "template": "Templates/trackerworkout"
+}
