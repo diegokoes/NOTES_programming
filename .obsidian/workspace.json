@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e5f26ad183caed68",
+        "id": "7735d6eedabad4b0",
         "type": "tabs",
         "children": [
           {
-            "id": "fbcd522bfe6e8f17",
+            "id": "1fa0b122e34e40ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dump/config/config_duckdns.md",
+                "file": "dump/os/linux/yazi/yazi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "config_duckdns"
+              "title": "yazi"
             }
           }
         ]
@@ -41,13 +41,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dump/config/config_duckdns.md",
+                "file": "dump/os/linux/yazi/yazi.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of config_duckdns"
+              "title": "Outline of yazi"
             }
           }
         ]
@@ -62,7 +62,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dump/config/config_duckdns.md",
+                "file": "dump/os/linux/yazi/yazi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,7 +72,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for config_duckdns"
+              "title": "Backlinks for yazi"
             }
           }
         ]
@@ -133,10 +133,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fbcd522bfe6e8f17",
+  "active": "1fa0b122e34e40ff",
   "lastOpenFiles": [
-    "dump/config/IP'S.md",
+    "dump/os/linux/yazi/DOCS.md",
+    "dump/os/linux/yazi/yazi.md",
+    "dump/os/linux/linux.md",
+    "dump/os/linux/yazi",
+    "Untitled",
+    "deisy.md",
+    "linux_de_hyprland.md",
     "dump/config/config_duckdns.md",
+    "dump/config/IP'S.md",
     "dump/recipes/hamburger.md",
     "dump/python/Python.md",
     "dump/python/python_functions.md",
@@ -157,11 +164,6 @@
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
     "dump/python/python_variablescopes.md",
     "dump/recipes/recipes_hamburguesas.md",
-    "dump/recipes/recipes.md",
-    "deisy.md",
-    "Note_.md",
-    "bezoldeffect.md",
-    "dump/recipes/Arroz Basmati.md",
     "dump/git",
     "dump/config",
     "dump/obsidian",
@@ -170,8 +172,6 @@
     "dump/os/windows",
     "dump/os/linux",
     "dump/os",
-    "dump/dnd/Worlds Without Number Deluxe Edition (Kevin Crawford) (Z-Library).pdf",
-    "dump/dnd/Xanathars Guide to Everything (Dungeons  Dragons) (Wizards Rpg Team) (Z-Library).pdf",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "Assets/{E10EF46D-0EF3-4300-ADE1-B23719867B1A}.png",
     "Assets/{52FA080D-F610-4443-BF1E-F5808B1CFCF3}.png",
