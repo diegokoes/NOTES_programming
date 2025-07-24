@@ -1,12 +1,18 @@
 # Linux -> Commands
 
-## A
+run
 
-## B
+difference between nohup ... &
+and ... & disown? #todo
 
-## C
+# See real zram usage
+sudo zramctl
 
-## D
+# Check swap priority and usage
+swapon --show
+
+# See memory/swap usage
+free -h
 ### df -h
 
 **Purpose:** Brief description of what the command does

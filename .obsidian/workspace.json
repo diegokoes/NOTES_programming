@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7735d6eedabad4b0",
+        "id": "14eb849248cea8e7",
         "type": "tabs",
         "children": [
           {
-            "id": "1fa0b122e34e40ff",
+            "id": "ea9697d295a00d5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dump/os/linux/yazi/yazi.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "yazi"
+              "title": "New tab"
             }
           }
         ]
@@ -41,13 +36,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dump/os/linux/yazi/yazi.md",
+                "file": "dump/os/linux/linux_docker.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of yazi"
+              "title": "Outline of linux_docker"
             }
           }
         ]
@@ -62,7 +57,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dump/os/linux/yazi/yazi.md",
+                "file": "dump/os/linux/linux_docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,14 +67,15 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for yazi"
+              "title": "Backlinks for linux_docker"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 303.5,
+    "collapsed": true
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -133,11 +129,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1fa0b122e34e40ff",
+  "active": "ea9697d295a00d5f",
   "lastOpenFiles": [
-    "dump/os/linux/yazi/DOCS.md",
-    "dump/os/linux/yazi/yazi.md",
+    "dump/os/linux/wayland/hyprland/hyprland.md",
+    "dump/os/linux/wayland/wayland.md",
+    "dump/os/linux/wayland",
+    "dump/os/linux/wayland/hyprland",
+    "configggg.md",
+    "dump/os/linux/linux_docker.md",
+    "dump/os/linux/linux_file_systems.md",
+    "dump/os/linux/linux_printers.md",
+    "dump/os/linux/linux_networking.md",
+    "dump/os/linux/linux_packages.md",
+    "dump/os/linux/proxmox_local_disk_configuration.md",
+    "dump/os/linux/PROXMOX.md",
+    "dump/os/linux/linuxdistros.md",
+    "dump/os/linux/linuxbtrfs.md",
+    "dump/os/linux/linux_zsh.md",
+    "dump/os/linux/linux_window_managers.md",
+    "dump/os/linux/linux_shell.md",
     "dump/os/linux/linux.md",
+    "dump/os/linux/linux_security.md",
+    "dump/os/linux/linux_commands.md",
+    "dump/os/linux/yazi/yazi.md",
+    "dump/os/linux/yazi/DOCS.md",
     "dump/os/linux/yazi",
     "Untitled",
     "deisy.md",
@@ -146,32 +161,13 @@
     "dump/config/IP'S.md",
     "dump/recipes/hamburger.md",
     "dump/python/Python.md",
-    "dump/python/python_functions.md",
-    "dump/conceptsprotocols/concepts.md",
-    "dump/conceptsprotocols/pure_functions.md",
-    "dump/conceptsprotocols/concepts_Functional_Programming.md",
-    "dump/python/python_args_kwargs.md",
-    "dump/python/python_files.md",
-    "dump/python/python_datastructures.md",
-    "dump/nodejs/nodejs.md",
-    "dump/python/python_modules.md",
-    "dump/python/python_random.md",
-    "dump/python/python_exceptions.md",
-    "dump/python/python_dictionaries.md",
-    "dump/python/python_sets.md",
-    "dump/python/python_lists.md",
-    "dump/python/python_tuples.md",
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
-    "dump/python/python_variablescopes.md",
-    "dump/recipes/recipes_hamburguesas.md",
     "dump/git",
     "dump/config",
     "dump/obsidian",
     "dump/browsers",
     "dump/php",
     "dump/os/windows",
-    "dump/os/linux",
-    "dump/os",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "Assets/{E10EF46D-0EF3-4300-ADE1-B23719867B1A}.png",
     "Assets/{52FA080D-F610-4443-BF1E-F5808B1CFCF3}.png",

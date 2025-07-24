@@ -1,0 +1,7 @@
+# hyprland
+
+`hyprctl reload`
+
+
+- - -
+#hyprland
