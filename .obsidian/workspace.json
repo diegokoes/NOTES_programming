@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "14eb849248cea8e7",
+        "id": "3d12f98a1e7ffead",
         "type": "tabs",
         "children": [
           {
-            "id": "ea9697d295a00d5f",
+            "id": "45dc1e51d140311d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -129,8 +129,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ea9697d295a00d5f",
+  "active": "45dc1e51d140311d",
   "lastOpenFiles": [
+    "dump/conceptsprotocols/concepts.md",
+    "dump/_indexes/Programming.md",
+    "dump/git/git.md",
+    "dump/git/git_basics.md",
+    "dump/git/git_troubleshooting.md",
+    "dump/git/git_remote.md",
+    "dump/git/git_advanced.md",
+    "dump/git/git_merging.md",
+    "dump/git/git_commits.md",
+    "dump/git/git_branching.md",
     "dump/os/linux/wayland/hyprland/hyprland.md",
     "dump/os/linux/wayland/wayland.md",
     "dump/os/linux/wayland",
@@ -149,18 +159,8 @@
     "dump/os/linux/linux_window_managers.md",
     "dump/os/linux/linux_shell.md",
     "dump/os/linux/linux.md",
-    "dump/os/linux/linux_security.md",
-    "dump/os/linux/linux_commands.md",
-    "dump/os/linux/yazi/yazi.md",
-    "dump/os/linux/yazi/DOCS.md",
     "dump/os/linux/yazi",
     "Untitled",
-    "deisy.md",
-    "linux_de_hyprland.md",
-    "dump/config/config_duckdns.md",
-    "dump/config/IP'S.md",
-    "dump/recipes/hamburger.md",
-    "dump/python/Python.md",
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
     "dump/git",
     "dump/config",
