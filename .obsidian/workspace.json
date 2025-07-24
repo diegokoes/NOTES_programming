@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3d12f98a1e7ffead",
+        "id": "40c22bb734c8d133",
         "type": "tabs",
         "children": [
           {
-            "id": "45dc1e51d140311d",
+            "id": "2ad29e3c59857a72",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "dump/os/linux/wayland/hyprland/hyprland.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "hyprland"
             }
           }
         ]
@@ -36,13 +41,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dump/os/linux/linux_docker.md",
+                "file": "dump/os/linux/wayland/hyprland/hyprland.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of linux_docker"
+              "title": "Outline of hyprland"
             }
           }
         ]
@@ -57,7 +62,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dump/os/linux/linux_docker.md",
+                "file": "dump/os/linux/wayland/hyprland/hyprland.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -67,15 +72,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for linux_docker"
+              "title": "Backlinks for hyprland"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
-    "collapsed": true
+    "width": 303.5
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -129,36 +133,36 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45dc1e51d140311d",
+  "active": "2ad29e3c59857a72",
   "lastOpenFiles": [
+    "dump/os/linux/wayland/wayland.md",
+    "dump/os/linux/linux_distros.md",
+    "dump/os/linux/linux_btrfs.md",
+    "dump/os/linux/wayland/wayland_tools.md",
+    "dump/os/linux/wayland/hyprland/hyprland_troubleshooting.md",
+    "dump/os/linux/wayland/hyprland/hyprland_plugins.md",
+    "dump/os/linux/wayland/hyprland/hyprland_keybindings.md",
+    "dump/os/linux/wayland/hyprland/hyprland_config.md",
+    "dump/os/linux/linux_development_tools.md",
+    "dump/os/linux/yazi/yazi.md",
+    "dump/os/linux/linux.md",
+    "dump/os/linux/linux_commands.md",
+    "dump/os/linux/template.md",
+    "accesibility.md",
+    "metacourse.md",
+    "webhosting.md",
+    "setup.md",
+    "frameworks.md",
+    "linux_de_hyprland.md",
+    "libraries.md",
+    "deisy.md",
     "dump/conceptsprotocols/concepts.md",
     "dump/_indexes/Programming.md",
     "dump/git/git.md",
     "dump/git/git_basics.md",
     "dump/git/git_troubleshooting.md",
-    "dump/git/git_remote.md",
-    "dump/git/git_advanced.md",
-    "dump/git/git_merging.md",
-    "dump/git/git_commits.md",
-    "dump/git/git_branching.md",
-    "dump/os/linux/wayland/hyprland/hyprland.md",
-    "dump/os/linux/wayland/wayland.md",
     "dump/os/linux/wayland",
     "dump/os/linux/wayland/hyprland",
-    "configggg.md",
-    "dump/os/linux/linux_docker.md",
-    "dump/os/linux/linux_file_systems.md",
-    "dump/os/linux/linux_printers.md",
-    "dump/os/linux/linux_networking.md",
-    "dump/os/linux/linux_packages.md",
-    "dump/os/linux/proxmox_local_disk_configuration.md",
-    "dump/os/linux/PROXMOX.md",
-    "dump/os/linux/linuxdistros.md",
-    "dump/os/linux/linuxbtrfs.md",
-    "dump/os/linux/linux_zsh.md",
-    "dump/os/linux/linux_window_managers.md",
-    "dump/os/linux/linux_shell.md",
-    "dump/os/linux/linux.md",
     "dump/os/linux/yazi",
     "Untitled",
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",

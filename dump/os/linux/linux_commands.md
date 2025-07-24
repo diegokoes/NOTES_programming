@@ -1,10 +1,29 @@
-# Linux -> Commands
+# linux > commands
 
-run
+## Summary
+> [!summary]
+> Essential Linux commands reference
 
-difference between nohup ... &
-and ... & disown? #todo
+## Theory
 
+### Process Management
+
+**Background processes:**
+```bash
+# Run command in background
+command &
+
+# Prevent termination on logout
+nohup command &
+
+# Run in background and disown from shell
+command & disown
+```
+
+### Memory and Storage
+
+**Memory monitoring:**
+```bash
 # See real zram usage
 sudo zramctl
 
@@ -13,86 +32,51 @@ swapon --show
 
 # See memory/swap usage
 free -h
-### df -h
-
-**Purpose:** Brief description of what the command does
-
-**Options:**
-- `-option1`: Description of this option
-
-**Examples:**
-```bash
-# Basic usage
-command
 ```
 
-### dysk
-
-**Purpose:** Brief description of what the command does
-
-**Options:**
-- `-option1`: Description of this option
-
-**Examples:**
+**Disk usage:**
 ```bash
-# Basic usage
-command
+# Show disk usage
+df -h
+
+# Advanced disk usage tool
+dysk
 ```
-## E
 
-## F
+### System Analysis
 
-## G
-
-## H
-
-## I
-
-## J
-
-## K
-
-## L
-
-## M
-
-## N
-
-## O
-
-## P
-
-## Q
-
-## R
-
-## S
-
-### systemd
-
-**Purpose:** Brief description of what the command does
-
-**Options:**
-- `-systemd-analyze plot`: Description of this option
-- `-systemd-analyze blame`: Description of this option
-
-**Examples:**
+**systemd analysis:**
 ```bash
-# Basic usage
-command
+# Boot time analysis with plot
+systemd-analyze plot
+
+# Show services startup time
+systemd-analyze blame
 ```
-## T
 
-## U
+## Command Reference
 
-## V
+### D
+- `df -h` - Display filesystem disk space usage
+- `dysk` - Modern disk usage analyzer
 
-## W
+### F
+- `free -h` - Display memory usage
 
-## X
+### S
+- `swapon --show` - Display swap usage and priority
+- `systemd-analyze` - Analyze system boot performance
 
-## Y
+### Z
+- `zramctl` - Display zram device information
 
-## Z
+## Questions
+
+> [!tip]- What's the difference between nohup and disown?
+> - `nohup command &` - Prevents process from receiving SIGHUP signal
+> - `command & disown` - Removes job from shell's job table, preventing SIGHUP
+
+- - -
+#linux
 
 

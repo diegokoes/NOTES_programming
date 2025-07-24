@@ -1,10 +1,76 @@
-## 1 **Viewing Available Printers**
+# linux > printers
 
-bash
+## Summary
+> [!summary]
+> CUPS printer management commands and troubleshooting
 
-Copy code
+## Theory
 
-`lpstat -p`
+### CUPS (Common Unix Printing System)
+CUPS is the printing system used by most Linux distributions. It provides a web interface and command-line tools for managing printers.
+
+### Common Commands
+
+**Printer Status:**
+```bash
+# List all configured printers
+lpstat -p
+
+# Check print queue
+lpstat -o
+
+# Get detailed printer information
+lpstat -l -p PRINTER_NAME
+```
+
+**Print Management:**
+```bash
+# Print a file
+lp filename
+
+# Set default printer
+lpoptions -d PRINTER_NAME
+
+# View printer configuration
+lpoptions -p PRINTER_NAME
+```
+
+**Queue Management:**
+```bash
+# Cancel specific job
+cancel JOB_ID
+
+# Cancel all jobs for a printer
+cancel -a PRINTER_NAME
+```
+
+**System Management:**
+```bash
+# Restart CUPS service
+sudo systemctl restart cups
+
+# View CUPS logs
+cat /var/log/cups/error_log
+```
+
+### CUPS Web Interface
+Access the web interface at: `http://localhost:631/jobs/`
+
+### Ink Level Monitoring
+Most printers don't support ink level reporting through Linux. Options include:
+- `ippfind` (if supported)
+- Manufacturer-specific tools (e.g., `hp-toolbox` for HP printers from HPLIP package)
+
+## Questions
+
+> [!tip]- How do I access the CUPS web interface?
+> Open your browser and go to `http://localhost:631/jobs/`
+
+> [!warning]- Why can't I see ink levels?
+> Most printers don't support ink level reporting through Linux. You may need manufacturer-specific tools.
+
+- - -
+#linux
 
 - Lists all configured printers and their statuses.
 - Works on most distributions with CUPS installed.

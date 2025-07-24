@@ -1,7 +1,15 @@
-- [Introduction to Desktop Environments](introduction_desktop_environments.md)
-- [GNOME](gnome.md)
-    1. [Basic Configuration](gnome_configuration.md)
-- [KDE Plasma](kde_plasma.md)
-    1. [Basic Configuration](kde_configuration.md)
-- [XFCE](xfce.md)
-- [Other Lightweight Environments](other_lightweight_desktops.md)
+# linux > desktop environments
+
+## Summary
+> [!summary]
+> Desktop Environments (DE) provide complete graphical interfaces for Linux systems
+
+## Available Desktop Environments
+
+- **GNOME** - Modern, clean interface with Wayland support
+- **KDE Plasma** - Feature-rich and highly customizable
+- **XFCE** - Lightweight and traditional
+- **Other lightweight options** - For older hardware or minimal setups
+
+- - -
+#linux
