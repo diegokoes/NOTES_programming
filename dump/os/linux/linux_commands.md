@@ -1,12 +1,26 @@
 # linux > commands
+## chmod & chown
+> on NTFS they don't behave like on EXT4, mount options co
+## lsblk
+- `lsblk -o`: 
 
-## Summary
-> [!summary]
-> Essential Linux commands reference
+## Mount
+- 
+## File System
+- `grep -w [filesystem] /proc/filesystems`: check if it's recognized
 
-## Theory
+## Firewall
+- 
+## Kernel
 
-### Process Management
+- `uname -r`: to see version
+
+## Modules
+- `modinfo [name]`: see if it exists
+## RAM
+- `free -h` - Display memory usage
+- `zramctl` - Display zram device information
+## Process Management
 
 **Background processes:**
 ```bash
@@ -60,21 +74,13 @@ systemd-analyze blame
 - `df -h` - Display filesystem disk space usage
 - `dysk` - Modern disk usage analyzer
 
-### F
-- `free -h` - Display memory usage
+
 
 ### S
 - `swapon --show` - Display swap usage and priority
 - `systemd-analyze` - Analyze system boot performance
 
-### Z
-- `zramctl` - Display zram device information
 
-## Questions
-
-> [!tip]- What's the difference between nohup and disown?
-> - `nohup command &` - Prevents process from receiving SIGHUP signal
-> - `command & disown` - Removes job from shell's job table, preventing SIGHUP
 
 - - -
 #linux

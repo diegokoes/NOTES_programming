@@ -1,6 +1,6 @@
 {
-  "findText": "[A-Z].[0-9]-\\s",
-  "replaceText": "## ",
+  "findText": "# ",
+  "replaceText": "##  ",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": true,
