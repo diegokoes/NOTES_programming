@@ -1,4 +1,4 @@
-# Hamstrings
+# HAMSTRINGS
 
 - [[Dumbbell Stiff Leg Deadlift]]
 

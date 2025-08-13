@@ -1,9 +1,9 @@
-# TypeScript -> Conditional Types
-## Summary
+# TYPESCRIPT -> CONDITIONAL TYPES
+## SUMMARY
 > [!summary]-
 > 
 - - - 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Los **Conditional Types** son una característica avanzada de TypeScript que permite definir tipos basados en una condición lógica, utilizando la sintaxis `T extends U ? X : Y`.
@@ -13,9 +13,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- ¿Cómo funcionan los Conditional Types?
+## B.1- ¿CÓMO FUNCIONAN LOS CONDITIONAL TYPES?
 
 Un Conditional Type utiliza `extends` para verificar si un tipo cumple una condición. La sintaxis básica es:
 
@@ -26,7 +26,7 @@ T extends U ? X : Y
 - Si `T` extiende (o es compatible con) `U`, devuelve `X`.
 - Si no, devuelve `Y`.
 
-### Ejemplo Básico:
+### EJEMPLO BÁSICO:
 ```ts
 type TipoCondicional<T> = T extends string ? "Es texto" : "No es texto";
 
@@ -34,13 +34,13 @@ type Resultado1 = TipoCondicional<string>;  // "Es texto"
 type Resultado2 = TipoCondicional<number>;  // "No es texto"
 ```
 
-## B.2- Uso Común de Conditional Types
+## B.2- USO COMÚN DE CONDITIONAL TYPES
 
 1. **Filtrado de Tipos**: Eliminar tipos innecesarios.
 2. **Mapeo Condicional**: Transformar propiedades en un tipo.
 3. **Inferencia de Tipos**: Extraer tipos específicos.
 
-### Ejemplo con Inferencia:
+### EJEMPLO CON INFERENCIA:
 
 ```ts
 type ExtraerArray<T> = T extends (infer U)[] ? U : T;
@@ -50,7 +50,7 @@ type Tipo2 = ExtraerArray<string[]>; // string
 type Tipo3 = ExtraerArray<boolean>;  // boolean
 ```
 
-### Ejemplo con Mapeo Condicional:
+### EJEMPLO CON MAPEO CONDICIONAL:
 
 ```ts
 type SoloStrings<T> = {
@@ -61,7 +61,7 @@ type MiObjeto = { nombre: string; edad: number; activo: boolean };
 type PropiedadesStrings = SoloStrings<MiObjeto>; // "nombre"
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- **¿Qué es un Conditional Type en TypeScript?**  
 > Es un tipo que selecciona entre dos opciones basándose en una condición lógica.

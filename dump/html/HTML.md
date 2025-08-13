@@ -1,6 +1,6 @@
 # HTML
 
-## Basics
+## BASICS
 
 1. [Basic Structure](html_structure.md)
 2. [Head Elements](html_head.md)
@@ -8,7 +8,7 @@
 4. [Inline Elements](html_inline.md)
 
 
-## Forms
+## FORMS
 
 5. [Form Basics](html_form_basics.md)
 6. [Input Fields](html_input_fields.md)
@@ -16,43 +16,43 @@
 8. [Labels and Buttons](html_labels_buttons.md)
 9. [Advanced Form Features](html_form_advanced.md)
 
-## Multimedia
+## MULTIMEDIA
 
 10. [Images](html_images.md)
 11. [Audio](html_audio.md)
 12. [Video](html_video.md)
 13. [Responsive Images with `<picture>`](html_picture.md)
 
-## Tables
+## TABLES
 
 14. [Creating Tables](html_tables.md)
 15. [Table Accessibility](html_table_accessibility.md)
 
-## Accessibility
+## ACCESSIBILITY
 
 16. [ARIA Roles and Attributes](html_aria.md)
 17. [Accessible Forms](html_accessible_forms.md)
 18. [Details and Summary](html_details_summary.md)
 
-## Advanced Features
+## ADVANCED FEATURES
 
 19. [Custom Data Attributes (`data-*`)](html_data_attributes.md)
 20. [Graphics with Canvas](html_canvas.md)
 21. [Graphics with SVG](html_svg.md)
 
-## Lists
+## LISTS
 
 22. [Unordered Lists](html_unordered_lists.md)
 23. [Ordered Lists](html_ordered_lists.md)
 24. [Definition Lists](html_definition_lists.md)
 
-## Anchors and Links
+## ANCHORS AND LINKS
 
 25. [Anchor Links](html_anchors.md)
 26. [Internal and External Links](html_links.md)
 
 
-# Etiquetas de texto
+# ETIQUETAS DE TEXTO
 
 ```html
 <div contenteditable>
@@ -62,7 +62,7 @@
 
 
 
-#### **`<em>` vs `<i>`**
+## **`<em>` VS `<i>`**
 
 - **`<em>`**: Representa énfasis en el texto y tiene significado semántico. Los lectores de pantalla aplican énfasis al leerlo.
 - **`<i>`**: Coloca el texto en cursiva pero no tiene significado semántico. Se usa para términos técnicos, frases en otro idioma o títulos de obras.
@@ -72,7 +72,7 @@
 <p>Me <i>alegro</i> de que estés aquí (sin semántica).</p>
 ```
 
-#### **`<b>` vs `<strong>`**
+## **`<b>` VS `<strong>`**
 
 - **`<strong>`**: Indica que el texto es de gran importancia y tiene significado semántico.
 - **`<b>`**: Coloca el texto en negrita sin significado semántico. Se usa para resaltar texto sin indicar importancia.
@@ -81,7 +81,7 @@
 <p><b>Nota:</b> Este es un mensaje destacado.</p>
 ```
 
-#### **`<q>`**: Citas breves en línea
+## **`<q>`**: CITAS BREVES EN LÍNEA
 
 - Se utiliza para citas cortas y generalmente agrega comillas automáticamente.
 - El atributo `cite` proporciona una fuente para la cita, aunque no siempre se ve.
@@ -90,7 +90,7 @@
 <p>Según <q cite="https://ejemplo.com">esta fuente</q>, deberías intentarlo.</p>
 ```
 
-#### **`<blockquote>`**: Citas largas en bloque
+## **`<blockquote>`**: CITAS LARGAS EN BLOQUE
 
 - Usada para citas largas o bloques de texto citados de otra fuente.
 - El atributo `cite` indica la fuente de la cita.
@@ -101,14 +101,14 @@
 </blockquote>
 ```
 
-#### **`<abbr>`**: Abreviaciones
+## **`<abbr>`**: ABREVIACIONES
 
 - Se usa para abreviaciones o acrónimos y ofrece más información con el atributo `title`.
 ```html
 <p>El término <abbr title="HyperText Markup Language">HTML</abbr> es fundamental para la web.</p>
 ```
 
-#### **`<del>` y `<ins>`**: Texto tachado y texto insertado
+## **`<del>` Y `<ins>`**: TEXTO TACHADO Y TEXTO INSERTADO
 
 - **`<del>`**: Representa texto que ha sido eliminado o sustituido.
 - **`<ins>`**: Representa texto que ha sido añadido.
@@ -118,7 +118,7 @@
 <p>El agua es <ins>transparente</ins>.</p>
 ```
 
-#### **`<time>`**: Fechas y horas
+## **`<time>`**: FECHAS Y HORAS
 
 - Se utiliza para marcar un período específico en el tiempo.
 - El atributo `datetime` define una fecha y hora legible por el ordenador.
@@ -127,7 +127,7 @@
 <p>El evento será el <time datetime="2024-10-02">2 de octubre de 2024</time>.</p>
 ```
 
-#### **`<small>`**: Texto pequeño
+## **`<small>`**: TEXTO PEQUEÑO
 
 - Reduce el tamaño del texto. En HTML5, también se utiliza para notas legales o aclaraciones.
 
@@ -135,7 +135,7 @@
 <p>Este texto es normal. <small>Este es más pequeño.</small></p>`
 ```
 
-#### **`<wbr>`**: Punto de ruptura
+## **`<wbr>`**: PUNTO DE RUPTURA
 
 - Inserta un posible punto de ruptura de palabra para ajustar la visualización en pantallas más pequeñas.
 
@@ -143,7 +143,7 @@
 <p>Esta palabra es muy larga<wbr> y puede romperse aquí si es necesario.</p>
 ```
 
-#### **`<hr>`**: Separador de temas
+## **`<hr>`**: SEPARADOR DE TEMAS
 
 - Inserta una línea horizontal para marcar una separación temática.
 
@@ -152,7 +152,7 @@
 <p>Esto es un cambio de tema.</p>
 ```
 
-#### **`<pre>`**: Texto preformateado
+## **`<pre>`**: TEXTO PREFORMATEADO
 
 - Preserva espacios y saltos de línea.
 ```html
@@ -163,7 +163,7 @@
 </pre>
 ```
 
-#### **`<address>`**: Información de contacto
+## **`<address>`**: INFORMACIÓN DE CONTACTO
 
 - Representa información de contacto del autor o propietario.
 
@@ -174,16 +174,16 @@
 ```
 
 
-## Etiquetas de interacción
+# ETIQUETAS DE INTERACCIÓN
 
-#### **`<kbd>`**: Entrada del usuario
+## **`<kbd>`**: ENTRADA DEL USUARIO
 
 - Representa la entrada del usuario, como atajos de teclado o comandos.
 ```html
 <p>Presiona <kbd>Ctrl + S</kbd> para guardar el archivo.</p>`
 ```
 
-#### **`<samp>`**: Salida del sistema
+## **`<samp>`**: SALIDA DEL SISTEMA
 
 - Representa la salida del sistema, como los resultados de un programa.
 
@@ -191,7 +191,7 @@
 <p>Resultado: <samp>Error: archivo no encontrado</samp></p>`
 ```
 
-#### **`<code>`**: Fragmentos de código
+## **`<code>`**: FRAGMENTOS DE CÓDIGO
 
 - Muestra código fuente o texto que representa código.
 
@@ -200,7 +200,7 @@
 ```
 
 
-### Iframe (`<iframe>`)
+# IFRAME (`<iframe>`)
 
 Permite incrustar otro documento HTML dentro de la página actual.
 
@@ -216,9 +216,9 @@ Atributos:
 - **`sandbox`**: Aplica restricciones de seguridad.
 
 
-## Multimedia accesible
+# MULTIMEDIA ACCESIBLE
 
-#### **`<figure>` y `<figcaption>`**
+## **`<figure>` Y `<figcaption>`**
 
 - **`<figure>`**: Agrupa contenido como imágenes, gráficos, etc., y su pie de foto.
 - **`<figcaption>`**: Proporciona una leyenda o pie de foto, para mejorar la accesibilidad.
@@ -230,7 +230,7 @@ Atributos:
 </figure>
 ```
 
-## Atributos de datos personalizados (`data-*`)
+# ATRIBUTOS DE DATOS PERSONALIZADOS (`data-*`)
 
 Permiten almacenar información personalizada en elementos HTML.
   
@@ -248,7 +248,7 @@ console.log(producto.dataset.id); // "12345"
 console.log(producto.dataset.precio); // "19.99"
 ```
 
-## Enlaces de anclaje
+# ENLACES DE ANCLAJE
 
 Permiten crear enlaces a secciones específicas dentro de una página.
 ```html

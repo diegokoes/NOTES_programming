@@ -1,4 +1,4 @@
-# React -> Set Up
+# REACT -> SET UP
 ```
 npx create-react-app miapp  //! DEPRECATED
 ```

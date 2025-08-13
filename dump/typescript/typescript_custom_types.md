@@ -1,5 +1,5 @@
-# TypeScript: Custom Types
-## Summary
+# TYPESCRIPT: CUSTOM TYPES
+## SUMMARY
 
 **Official:**  
 > Los **Custom Types** en TypeScript son tipos definidos por los desarrolladores para modelar estructuras de datos y comportamientos específicos, proporcionando flexibilidad y control en los sistemas tipados.
@@ -9,9 +9,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-### Tipos Básicos Personalizados
+### TIPOS BÁSICOS PERSONALIZADOS
 
 1. **Alias de Tipo (`type`)**:  
    Definen tipos reutilizables para estructuras complejas.  
@@ -41,7 +41,7 @@
 
 ---
 
-### Diferencias entre `type` e `interface`
+### DIFERENCIAS ENTRE `type` E `interface`
 
 | Característica                | `type`                           | `interface`                      |
 |-------------------------------|-----------------------------------|-----------------------------------|
@@ -52,7 +52,7 @@
 
 ---
 
-### Uso Avanzado de Tipos Personalizados
+### USO AVANZADO DE TIPOS PERSONALIZADOS
 
 1. [**Generics (CustomType)**](typescript_generics_customtype.md):  
    Crear tipos que aceptan parámetros para mayor reutilización.
@@ -80,7 +80,7 @@ Cada uno de estos temas se encuentra explicado con detalle en su respectiva nota
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué son los tipos personalizados en TypeScript?**  
 > Son definiciones específicas creadas por el desarrollador para modelar datos y comportamientos.  

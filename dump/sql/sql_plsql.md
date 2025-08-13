@@ -1,13 +1,13 @@
-# sql -> plsql
-## Subindex
+# SQL -> PLSQL
+## SUBINDEX
 1. [Anonymous blocks](anonymous_blocks.md)
 2. [Stored procedures](stored_procedures.md)
 3. [Triggers](triggers.md)
-## Summary
+## SUMMARY
 > [!summary]
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

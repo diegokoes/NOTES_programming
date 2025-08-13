@@ -1,13 +1,13 @@
-# Java -> Data Types -> float
-## Summary
+# JAVA -> DATA TYPES -> FLOAT
+## SUMMARY
 > [!summary]
 > - 32-bit floating-point (IEEE 754)
 - Less precision than double
 
-## Theory
+## THEORY
 float is used where fractional values are required but less precision is acceptable. It's more memory-efficient than double.
 
-## Questions
+## QUESTIONS
 > [!tip]- When to use float?
 > For graphics or data processing where precision isn't critical
 

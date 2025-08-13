@@ -1,4 +1,4 @@
-# Systems
+# SYSTEMS
 - [D&D 5e](dnd5e_index.md)
 - [Pathfinder 2e](pathfinder2e_index.md)
 - [Call of Cthulhu](callofcthulhu_index.md)

@@ -1,13 +1,13 @@
-# Java -> Data Types -> char
-## Summary
+# JAVA -> DATA TYPES -> CHAR
+## SUMMARY
 > [!summary]
 > - 16-bit Unicode character
 - Stores a single character or symbol
 
-## Theory
+## THEORY
 char can hold one character, including Unicode. Useful when dealing with individual characters in strings or specialized character operations.
 
-## Questions
+## QUESTIONS
 > [!tip]- Example usage?
 > Handling single letters or symbols outside the basic ASCII set
 

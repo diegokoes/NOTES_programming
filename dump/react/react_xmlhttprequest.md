@@ -1,9 +1,9 @@
-## Summary
+# SUMMARY
 > [!summary]
 
-## Theory
+# THEORY
 
-## Questions
+# QUESTIONS
 > [!tip]- Question
 > Answer
 

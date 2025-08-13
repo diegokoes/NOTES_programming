@@ -1,13 +1,13 @@
-# Java -> Data Types -> long
-## Summary
+# JAVA -> DATA TYPES -> LONG
+## SUMMARY
 > [!summary]-
 > - 64-bit signed integer, large range
 - Useful for big counts
 
-## Theory
+## THEORY
 long accommodates very large integers, commonly used for counters exceeding int's limit, timestamps, and scenarios needing more than 32 bits.
 
-## Questions
+## QUESTIONS
 > [!tip]- Typical use cases?
 > Handling large numeric values like file sizes or system times
 

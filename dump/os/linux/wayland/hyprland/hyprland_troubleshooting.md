@@ -1,14 +1,14 @@
-# hyprland > troubleshooting
+# HYPRLAND > TROUBLESHOOTING
 
-## Summary
+## SUMMARY
 > [!summary]
 > Common Hyprland issues and their solutions for smooth operation
 
-## Theory
+## THEORY
 
-### Common Issues and Solutions
+### COMMON ISSUES AND SOLUTIONS
 
-#### **Hyprland Won't Start**
+#### **HYPRLAND WON'T START**
 
 **Symptoms:** Black screen, returns to TTY, or login manager
 **Solutions:**
@@ -29,7 +29,7 @@ Hyprland -l debug
 journalctl -u your-display-manager
 ```
 
-#### **Applications Won't Launch**
+#### **APPLICATIONS WON'T LAUNCH**
 
 **Symptoms:** Nothing happens when trying to open apps
 **Solutions:**
@@ -46,7 +46,7 @@ pacman -S xdg-desktop-portal-hyprland
 pacman -S xorg-xwayland
 ```
 
-#### **Screen Tearing or Performance Issues**
+#### **SCREEN TEARING OR PERFORMANCE ISSUES**
 
 **Solutions:**
 ```bash
@@ -64,7 +64,7 @@ render {
 }
 ```
 
-#### **Monitor Configuration Issues**
+#### **MONITOR CONFIGURATION ISSUES**
 
 **Symptoms:** Wrong resolution, duplicated displays
 **Solutions:**
@@ -83,7 +83,7 @@ monitor = HDMI-A-1,disable
 monitor = ,preferred,auto,1
 ```
 
-#### **Audio Issues**
+#### **AUDIO ISSUES**
 
 **Symptoms:** No sound, wrong audio device
 **Solutions:**
@@ -101,7 +101,7 @@ wpctl set-default DEVICE_ID
 speaker-test -c 2
 ```
 
-#### **Keyboard/Input Not Working**
+#### **KEYBOARD/INPUT NOT WORKING**
 
 **Solutions:**
 ```bash
@@ -119,7 +119,7 @@ device:epic-mouse-v1 {
 }
 ```
 
-#### **NVIDIA GPU Issues**
+#### **NVIDIA GPU ISSUES**
 
 **Solutions:**
 ```bash
@@ -140,9 +140,9 @@ cursor {
 }
 ```
 
-### Debug Tools and Commands
+### DEBUG TOOLS AND COMMANDS
 
-#### **Information Gathering**
+#### **INFORMATION GATHERING**
 ```bash
 # Get system info
 hyprctl systeminfo
@@ -163,7 +163,7 @@ hyprctl getoption general:layout
 Hyprland --version
 ```
 
-#### **Performance Monitoring**
+#### **PERFORMANCE MONITORING**
 ```bash
 # FPS counter
 hyprctl keyword debug:overlay true
@@ -175,7 +175,7 @@ hyprctl keyword debug:damage_tracking 2
 ps aux | grep Hyprland
 ```
 
-#### **Log Analysis**
+#### **LOG ANALYSIS**
 ```bash
 # Start with verbose logging
 Hyprland -l debug 2>&1 | tee hyprland.log
@@ -188,9 +188,9 @@ coredumpctl list
 coredumpctl gdb hyprland
 ```
 
-### Configuration Validation
+### CONFIGURATION VALIDATION
 
-#### **Syntax Checking**
+#### **SYNTAX CHECKING**
 ```bash
 # Test configuration
 hyprctl reload
@@ -199,7 +199,7 @@ hyprctl reload
 hyprctl getoption general:layout | head -1
 ```
 
-#### **Backup Strategy**
+#### **BACKUP STRATEGY**
 ```bash
 # Backup working config
 cp ~/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf.backup
@@ -213,9 +213,9 @@ bind=SUPER SHIFT,Q,killactive
 EOF
 ```
 
-### Performance Optimization
+### PERFORMANCE OPTIMIZATION
 
-#### **Reduce Resource Usage**
+#### **REDUCE RESOURCE USAGE**
 ```bash
 # In hyprland.conf
 decoration {
@@ -235,7 +235,7 @@ misc {
 }
 ```
 
-#### **GPU Optimization**
+#### **GPU OPTIMIZATION**
 ```bash
 render {
     explicit_sync = 2
@@ -244,7 +244,7 @@ render {
 }
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- Hyprland is using too much CPU/RAM
 > Disable animations and blur effects, enable VFR, and check for problematic plugins

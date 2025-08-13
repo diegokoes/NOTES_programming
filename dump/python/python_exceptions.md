@@ -1,4 +1,4 @@
-# python > exceptions
+# PYTHON > EXCEPTIONS
 
 ```python
 

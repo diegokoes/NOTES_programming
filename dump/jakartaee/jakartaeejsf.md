@@ -1,11 +1,11 @@
-# JakartaEE : JSF
-## Summary
+# JAKARTAEE : JSF
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

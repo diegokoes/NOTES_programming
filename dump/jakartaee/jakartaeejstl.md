@@ -1,11 +1,11 @@
-# JakartaEE: JSTL
-## Summary
+# JAKARTAEE: JSTL
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

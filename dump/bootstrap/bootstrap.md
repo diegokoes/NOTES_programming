@@ -1,4 +1,4 @@
-# Bootstrap
+# BOOTSTRAP
 Bootstrap is often described as a way to "build fast, responsive sites" and it is a "feature-packed, powerful, and extensible frontend toolkit". 
 
 Some people refer to it as a "front-end" framework, and some are trying to be more specific by referring to it as a "CSS framework" or a “CSS library”. 
@@ -25,13 +25,13 @@ All of these points make investing time to learn Bootstrap a great way to boost 
     1. [CDN](bootstrap_cdn.md)
     2. [Local Installation](bootstrap_local_installation.md)
 
-# Grid System
+# GRID SYSTEM
 
 3. [Understanding the Grid System](bootstrap_grid_system.md)
 4. [Responsive Breakpoints](bootstrap_breakpoints.md)
 5. [Grid Classes](bootstrap_grid_classes.md)
 
-# Components
+# COMPONENTS
 
 6. [Alerts](bootstrap_alerts.md)
 7. [Buttons](bootstrap_buttons.md)
@@ -44,7 +44,7 @@ All of these points make investing time to learn Bootstrap a great way to boost 
 14. [Progress Bars](bootstrap_progress_bars.md)
 15. [Tooltips and Popovers](bootstrap_tooltips_popovers.md)
 
-# Utilities
+# UTILITIES
 
 16. [Colors](bootstrap_colors.md)
 17. [Spacing](bootstrap_spacing.md)
@@ -53,12 +53,12 @@ All of these points make investing time to learn Bootstrap a great way to boost 
 20. [Flexbox Utilities](bootstrap_flexbox.md)
 21. [Visibility Utilities](bootstrap_visibility.md)
 
-# Advanced Topics
+# ADVANCED TOPICS
 
 22. [Customizing Bootstrap](bootstrap_customization.md)
 23. [Theming with SCSS](bootstrap_theming_scss.md)
 
-# Best Practices
+# BEST PRACTICES
 
 24. [Using Bootstrap Responsively](bootstrap_responsive_design.md)
 25. [Combining Bootstrap with Custom CSS](bootstrap_custom_css.md)

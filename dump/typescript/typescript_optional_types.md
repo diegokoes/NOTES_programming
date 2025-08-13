@@ -1,12 +1,12 @@
-# TypeScript -> Optional Types
-## Summary
+# TYPESCRIPT -> OPTIONAL TYPES
+## SUMMARY
 > [!summary]
 > 
 - - - 
 
-## Theory
+## THEORY
 
-## B.1- Propiedades Opcionales
+## B.1- PROPIEDADES OPCIONALES
 
 Las propiedades opcionales se definen añadiendo `?` después del nombre de la propiedad.
 
@@ -21,7 +21,7 @@ Las propiedades opcionales se definen añadiendo `?` después del nombre de la p
 >const usuario2: Usuario = { id: 2, nombre: "Ana" }; // También válido
 >```
 
-## B.2- Parámetros Opcionales en Funciones
+## B.2- PARÁMETROS OPCIONALES EN FUNCIONES
 
 Los parámetros opcionales se definen con `?`, y deben estar al final de la lista de parámetros.
 
@@ -35,7 +35,7 @@ Los parámetros opcionales se definen con `?`, y deben estar al final de la list
 >console.log(saludar("Diego"));    // "Hola, Diego"
 >```
 
-## B.3- Valores por Defecto para Opcionales
+## B.3- VALORES POR DEFECTO PARA OPCIONALES
 
 Los parámetros opcionales pueden tener valores por defecto, lo cual mejora la legibilidad y manejo de casos.
 
@@ -51,7 +51,7 @@ Los parámetros opcionales pueden tener valores por defecto, lo cual mejora la l
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué son los tipos opcionales en TypeScript?**  
 > Son propiedades o parámetros que pueden omitirse sin causar errores de tipo.  

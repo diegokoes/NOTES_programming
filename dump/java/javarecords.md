@@ -1,10 +1,10 @@
-# Java -> OOP / Data Types -> Records
+# JAVA -> OOP / DATA TYPES -> RECORDS
 
 A continuación te presento unos apuntes claros y organizados sobre los **Records en Java**, incluyendo los puntos principales (inmutabilidad, constructores, métodos generados, validaciones, uso de `static`, asociaciones, herencia, etc.) y conectándolos con los ejemplos de código proporcionados.
 
 ---
 
-## 1. ¿Qué son los Records en Java?
+## 1. ¿QUÉ SON LOS RECORDS EN JAVA?
 
 Los _records_ son un tipo especial de clase introducido formalmente en Java 16 (con vista previa desde Java 14) que se utilizan para **modelar datos inmutables**. Un record:
 
@@ -15,7 +15,7 @@ Los _records_ son un tipo especial de clase introducido formalmente en Java 16 (
 - Proporciona **getters** (en forma de métodos con el mismo nombre de los campos).
 - No puede heredarse (los records son efectivamente `final`).
 
-### ¿Por qué usar Records?
+### ¿POR QUÉ USAR RECORDS?
 
 Antes de los records, era común crear clases _DTO_ (Data Transfer Objects) para transportar datos, lo que conllevaba mucho código repetitivo (constructores, getters, setters, `equals`, `hashCode`, `toString`, etc.). Los records **reducen drásticamente** esta sobrecarga:
 
@@ -32,9 +32,9 @@ Con solo esta línea, tenemos:
 
 ---
 
-## 2. Constructores en Records
+## 2. CONSTRUCTORES EN RECORDS
 
-### 2.1. Constructor Canónico
+### 2.1. CONSTRUCTOR CANÓNICO
 
 Por defecto, Java genera un **constructor canónico** que recibe todos los campos del record en el orden en que se declaran. En el ejemplo:
 
@@ -53,7 +53,7 @@ public Alumno(String nombre, String apellidos, String email, int edad) {
 }
 ```
 
-### 2.2. Constructor Compacto (o Bloque de Construcción)
+### 2.2. CONSTRUCTOR COMPACTO (O BLOQUE DE CONSTRUCCIÓN)
 
 Podemos “personalizar” la construcción con validaciones o transformaciones. Esto se hace definiendo un **constructor compacto**, sin parámetros explícitos, que internamente usa los mismos nombres de los componentes:
 
@@ -75,7 +75,7 @@ public record Alumno(String nombre, String apellidos, String email, int edad) {
 - Este bloque se ejecuta **después** de que Java haya asignado los valores a los campos.
 - Sirve, por ejemplo, para chequear que no vengan valores nulos o aplicar transformaciones de texto.
 
-### 2.3. Constructores Adicionales
+### 2.3. CONSTRUCTORES ADICIONALES
 
 Además del constructor canónico y el compacto, puedes crear **otros constructores** que deleguen al principal. Ejemplo:
 
@@ -104,13 +104,13 @@ Este enfoque te permite **establecer valores por defecto** o calcular algún val
 
 ---
 
-## 3. Inmutabilidad
+## 3. INMUTABILIDAD
 
 Los records están **pensados para ser inmutables**. Los campos son `private final` y no puedes modificar sus valores después de la construcción. Por ello, resultan muy útiles para transportar datos de forma segura entre capas de la aplicación.
 
 ---
 
-## 4. Métodos `static` y Campos `static`
+## 4. MÉTODOS `static` Y CAMPOS `static`
 
 Los records pueden incluir:
 
@@ -139,7 +139,7 @@ En este ejemplo, `DOMINIO` es una **constante** estática y `of(Persona p)` es u
 
 ---
 
-## 5. Asociaciones entre Records
+## 5. ASOCIACIONES ENTRE RECORDS
 
 Al igual que las clases, un record puede **contener** otros objetos, incluidos otros records. Por ejemplo, un record `Empresa` que contenga un array de `Empleado`:
 
@@ -162,7 +162,7 @@ Empresa emp = new Empresa("Microsoft", new Empleado[] {
 
 ---
 
-## 6. Herencia en Records
+## 6. HERENCIA EN RECORDS
 
 Los records son, efectivamente, **finales**. No pueden:
 
@@ -195,7 +195,7 @@ public interface Nombrable {
 
 ---
 
-## 7. Ejemplos Destacados
+## 7. EJEMPLOS DESTACADOS
 
 A continuación, resumimos lo que ilustran los ejemplos principales:
 
@@ -246,7 +246,7 @@ A continuación, resumimos lo que ilustran los ejemplos principales:
 
 ---
 
-## 8. Conclusiones
+## 8. CONCLUSIONES
 
 - Los records simplifican drásticamente la creación de **objetos inmutables**.
 - Incluyen un **constructor canónico** y generan automáticamente `equals`, `hashCode` y `toString`.

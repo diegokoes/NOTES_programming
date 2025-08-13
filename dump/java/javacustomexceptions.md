@@ -1,9 +1,9 @@
-# Java -> Exceptions -> Custom Exceptions
-## Summary
+# JAVA -> EXCEPTIONS -> CUSTOM EXCEPTIONS
+## SUMMARY
 > [!summary]
 > Custom exceptions in Java allow developers to create application-specific error types that communicate domain problems more precisely than generic exceptions. By extending the standard exception classes, developers can add specialized fields and methods that provide contextual information about errors. Creating well-designed custom exceptions improves API clarity, enables targeted exception handling, and enhances debugging by providing more meaningful error information tailored to the application domain.
 
-## When to Create Custom Exceptions
+## WHEN TO CREATE CUSTOM EXCEPTIONS
 
 Custom exceptions should be created when:
 
@@ -13,9 +13,9 @@ Custom exceptions should be created when:
 4. You need to **group related exceptions** in a hierarchy
 5. You want to provide **consistent error handling** across your application
 
-## Creating Basic Custom Exceptions
+## CREATING BASIC CUSTOM EXCEPTIONS
 
-### Checked Custom Exception
+### CHECKED CUSTOM EXCEPTION
 
 ```java
 public class FileFormatException extends Exception {
@@ -42,7 +42,7 @@ public class FileFormatException extends Exception {
 }
 ```
 
-### Unchecked Custom Exception
+### UNCHECKED CUSTOM EXCEPTION
 
 ```java
 public class InvalidProductIdException extends RuntimeException {
@@ -57,7 +57,7 @@ public class InvalidProductIdException extends RuntimeException {
 }
 ```
 
-## Adding Context to Custom Exceptions
+## ADDING CONTEXT TO CUSTOM EXCEPTIONS
 
 Adding domain-specific fields enhances the information provided by the exception:
 
@@ -97,7 +97,7 @@ public class InsufficientFundsException extends Exception {
 }
 ```
 
-## Building Exception Hierarchies
+## BUILDING EXCEPTION HIERARCHIES
 
 Creating hierarchies helps organize related exceptions:
 
@@ -145,7 +145,7 @@ public class InvalidFormatException extends ValidationException {
 }
 ```
 
-## Adding Utility Methods
+## ADDING UTILITY METHODS
 
 Custom exceptions can include utility methods to help with error handling:
 
@@ -187,7 +187,7 @@ public class ServiceException extends Exception {
 }
 ```
 
-## Serialization Considerations
+## SERIALIZATION CONSIDERATIONS
 
 For exceptions that might cross JVM boundaries (RMI, serialization), include a serialVersionUID:
 
@@ -199,7 +199,7 @@ public class RemoteServiceException extends Exception {
 }
 ```
 
-## Exception Translation Patterns
+## EXCEPTION TRANSLATION PATTERNS
 
 Creating methods to translate from one exception type to another:
 
@@ -223,7 +223,7 @@ public class DatabaseException extends Exception {
 }
 ```
 
-## Best Practices for Custom Exceptions
+## BEST PRACTICES FOR CUSTOM EXCEPTIONS
 
 1. **Use meaningful names** that clearly indicate the error condition
 2. **Extend the appropriate base class**:
@@ -238,7 +238,7 @@ public class DatabaseException extends Exception {
 9. **Use static factory methods** for common creation patterns
 10. **Include cause chaining** to preserve the full error context
 
-## Example: Custom Exception in Action
+## EXAMPLE: CUSTOM EXCEPTION IN ACTION
 
 Usage example showing how custom exceptions can improve error handling:
 
@@ -299,7 +299,7 @@ try {
 }
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- How do you decide whether to create a checked or unchecked custom exception?
 > Choose a checked exception when:

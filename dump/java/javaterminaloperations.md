@@ -1,21 +1,21 @@
-# Java -> Stream -> Terminal Ops.
-## Summary
+# JAVA -> STREAM -> TERMINAL OPS.
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 **Official:**
 > Las operaciones terminales son las que consumen el Stream, devolviendo un resultado o efecto secundario, como una lista o un entero.
 
 **Personal:**
 >Son "el final del flujo", donde obtienes el resultado procesado de los datos.
 - - - 
-## Questions
+## QUESTIONS
 >[!warning]- **¿Cómo podrías combinar `reduce()` y `filter()` para sumar solo los números pares de un Stream?**
 Primero usaría `filter()` para seleccionar los números pares y luego aplicaría `reduce(0, Integer::sum)` para sumarlos.
 
-## Examples
+## EXAMPLES
 
 **1. `collect(Collectors)`**  
 Recoge los elementos del Stream en una colección.

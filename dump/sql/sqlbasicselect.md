@@ -1,5 +1,5 @@
 # SQL -> SELECT
-## Definition
+## DEFINITION
 
 **Official:**  
 > El comando `SELECT` permite recuperar datos de una base de datos, definiendo columnas específicas o utilizando expresiones para transformarlos.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace el comando SELECT?**  
 > Recupera datos de una tabla, permitiendo filtrar, transformar y organizar resultados.  
@@ -35,14 +35,14 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Ejemplo Básico:**
+## C.1- **EJEMPLO BÁSICO:**
 ```sql
 SELECT nombre, salario FROM empleados;
 ```
 
-## C.2- **Usando Filtros:**
+## C.2- **USANDO FILTROS:**
 
 ```sql
 SELECT nombre, salario 
@@ -50,6 +50,6 @@ FROM empleados
 WHERE salario BETWEEN 30000 AND 50000;
 ```
 
-## C.3- **Con Alias:**
+## C.3- **CON ALIAS:**
 
 SELECT nombre AS "Empleado", salario AS "Sueldo" FROM empleados;

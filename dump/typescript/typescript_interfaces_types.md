@@ -1,1 +1,1 @@
-# TypeScript -> Interface Types
+# TYPESCRIPT -> INTERFACE TYPES

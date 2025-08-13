@@ -1,15 +1,15 @@
-# git
-## Summary
+# GIT
+## SUMMARY
 > [!summary]
 > Git is a distributed version control system that tracks changes in files and coordinates work among multiple developers. Created by Linus Torvalds in 2005, Git allows developers to maintain a complete history of their project, work on different features simultaneously through branches, and collaborate efficiently with others. Unlike centralized version control systems, every Git repository contains the full project history, making it resilient and enabling offline work.
 
-## Theory
+## THEORY
 Git operates on a simple but powerful model with three main areas:
 - **Working Directory**: Your current files
 - **Staging Area**: Files prepared for commit
 - **Repository**: Complete project history
 
-### Core Concepts
+### CORE CONCEPTS
 - [[git_basics|Basics]] - Git initialization, configuration, and fundamental workflow
 - [[git_branching|Branching]] - Creating, managing, and merging branches
 - [[git_remote|Remote Repositories]] - Working with remote repositories (GitHub, GitLab, etc.)
@@ -18,7 +18,7 @@ Git operates on a simple but powerful model with three main areas:
 - [[git_advanced|Advanced Operations]] - Rebasing, cherry-picking, hooks, and advanced workflows
 - [[git_troubleshooting|Troubleshooting]] - Common problems and how to fix them
 
-## Questions
+## QUESTIONS
 > [!tip]- Easy: What are the three main areas in Git's architecture?
 > The three main areas are:
 > 1. **Working Directory** - where you edit files

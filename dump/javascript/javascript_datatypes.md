@@ -1,4 +1,4 @@
-# JavaScript -> Basic Syntax -> Data Types
+# JAVASCRIPT -> BASIC SYNTAX -> DATA TYPES
 
 - - - 
 #javascript 

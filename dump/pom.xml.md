@@ -1,7 +1,7 @@
-# Java -> Maven -> pom.xml
-## Summary
+# JAVA -> MAVEN -> POM.XML
+## SUMMARY
 > The **Project Object Model (POM)** file (`pom.xml`) is the core configuration file for Maven projects. It defines project metadata, dependencies, build settings, plugins, and other configurations in an XML format. The POM follows a hierarchical structure, inheriting configurations from parent POMs (including the implicit **Super POM**), and supports modular projects through `<modules>`. Key elements include project coordinates (`groupId`, `artifactId`, `version`), dependencies, build plugins, repositories, and profiles.
-## Theory
+## THEORY
 
 **POM File Structure**  
 Below is a detailed breakdown of the POM’s structure and key elements:  
@@ -157,7 +157,7 @@ Below is a detailed breakdown of the POM’s structure and key elements:
 ```  
 - Lists submodules to build as part of a parent project.  
 
-## Questions
+## QUESTIONS
 > [!tip]-  What is the minimum required information in a POM file?
 > - `modelVersion`, `groupId`, `artifactId`, and `version`.  
 >- Example:  

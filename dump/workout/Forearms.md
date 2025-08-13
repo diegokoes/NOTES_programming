@@ -1,4 +1,4 @@
-# Forearms
+# FOREARMS
 - [[Reverse Grip Curl]]
 - [[Wrist Roller]]
 - [[Plate Pinch]]

@@ -1,4 +1,4 @@
-# React
+# REACT
 - [Installation and project creation](reactinstallcreate.md)
 - [Structure](reactstructure.md)
 - **Basic concepts**

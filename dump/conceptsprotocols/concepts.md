@@ -1,5 +1,5 @@
-# Concepts
-## Table of Contents
+# CONCEPTS
+## TABLE OF CONTENTS
 
 1. [[concepts#1. **Networking & Communication**|Networking & Communication]]
 2. [[concepts#2. **Software Architecture**|Software Architecture]]
@@ -10,11 +10,11 @@
 7. [[concepts#7. **DevOps & Deployment**|DevOps & Deployment]]
 
 
-## 1. **Networking & Communication**
+## 1. **NETWORKING & COMMUNICATION**
 
 *Essential protocols and communication methods that enable software systems to interact effectively.*
 
-### **APIs**
+### **APIS**
 
 - [API (Application Programming Interface)](api.md): Defines methods for interacting with software components.
 - [REST (Representational State Transfer)](REST.md): An architectural style for designing networked applications.
@@ -24,7 +24,7 @@
 - [WebSockets](websockets.md): Enables two-way interactive communication sessions.
 - [gRPC (Google Remote Procedure Call)](grpc.md): A high-performance RPC framework.
 
-### **Protocols**
+### **PROTOCOLS**
 
 - [HTTP/2](http2.md): The second major version of the HTTP protocol.
 - [HTTP/3](http3.md): The third major version, utilizing QUIC for improved performance.
@@ -33,7 +33,7 @@
 - [DNS (Domain Name System)](dns.md): Translates domain names to IP addresses.
 - [TLS/SSL (Transport Layer Security)](tls_ssl.md): Secures communications over computer networks.
 
-## 2. **Software Architecture**
+## 2. **SOFTWARE ARCHITECTURE**
 
 *Architectural patterns that define the structure and organization of software systems.*
 
@@ -44,11 +44,11 @@
 - [Monolithic Architecture](monolithic.md): A single unified software structure.
 - [Event-Driven Architecture](event-driven.md): Systems that respond to events or changes.
 
-## 3. **Programming Paradigms**
+## 3. **PROGRAMMING PARADIGMS**
 
 *Different styles and methodologies used in programming to solve problems.*
 
-### **Procedural Programming**
+### **PROCEDURAL PROGRAMMING**
 
 *A paradigm based on the concept of procedure calls and structured programming principles.*
 
@@ -56,7 +56,7 @@
 - [Modular Programming](modular.md): Breaking programs into separate modules or functions.
 - [Top-Down Design](top_down.md): Decomposing problems from general to specific.
 
-### **Object-Oriented Programming (OOP)**
+### **OBJECT-ORIENTED PROGRAMMING (OOP)**
 
 *Key principles and concepts that facilitate modular and reusable code.*
 
@@ -70,7 +70,7 @@
 
 
 
-### **Declarative Programming**
+### **DECLARATIVE PROGRAMMING**
 
 *Programming paradigms that express the logic without describing control flow.*
 
@@ -78,7 +78,7 @@
 - [Constraint Programming](constraint.md): Solving problems by stating constraints on solutions.
 - [Domain-Specific Languages](dsl.md): Languages designed for specific problem domains.
 
-### **Reactive Programming**
+### **REACTIVE PROGRAMMING**
 
 *Programming with asynchronous data streams and the propagation of change.*
 
@@ -86,7 +86,7 @@
 - [Stream Processing](stream.md): Processing continuous streams of data.
 - [Observer Pattern](observer_reactive.md): Reactive implementation of the observer pattern.
 
-### **Design Patterns**
+### **DESIGN PATTERNS**
 
 *Reusable solutions to common software design problems.*
 
@@ -100,7 +100,7 @@
 - [Command Pattern](command.md): Encapsulates a request as an object.
 - [Proxy Pattern](proxy.md): Provides a surrogate or placeholder for another object.
 
-## 4. **Rendering Strategies**
+## 4. **RENDERING STRATEGIES**
 
 *Techniques for rendering web pages efficiently and effectively.*
 
@@ -111,7 +111,7 @@
 - [Streaming Rendering](streaming.md): Sending content to the client in chunks.
 - [Progressive Hydration](progressive_hydration.md): Hydrating parts of the page progressively.
 
-## 5. **Web Concepts & Optimization**
+## 5. **WEB CONCEPTS & OPTIMIZATION**
 
 *Techniques and practices to enhance web performance and user experience.*
 - [[html_DOM|DOM (Document Object Model)]]
@@ -123,7 +123,7 @@
 - [Minification](minification.md): Reducing file size by removing unnecessary characters.
 - [Critical Rendering Path](critical_rendering_path.md): Sequence of steps the browser takes to render a page.
 
-## 6. **Security Concepts**
+## 6. **SECURITY CONCEPTS**
 
 *Fundamental security measures and protocols to protect applications.*
 
@@ -134,11 +134,11 @@
 - [Encryption](encryption.md): Securing data by encoding it.
 - [Hashing](hashing.md): Transforming data into a fixed-size string of characters.
 
-## 7. **DevOps & Deployment**
+## 7. **DEVOPS & DEPLOYMENT**
 
 *Tools and practices that facilitate continuous integration, continuous deployment, and overall software delivery processes.*
 
-### **CI/CD Tools**
+### **CI/CD TOOLS**
 
 - [Jenkins](jenkins.md): An open-source automation server for building, testing, and deploying applications.
 - [GitLab CI](gitlab_ci.md): Integrated CI/CD pipelines within GitLab.

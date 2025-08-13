@@ -1,4 +1,4 @@
-# Java
+# JAVA
 1. [Installation and Setup](javainstallation.md)
 2. [Data Types](javadatatypes.md)
 3. [Operators](operators_java.md)

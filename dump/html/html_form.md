@@ -1,11 +1,11 @@
-# html > form
+# HTML > FORM
 
-## Summary
+## SUMMARY
 > [!summary]
 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

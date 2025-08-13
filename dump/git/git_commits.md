@@ -1,6 +1,6 @@
-# Git Commits
+# GIT COMMITS
 
-## Understanding Commits
+## UNDERSTANDING COMMITS
 A commit in Git is a snapshot of your repository at a specific point in time. Each commit contains:
 - A unique SHA-1 hash identifier
 - Author information (name, email, timestamp)
@@ -8,7 +8,7 @@ A commit in Git is a snapshot of your repository at a specific point in time. Ea
 - Pointer to the project tree (files and directories)
 - Pointer(s) to parent commit(s)
 
-## Creating Commits
+## CREATING COMMITS
 ```bash
 # Basic commit
 git commit -m "Add new feature"
@@ -26,8 +26,8 @@ git commit -am "Fix bug in user registration"
 git commit --allow-empty -m "Trigger deployment"
 ```
 
-## Commit Message Best Practices
-### Conventional Commits Format
+## COMMIT MESSAGE BEST PRACTICES
+### CONVENTIONAL COMMITS FORMAT
 ```
 <type>[optional scope]: <description>
 
@@ -36,7 +36,7 @@ git commit --allow-empty -m "Trigger deployment"
 [optional footer(s)]
 ```
 
-### Common Types
+### COMMON TYPES
 - **feat**: New feature
 - **fix**: Bug fix
 - **docs**: Documentation changes
@@ -45,7 +45,7 @@ git commit --allow-empty -m "Trigger deployment"
 - **test**: Adding or updating tests
 - **chore**: Maintenance tasks
 
-### Examples
+### EXAMPLES
 ```
 feat(auth): add OAuth2 login support
 
@@ -64,7 +64,7 @@ memory after processing large files.
 fixes #456
 ```
 
-## Viewing Commit History
+## VIEWING COMMIT HISTORY
 ```bash
 # Basic log
 git log
@@ -91,7 +91,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 git log --graph --pretty=format:"%C(yellow)%h%Creset -%C(red)%d%Creset %s %C(green)(%cr) %C(bold blue)<%an>%Creset"
 ```
 
-## Examining Specific Commits
+## EXAMINING SPECIFIC COMMITS
 ```bash
 # Show commit details
 git show <commit-hash>
@@ -105,7 +105,7 @@ git show --name-only <commit-hash>
 git show <commit-hash>:<file-path>
 ```
 
-## Amending Commits
+## AMENDING COMMITS
 ```bash
 # Amend last commit message
 git commit --amend -m "New commit message"
@@ -119,7 +119,7 @@ git commit --amend --no-edit               # Don't change message
 git commit --amend --author="New Author <email@example.com>"
 ```
 
-## Commit References
+## COMMIT REFERENCES
 ```bash
 # Different ways to reference commits
 HEAD                                       # Current commit
@@ -135,7 +135,7 @@ git show main
 git show v1.0.0
 ```
 
-## Interactive Commit Creation
+## INTERACTIVE COMMIT CREATION
 ```bash
 # Interactive add (choose what to stage)
 git add -i
@@ -149,10 +149,10 @@ git add .
 git commit -v                             # Shows diff in commit editor
 ```
 
-## Commit Hooks
+## COMMIT HOOKS
 Git hooks are scripts that run automatically on certain Git events:
 
-### Pre-commit Hook Example
+### PRE-COMMIT HOOK EXAMPLE
 ```bash
 #!/bin/sh
 # .git/hooks/pre-commit
@@ -170,7 +170,7 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-### Commit Message Hook Example
+### COMMIT MESSAGE HOOK EXAMPLE
 ```bash
 #!/bin/sh
 # .git/hooks/commit-msg
@@ -185,7 +185,7 @@ if ! grep -qE "$commit_regex" "$1"; then
 fi
 ```
 
-## Commit Signing
+## COMMIT SIGNING
 ```bash
 # Set up GPG signing
 git config --global user.signingkey <key-id>
@@ -199,7 +199,7 @@ git log --show-signature
 git verify-commit <commit-hash>
 ```
 
-## Commit Statistics
+## COMMIT STATISTICS
 ```bash
 # Show commit count by author
 git shortlog -sn

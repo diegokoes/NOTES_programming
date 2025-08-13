@@ -1,5 +1,5 @@
-# TypeScript -> Record
-## Definition
+# TYPESCRIPT -> RECORD
+## DEFINITION
 
 **Official:**  
 > El tipo `Record<K, T>` en TypeScript crea un objeto cuyas claves son un conjunto de valores `K` y cuyos valores son del tipo `T`.
@@ -9,9 +9,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- Sintaxis y Uso Básico
+## B.1- SINTAXIS Y USO BÁSICO
 
 El tipo `Record` utiliza dos parámetros genéricos:  
 - `K`: Representa las claves. Deben ser un conjunto de valores literales (strings, números, etc.).  
@@ -24,7 +24,7 @@ El tipo `Record` utiliza dos parámetros genéricos:
 > };
 > ```
 
-### Ejemplo Básico:
+### EJEMPLO BÁSICO:
 >[!info]- **Mapear roles a valores booleanos**  
 > ```typescript
 > type Roles = "admin" | "editor" | "viewer";
@@ -40,9 +40,9 @@ El tipo `Record` utiliza dos parámetros genéricos:
 
 ---
 
-## B.2- Casos de Uso Comunes
+## B.2- CASOS DE USO COMUNES
 
-### **1. Definir Configuraciones**
+### **1. DEFINIR CONFIGURACIONES**
 >[!info]- **Ejemplo de configuración para entornos**  
 > ```typescript
 > type Configuracion = Record<"desarrollo" | "produccion", string>;
@@ -53,7 +53,7 @@ El tipo `Record` utiliza dos parámetros genéricos:
 > };
 > ```
 
-### **2. Mapear IDs a Datos**
+### **2. MAPEAR IDS A DATOS**
 >[!info]- **Ejemplo de mapeo de IDs a usuarios**  
 > ```typescript
 > type Usuario = { id: number; nombre: string };
@@ -66,7 +66,7 @@ El tipo `Record` utiliza dos parámetros genéricos:
 > };
 > ```
 
-### **3. Mapear Enums a Valores**
+### **3. MAPEAR ENUMS A VALORES**
 >[!info]- **Ejemplo de mapeo de enums a valores booleanos**  
 > ```typescript
 > enum Estados {
@@ -84,7 +84,7 @@ El tipo `Record` utiliza dos parámetros genéricos:
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué es el tipo `Record` en TypeScript?**  
 > Es un tipo genérico que mapea un conjunto de claves a un tipo de valores.  

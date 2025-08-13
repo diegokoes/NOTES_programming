@@ -1,9 +1,9 @@
-# react -> services
-## Summary
+# REACT -> SERVICES
+## SUMMARY
 > [!summary]
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

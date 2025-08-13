@@ -1,5 +1,5 @@
-# JavaScript -> Map
-### Definition
+# JAVASCRIPT -> MAP
+## DEFINITION
 **Official:**
 > El método .map() crea un nuevo array a partir de aplicar una función a cada elemento del array original. Este método no modifica el array original y es una forma funcional de transformar datos en JavaScript.
 
@@ -8,17 +8,17 @@
 
 - - - 
 
-#### ¿Cómo funciona .map()?
+### ¿CÓMO FUNCIONA .MAP()?
 
   - > [!info]- Click to reveal the answer
 .map() itera por cada elemento del array original y ejecuta una función que defines, devolviendo un nuevo array con los resultados de esa función.
 
-#### ¿Modifica .map() el array original?
+### ¿MODIFICA .MAP() EL ARRAY ORIGINAL?
 
   - > [!info]- Click to reveal the answer
 No, .map() no cambia el array original. Siempre crea uno nuevo.
 
-#### Qué parámetros admite
+### QUÉ PARÁMETROS ADMITE
   - > [!info]- Click to reveal the answer
 array.map((element, index, array) => {
  // lógica para transformar cada elemento

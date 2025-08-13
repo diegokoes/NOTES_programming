@@ -1,15 +1,15 @@
-# linux > printers
+# LINUX > PRINTERS
 
-## Summary
+## SUMMARY
 > [!summary]
 > CUPS printer management commands and troubleshooting
 
-## Theory
+## THEORY
 
-### CUPS (Common Unix Printing System)
+### CUPS (COMMON UNIX PRINTING SYSTEM)
 CUPS is the printing system used by most Linux distributions. It provides a web interface and command-line tools for managing printers.
 
-### Common Commands
+### COMMON COMMANDS
 
 **Printer Status:**
 ```bash
@@ -53,15 +53,15 @@ sudo systemctl restart cups
 cat /var/log/cups/error_log
 ```
 
-### CUPS Web Interface
+### CUPS WEB INTERFACE
 Access the web interface at: `http://localhost:631/jobs/`
 
-### Ink Level Monitoring
+### INK LEVEL MONITORING
 Most printers don't support ink level reporting through Linux. Options include:
 - `ippfind` (if supported)
 - Manufacturer-specific tools (e.g., `hp-toolbox` for HP printers from HPLIP package)
 
-## Questions
+## QUESTIONS
 
 > [!tip]- How do I access the CUPS web interface?
 > Open your browser and go to `http://localhost:631/jobs/`
@@ -75,7 +75,7 @@ Most printers don't support ink level reporting through Linux. Options include:
 - Lists all configured printers and their statuses.
 - Works on most distributions with CUPS installed.
 
-## 2 **Setting a Default Printer**
+## 2 **SETTING A DEFAULT PRINTER**
 
 bash
 
@@ -85,7 +85,7 @@ Copy code
 
 - Replace `PRINTER_NAME` with the name of your printer.
 
-## 3 **Checking the Print Queue**
+## 3 **CHECKING THE PRINT QUEUE**
 
 bash
 
@@ -95,7 +95,7 @@ Copy code
 
 - Shows the current print jobs in the queue.
 
-## 4 **Cancelling a Print Job**
+## 4 **CANCELLING A PRINT JOB**
 
 bash
 
@@ -106,7 +106,7 @@ Copy code
 - Replace `JOB_ID` with the ID of the print job you want to cancel.
 - Use `lpstat -o` to find the job ID.
 
-## 5 **Cancelling All Print Jobs**
+## 5 **CANCELLING ALL PRINT JOBS**
 
 bash
 
@@ -117,7 +117,7 @@ Copy code
 - Replace `PRINTER_NAME` with the name of the printer.
 - This command may require root privileges (`sudo`).
 
-## 6 **Printing a File**
+## 6 **PRINTING A FILE**
 
 bash
 
@@ -127,7 +127,7 @@ Copy code
 
 - Sends `filename` to the default printer.
 
-## 7 **Checking Printer Details**
+## 7 **CHECKING PRINTER DETAILS**
 
 bash
 
@@ -137,7 +137,7 @@ Copy code
 
 - Provides detailed information about a specific printer.
 
-## 8 **Viewing Printer Configuration**
+## 8 **VIEWING PRINTER CONFIGURATION**
 
 bash
 
@@ -147,7 +147,7 @@ Copy code
 
 - Displays the current settings of the specified printer.
 
-## 9 **Checking Printer Ink Levels**
+## 9 **CHECKING PRINTER INK LEVELS**
 
 - Not all printers support ink-level reporting through Linux. Some methods include:
     - **Using `ippfind` (if supported by your printer)**:
@@ -161,7 +161,7 @@ Copy code
         Then use the found IPP URI to query details.
     - **Printer-specific tools**: Install the manufacturer's Linux utilities or drivers (e.g., `hp-toolbox` for HP printers from the **HPLIP** package).
 
-## 10 **Restarting the CUPS Service**
+## 10 **RESTARTING THE CUPS SERVICE**
 
 bash
 
@@ -171,7 +171,7 @@ Copy code
 
 - Restarts the CUPS daemon, which may resolve printer-related issues.
 
-## 11 **Viewing CUPS Logs**
+## 11 **VIEWING CUPS LOGS**
 
 bash
 
@@ -181,5 +181,5 @@ Copy code
 
 - Useful for debugging printer issues.
 
-## 12 Cups interface
+## 12 CUPS INTERFACE
 1. Use the CUPS web interface: point your browser at `http://localhost:631/jobs/` and proceed from there

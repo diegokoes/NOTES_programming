@@ -1,13 +1,13 @@
-# Java -> Data Types -> byte
-## Summary
+# JAVA -> DATA TYPES -> BYTE
+## SUMMARY
 > [!summary]
 > - 8-bit signed integer, range: -128 to 127
 - Useful for streams or tight memory usage
 
-## Theory
+## THEORY
 The byte type is often used to save space in arrays or when dealing with raw data like file I/O. It is the smallest integer type in Java.
 
-## Questions
+## QUESTIONS
 > [!tip]- When should I use byte?
 > For efficient memory usage when storing small integers or raw data streams
 
@@ -19,14 +19,14 @@ The byte type is often used to save space in arrays or when dealing with raw dat
 - - - 
 #java 
 
-# Java -> Data Types -> (datatype)
-## Summary
+# JAVA -> DATA TYPES -> (DATATYPE)
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

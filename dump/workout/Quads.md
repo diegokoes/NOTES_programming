@@ -1,4 +1,4 @@
-# Quads
+# QUADS
 - [[Dumbbell Front Squat]]
 - - - 
 #workout 

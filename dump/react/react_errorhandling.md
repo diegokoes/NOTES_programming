@@ -1,7 +1,7 @@
-## Summary
+# SUMMARY
 > [!summary]
-## Theory
-## Questions
+# THEORY
+# QUESTIONS
 > [!tip]- Question
 > Answer
 

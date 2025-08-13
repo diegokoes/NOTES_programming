@@ -1,11 +1,11 @@
-# Java -> Maven
-## Summary
+# JAVA -> MAVEN
+## SUMMARY
 > [!summary]
 > Is a tool that streamlines building and managing Java projects. simplifies the build process by standardizing project structure, managing dependencies, and automating tasks like compilation, testing, packaging, and deployment. 
 > 
 > Maven uses an XML file ([[pom.xml]]) to define project configurations, dependencies, and plugins. Its key principles include **convention over configuration**, dependency management via central repositories, and a extensible plugin-based architecture.
-## Theory
-### **Maven Lifecycle Phases in VS Code**
+## THEORY
+### **MAVEN LIFECYCLE PHASES IN VS CODE**
 
 These phases define the **build lifecycle** in Maven. When executed in VS Code (via the Maven sidebar or command palette), they trigger plugins to perform specific tasks. Phases are executed in sequence, and running a later phase automatically runs all preceding phases in the lifecycle.
 
@@ -98,7 +98,7 @@ These phases define the **build lifecycle** in Maven. When executed in VS Code (
     
 - **Use Case**: Publish the artifact for collaboration.
 
-## Questions
+## QUESTIONS
 > [!tip]- How does Maven resolve dependencies?
 > Maven searches for dependencies in the **local repository** first. If not found, it downloads them from **remote repositories** (e.g., Maven Central) and stores them locally.
 

@@ -1,13 +1,13 @@
-# Java -> Data Types -> boolean
-## Summary
+# JAVA -> DATA TYPES -> BOOLEAN
+## SUMMARY
 > [!summary]
 > - Represents true or false
 > - Not numerically convertible
 
-## Theory
+## THEORY
 boolean is used for simple flags or conditions. It's either true or false, with no numeric equivalences in standard Java.
 
-## Questions
+## QUESTIONS
 > [!tip]- Typical usage?
 > Conditional checks, control flow, logic operations
 

@@ -1,11 +1,11 @@
-# Java -> Streams -> Intermediate Op.
+# JAVA -> STREAMS -> INTERMEDIATE OP.
 
-## Summary
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 **Official:**
 > Las operaciones intermedias son las que procesan elementos de un Stream y devuelven otro Stream, permitiendo encadenar más operaciones.
 
@@ -13,9 +13,9 @@
 >Son como "filtros" o "transformadores" que aplicas a los datos mientras pasan por el Stream.
 - - - 
 
-## Theory
+## THEORY
 
-### Examples
+### EXAMPLES
 
 **1. `filter(Predicate)`**  
 Filtra elementos según una condición.  
@@ -43,7 +43,7 @@ List<String> ordenados = nombres.stream()
 							    .sorted()
 							    .collect(Collectors.toList());
 ```
-## Questions
+## QUESTIONS
 >[!tip]- **¿Las operaciones intermedias se ejecutan inmediatamente?** 
 No, las operaciones intermedias son **perezosas** y no se ejecutan hasta que se invoque una operación terminal.
 

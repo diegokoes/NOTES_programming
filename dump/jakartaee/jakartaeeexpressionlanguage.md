@@ -1,6 +1,6 @@
-# JakartaEE -> JSP -> Expression Language
+# JAKARTAEE -> JSP -> EXPRESSION LANGUAGE
 
-## Summary
+## SUMMARY
 
 > [!summary] 
 > Expression Language (EL) is a simplified language used to access and manipulate data within JSP pages. It provides an elegant and concise way to access data stored in various objects such as requests, sessions, applications, and JavaBeans.
@@ -13,11 +13,11 @@
 > 
 > Expression Language solves this verbosity by providing a unified, intuitive syntax to access all these data sources directly. With EL, developers can write cleaner, more readable code while maintaining the same functionality.
 
-## Theory
+## THEORY
 
 Expression Language (EL) is a crucial component of JSP that simplifies data access across different scopes of a web application. It was introduced to reduce the amount of Java code embedded within JSP pages, making them more maintainable and readable.
 
-### Key EL Implicit Objects
+### KEY EL IMPLICIT OBJECTS
 
 1. **param**
     
@@ -80,7 +80,7 @@ Expression Language (EL) is a crucial component of JSP that simplifies data acce
     - Access to exceptions thrown in error pages
     - Example: Get error message with `${exception.message}`
 
-### Attribute Resolution in EL
+### ATTRIBUTE RESOLUTION IN EL
 
 When you use a variable name without specifying a scope (e.g., `${username}`), EL searches for that attribute in this order:
 
@@ -91,7 +91,7 @@ When you use a variable name without specifying a scope (e.g., `${username}`), E
 
 This automatic resolution makes code cleaner while maintaining flexibility.
 
-## Questions
+## QUESTIONS
 
 > [!tip]- What is the difference between `${param.name}` and `${paramValues.name}`? 
 > `${param.name}` retrieves a single parameter value, suitable for form fields that submit a single value (like text inputs or radio buttons). `${paramValues.name}` returns an array of values and is used for form fields that can submit multiple values with the same name (like checkboxes or multi-select lists). For example, if you have multiple checkboxes with the name "hobbies", you would access them as `${paramValues.hobbies[0]}`, `${paramValues.hobbies[1]}`, etc.

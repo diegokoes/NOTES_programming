@@ -1,4 +1,4 @@
-# Python
+# PYTHON
 - [[python_versionmanager|Version Manager]]
 - [[python_variablescopes|Variable Scopes]]
 - [[python_datastructures|Data Structures]]

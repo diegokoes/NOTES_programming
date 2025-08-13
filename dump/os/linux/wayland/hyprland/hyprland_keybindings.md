@@ -1,12 +1,12 @@
-# hyprland > keybindings
+# HYPRLAND > KEYBINDINGS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Complete guide to Hyprland keybindings configuration and common shortcuts
 
-## Theory
+## THEORY
 
-### Keybinding Syntax
+### KEYBINDING SYNTAX
 ```bash
 # Basic syntax
 bind = MODIFIERS, KEY, DISPATCHER, PARAMS
@@ -17,14 +17,14 @@ bind = SUPER SHIFT, Q, killactive
 bind = SUPER, F, fullscreen
 ```
 
-### Common Modifiers
+### COMMON MODIFIERS
 - `SUPER` - Windows/Super key
 - `SHIFT` - Shift key
 - `CTRL` - Control key
 - `ALT` - Alt key
 - `META` - Meta key
 
-### Essential Keybindings
+### ESSENTIAL KEYBINDINGS
 ```bash
 # Variables
 $mod = SUPER
@@ -106,7 +106,7 @@ bind = , escape, submap, reset
 submap = reset
 ```
 
-### Media and System Controls
+### MEDIA AND SYSTEM CONTROLS
 ```bash
 # Volume controls
 bind = , XF86AudioRaiseVolume, exec, wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
@@ -131,7 +131,7 @@ bind = $mod SHIFT, E, exec, wlogout
 bind = $mod SHIFT, L, exec, swaylock
 ```
 
-### Advanced Bindings
+### ADVANCED BINDINGS
 ```bash
 # Window groups
 bind = $mod, G, togglegroup
@@ -148,7 +148,7 @@ bind = $mod, mouse_up, workspace, e-1
 bind = $mod CTRL SHIFT, R, exec, hyprctl reload
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- How do I create custom keybindings?
 > Add `bind = MODIFIERS, KEY, DISPATCHER, PARAMS` lines to your hyprland.conf file

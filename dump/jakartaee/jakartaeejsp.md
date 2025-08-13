@@ -1,30 +1,30 @@
-# JakartaEE: JSP
-## Summary
+# JAKARTAEE: JSP
+## SUMMARY
 > [!summary]
 > ***JavaServer Pages*** allows to insert Java code into HTML to render content dinamicly server-side.
 >
 > For the ==**View**== part of the application in an [[mvc|MVC]] app.
 
-## Theory
+## THEORY
 
 **Related**: [[jakartaeeexpressionlanguage|Expression Language]]
 
 
 When a JSP page is requested for the first time, it is translated into a [[jakartaeeservlets|sevlet]], compiled into a `.class` file, and executes the `service()` method of the servlet to generate the response. Subsequent requests reuse the compilted servlet for better performance.
 
-### Directives
+### DIRECTIVES
 ```java
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 ```
 
-### Importing in JSP
+### IMPORTING IN JSP
 JSP allows importing Java classes using the page directive. This is useful for utilizing various Java classes in the JSP page. For example:
 ```java
 <%@ page import="java.util.List, java.util.ArrayList" %>
 ```
 You can import multiple classes by separating them with commas or use wildcards to import an entire package.
 
-### Using Tag Libraries
+### USING TAG LIBRARIES
 Custom tag libraries, such as JSTL, enhance JSP functionality by providing standardized tags for common tasks without embedding Java code directly. To use a tag library, first declare it with the taglib directive:
 ```java
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -42,11 +42,11 @@ JavaServer Pages (JSP) provide three main constructs for integrating Java code i
 | **Result**             | No direct output                     | Can generate output via `out.print()`  | Automatically generates output       |
 
 
-### JavaBeans in JSP: Good Practices with Standard Tags
+### JAVABEANS IN JSP: GOOD PRACTICES WITH STANDARD TAGS
 
 Using JavaBeans with JSP standard tags provides a cleaner, more maintainable approach to web development compared to using scriptlets. Here's a rundown of the best practices and important tags:
 
-#### Key JSP Standard Tags for JavaBeans
+#### KEY JSP STANDARD TAGS FOR JAVABEANS
 
 1. **`<jsp:useBean>`** - Locates or creates a JavaBean instance:
     
@@ -77,7 +77,7 @@ Using JavaBeans with JSP standard tags provides a cleaner, more maintainable app
     ```
     
 
-#### Benefits of Using Standard Tags
+#### BENEFITS OF USING STANDARD TAGS
 
 - Clearer separation between Java code and HTML/presentation
 - Declarative, more readable syntax
@@ -90,7 +90,7 @@ Using JavaBeans with JSP standard tags provides a cleaner, more maintainable app
 
 
 
-## Questions
+## QUESTIONS
 > [!tip]- Where do JSP files go in the project?
 > JSP files typically go in the web content directory of a Java web application. In a standard Java EE or Jakarta EE project structure, JSP files are usually placed in:
 >

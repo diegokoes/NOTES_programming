@@ -1,5 +1,5 @@
 # SQL -> DATE FUNCTIONS
-## Definition
+## DEFINITION
 
 **Official:**  
 > Las funciones de fecha en SQL permiten trabajar con valores temporales para calcular intervalos, extraer partes de fechas o realizar operaciones.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace SYSDATE?**  
 > Devuelve la fecha y hora actuales del sistema.  
@@ -39,15 +39,15 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Formato de Fechas:**
+## C.1- **FORMATO DE FECHAS:**
 ```sql
 SELECT TO_CHAR(SYSDATE, 'DD/MM/YYYY') AS fecha_formateada 
 FROM DUAL;
 ```
 
-## C.2- **Cálculos de Intervalos:**
+## C.2- **CÁLCULOS DE INTERVALOS:**
 ```sql
 SELECT fecha_inicio, 
        fecha_inicio + 7 AS una_semana_despues 

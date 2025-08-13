@@ -1,12 +1,12 @@
-# Java: Extending Interfaces
-## Definition
+# JAVA: EXTENDING INTERFACES
+## DEFINITION
 **Official:**
 > Son interfaces diseñadas para ser extendidas por otras interfaces, creando jerarquías de interfaces.
 
 **Personal:**
 >Estas interfaces sirven como base para otras interfaces, permitiendo construir estructuras complejas y reutilizables.
 
-### A.1.1- **Características:**
+### A.1.1- **CARACTERÍSTICAS:**
 
 - Permiten extender múltiples interfaces al mismo tiempo.
 - Facilitan la organización y expansión de código.

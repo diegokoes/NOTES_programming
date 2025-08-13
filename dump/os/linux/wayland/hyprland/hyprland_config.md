@@ -1,15 +1,15 @@
-# hyprland > config
+# HYPRLAND > CONFIG
 
-## Summary
+## SUMMARY
 > [!summary]
 > Comprehensive guide to configuring Hyprland with examples for common settings
 
-## Theory
+## THEORY
 
-### Configuration File Location
+### CONFIGURATION FILE LOCATION
 Main config: `~/.config/hypr/hyprland.conf`
 
-### Basic Structure
+### BASIC STRUCTURE
 ```bash
 # Comments start with #
 # Variables
@@ -69,7 +69,7 @@ windowrulev2 = float,class:^(kitty)$,title:^(kitty)$
 windowrulev2 = opacity 0.8 0.8,class:^(kitty)$
 ```
 
-### Monitor Configuration
+### MONITOR CONFIGURATION
 ```bash
 # Single monitor
 monitor = DP-1,1920x1080@60,0x0,1
@@ -82,7 +82,7 @@ monitor = HDMI-A-1,1920x1080@60,1920x0,1
 monitor = ,preferred,auto,1
 ```
 
-### Input Configuration
+### INPUT CONFIGURATION
 ```bash
 input {
     kb_layout = us,es
@@ -104,7 +104,7 @@ input {
 }
 ```
 
-### Workspace Rules
+### WORKSPACE RULES
 ```bash
 # Bind workspaces to monitors
 workspace = 1, monitor:DP-1
@@ -116,7 +116,7 @@ windowrulev2 = workspace 2,class:^(firefox)$
 windowrulev2 = workspace 3,class:^(code)$
 ```
 
-### Environment Variables
+### ENVIRONMENT VARIABLES
 ```bash
 env = XCURSOR_SIZE,24
 env = QT_QPA_PLATFORM,wayland
@@ -124,7 +124,7 @@ env = GDK_BACKEND,wayland
 env = MOZ_ENABLE_WAYLAND,1
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- Where should I put my Hyprland configuration?
 > Place it in `~/.config/hypr/hyprland.conf` or create modular configs in the same directory

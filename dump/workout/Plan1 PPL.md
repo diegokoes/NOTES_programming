@@ -1,8 +1,8 @@
 # PPL1
 
-## Push
+## PUSH
 
-### Chest
+### CHEST
 
 > [!info]- Flat DB Press  
 > ![[Flat Dumbbell Press#Flat DB Press]]
@@ -10,7 +10,7 @@
 > [!info]- Dumbbell Fly  
 > ![[Dumbbell Fly#Dumbbell Fly]]
 
-### Shoulders (Front and Lateral Delt)
+### SHOULDERS (FRONT AND LATERAL DELT)
 
 > [!info]- Standing Dumbbell Press  
 > ![[Standing Dumbbell Press#Standing Dumbbell Press]]
@@ -21,7 +21,7 @@
 > [!info]- Lying Lateral Raise
 > ![[Lying Lateral Raise#Lying Lateral Raise]]
 
-### Triceps
+### TRICEPS
 
 > [!info]- Pushups  
 > [[Pushups]]
@@ -35,9 +35,9 @@
 > [!info]- Cable Triceps Kickback
 > ![[Cable Triceps Kickback#Cable Triceps Kickback]]
 
-## Pull
+## PULL
 
-### Shoulders (Side and Rear Delt) SUPERSET 
+### SHOULDERS (SIDE AND REAR DELT) SUPERSET 
 > [!info]- DB Bent Lateral Raises
 > ![[DB Bent Lateral Raises#DB Bent Lateral Raises]]
 
@@ -52,7 +52,7 @@
 #todo Face pulls
 
 #todo bent over reverse db flye
-### Lats
+### LATS
 
 > [!info]- Lat DB Pullover  
 > ![[Lat DB Pullover]]
@@ -65,7 +65,7 @@
 > ![[Bent Over DB Row#Bent Over DB Row]]
 
 
-### Biceps
+### BICEPS
 
 > [!info]- Hammer Curls  
 > ![[Hammer curls#Hammer Curls]]
@@ -73,9 +73,9 @@
 > [!info]- Standing DB Curls  
 > ![[Standing DB Curls#Standing DB Curls]]
 
-## Legs & Abs & Forearms
+## LEGS & ABS & FOREARMS
 
-### Quads
+### QUADS
 #todo sissy squat, nordic one, jeff nippard best quad exercises
 > [!info]- Dumbbell Front Squat  
 > ![[Dumbbell Front Squat#Dumbbell Front Squat]]
@@ -85,12 +85,12 @@
 
 > [!info]- Bulgarian Split Squat
 > ![[Bulgarian Split Squat#Bulgarian Split Squat]]
-### Hamstrings
+### HAMSTRINGS
 
 > [!info]- Dumbbell Stiff Leg Deadlift  
 > ![[Dumbbell Stiff Leg Deadlift#Dumbbell Stiff Leg Deadlift]]
 
-### Glutes
+### GLUTES
 
 > [!info]- Dumbbell Split Squat  
 > ![[Dumbbell Split Squat#Dumbbell Split Squat]]
@@ -100,10 +100,10 @@
 
 > [!info]- Reverse Lunge
 > ![[Reverse Lunge#Reverse Lunge]]
-### Calfs
+### CALFS
 <!-- No exercise tags here -->
 
-### Abs
+### ABS
 
 > [!info]- V Up  
 > ![[V Up#V Up]]
@@ -118,7 +118,7 @@
 > ![[Ab Wheel#Ab Wheel]]
 
 
-### Forearms
+### FOREARMS
 
 > [!info]- Reverse Grip Curl
 > ![[Reverse Grip Curl#Reverse Grip Curl]]

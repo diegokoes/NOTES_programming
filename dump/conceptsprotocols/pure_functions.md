@@ -1,4 +1,4 @@
-# conceptsprotocols > pure functions
+# CONCEPTSPROTOCOLS > PURE FUNCTIONS
 
 #todo 
 

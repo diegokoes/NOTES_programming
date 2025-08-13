@@ -1,8 +1,8 @@
-# python > random module
+# PYTHON > RANDOM MODULE
 
 The `random` module provides functions for generating random numbers and making random selections.
 
-## Common Functions
+## COMMON FUNCTIONS
 
 ```python
 import random
@@ -27,7 +27,7 @@ random.sample(fruits, 2)  # Returns a list of 2 unique random items
 random.shuffle(fruits)  # Shuffles the original list
 ```
 
-## Seeding
+## SEEDING
 
 For reproducible results, you can set a seed:
 
@@ -36,7 +36,7 @@ random.seed(42)  # All subsequent random operations will be deterministic
 random.random()  # Always returns 0.6394267984578837 when seed is 42
 ```
 
-## Choice Function
+## CHOICE FUNCTION
 
 ```python
 # random.choice() selects a random element from a non-empty sequence
@@ -48,7 +48,7 @@ random.choice('abcdefg')  # Might return 'c'
 random.choice(tuple(range(10)))  # Might return 7
 ```
 
-## Random Sampling
+## RANDOM SAMPLING
 
 ```python
 # Sample without replacement (each item can only appear once)

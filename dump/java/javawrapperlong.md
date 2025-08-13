@@ -1,12 +1,12 @@
-# Java -> Data Types -> Long
-## Summary
+# JAVA -> DATA TYPES -> LONG
+## SUMMARY
 > [!summary]
 > Long wraps the long primitive for larger integer values, also with caching for small values.
 
-## Theory
+## THEORY
 Long covers a wider range than int, commonly used for timestamps. Autoboxing from long to Long simplifies collections usage, but performance overhead is higher than using the primitive.
 
-## Questions
+## QUESTIONS
 > [!tip]- When should you choose Long over int?
 > When you need values beyond int’s range or when storing nulls is required.
 

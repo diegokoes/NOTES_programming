@@ -1,5 +1,5 @@
-# python > args & kwargs
-## Summary
+# PYTHON > ARGS & KWARGS
+## SUMMARY
 > [!summary]
 > `args` and `kwargs` are special syntax in Python for accepting variable-length arguments in functions:
 > - `*args`: Collects extra positional arguments as a tuple
@@ -7,8 +7,8 @@
 > 
 > These mechanisms provide flexibility when defining functions that need to accept varying numbers of arguments.
 
-## Theory
-### *args
+## THEORY
+### *ARGS
 `*args` allows a function to accept any number of positional arguments. The `*` operator unpacks the arguments into a tuple.
 
 ```python
@@ -21,7 +21,7 @@ result = sum_all(1, 2, 3, 4)  # 10
 
 **Important**: `*args` only collects positional arguments, not key-value pairs. If you try to pass key-value pairs to `*args`, you'll get a syntax error.
 
-### **kwargs
+### **KWARGS
 `**kwargs` allows a function to accept any number of keyword arguments. The `**` operator collects these arguments into a dictionary.
 
 ```python
@@ -35,7 +35,7 @@ print_info(name="Alice", age=30, job="Developer")
 
 **Note**: `**kwargs` is specifically designed to handle key-value pairs (keyword arguments), which `*args` cannot accept.
 
-### Common Misconceptions
+### COMMON MISCONCEPTIONS
 - **`*args` cannot accept key-value pairs**: Only positional arguments can be collected by `*args`. For key-value pairs, always use `**kwargs`.
 - **They can't be mixed up**: You can't pass keyword arguments to `*args` or positional arguments to `**kwargs`.
 
@@ -51,7 +51,7 @@ example(1, 2, 3, name="John", age=30)  # Correct usage
 # example(*args=1)  # Syntax error
 ```
 
-### Characteristics
+### CHARACTERISTICS
 - Order matters: When using both, the correct order is regular arguments, `*args`, default arguments, and then `**kwargs`
 - You can name them anything: While `args` and `kwargs` are conventional, any valid variable names will work
 - Unpacking with `*` and `**`: You can use these operators to unpack sequences and dictionaries into function arguments
@@ -64,13 +64,13 @@ values = [1, 2, 3]
 result = function(*values)  # Unpacks list into positional arguments
 ```
 
-### Limitations
+### LIMITATIONS
 - Cannot directly access specific arguments without iteration
 - Type hints are challenging (use `typing.Any` or more specific TypedDict/Protocol)
 - Not as self-documenting as named parameters
 - Harder to enforce required parameters when using `**kwargs`
 
-## Questions
+## QUESTIONS
 > [!tip]- What's the difference between *args and **kwargs?
 > `*args` collects excess positional arguments into a tuple, while `**kwargs` collects excess keyword arguments into a dictionary. 
 > 

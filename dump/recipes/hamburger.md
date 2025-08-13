@@ -1,8 +1,8 @@
-# Hamburguer
+# HAMBURGUER
 
-## Ingredients
+## INGREDIENTS
 
-## Steps
+## STEPS
 
 
 

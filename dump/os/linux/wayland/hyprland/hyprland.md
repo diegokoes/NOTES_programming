@@ -1,15 +1,15 @@
-# hyprland
+# HYPRLAND
 
-## Summary
+## SUMMARY
 > [!summary]
 > Hyprland is a highly customizable dynamic tiling Wayland compositor with advanced features like animations, rounded corners, and extensive configuration options.
 
-## Theory
+## THEORY
 
-### What is Hyprland?
+### WHAT IS HYPRLAND?
 Hyprland is a dynamic tiling Wayland compositor written in C++. It features extensive customization, smooth animations, and modern Wayland protocol support.
 
-### Key Features
+### KEY FEATURES
 - **Dynamic Tiling** - Automatic window arrangement
 - **Animations** - Smooth window transitions and effects
 - **Rounded Corners** - Modern aesthetic features
@@ -17,7 +17,7 @@ Hyprland is a dynamic tiling Wayland compositor written in C++. It features exte
 - **Plugin System** - Extensibility through plugins
 - **IPC Support** - Control via `hyprctl` command
 
-### Installation
+### INSTALLATION
 ```bash
 # Arch Linux
 pacman -S hyprland
@@ -28,10 +28,10 @@ cd Hyprland
 make all
 ```
 
-### Basic Configuration
+### BASIC CONFIGURATION
 Configuration file: `~/.config/hypr/hyprland.conf`
 
-### Essential Commands
+### ESSENTIAL COMMANDS
 ```bash
 # Reload configuration
 hyprctl reload
@@ -49,13 +49,13 @@ hyprctl dispatch workspace 1
 hyprctl monitors
 ```
 
-### Related Topics
+### RELATED TOPICS
 - [Configuration](hyprland_config.md)
 - [Keybindings](hyprland_keybindings.md)
 - [Plugins](hyprland_plugins.md)
 - [Troubleshooting](hyprland_troubleshooting.md)
 
-## Questions
+## QUESTIONS
 
 > [!tip]- How do I reload Hyprland configuration?
 > Use `hyprctl reload` to reload the configuration without restarting

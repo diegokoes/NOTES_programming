@@ -1,4 +1,4 @@
-# HTML -> Labels Buttons
+# HTML -> LABELS BUTTONS
 
 ```
 

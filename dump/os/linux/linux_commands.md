@@ -1,63 +1,29 @@
-# linux > commands
-## chmod & chown
+# LINUX > COMMANDS
+## CHMOD & CHOWN
 > on NTFS they don't behave like on EXT4, mount options co
-## lsblk
+## LSBLK
 - `lsblk -o`: 
-
-## Mount
+## MOUNT
 - 
-## File System
+## FILE SYSTEM
 - `grep -w [filesystem] /proc/filesystems`: check if it's recognized
-
-## Firewall
+## FIREWALL
 - 
-## Kernel
-
+## KERNEL
 - `uname -r`: to see version
 
-## Modules
+## MODULES
 - `modinfo [name]`: see if it exists
 ## RAM
 - `free -h` - Display memory usage
-- `zramctl` - Display zram device information
-## Process Management
+## STORAGE
+- `df -h` : show disk usage
+### SWAP
+- `zramctl` : Display zram device information
+- `swapon --show`: show swap priority and usage 
 
-**Background processes:**
-```bash
-# Run command in background
-command &
 
-# Prevent termination on logout
-nohup command &
-
-# Run in background and disown from shell
-command & disown
-```
-
-### Memory and Storage
-
-**Memory monitoring:**
-```bash
-# See real zram usage
-sudo zramctl
-
-# Check swap priority and usage
-swapon --show
-
-# See memory/swap usage
-free -h
-```
-
-**Disk usage:**
-```bash
-# Show disk usage
-df -h
-
-# Advanced disk usage tool
-dysk
-```
-
-### System Analysis
+### SYSTEM ANALYSIS
 
 **systemd analysis:**
 ```bash
@@ -68,7 +34,7 @@ systemd-analyze plot
 systemd-analyze blame
 ```
 
-## Command Reference
+## COMMAND REFERENCE
 
 ### D
 - `df -h` - Display filesystem disk space usage

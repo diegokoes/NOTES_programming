@@ -1,4 +1,4 @@
-# HTML -> Tables
+# HTML -> TABLES
 
 Tables are useful for organizing data into rows and columns.
 ```html

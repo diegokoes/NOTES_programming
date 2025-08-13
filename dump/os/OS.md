@@ -1,4 +1,4 @@
-# Operative Systems
+# OPERATIVE SYSTEMS
 - [[linux]]
 	- [[PROXMOX]]
 	- [[linux_archlinux]]

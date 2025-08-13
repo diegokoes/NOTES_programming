@@ -1,10 +1,10 @@
-# TypeScript -> Literal Types
-## Summary
+# TYPESCRIPT -> LITERAL TYPES
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Los **Literal Types** en TypeScript permiten restringir el valor de una variable a un conjunto específico de valores, como cadenas, números o booleanos literales. Son útiles para garantizar que solo valores específicos sean utilizados.
@@ -14,9 +14,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- ¿Qué son los Literal Types?
+## B.1- ¿QUÉ SON LOS LITERAL TYPES?
 
 Los tipos literales permiten definir valores específicos que una variable puede aceptar. Esto puede incluir cadenas, números y booleanos específicos.  
 
@@ -30,9 +30,9 @@ Los tipos literales permiten definir valores específicos que una variable puede
 
 ---
 
-## B.2- Literales y Declaraciones de Variables
+## B.2- LITERALES Y DECLARACIONES DE VARIABLES
 
-### Variables declaradas con `const`  
+### VARIABLES DECLARADAS CON `const`  
 Las variables declaradas con `const` tienen un tipo literal, ya que sus valores no pueden cambiar.  
 
 >[!info]- **Ejemplo con `const`**  
@@ -41,7 +41,7 @@ Las variables declaradas con `const` tienen un tipo literal, ya que sus valores 
 >// constante tiene el tipo literal: "Hola Mundo"
 >```
 
-### Variables declaradas con `let`  
+### VARIABLES DECLARADAS CON `let`  
 Las variables declaradas con `let` pueden cambiar su valor, por lo que el tipo será más general (`string` en lugar de un literal).  
 
 >[!info]- **Ejemplo con `let`**  
@@ -52,7 +52,7 @@ Las variables declaradas con `let` pueden cambiar su valor, por lo que el tipo s
 
 ---
 
-## B.3- Combinaciones con [[typescriptunionintersection|Union Types]]
+## B.3- COMBINACIONES CON [[typescriptunionintersection|Union Types]]
 
 Los tipos literales son especialmente útiles cuando se combinan con **Union Types**, lo que permite limitar los valores aceptados.
 
@@ -71,7 +71,7 @@ Los tipos literales son especialmente útiles cuando se combinan con **Union Typ
 
 ---
 
-## B.4- Numeric Literal Types
+## B.4- NUMERIC LITERAL TYPES
 
 Los números literales funcionan de manera similar a las cadenas, limitando los valores numéricos permitidos.
 
@@ -88,7 +88,7 @@ Los números literales funcionan de manera similar a las cadenas, limitando los 
 
 ---
 
-## B.5- Literales Booleanos
+## B.5- LITERALES BOOLEANOS
 
 Los booleanos literales (`true` y `false`) también son válidos.
 
@@ -103,11 +103,11 @@ Los booleanos literales (`true` y `false`) también son válidos.
 
 ---
 
-## B.6- Literal Inference y `as const`
+## B.6- LITERAL INFERENCE Y `as const`
 
 Cuando se inicializa un objeto, TypeScript infiere tipos generales (como `string` en lugar de `"GET"`). Esto puede modificarse utilizando **type assertions** o **`as const`**.
 
-### Cambiar la Inferencia con `as const`
+### CAMBIAR LA INFERENCIA CON `as const`
 >[!info]- **Ejemplo con `as const`**  
 >```typescript
 >const solicitud = { url: "https://example.com", metodo: "GET" } as const;
@@ -119,7 +119,7 @@ Cuando se inicializa un objeto, TypeScript infiere tipos generales (como `string
 >manejarSolicitud(solicitud.url, solicitud.metodo); // Válido
 >```
 
-### Cambiar la Inferencia con Type Assertions
+### CAMBIAR LA INFERENCIA CON TYPE ASSERTIONS
 >[!info]- **Ejemplo con Type Assertions**  
 >```typescript
 >const solicitud = { url: "https://example.com", metodo: "GET" as "GET" };
@@ -133,7 +133,7 @@ Cuando se inicializa un objeto, TypeScript infiere tipos generales (como `string
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué son los Literal Types en TypeScript?**  
 > Son tipos que limitan una variable a un conjunto específico de valores permitidos.  

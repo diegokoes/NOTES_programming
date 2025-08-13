@@ -1,4 +1,4 @@
-### Definition
+# DEFINITION
 
 **Official:**
 > A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of loading entire new pages. The goal is faster transitions that make the website feel more like a native app.
@@ -8,21 +8,21 @@
 >Antes  cliente -> petición de una página html, server devuelve 1 página entera. Otra página? Otra petición y la devuelve. Mucho trasiego si hay muchos clientes.
 >Ahora los clientes -> 1 petición (tocha), se descargan todo. Y toda la carga en el navegador. [Lazy Load](LazyLoad.md) + micro-llamadas.
 - - - 
-### ¿En qué se basan todos los PSA?
+# ¿EN QUÉ SE BASAN TODOS LOS PSA?
   - > [!info]- Click to reveal the answer
 	 En programación por componentes
 
-### ¿Cuántos html hay en una aplicación SPA?
+# ¿CUÁNTOS HTML HAY EN UNA APLICACIÓN SPA?
   - > [!info]- Click to reveal the answer
     Una única: index.html. Se crea un **árbol de componentes**, con un componente root, del que se van quitando/poniendo el resto en función de la url que ponga el usuario en el navegador.
 
-### ¿Qué parte de la app carga un componente u otro?
+# ¿QUÉ PARTE DE LA APP CARGA UN COMPONENTE U OTRO?
   - > [!info]- Click to reveal the answer
 El módulo de enrutamiento.
 
 
 !todo
-### **SPA (Single-Page Application)**:
+# **SPA (SINGLE-PAGE APPLICATION)**:
 
 A SPA is a modern web application architecture where all the necessary resources (HTML, CSS, JavaScript) are loaded once, and the page is dynamically updated as the user interacts with the application. The browser does not reload the page during interactions; instead, it fetches data from the server as needed (usually via APIs) and updates the user interface accordingly.
 

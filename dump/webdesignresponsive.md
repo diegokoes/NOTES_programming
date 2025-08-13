@@ -1,11 +1,11 @@
-# Web Design -> Responsive Design
+# WEB DESIGN -> RESPONSIVE DESIGN
 
-## Summary
+## SUMMARY
 > [!summary] Combination of flexible grids, fluid images and media queries.
 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

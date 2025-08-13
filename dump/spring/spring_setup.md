@@ -1,4 +1,4 @@
-# Spring: Set up
+# SPRING: SET UP
 - [[springlombok|Lombok]]
 
 https://start.spring.io

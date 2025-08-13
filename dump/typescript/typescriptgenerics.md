@@ -1,11 +1,11 @@
-# Typescript -> Generics
-## Summary
+# TYPESCRIPT -> GENERICS
+## SUMMARY
 > [!summary]
 > 
 - - -  
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

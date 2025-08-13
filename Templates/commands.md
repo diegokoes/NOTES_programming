@@ -1,4 +1,4 @@
-### name
+# NAME
 
 **Purpose:** Brief description of what the command does
 

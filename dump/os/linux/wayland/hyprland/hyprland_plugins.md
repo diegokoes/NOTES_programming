@@ -1,15 +1,15 @@
-# hyprland > plugins
+# HYPRLAND > PLUGINS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Guide to Hyprland plugins for extending functionality and customization
 
-## Theory
+## THEORY
 
-### Plugin System
+### PLUGIN SYSTEM
 Hyprland supports plugins written in C++ that can extend its functionality. Plugins are loaded dynamically at runtime.
 
-### Installing Plugins
+### INSTALLING PLUGINS
 ```bash
 # Using hyprpm (Hyprland Plugin Manager)
 hyprpm add https://github.com/author/plugin-name
@@ -22,9 +22,9 @@ make all
 # Copy .so file to plugins directory
 ```
 
-### Popular Plugins
+### POPULAR PLUGINS
 
-#### **hyprland-plugins (Official Collection)**
+#### **HYPRLAND-PLUGINS (OFFICIAL COLLECTION)**
 ```bash
 # Borders++
 hyprpm add https://github.com/hyprwm/hyprland-plugins
@@ -34,31 +34,31 @@ hyprpm enable borders-plus-plus
 - **csgo-vulkan-fix** - CS:GO Vulkan compatibility
 - **hyprbars** - Window title bars
 
-#### **hypr-dynamic-cursors**
+#### **HYPR-DYNAMIC-CURSORS**
 ```bash
 hyprpm add https://github.com/VirtCode/hypr-dynamic-cursors
 ```
 - Dynamic cursor animations and effects
 
-#### **hyprfocus**
+#### **HYPRFOCUS**
 ```bash
 hyprpm add https://github.com/pyt0xic/hyprfocus
 ```
 - Advanced window focus animations
 
-#### **hyprwinwrap**
+#### **HYPRWINWRAP**
 ```bash
 hyprpm add https://github.com/hyprwm/hyprwinwrap
 ```
 - Animated wallpapers support
 
-#### **hyprsplit**
+#### **HYPRSPLIT**
 ```bash
 hyprpm add https://github.com/shezdy/hyprsplit
 ```
 - Enhanced window splitting
 
-### Plugin Configuration
+### PLUGIN CONFIGURATION
 Add plugin settings to your `hyprland.conf`:
 
 ```bash
@@ -89,7 +89,7 @@ plugin {
 }
 ```
 
-### Plugin Management Commands
+### PLUGIN MANAGEMENT COMMANDS
 ```bash
 # List available plugins
 hyprpm list
@@ -107,9 +107,9 @@ hyprctl plugin reload plugin-name
 hyprctl plugin list
 ```
 
-### Developing Plugins
+### DEVELOPING PLUGINS
 
-#### Basic Plugin Structure
+#### BASIC PLUGIN STRUCTURE
 ```cpp
 #include <hyprland/src/plugins/PluginAPI.hpp>
 
@@ -130,7 +130,7 @@ APICALL EXPORT void PLUGIN_EXIT() {
 }
 ```
 
-#### Building Plugins
+#### BUILDING PLUGINS
 ```bash
 # Makefile example
 CC = g++
@@ -144,14 +144,14 @@ install:
 	cp plugin.so ~/.local/share/hyprland/plugins/
 ```
 
-### Troubleshooting Plugins
+### TROUBLESHOOTING PLUGINS
 
-#### Common Issues
+#### COMMON ISSUES
 - **Plugin won't load** - Check API version compatibility
 - **Crashes** - Disable plugins one by one to identify problematic ones
 - **Performance issues** - Some plugins may impact performance
 
-#### Debug Commands
+#### DEBUG COMMANDS
 ```bash
 # Check plugin errors
 hyprctl plugin list | grep -i error
@@ -163,7 +163,7 @@ hyprctl reload
 hyprctl keyword plugin ""
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- How do I find available plugins?
 > Check the Hyprland community, GitHub, or the official plugins repository

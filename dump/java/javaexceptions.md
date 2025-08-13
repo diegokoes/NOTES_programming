@@ -1,20 +1,20 @@
-# Java -> Exceptions
+# JAVA -> EXCEPTIONS
 
-## Related Notes
+## RELATED NOTES
 - [Java Exception Hierarchy](javaexceptionhierarchy.md)
 - [Creating Custom Exceptions](javacustomexceptions.md)
 
-## Summary
+## SUMMARY
 > [!summary]
 > Exceptions in Java are objects that represent exceptional events disrupting normal program flow. When an error occurs, Java creates an exception object containing information about the error and searches the call stack for appropriate handlers. Java has checked exceptions (must be caught or declared) and unchecked exceptions (no explicit handling required). The exception mechanism uses try-catch-finally blocks for handling, throws clauses for declaring, and the throw keyword for raising exceptions. This approach separates error handling from regular code, enables error propagation up the call stack, and provides type-based categorization of errors.
 
-## Theory
+## THEORY
 
-### What Are Exceptions?
+### WHAT ARE EXCEPTIONS?
 
 An exception is an event that disrupts the normal flow of a program's instructions. When something unexpected happens during program execution, Java creates an object (the exception) containing error details and the state of program execution.
 
-### Exception Hierarchy
+### EXCEPTION HIERARCHY
 
 All exceptions derive from `java.lang.Throwable`, which has two main subclasses:
 
@@ -23,23 +23,23 @@ All exceptions derive from `java.lang.Throwable`, which has two main subclasses:
    - **Checked Exceptions** - Must be handled or declared (e.g., `IOException`)
    - **Unchecked Exceptions** - Subclasses of `RuntimeException` (e.g., `NullPointerException`)
 
-### Types of Exceptions
+### TYPES OF EXCEPTIONS
 
-#### Checked Exceptions
+#### CHECKED EXCEPTIONS
 - Must follow "catch or specify" requirement
 - Compile-time enforcement
 - Examples: `IOException`, `SQLException`
 - Used for recoverable conditions
 
-#### Unchecked Exceptions
+#### UNCHECKED EXCEPTIONS
 - **Runtime Exceptions**: Represent programming errors (e.g., `NullPointerException`, `ArrayIndexOutOfBoundsException`)
 - **Errors**: Represent serious system problems (e.g., `OutOfMemoryError`)
 - Not subject to "catch or specify" requirement
 - Examples: `NullPointerException`, `ArrayIndexOutOfBoundsException`, `ArithmeticException`
 
-### Exception Handling
+### EXCEPTION HANDLING
 
-#### try-catch Block
+#### TRY-CATCH BLOCK
 ```java
 try {
     // Code that might throw exceptions
@@ -50,7 +50,7 @@ try {
 }
 ```
 
-#### Multi-catch (Java 7+)
+#### MULTI-CATCH (JAVA 7+)
 ```java
 try {
     // Code that might throw exceptions
@@ -59,7 +59,7 @@ try {
 }
 ```
 
-#### finally Block
+#### FINALLY BLOCK
 ```java
 try {
     // Code that might throw exceptions
@@ -71,7 +71,7 @@ try {
 }
 ```
 
-#### try-with-resources (Java 7+)
+#### TRY-WITH-RESOURCES (JAVA 7+)
 Automatically closes resources implementing `AutoCloseable` or `Closeable`:
 
 ```java
@@ -80,16 +80,16 @@ try (BufferedReader br = new BufferedReader(new FileReader(path))) {
 } // br is automatically closed
 ```
 
-### Throwing Exceptions
+### THROWING EXCEPTIONS
 
-#### throw Statement
+#### THROW STATEMENT
 ```java
 if (accountBalance < amount) {
     throw new InsufficientFundsException("Not enough money in account");
 }
 ```
 
-#### throws Clause
+#### THROWS CLAUSE
 Used to declare checked exceptions a method might throw:
 
 ```java
@@ -98,7 +98,7 @@ public void readFile() throws IOException {
 }
 ```
 
-### Chained Exceptions
+### CHAINED EXCEPTIONS
 
 Preserving the original cause of an exception:
 
@@ -115,7 +115,7 @@ Accessing the cause:
 Throwable cause = exception.getCause();
 ```
 
-### Creating Custom Exceptions
+### CREATING CUSTOM EXCEPTIONS
 
 Basic custom exception:
 ```java
@@ -126,7 +126,7 @@ public class CustomException extends Exception {
 }
 ```
 
-### Stack Trace Information
+### STACK TRACE INFORMATION
 
 ```java
 try {
@@ -142,14 +142,14 @@ try {
 }
 ```
 
-### Advantages of Exceptions
+### ADVANTAGES OF EXCEPTIONS
 
 1. **Separation of concern** - Regular code vs error handling code
 2. **Error propagation** - Errors can bubble up to the appropriate handler
 3. **Type grouping** - Exceptions are organized in a class hierarchy
 4. **Clean code** - Improves readability and maintainability
 
-### Best Practices
+### BEST PRACTICES
 
 - **Be specific with catch blocks**: Catch the most specific exceptions rather than generic ones to handle different error scenarios appropriately.
 - **Don't swallow exceptions**: Avoid empty catch blocks. Always log or handle exceptions meaningfully.
@@ -164,7 +164,7 @@ try {
 - **Use exception hierarchies**: Group related exceptions to allow catching categories of exceptions.
 - **Test exception scenarios**: Include unit tests for exception paths, not just the happy path.
 
-## Questions
+## QUESTIONS
 > [!tip]- What is the difference between checked and unchecked exceptions?
 > Checked exceptions must be either caught (with try-catch) or declared (with throws) at compile time. They extend Exception but not RuntimeException, and represent recoverable conditions that good programs should handle. Unchecked exceptions include RuntimeException and its subclasses plus Error types. They don't require explicit handling or declaration and typically represent programming errors that can't be reasonably recovered from at runtime.
 

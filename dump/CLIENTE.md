@@ -199,7 +199,7 @@ Bootstrap
 	unidad basica : contenedor
 	cdn en el index.html
 	
-## 17/09/2024
+# 17/09/2024
 
 en react onSubmit={ una funcion manejadora de evento} declarada con una lambda y si tiene mucho codigo, definimos una funcion para ello
 
@@ -228,7 +228,7 @@ para expresiones en consola: new RegExp("") y metodo test para testear esa caden
 REGEXR.COM
 
 
-## 18/09/2024 
+# 18/09/2024 
 
 utiliza objetos para la validacion y sacar el mensaje. Como cambia la variable de ese objeto segun se producta el evento? Ya no es un string o booleano, ahora es con propiedades del objeto.
 ![[Pasted image 20240918192559.png]]
@@ -236,13 +236,13 @@ utiliza objetos para la validacion y sacar el mensaje. Como cambia la variable d
 19:26 IMPORTANTE
 // TODO -  OPERADOR ' . . . ' y el useState( ).
 
-## 20/09/2024
+# 20/09/2024
 ![[Pasted image 20240920201623.png]]
 what
 
 20:33 formas de acceder a un objete. 
 
-## 24/09/2024
+# 24/09/2024
 
 como mandar datos desde js al backend (servidor)
 	AJAX 
@@ -308,7 +308,7 @@ c) se recomienda hacerlo antes del .send() al definir la funcion callback de lla
 3ª Paquetes externos, como AXIOS
 
 
-## 25/09/2024
+# 25/09/2024
 
 BACKEND node JS
 
@@ -364,7 +364,7 @@ el order es importante, siempre a la que va detras
 en powershell:
 	Invoke-RestMetod -Method post -url 'http://localhost:3000/api/zonaCliente/Registro' -Body 'hola mundo'
 			  
-## 01/10/2024
+# 01/10/2024
 cookie-parser,body-parser,cors
 
 el *estado de sesion importante*: almacenar los ultimos valores que el cliente ha hecho dentro del servidor.
@@ -385,7 +385,7 @@ como datos del evento, van los datos de la pet.ajax (respuesta del servidor)
 
 El componente de react Registro.js de react tiene que estar a la escucha, añadir handler al evento "respuestaRegistro" del servicio restService
 
-## 02/10/2024
+# 02/10/2024
 ----------------------
 como modificar codigo asincrono js:
 -  eventos y funciones callback
@@ -465,7 +465,7 @@ _petAjax.then( (datosServer)=> {...} ).catch ( (errorServer) => {...} )
 ```
 
 
-## 15/10/2024
+# 15/10/2024
 - - -
 TOKENS DE SESION JWT (JSON -WEB-TOKEN)
 usados en servicios REST-API (stateless)

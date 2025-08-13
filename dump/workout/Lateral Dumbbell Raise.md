@@ -1,4 +1,4 @@
-# Lateral Dumbbell Raise
+# LATERAL DUMBBELL RAISE
 1. No swinging
 2. Down with control sloow
 3. Raise slow with only side delts

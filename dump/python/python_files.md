@@ -1,17 +1,17 @@
-# python > files
-## Summary
+# PYTHON > FILES
+## SUMMARY
 > [!summary]
 > File operations in Python allow reading from and writing to files using the built-in `open()` function. Operations include text or binary mode handling, reading entire files or line by line, writing content, and managing file resources with context managers.
 
-## Theory
-### Opening Files
+## THEORY
+### OPENING FILES
 The `open` function can handle files in text or binary mode, with different operations:
 - **reading**: accessing existing file content
 - **writing**: overwriting existing files or creating new ones
 - **appending**: adding to existing files
 - **updating**: both reading and writing
 
-#### File Modes:
+#### FILE MODES:
 - `'r'` - read (default)
 - `'w'` - write (creates new/truncates existing)
 - `'a'` - append
@@ -22,7 +22,7 @@ The `open` function can handle files in text or binary mode, with different oper
 
 Common combinations: `'rb'`, `'r+'`, `'wb'`, `'w+b'`, `'a+'`, etc.
 
-#### File Creation Behavior:
+#### FILE CREATION BEHAVIOR:
 - `'r'` - Raises `FileNotFoundError` if file doesn't exist
 - `'r+'` - Raises `FileNotFoundError` if file doesn't exist ('+' adds write capability but doesn't affect creation)
 - `'w'` - Creates file if it doesn't exist, truncates if it does
@@ -36,7 +36,7 @@ Common combinations: `'rb'`, `'r+'`, `'wb'`, `'w+b'`, `'a+'`, etc.
 file = open('test.txt', mode='r')
 ```
 
-### Closing Files
+### CLOSING FILES
 Always close files to free system resources:
 - Using `file.close()`
 - Better approach: using context manager (`with` statement)
@@ -50,7 +50,7 @@ except FileNotFoundError as e:
     print("ERROR", e)
 ```
 
-### Read Operations
+### READ OPERATIONS
 
 ```python
 # Read entire file as one string
@@ -76,7 +76,7 @@ with open('file.txt', 'r') as f:
         print(line)
 ```
 
-### Write Operations
+### WRITE OPERATIONS
 
 ```python
 # Write string to file
@@ -92,14 +92,14 @@ with open('output.txt', 'w') as f:
     print("Hello World", file=f)  # Adds newline automatically
 ```
 
-### File Object Properties
+### FILE OBJECT PROPERTIES
 - File objects are iterators that yield lines
 - Methods like `read()` return strings in text mode, bytes in binary mode
 - `readlines()` returns a list of strings/bytes
 - `tell()` gives current position
 - `seek(offset, whence)` changes position
 
-### Path Handling
+### PATH HANDLING
 ```python
 import os
 
@@ -113,7 +113,7 @@ if os.path.exists(path):
         print(f"File size: {os.path.getsize(path)} bytes")
 ```
 
-## Questions
+## QUESTIONS
 > [!tip]- What's the difference between 'r+' and 'w+' modes?
 > 'r+' opens for reading and writing but doesn't create or truncate the file.
 > 'w+' opens for reading and writing, creates the file if it doesn't exist, and truncates it if it does.

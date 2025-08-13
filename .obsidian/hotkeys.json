@@ -3,9 +3,9 @@
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
-        "Alt"
+        "Mod"
       ],
-      "key": "6"
+      "key": "2"
     }
   ],
   "obsidian-full-calendar:full-calendar-open": [
@@ -145,14 +145,6 @@
         "Mod"
       ],
       "key": "E"
-    }
-  ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "4"
     }
   ],
   "templater-obsidian:_/Templates/story.md": [
@@ -393,5 +385,15 @@
       ],
       "key": "P"
     }
-  ]
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": []
 }

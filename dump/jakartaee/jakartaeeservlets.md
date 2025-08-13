@@ -1,13 +1,13 @@
-# JakartaEE -> Servlet
-## Summary
+# JAKARTAEE -> SERVLET
+## SUMMARY
 > [!summary]
 
-## Theory
-# Servlet Lifecycle and Architecture in Jakarta EE
+## THEORY
+# SERVLET LIFECYCLE AND ARCHITECTURE IN JAKARTA EE
 
 Let me walk you through how servlets work in Jakarta EE, breaking down the lifecycle, threading model, and configuration aspects.
 
-## Servlet Lifecycle
+## SERVLET LIFECYCLE
 
 A servlet goes through three main phases during its existence:
 
@@ -24,7 +24,7 @@ A servlet goes through three main phases during its existence:
 3. **Destruction (destroy)**: When the server shuts down or the servlet is undeployed, the container calls `destroy()`. This is your chance to release resources, close connections, and perform cleanup.
     
 
-## Servlet Instances and Threading
+## SERVLET INSTANCES AND THREADING
 
 This is a crucial point to understand: **A servlet instance is shared across all requests**. One servlet object serves multiple users simultaneously, with each request running in a separate thread.
 
@@ -40,7 +40,7 @@ public class MyServlet extends HttpServlet {
 }
 ```
 
-## Servlet State Management
+## SERVLET STATE MANAGEMENT
 
 Because servlets are shared, you should generally **avoid storing user-specific state in servlet instance variables**. There are several better options:
 
@@ -64,7 +64,7 @@ Because servlets are shared, you should generally **avoid storing user-specific 
     ```
     
 
-## Threading and Concurrency
+## THREADING AND CONCURRENCY
 
 Since multiple threads can execute the same servlet code simultaneously:
 
@@ -74,7 +74,7 @@ Since multiple threads can execute the same servlet code simultaneously:
 
 Think of a servlet as an office with multiple customer service representatives (threads). The office (servlet) is one location, but many representatives can help different customers concurrently.
 
-## @WebServlet and Initialization Parameters
+## @WEBSERVLET AND INITIALIZATION PARAMETERS
 
 The `@WebServlet` annotation configures servlet properties without needing XML deployment descriptors. The `initParams` attribute lets you define configuration parameters:
 
@@ -91,7 +91,7 @@ public class GreetingServlet extends HttpServlet {
 }
 ```
 
-### Accessing Init Parameters
+### ACCESSING INIT PARAMETERS
 
 You can access these parameters from within your servlet using:
 
@@ -104,7 +104,7 @@ public void init() throws ServletException {
 }
 ```
 
-### Common Uses for Init Parameters
+### COMMON USES FOR INIT PARAMETERS
 
 Init parameters are perfect for servlet-specific configuration that:
 
@@ -120,7 +120,7 @@ Examples include:
 - Feature flags
 - Resource paths
 
-## Putting It All Together
+## PUTTING IT ALL TOGETHER
 
 Here's a mental model: A servlet is like a service desk at a government office:
 
@@ -133,7 +133,7 @@ Here's a mental model: A servlet is like a service desk at a government office:
 4. **Destruction**: At the end of the day, the office closes (destroy)
 
 Would you like me to dive deeper into any particular aspect of servlet architecture or provide a complete code example demonstrating these concepts?
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

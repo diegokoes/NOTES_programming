@@ -1,4 +1,4 @@
-# JavaScript -> Basics
+# JAVASCRIPT -> BASICS
 1. [Variables](javascript_variables.md)
 2. [Data Types](javascript_datatypes.md)
 3. [Operators](javascript_operators.md)

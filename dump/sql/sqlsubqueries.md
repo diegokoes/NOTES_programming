@@ -1,5 +1,5 @@
-# SQL -> Subqueries
-## Definition
+# SQL -> SUBQUERIES
+## DEFINITION
 
 **Official:**  
 > Una subconsulta es una consulta dentro de otra consulta que devuelve datos intermedios utilizados por la consulta externa.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué es una subconsulta?**  
 > Es una consulta anidada dentro de otra consulta.  
@@ -38,16 +38,16 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Subconsulta Básica:**
+## C.1- **SUBCONSULTA BÁSICA:**
 ```sql
 SELECT nombre 
 FROM empleados 
 WHERE salario > (SELECT AVG(salario) FROM empleados);
 ```
 
-## C.2- **Subconsulta con IN:**
+## C.2- **SUBCONSULTA CON IN:**
 
 ```sql
 SELECT nombre 

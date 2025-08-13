@@ -1,4 +1,4 @@
-## Questions
+# QUESTIONS
 > [!tip]- Question
 > Answer
 

@@ -1,12 +1,12 @@
-# Java -> Data Types -> Strings
-## Summary
+# JAVA -> DATA TYPES -> STRINGS
+## SUMMARY
 > [!summary]
 > Strings represent sequences of characters and are immutable in Java.
 
-## Theory
+## THEORY
 A String is an object backed by a char array. String literals are interned for memory efficiency. Immutability simplifies concurrency and caching. You can build strings using concatenation or StringBuilder.
 
-## Questions
+## QUESTIONS
 > [!tip]- What is unique about Java Strings?
 > They are immutable and stored in a string pool.
 

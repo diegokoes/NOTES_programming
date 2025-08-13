@@ -1,13 +1,13 @@
-# Nexus 
-## Personal
+# NEXUS 
+## PERSONAL
 - [[recipes]]
 - [[Workout]]
-## Learning 
+## LEARNING 
 - [[history|History]]
 - [Keybinds & Shortcuts](keybindsshortcuts.md)
 - [[Programming]]
 - [[technology]]
-## Hobbies
+## HOBBIES
 - [Rol](rol.md)
 
 - - - 

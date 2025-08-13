@@ -1,13 +1,13 @@
-# React -> Structure
+# REACT -> STRUCTURE
 
 
 ![[Pasted image 20241113194307.png]]
 
-### 1. node_modules
+## 1. NODE_MODULES
 
 directorio de paquetes instalados 
 
-### 2. public
+## 2. PUBLIC
 
 - Contenido estático:
 	- CSS de aplicación para estilos globales
@@ -15,7 +15,7 @@ directorio de paquetes instalados
 	- Imágenes
 - [[robot.txt]] :
 
-### 3.src 
+## 3.SRC 
 
 Directorio del código fuente de React
 
@@ -25,7 +25,7 @@ Como norma, directorios para:
 - [Hooks](reacthooks.md)
 
 
-### 4.package.json's
+## 4.PACKAGE.JSON'S
 
 - - - 
 #react 

@@ -1,7 +1,7 @@
-## Summary
+# SUMMARY
 > [!summary]
 
-## Theory
+# THEORY
 Example of using the `role` attribute:
 
 ```html
@@ -20,7 +20,7 @@ Common ARIA attributes:
 <button aria-label="Open menu" aria-expanded="false">Menu</button>
 ```
 
-## Questions
+# QUESTIONS
 > [!tip]- Question
 > Answer
 

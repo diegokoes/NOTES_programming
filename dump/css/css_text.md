@@ -1,4 +1,4 @@
-# CSS -> Text
+# CSS -> TEXT
 
 ```css
 text-decoration: overline | underline | line-through | red solid 5px;

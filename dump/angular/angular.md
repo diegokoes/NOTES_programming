@@ -1,4 +1,4 @@
-# Angular
+# ANGULAR
 1. [Introduction](angular_introduction.md)
 2. [Architecture](angular_architecture.md)
 3. [Commands](angular_commands.md)

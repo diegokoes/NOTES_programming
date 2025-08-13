@@ -1,12 +1,12 @@
-## Summary
+# SUMMARY
 > [!summary]
 > 
 - - - 
 
-## Theory
+# THEORY
 
 
-## Questions
+# QUESTIONS
 > [!tip]- Question
 > Answer
 
@@ -15,31 +15,31 @@
 
 > [!danger]- Question
 > Answer
-### ¿Qué atributo se necesita para JDBC?
+## ¿QUÉ ATRIBUTO SE NECESITA PARA JDBC?
   - > [!info]- Click to reveal the answer
 	private Connection connection ;
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
-### Question
+## QUESTION
   - > [!info]- Click to reveal the answer
     JavaScript is a programming language used primarily for web development.
 

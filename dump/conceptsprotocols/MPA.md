@@ -1,5 +1,5 @@
 # MPA
-## Summary
+## SUMMARY
 > [!summary]-
 > 
 - - - 
@@ -8,9 +8,9 @@
 >Una MPA es una aplicación web tradicional donde, al hacer clic en un enlace o enviar un formulario, el navegador carga una nueva página desde el servidor, reemplazando completamente el contenido de la anterior.
 
 - - - 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 
@@ -19,7 +19,7 @@
 
 > [!danger]- Question
 > Answer.
-## ##  **Preguntas y Respuestas**
+## ##  **PREGUNTAS Y RESPUESTAS**
 
 1. **¿Cómo funciona una MPA?**
     
@@ -43,9 +43,9 @@
 
 ---
 
-## ##  **Ejemplo Práctico de MPA**
+## ##  **EJEMPLO PRÁCTICO DE MPA**
 
-## ## ##  Proceso típico de una MPA:
+## ## ##  PROCESO TÍPICO DE UNA MPA:
 
 1. El usuario accede a la URL `www.ejemplo.com/inicio`.
 2. El servidor envía el HTML completo de la página de inicio.
@@ -54,7 +54,7 @@
 
 ---
 
-## ##  **Ventajas Técnicas de las MPAs**
+## ##  **VENTAJAS TÉCNICAS DE LAS MPAS**
 
 1. **Integración Natural con SSR:**
     
@@ -68,7 +68,7 @@
 
 ---
 
-## ##  **Cuándo Usar una MPA**
+## ##  **CUÁNDO USAR UNA MPA**
 
 1. **Aplicaciones centradas en contenido:**
     

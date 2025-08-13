@@ -1,4 +1,4 @@
-# Lunges
+# LUNGES
 
 - [[Reverse Lunge]]
 

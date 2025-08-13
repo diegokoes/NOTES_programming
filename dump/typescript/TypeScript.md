@@ -1,4 +1,4 @@
-# TypeScript
+# TYPESCRIPT
 - [Introduction to TypeScript](typescript_introduction.md)
 - [Set-Up](typescriptsetup.md)
 - [Types Overview](typescripttypesoverview.md)

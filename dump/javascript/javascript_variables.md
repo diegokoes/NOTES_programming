@@ -1,11 +1,11 @@
-# JavaScript -> Basic Syntax -> Variables
+# JAVASCRIPT -> BASIC SYNTAX -> VARIABLES
 
-## Summary
+## SUMMARY
 > [!summary]
 >JavaScript borrows most of its syntax from Java, C, and C++, but it has also been influenced by Awk, Perl, and Python.
 >
 >JavaScript is **case-sensitive** and uses the **Unicode** character set. For example, the word Früh (which means "early" in German) could be used as a variable name.
-## Theory
+## THEORY
 JavaScript has three kinds of variable declarations.
 
 var
@@ -17,7 +17,7 @@ let
 const
 
     Declares a block-scoped, read-only named constant.
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

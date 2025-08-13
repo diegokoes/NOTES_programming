@@ -1,13 +1,13 @@
-# Java -> Data Types -> short
-## Summary
+# JAVA -> DATA TYPES -> SHORT
+## SUMMARY
 > [!summary]-
 > - 16-bit signed integer, range: -32768 to 32767
 - Somewhat rarely used compared to int
 
-## Theory
+## THEORY
 short is a middle ground between byte and int. It can store more than a byte but still saves some space compared to an int.
 
-## Questions
+## QUESTIONS
 > [!tip]- When is short suitable?
 > In specialized cases like large arrays needing moderate ranges
 

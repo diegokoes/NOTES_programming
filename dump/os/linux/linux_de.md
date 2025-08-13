@@ -1,10 +1,10 @@
-# linux > desktop environments
+# LINUX > DESKTOP ENVIRONMENTS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Desktop Environments (DE) provide complete graphical interfaces for Linux systems
 
-## Available Desktop Environments
+## AVAILABLE DESKTOP ENVIRONMENTS
 
 - **GNOME** - Modern, clean interface with Wayland support
 - **KDE Plasma** - Feature-rich and highly customizable

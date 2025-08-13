@@ -1,6 +1,6 @@
 
 # SQL: GROUP BY & HAVING
-## Definition
+## DEFINITION
 
 **Official:**  
 > `GROUP BY` agrupa filas con valores comunes en columnas específicas, permitiendo realizar cálculos agregados. `HAVING` filtra los resultados después de las agregaciones.
@@ -10,7 +10,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace GROUP BY en SQL?**  
 > Agrupa filas con valores comunes.  
@@ -39,16 +39,16 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Ejemplo Básico:**
+## C.1- **EJEMPLO BÁSICO:**
 ```sql
 SELECT departamento, COUNT(*) AS empleados_por_departamento 
 FROM empleados 
 GROUP BY departamento;
 ```
 
-## C.2- **Con Filtros:**
+## C.2- **CON FILTROS:**
 ```sql
 SELECT departamento, SUM(salario) AS total_salarios 
 FROM empleados 

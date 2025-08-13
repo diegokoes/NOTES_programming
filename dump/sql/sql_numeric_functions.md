@@ -1,5 +1,5 @@
-# SQL -> Numeric Functions
-## Definition
+# SQL -> NUMERIC FUNCTIONS
+## DEFINITION
 
 **Official:**  
 > Las funciones numéricas en SQL permiten realizar cálculos matemáticos, redondeos, operaciones con valores nulos, entre otros.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace ABS()?**  
 > Devuelve el valor absoluto de un número.  
@@ -38,21 +38,21 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Operaciones Básicas:**
+## C.1- **OPERACIONES BÁSICAS:**
 ```sql
 SELECT salario - 4000 AS ajuste, ABS(salario - 4000) AS absoluto 
 FROM empleados;
 ```
 
-## C.2- **Redondeo y Truncamiento:**
+## C.2- **REDONDEO Y TRUNCAMIENTO:**
 ```sql
 SELECT ROUND(2.6668888, 2) AS redondeo, TRUNC(2.6668888, 2) AS truncado 
 FROM DUAL;
 ```
 
-## C.3- **Manejo de Nulos con NVL:**
+## C.3- **MANEJO DE NULOS CON NVL:**
 ```sql
 SELECT salario, NVL(comision, 0) AS comision_actualizada 
 FROM empleados;

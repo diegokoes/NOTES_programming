@@ -1,1 +1,1 @@
-# Java -> OOP -> Encapsulation
+# JAVA -> OOP -> ENCAPSULATION

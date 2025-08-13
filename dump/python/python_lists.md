@@ -1,4 +1,4 @@
-# python > lists
+# PYTHON > LISTS
 
 ```python 
 # they can store any type

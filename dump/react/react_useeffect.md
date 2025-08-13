@@ -1,4 +1,4 @@
-# Definition
+# DEFINITION
 
 **Official:**  
 > The `useEffect` hook in React lets you perform side effects in function components. It serves purposes like data fetching, subscriptions, or manually changing the DOM.
@@ -8,13 +8,13 @@
 
 ---
 
-# Theory
+# THEORY
 
-## B.1- Understanding `useEffect`
+## B.1- UNDERSTANDING `useEffect`
 
 The `useEffect` hook replaces lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.
 
-### Basic Syntax
+### BASIC SYNTAX
 
 ```javascript
 > import { useEffect } from "react";
@@ -24,14 +24,14 @@ The `useEffect` hook replaces lifecycle methods like `componentDidMount`, `compo
 > });
 ```
 
-### **When does `useEffect` run?**
+### **WHEN DOES `useEffect` RUN?**
 1. After every render by default.
 2. On changes to specific values if dependencies are provided.
 3. When cleaning up after a component unmounts or before re-running an effect.
 
 ---
 
-## B.2- Dependency Array
+## B.2- DEPENDENCY ARRAY
 
 The second argument to `useEffect` is the **dependency array**, which controls when the effect should run.
 
@@ -61,7 +61,7 @@ The second argument to `useEffect` is the **dependency array**, which controls w
 
 ---
 
-## B.3- Cleanup in `useEffect`
+## B.3- CLEANUP IN `useEffect`
 
 The `useEffect` function can return a cleanup function. This is useful for cleaning up subscriptions, timers, or other resources.
 
@@ -88,7 +88,7 @@ The `useEffect` function can return a cleanup function. This is useful for clean
 
 ---
 
-## B.4- Common Patterns with `useEffect`
+## B.4- COMMON PATTERNS WITH `useEffect`
 
 1. **Data Fetching:**  
    ```javascript
@@ -119,7 +119,7 @@ The `useEffect` function can return a cleanup function. This is useful for clean
 
 ---
 
-# Questions
+# QUESTIONS
 
 > [!tip]- **What is the purpose of `useEffect` in React?**  
 > It allows you to perform side effects like fetching data, subscribing to events, or manipulating the DOM after a component renders.

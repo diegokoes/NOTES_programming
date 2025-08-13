@@ -1,14 +1,14 @@
-##  Keybinds
-### Notes
+#  KEYBINDS
+## NOTES
 - `F2`-> Change Note Name
 - `Ctrl + N` -> Create New Note
 - `Ctrl + Shift + Alt + M` -> Move Current Note To
-### Templates
+## TEMPLATES
 - `Ctrl + R` -> TogglePreview Mode
 - `Alt + 4` -> Toggle Left SidePanel
 - `Alt + 6` -> Toggle Right SidePanel
 
-### Text
+## TEXT
 - `Ctrl + F2` -> Regex search 
 - `Alt + F` -> Fold all headings and lists 
 - `Alt + U` ->Unfold all headings and lists 

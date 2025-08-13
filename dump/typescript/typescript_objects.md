@@ -1,11 +1,11 @@
-# TypeScript -> Objects
+# TYPESCRIPT -> OBJECTS
 
-## Summary
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > En TypeScript, los objetos representan estructuras de datos que agrupan propiedades y métodos. Pueden ser definidos mediante interfaces, tipos alias o de forma anónima. Proporcionan flexibilidad y control mediante modificadores como `readonly` y propiedades opcionales.
@@ -15,9 +15,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- Definición de Objetos
+## B.1- DEFINICIÓN DE OBJETOS
 
 Los objetos en TypeScript pueden definirse de varias maneras:
 
@@ -59,7 +59,7 @@ Los objetos en TypeScript pueden definirse de varias maneras:
 
 ---
 
-## B.2- Propiedades Opcionales
+## B.2- PROPIEDADES OPCIONALES
 
 Las propiedades de un objeto pueden ser opcionales usando `?`.
 
@@ -83,7 +83,7 @@ Las propiedades de un objeto pueden ser opcionales usando `?`.
 
 ---
 
-## B.3- Modificador `readonly`
+## B.3- MODIFICADOR `readonly`
 
 Las propiedades marcadas con `readonly` no pueden ser reasignadas después de su inicialización.
 
@@ -105,7 +105,7 @@ Las propiedades marcadas con `readonly` no pueden ser reasignadas después de su
 
 ---
 
-## B.4- Firmas de Índice (Index Signatures)
+## B.4- FIRMAS DE ÍNDICE (INDEX SIGNATURES)
 
 Permiten describir objetos con claves dinámicas.
 
@@ -125,7 +125,7 @@ Permiten describir objetos con claves dinámicas.
 
 ---
 
-## B.5- Exceso de Propiedades
+## B.5- EXCESO DE PROPIEDADES
 
 TypeScript valida que los objetos no tengan propiedades no definidas en su tipo.
 
@@ -161,7 +161,7 @@ Soluciones:
 
 ---
 
-## B.6- Extensiones de Tipos
+## B.6- EXTENSIONES DE TIPOS
 
 Los tipos pueden extenderse para evitar repetición de código.
 
@@ -185,7 +185,7 @@ Los tipos pueden extenderse para evitar repetición de código.
 
 ---
 
-## B.7- Tipos Genéricos
+## B.7- TIPOS GENÉRICOS
 
 Permiten definir objetos que aceptan tipos dinámicos.
 
@@ -201,7 +201,7 @@ Permiten definir objetos que aceptan tipos dinámicos.
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Cómo se definen objetos en TypeScript?**  
 > Pueden definirse mediante objetos anónimos, interfaces o type alias.  

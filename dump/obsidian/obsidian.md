@@ -1,4 +1,4 @@
-# Obsidian
+# OBSIDIAN
 
 - [[obsidiankeybinds|Obsidian Keybinds]]
 - 

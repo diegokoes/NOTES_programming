@@ -1,5 +1,5 @@
-# Albóndigas
-## Carne
+# ALBÓNDIGAS
+## CARNE
 1. Se mezcla bien la carne (2p es medio kilo max) con sal, perejil y pimienta.
 2. Después se le añade un huevo y se mezcla bien.
 3. En un recipiente se calienta leche (si está fría), 
@@ -10,7 +10,7 @@
 8. Se rebozan en la harina y apretan ligeramente
 9. Sartén con aceite (dedo y medio) (1/4) de la albondiga
 
-## Sofrito 
+## SOFRITO 
 > Hacerlo después de que se hagan todas las albóndigas, si hay tiempo
 
 10. Cebolla media,  o media de una grande.

@@ -1,9 +1,9 @@
-# JakartaEE -> Overview
+# JAKARTAEE -> OVERVIEW
 
-## Summary
+## SUMMARY
 > [!summary]
 
-## Theory
+## THEORY
 
 
 
@@ -13,22 +13,22 @@ To create JakartaEE projects -> https://start.jakarta.ee
 
 
 
-## Ventajas:
+## VENTAJAS:
 
 - **Estándar empresarial:** Jakarta EE (antes Java EE) es el estándar en el desarrollo empresarial en Java. Está respaldado por la Eclipse Foundation y por un comité de grandes empresas de tecnología. Esto asegura una alta calidad y compatibilidad, algo que es importante en aplicaciones críticas y de larga duración.
 - **Estabilidad y madurez:** Jakarta EE es conocido por ser estable y contar con una gran cantidad de recursos, bibliotecas y documentación. Las empresas que requieren estabilidad suelen preferir Jakarta EE porque ofrece especificaciones muy bien definidas. Compatibilidad con múltiples servidores de aplicaciones: Las aplicaciones de Jakarta EE son fáciles de implementar en una variedad de servidores como Tomcat, Payara, WildFly, etc. Esto es ideal para proyectos que necesitan cambiar de proveedor o plataforma en el futuro.
 - **Simplitud y modularidad:** Con Jakarta EE 10 y su enfoque en módulos, se ha simplificado la creación de servicios y la modularización de aplicaciones. Además, Jakarta EE 10 ha incluido mejoras de productividad que lo modernizan, especialmente en la API REST (JAX-RS), CDI (Inyección de Dependencias), y otros.
 
-## Limitaciones:
+## LIMITACIONES:
 
 
 
 - **Menor comunidad y ecosistema:** Aunque Jakarta EE tiene una comunidad importante, Spring domina en popularidad, especialmente en aplicaciones modernas y en el mundo de microservicios. Curva de aprendizaje: Aunque es estandarizado, algunos conceptos de Jakarta EE requieren tiempo de aprendizaje y no cuenta con tantas herramientas automatizadas como Spring.
 
-# Spring Framework (Spring Boot)
+# SPRING FRAMEWORK (SPRING BOOT)
 
 
-## Ventajas:
+## VENTAJAS:
 
 
 - **Popularidad y demanda en el mercado:** Spring Boot es, en la actualidad, el framework Java más demandado en la industria, especialmente en aplicaciones de microservicios y en arquitecturas modernas. Su uso está muy extendido, y hay gran cantidad de recursos y oportunidades laborales.
@@ -36,14 +36,14 @@ To create JakartaEE projects -> https://start.jakarta.ee
 - **Gran comunidad y soporte:** Spring tiene una gran comunidad, lo que significa abundancia de ejemplos, documentación y soporte. Además, está respaldado por VMware, que tiene un fuerte interés en mantener el ecosistema Spring como la opción de facto en el desarrollo Java.
 - **Flexibilidad y adaptabilidad:** Spring se adapta bien tanto a arquitecturas monolíticas como de microservicios. Puedes elegir fácilmente entre desplegar aplicaciones en la nube, en contenedores como Docker, o incluso en soluciones serverless.
 
-## Limitaciones:
+## LIMITACIONES:
 
 
 
 - **Dependencia de Spring y su ecosistema:** Spring puede ser un poco "exclusivo" en cuanto a sus propias herramientas y configuraciones, lo que puede hacer que tu aplicación dependa de componentes propios del ecosistema Spring.
 - **Complejidad en aplicaciones grandes:** A medida que el proyecto crece, la configuración de Spring puede volverse complicada y difícil de mantener, especialmente en grandes aplicaciones empresariales.
 
-## ¿Cuál estudiar?
+## ¿CUÁL ESTUDIAR?
 
 
 1. Si tu objetivo es tener flexibilidad en proyectos empresariales y trabajar en aplicaciones estables y críticas, Jakarta EE es una excelente opción. En muchas empresas grandes y proyectos gubernamentales sigue siendo un estándar.

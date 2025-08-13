@@ -1,4 +1,4 @@
-# Keybinds & Shortcuts General
+# KEYBINDS & SHORTCUTS GENERAL
 > [!info]- **Obsidian**
 >![[obsidian# Keybinds]]
 

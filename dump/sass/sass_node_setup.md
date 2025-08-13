@@ -1,9 +1,9 @@
-# SASS -> Set-up -> 
-## Configuración de Sass en un Proyecto Vite
+# SASS -> SET-UP -> 
+## CONFIGURACIÓN DE SASS EN UN PROYECTO VITE
 
 Este documento proporciona una guía para configurar Sass en un proyecto Vite, asumiendo que ya tienes instalados [[nodejs]] y [[nodejs_npm]].
 
-## Creación del Proyecto con Vite
+## CREACIÓN DEL PROYECTO CON VITE
 
 **Nuevo Proyecto**
 
@@ -31,14 +31,14 @@ Este documento proporciona una guía para configurar Sass en un proyecto Vite, a
 						npm install vite --save-dev
 ```
 
-## Instalación de Sass
+## INSTALACIÓN DE SASS
 
 1. **Instalar Sass como dependencia de desarrollo:**
 ```bash
 						npm install sass --save-dev
 ```
 
-## Ejecución del Proyecto
+## EJECUCIÓN DEL PROYECTO
 
 2. **Iniciar el servidor de desarrollo de Vite:**
 ```bash
@@ -47,7 +47,7 @@ Este documento proporciona una guía para configurar Sass en un proyecto Vite, a
 
 Este comando inicia el servidor de desarrollo y aplica Hot Module Replacement (HMR) para reflejar inmediatamente los cambios en tus archivos `.scss` en el navegador sin necesidad de recargar la página.
 
-## Generar un directorio `dist` de sass->css
+## GENERAR UN DIRECTORIO `dist` DE SASS->CSS
 
 ```bash
 						sass --watch src/styles:dist/styles

@@ -1,10 +1,10 @@
-# linux > file systems
+# LINUX > FILE SYSTEMS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Overview of common Linux file systems and their characteristics
 
-## Common File Systems
+## COMMON FILE SYSTEMS
 
 1. **Ext4** - Traditional and reliable file system
 2. **[Btrfs](linux_btrfs.md)** - Modern file system with advanced features

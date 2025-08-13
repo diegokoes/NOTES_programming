@@ -1,8 +1,8 @@
-# Windows -> Commands
+# WINDOWS -> COMMANDS
 
-## Universal
+## UNIVERSAL
 
- ### ==**shutdown**== 
+### ==**SHUTDOWN**== 
 
 To automatically shut down your PC after a specific time, use this command:
 
@@ -33,7 +33,7 @@ shutdown -a
 
 
 
-## PowerShell
+## POWERSHELL
 
 
 

@@ -1,4 +1,4 @@
-# Legs
+# LEGS
 - [[Glutes]]
 - [[Quads]]
 - [[Hamstrings]]

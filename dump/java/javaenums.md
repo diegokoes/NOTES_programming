@@ -1,5 +1,5 @@
-# Java -> OOP / Data Types -> Enums
-## Definición y concepto fundamental
+# JAVA -> OOP / DATA TYPES -> ENUMS
+## DEFINICIÓN Y CONCEPTO FUNDAMENTAL
 
 Las enumeraciones o `enum` son un tipo especial de clase en Java que representan un conjunto cerrado y predefinido de valores constantes. Podemos entenderlas de dos maneras:
 
@@ -8,7 +8,7 @@ Las enumeraciones o `enum` son un tipo especial de clase en Java que representan
 
 Las enumeraciones se declaran usando la palabra reservada `enum` y nos permiten definir tipos de datos que consisten en un conjunto fijo de constantes específicas.
 
-## Características básicas de las enumeraciones
+## CARACTERÍSTICAS BÁSICAS DE LAS ENUMERACIONES
 
 - Se definen mediante la palabra reservada `enum`
 - Cada valor del enum es implícitamente `public`, `static` y `final`
@@ -16,7 +16,7 @@ Las enumeraciones se declaran usando la palabra reservada `enum` y nos permiten 
 - Por convención, los nombres de los valores se escriben en mayúsculas
 - Cada enumeración es un tipo de dato independiente que mejora la seguridad de tipos
 
-## Métodos inherentes a todas las enumeraciones
+## MÉTODOS INHERENTES A TODAS LAS ENUMERACIONES
 
 Cada tipo enum incluye automáticamente algunos métodos útiles:
 
@@ -25,34 +25,34 @@ Cada tipo enum incluye automáticamente algunos métodos útiles:
 - `name()`: Devuelve el nombre del valor enum como una cadena
 - `ordinal()`: Devuelve la posición (índice) del valor dentro de la enumeración
 
-## Enumeraciones avanzadas
+## ENUMERACIONES AVANZADAS
 
 Las enumeraciones en Java van mucho más allá de simples constantes nombradas. Son auténticas clases con capacidades avanzadas:
 
-### Atributos y constructores
+### ATRIBUTOS Y CONSTRUCTORES
 
 - Pueden tener atributos (campos) para almacenar información adicional
 - Pueden tener constructores, aunque estos deben ser privados
 - Los atributos suelen declararse como `final` para mantener la inmutabilidad
 
-### Métodos
+### MÉTODOS
 
 - Pueden tener métodos de instancia y métodos estáticos
 - Cada valor de la enumeración puede acceder a estos métodos
 - Permiten encapsular comportamientos asociados a cada constante
 
-### Interfaces y limitaciones de herencia
+### INTERFACES Y LIMITACIONES DE HERENCIA
 
 - No pueden heredar de otras clases (ya heredan implícitamente de `java.lang.Enum`)
 - Pueden implementar interfaces, lo que permite que los valores enum tengan comportamientos polimórficos
 - Cada valor de la enumeración puede proporcionar implementaciones específicas para métodos abstractos
 
-### Sobrescritura de métodos por valor
+### SOBRESCRITURA DE MÉTODOS POR VALOR
 
 - Cada valor individual de la enumeración puede sobrescribir métodos, proporcionando comportamientos específicos
 - Esto permite que cada constante tenga su propia implementación de un método
 
-## Casos de uso comunes
+## CASOS DE USO COMUNES
 
 1. **Representación de conjuntos fijos de valores**:
    - Direcciones cardinales: NORTE, SUR, ESTE, OESTE
@@ -70,9 +70,9 @@ Las enumeraciones en Java van mucho más allá de simples constantes nombradas. 
    - Tipos de ordenamiento: ASCENDENTE, DESCENDENTE
    - Formatos de archivo: PDF, DOC, TXT, XML
 
-## Análisis de los ejemplos de código
+## ANÁLISIS DE LOS EJEMPLOS DE CÓDIGO
 
-### Ejemplo 1: Enumeración simple (DiaSemana)
+### EJEMPLO 1: ENUMERACIÓN SIMPLE (DIASEMANA)
 
 ```java
 public enum DiaSemana {
@@ -90,7 +90,7 @@ for(DiaSemana dia : DiaSemana.values()) {
 }
 ```
 
-### Ejemplo 2: Enumeración avanzada (EstadoPedido)
+### EJEMPLO 2: ENUMERACIÓN AVANZADA (ESTADOPEDIDO)
 
 ```java
 public enum EstadoPedido {
@@ -128,7 +128,7 @@ Esta enumeración demuestra características avanzadas:
 - Define atributos privados y finales
 - Proporciona métodos getter para acceder a los atributos
 
-## Ventajas de usar enumeraciones
+## VENTAJAS DE USAR ENUMERACIONES
 
 1. **Seguridad de tipos**: El compilador verifica que solo se utilicen los valores definidos, evitando errores en tiempo de ejecución.
 2. **Legibilidad del código**: Los nombres descriptivos de las constantes hacen el código más comprensible.
@@ -136,7 +136,7 @@ Esta enumeración demuestra características avanzadas:
 4. **Potencia expresiva**: Permite asociar comportamientos y datos a cada constante.
 5. **Compatibilidad con switch**: Se integran perfectamente con expresiones y sentencias switch.
 
-## Uso con estructuras de control
+## USO CON ESTRUCTURAS DE CONTROL
 
 Las enumeraciones son particularmente útiles con las estructuras `switch`, como se ve en el método `saludoDia`:
 
@@ -156,7 +156,7 @@ public static String saludoDia(DiaSemana dia) {
 
 Este código aprovecha la sintaxis moderna de `switch` con expresiones lambda y permite agrupar casos (como VIERNES y SÁBADO).
 
-## Comparación entre enumeraciones simples y avanzadas
+## COMPARACIÓN ENTRE ENUMERACIONES SIMPLES Y AVANZADAS
 
 | Característica | Enumeración Simple | Enumeración Avanzada |
 |----------------|--------------------|-----------------------|
@@ -166,7 +166,7 @@ Este código aprovecha la sintaxis moderna de `switch` con expresiones lambda y 
 | Comportamiento | Uniforme | Puede variar entre constantes |
 | Uso típico | Conjuntos simples | Entidades con datos y comportamiento |
 
-## Consideraciones de diseño
+## CONSIDERACIONES DE DISEÑO
 
 1. **Inmutabilidad**: Es una buena práctica que los enums sean inmutables, declarando sus campos como `final`.
 2. **Singleton**: Cada constante de enum es efectivamente un singleton, garantizando una única instancia.
@@ -174,16 +174,16 @@ Este código aprovecha la sintaxis moderna de `switch` con expresiones lambda y 
 4. **Rendimiento**: Las comparaciones entre valores enum son muy eficientes (comparación de referencias).
 5. **Extensibilidad**: Si se anticipa la necesidad de agregar nuevas constantes frecuentemente, quizás un enum no sea la mejor opción.
 
-## Conclusión
+## CONCLUSIÓN
 
 Las enumeraciones en Java son una poderosa herramienta que va mucho más allá de simples constantes. Permiten definir tipos seguros con un conjunto cerrado de valores posibles, que pueden tener atributos y comportamientos específicos. Su uso adecuado mejora la legibilidad, la seguridad y la mantenibilidad del código, especialmente en situaciones donde tenemos un conjunto fijo y conocido de opciones o estados.
-## Summary
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

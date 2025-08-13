@@ -1,4 +1,4 @@
-# Spring 
+# SPRING 
 - [[springroughnotes|Rough Notes]]
 - **Basic**
 	- [Keybinds](springkeybinds.md)

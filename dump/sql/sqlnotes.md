@@ -1825,7 +1825,7 @@ SELECT * FROM LIBRERIA;
 
 
 # D- 2_APUNTES_SUCIO
-### *08/01/24*
+## *08/01/24*
 
 
              CREATE TABLE NOSE11
@@ -1927,7 +1927,7 @@ SELECT * FROM LIBRERIA;
                     
              INSERT INTO NOSE11 VALUES('SARA',09089908,'owo@gmail.com','TORREJON');
 
-###  *11/01/24*
+##  *11/01/24*
 
 DEFAULT, si no damos un valor a un campo, se queda a null. 
 
@@ -2041,7 +2041,7 @@ si es de n a n la relacion coches-pesonas , se crea personas, coches, y una nuev
 
 
 
-### *12/01/24*
+## *12/01/24*
      CLIENTES       PRODUCTOS     
          |             |
         1:N            |
@@ -2108,7 +2108,7 @@ si es de n a n la relacion coches-pesonas , se crea personas, coches, y una nuev
   
   DELETE FROM CLIENTES WHERE DNI='1';  -- DEMOSTRACION DEL ON DELETE CASCADE
 
-### *15/01/24*
+## *15/01/24*
 *----------------------------------------  ATRIBUTOS VIRTUALES --------------------------------*
 Los atributos virtuales no gastan espacio en disco. Desventaja : hay que procesar la expresión para calcularlos. Estan disponibles 
 Tantos atributos virtuales como queramos, en cualquier orden. Lo normal es ponderlos al final 
@@ -2192,7 +2192,7 @@ IBAN: ES34CCC
 
       
 
-### *18/01/24*
+## *18/01/24*
 
 Copiando tablas con 
 
@@ -2305,7 +2305,7 @@ DEJA AÑADIR UN ATRIBUTO VIRTUAL ¿? EN C5 ,   SI
 	APE2 VARCHAR2(30)
 	) TABLESPACE USUDAW2;
 
-### *19/01/24*
+## *19/01/24*
 	PARTICIONAMIENTO 
 	PRIMARY KEY, FOREIGN KEY, Y LUEGO OTRA CLAVE ES LA CLAVE DE PARTICIONAMIENTO. CON ELLA INDICAMOS (PUEDE SER COMPUESTA)
 	QUE LOS DATOS QUE TENGAN UNA RELACIÓN, SE JUNTEN FÍSICAMENTE. HAY QUE PONER UN BUEN CRITERIO DE BUSQUEDA PARA LA CLAVE DE PARTICIONAMIENTO
@@ -2412,7 +2412,7 @@ CREATE TABLE ALUMNOS
 	PARTITION TERCER_GRUPO ALUESS LESS THAN ('Z')
 	);
 
-### *22/01/24*
+## *22/01/24*
 
 	CREATE TABLE MATERIAS
 		(CODIGO NUMBER PRIMARY KEY,
@@ -2428,7 +2428,7 @@ CREATE TABLE ALUMNOS
 	Se necesita poner default, como max value de rango para las que no esten en lo listado
 
 	falta despues del recreo   C8 
-### *25/01/24*
+## *25/01/24*
 	ALTER TABLE NOSE1122 RENAME PARTITION UNO TO UNOO; -- RENOMBRAR         PARTICIONES
 
 	- CON LAS PARTICIONES, PODEMOS BORRARLAS SIN BORRAR LA TABLA
@@ -2464,7 +2464,7 @@ PARTICIONAMIENTO POR INTERVALOS
 
 	FUNCIONA CON FECHA Y CON NUMEROS, CON VARCHAR2  ¡¡¡ NO !!
 	
-### *29/01/24*
+## *29/01/24*
 CREATE TABLE MUTANTE
  (COD NUMBE CONSTRAINT C_MUTANTE CHECK (COD>=1),
  NOM VARCHAR2(30),
@@ -2512,7 +2512,7 @@ CREATE TABLE PERSONAS
 
 Falta el 01/02
 
-### *05/02/24*
+## *05/02/24*
 	Probando si funciona particionamiento primario de un tipo, y un subparticionamiento by list.
 	STORAGE  -- a cualquiera d elas tablas, antes o despues de subpartition
 		(INITIAL 128K
@@ -2533,7 +2533,7 @@ se pueden usar en programas
 
 
 
-### *09/02/24*
+## *09/02/24*
 	 ON COMMIT PRESEVE ROWS - AUNQUE COMITEMOS SE MANTIENEN
 	 SE DESTRUYE CUANDO SE CIERRA LA SESION
 	GENERAN INFORMACION DE ROLLBACK 
@@ -2549,7 +2549,7 @@ COMPRESIÓN DE TABLAS
 		-avanzada: no hay limitacion de las columnas
 	se puede hacer a nivel de tablespace, a nivel de particion, subparticion y a nivel de tabla
 
-### *12/02/24*
+## *12/02/24*
 	IMPORTA DONDE PONES EL COMPRESS FOR, DENTOR DE UNA PARTICION, SOLO DONDE LA PONGAS LA TIENE,
 	SI ES FUERA TODAS 
 
@@ -2567,7 +2567,7 @@ COMPRESIÓN DE TABLAS
 ![[Pasted image 20240212182141.png]]
 ![[Pasted image 20240212182305.png]]
 
-### *16/02/24* 
+## *16/02/24* 
 	VISTAS
 	CREATE OR REPLACE VIEW VISTA2 
 		AS SELECT APELLIDO,LOC
@@ -2666,7 +2666,7 @@ COMPRESIÓN DE TABLAS
 			CREATE PUBLIC SYNONIM NOSEQPONERSINONIMOPUBLICO FOR PROFE.NOSEQPONER;
 		SELECT * FORM USER_SYNONIMS;
 		DROP PUBLIC SYNONIM.... DROP SYNONIM...
-### *19/02/24*
+## *19/02/24*
 	VISTAS MATERIALIZADAS
 		Gastan extend
 		No va a cambiar de datos conforme cambie la original
@@ -2824,7 +2824,7 @@ COMPRESIÓN DE TABLAS
 			
 	SE PUEDE HACE JOIN + FAST REFRESH? REFRESH FAST FUNCIONA ON DEMMAND, COMMIT, START, NEXT...
 
-### *26/02/24*
+## *26/02/24*
 
 	PRIMER EJEMPLO,  DE VISTA10 CON INMEDIATE FUNCIONA, CON DEFERRED NO FUNCIONA EL FAST REFRESH 
 	(HA JUNTAODO EL EJEMPLO EN EL DOCUMENTO)
@@ -2875,9 +2875,9 @@ COMPRESIÓN DE TABLAS
 	EXPLAIN PLAN FOR... C18
 
 
-### *29/02/24* falta
+## *29/02/24* FALTA
 
-### *01/03/24*
+## *01/03/24*
 	crear usuarios 
 		sintaxis: CREATE USER nombreUSUARIO
 			IDENTIFIED BY claveUSUARIO
@@ -2919,7 +2919,7 @@ COMPRESIÓN DE TABLAS
 SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FROM DBA_TS_QUOTAS 
        WHERE USERNAME LIKE 'ALU%';
 
-### *04/03/24*
+## *04/03/24*
 	ROLES 
 		1º crea un usuario (scott): CREATE USER NUEVO
 									IDENTIFIED BY nuevo 
@@ -3018,7 +3018,7 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 					END IF;
 					RETURN SW;
 				END VALIDAR;
-### *07/03/24*
+## *07/03/24*
 	SELECT * FROM DBA_PROFILES; 
 	ALTER PROFILE (NECESITA PRIV) LIMIT
 		PASSWORD_VERIFY_FUNCTION VALIDAR; (LLAMA A LA FUNCION VALIDAR)
@@ -3109,7 +3109,7 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 		-- MIRAR LO DE LA CLASE DE SANTI  EN TABLA PONER NTABLE, TABLE(TEL) P PARA VEERLO
 															P.COLUMN_VALUE
 
-### *11/03/24*
+## *11/03/24*
 	
 # E- 3_APUNTES_LIMPIO
 ## E.1- VISTAS IMPORTANTES
@@ -3435,7 +3435,7 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 	 ALTER TABLE EXTERNA LOCATION('DATOS2.TXT','DATOS3.TXT');  
 
 
-## E.3- Particiones
+## E.3- PARTICIONES
 
 	ALTER TABLE NOSE1122 RENAME PARTITION UNO TO UNOO; -- RENOMBRAR         PARTICIONES
 	ALTER TABLE NOSE1122 EXCHANGE PARTITION TRES WITH TABLE NOSE1122BIS;
@@ -3522,9 +3522,9 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 				PARTITION PENDIENTE VALUES (DEFAULT) TABLESPACE USUDAW
 				);
 		Se necesita poner default, como max value de rango para las que no esten en lo listado
-### Hash
+### HASH
 
-### Intervalos
+### INTERVALOS
 	SELECT NUMTOYMINTERVAL(1,'YEAR') FROM DUAL; SOLO YEARMONTH EN YM
 		SELECT NUMTODSINTERVAL(1,'DAY') FROM DUAL; INTERVALOS DE DIA 
 			DAY, HOUR,MINUTE,SECOND
@@ -3557,7 +3557,7 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 					SELECT NUMTODSINTERVAL(1,'MINUTE') FROM DUAL;
 					SELECT NUMTODSINTERVAL(1,'SECOND') FROM DUAL;
 
-### Merge
+### MERGE
 	Los merges o fusiones de particiones son operaciones que permiten combinar dos o más particiones adyacentes en una sola partición más grande. 
 	
 	1. Merge en particionamiento por rango (RANGE):
@@ -3594,7 +3594,7 @@ SELECT USERNAME,TABLESPACE_NAME, TRUNC((BYTES/MAX_BYTES)*100,2) AS PORCENTAJE FR
 					ALTER INDEX PK_MUTANTE REBUILD;
 
 
-## E.4- Subparticiones
+## E.4- SUBPARTICIONES
 
 	ALTER TABLE ALUMNO2 ADD SUBPARTITION  NEURO VALUES('N','n');       --casca
 			CASCCA PORQUE SI ESTA ESTABLECITA EN TEMPLATE NO PUEDES AÑADIR
@@ -4032,17 +4032,17 @@ Sinonimos
 	**);
 
 
-## E.13- Vistas
+## E.13- VISTAS
 
-### Vistas NO Materializadas
+### VISTAS NO MATERIALIZADAS
 
 
 	
 
-### Vistas Materializadas
+### VISTAS MATERIALIZADAS
 
 
-# F- 4_EJERCICIOSs
+# F- 4_EJERCICIOSS
 ## F.1- *CERO DIAGRAMA*
 	CREATE TABLE AUTOR
 	(CODIGO_A NUMBER CONSTRAINT PK_AUTOR PRIMARY KEY,
@@ -4198,7 +4198,7 @@ Sinonimos
 	tabla anterior?
 
 
-# G- Apuntes sucio
+# G- APUNTES SUCIO
 ## G.1- *18-03-24*
 	BLOQUE ANONIMO: 
 		DECLARE (ES OPCIONAL)
@@ -4691,7 +4691,7 @@ END;
 			DBMS_OUTPUT.PUT_LINE(TEXTO);
 		END LLAMAR_ALEATORIA;
 		
-## G.6- *11-04-24*  c6
+## G.6- *11-04-24*  C6
 	al igual que las variables globales, los parametros de la rutina de jerarquia mayor, son globales y se pueden usar en las subrutinas de dentro. 
 	
 	una subrutina puede llamar a otra (calcular media que llame a calculardepartamento). Siempre que no esté "delante" que no lo dejaría compilar. Se puede solucionar con prototipado, declarando la funcion antes solo con la cabecera para que 'conozca' la funcion.
@@ -5650,8 +5650,8 @@ CREATE TABLE ALUMNOS ( DNI VARCHAR2(10) NOT NULL, APENOM VARCHAR2(30), DIREC VAR
 
 
 
-# H- Apuntes limpios
-## H.1- Introduccion
+# H- APUNTES LIMPIOS
+## H.1- INTRODUCCION
 	bloques de PL 
 		tipos:
 		 - No almacenados: (codigo no se guarda en la BB.DD)
@@ -5671,7 +5671,7 @@ CREATE TABLE ALUMNOS ( DNI VARCHAR2(10) NOT NULL, APENOM VARCHAR2(30), DIREC VAR
 		varchar2 -> limite 32k
 			
 
-## H.2- Bloques anonimos 
+## H.2- BLOQUES ANONIMOS 
 		si no se inicializan las variables, valen null 
 ## H.3- IN OUT
 

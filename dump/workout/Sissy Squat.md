@@ -1,4 +1,4 @@
-# Sissy Squat
+# SISSY SQUAT
 1. 
 >
 ---

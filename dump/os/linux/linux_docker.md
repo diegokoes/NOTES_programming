@@ -1,21 +1,21 @@
-# linux > docker
+# LINUX > DOCKER
 
-## Summary
+## SUMMARY
 > [!summary]
 > Docker containerization platform for Linux
 
-## Theory
+## THEORY
 
-### What is Docker?
+### WHAT IS DOCKER?
 Docker is a platform for developing, shipping, and running applications in containers.
 
-### Key Concepts
+### KEY CONCEPTS
 - **Images** - Read-only templates for containers
 - **Containers** - Running instances of images
 - **Dockerfile** - Instructions to build images
 - **Docker Compose** - Multi-container applications
 
-### Basic Commands
+### BASIC COMMANDS
 ```bash
 # List running containers
 docker ps
@@ -30,7 +30,7 @@ docker build -t myapp .
 docker-compose up -d
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- When should I use Docker?
 > Use Docker for application isolation, development environment consistency, and easy deployment.

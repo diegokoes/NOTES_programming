@@ -14,7 +14,7 @@ unprivileged: 1
 
 fstab
 
-# <file system> <mount point> <type> <options> <dump> <pass>
+# <FILE SYSTEM> <MOUNT POINT> <TYPE> <OPTIONS> <DUMP> <PASS>
 /dev/pve/root / ext4 errors=remount-ro 0 1
 UUID=E081-4044 /boot/efi vfat defaults 0 1
 /dev/pve/swap none swap sw 0 0

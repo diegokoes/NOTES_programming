@@ -1,4 +1,4 @@
-# Squat
+# SQUAT
 >[!tip] Tips
 > Never knees first
 > Toes pointed a bit out

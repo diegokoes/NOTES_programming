@@ -1,4 +1,4 @@
-# python > tuples
+# PYTHON > TUPLES
 
 any type, mix of them too.
 

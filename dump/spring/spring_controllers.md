@@ -1,8 +1,8 @@
-# Controllers in Spring
+# CONTROLLERS IN SPRING
 
 Controllers are pivotal in handling incoming HTTP requests, processing them, and returning appropriate responses. This section covers various aspects of Spring Controllers, including key annotations and best practices.
 
-## Table of Contents
+## TABLE OF CONTENTS
 
 1. [Introduction to Controllers](#introduction-to-controllers)
 2. [Key Annotations](#key-annotations)
@@ -18,13 +18,13 @@ Controllers are pivotal in handling incoming HTTP requests, processing them, and
 
 - - - 
 
-## Introduction to Controllers
+## INTRODUCTION TO CONTROLLERS
 
 [Detailed explanation about Controllers...]
 
-## Key Annotations
+## KEY ANNOTATIONS
 
-### @RequestMapping
+### @REQUESTMAPPING
 
 `@RequestMapping` is used to map HTTP requests to handler methods of MVC and REST controllers.
 

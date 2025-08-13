@@ -1,9 +1,9 @@
-# Java -> Exceptions ->  Hierarchy
-## Summary
+# JAVA -> EXCEPTIONS ->  HIERARCHY
+## SUMMARY
 > [!summary]
 > Java's exception mechanism is built around a class hierarchy with Throwable as the root class. This hierarchy branches into Error (serious problems) and Exception (recoverable conditions). Exceptions are further divided into checked exceptions (must be explicitly handled) and unchecked exceptions (RuntimeException subclasses), each serving different purposes in error handling. Understanding this hierarchy helps developers choose the appropriate exception types for different error scenarios.
 
-## Exception Class Hierarchy
+## EXCEPTION CLASS HIERARCHY
 
 ```
                               java.lang.Throwable
@@ -18,7 +18,7 @@
                                                                (Unchecked Exceptions)
 ```
 
-### Root: Throwable
+### ROOT: THROWABLE
 
 `java.lang.Throwable` is the root class of the exception hierarchy. All objects that can be thrown and caught in Java are instances of Throwable or one of its subclasses. Key methods:
 
@@ -27,9 +27,9 @@
 - `printStackTrace()`: Prints stack trace to standard error stream
 - `getCause()`: Returns the cause of this exception
 
-### Primary Branches
+### PRIMARY BRANCHES
 
-#### 1. Error
+#### 1. ERROR
 
 `java.lang.Error` represents serious problems that a reasonable application should not try to catch. Most Error instances are abnormal conditions that should never occur.
 
@@ -42,13 +42,13 @@
   - `NoClassDefFoundError`: Required class not found
 - `AssertionError`: Assertion failed
 
-#### 2. Exception
+#### 2. EXCEPTION
 
 `java.lang.Exception` is the superclass of all checked exceptions. This branch represents conditions that a reasonable application might want to catch.
 
-### Checked vs. Unchecked Exceptions
+### CHECKED VS. UNCHECKED EXCEPTIONS
 
-#### Checked Exceptions
+#### CHECKED EXCEPTIONS
 
 Checked exceptions extend `Exception` but not `RuntimeException`. They **must** be either:
 1. Caught in a try-catch block, or
@@ -66,7 +66,7 @@ The compiler enforces this requirement. Checked exceptions represent expected bu
 - `InterruptedException`: Thread interrupted
 - `ParseException`: Error during parsing
 
-#### Unchecked Exceptions
+#### UNCHECKED EXCEPTIONS
 
 Unchecked exceptions fall into two categories:
 1. Subclasses of `RuntimeException`
@@ -88,21 +88,21 @@ These do not need to be caught or declared. They typically represent programming
 - `ClassCastException`: Invalid cast attempt
 - `ArithmeticException`: Arithmetic error (e.g., division by zero)
 
-## Design Philosophy
+## DESIGN PHILOSOPHY
 
-### Why Two Types of Exceptions?
+### WHY TWO TYPES OF EXCEPTIONS?
 
 - **Checked Exceptions**: For recoverable conditions where the API designer expects callers to handle the exceptional condition
 - **Unchecked Exceptions**: For programming errors and unrecoverable situations
 
-### Exception Propagation
+### EXCEPTION PROPAGATION
 
 1. When an exception occurs, the JVM creates an exception object
 2. The exception propagates up the call stack until:
    - It's caught by an appropriate catch block
    - It reaches the top of the thread's stack (causing program termination)
 
-### Choosing Exception Types
+### CHOOSING EXCEPTION TYPES
 
 Guidelines for deciding which exception type to use:
 
@@ -114,7 +114,7 @@ Guidelines for deciding which exception type to use:
 | Precondition violation | IllegalArgumentException or similar |
 | Impossible state | Error subclass (rare for custom code) |
 
-## Questions
+## QUESTIONS
 
 > [!tip]- Why doesn't Java force developers to handle RuntimeException?
 > RuntimeExceptions typically represent programming errors (like null pointers or invalid indices) that should be fixed rather than caught. Forcing developers to handle these would result in excessive try-catch blocks that obscure code logic. Runtime exceptions can occur almost anywhere, so requiring explicit handling would make code less maintainable. By making them unchecked, Java allows developers to focus on exceptional business conditions while still fixing actual bugs when they're discovered.

@@ -1,9 +1,9 @@
-# Java -> Data Types -> Classes
-## Summary
+# JAVA -> DATA TYPES -> CLASSES
+## SUMMARY
 > [!summary]
 > Classes are blueprints for creating objects. They define state (fields) and behavior (methods).
 
-## Theory
+## THEORY
 Classes are fundamental to OOP in Java. They can contain fields, methods, constructors, and nested classes. Inheritance allows a class to extend another, promoting code reuse.
 
 public class Example {
@@ -16,7 +16,7 @@ public class Example {
     }
 }
 
-## Questions
+## QUESTIONS
 > [!tip]- What is the main purpose of a Java class?
 > To define the structure and behavior of objects.
 

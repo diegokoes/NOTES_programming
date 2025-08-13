@@ -1,5 +1,5 @@
-# SQL -> Joins
-## Definition
+# SQL -> JOINS
+## DEFINITION
 
 **Official:**  
 > Un `JOIN` combina filas de dos o más tablas basándose en una condición relacionada, como claves primarias y foráneas.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué es un INNER JOIN?**  
 > Recupera las filas que tienen coincidencias en ambas tablas.  
@@ -38,7 +38,7 @@
 
 ---
 
-## Use
+## USE
 
 ## C.1- **NATURAL JOIN:**
 ```sql
@@ -47,7 +47,7 @@ FROM empleados
 NATURAL JOIN departamentos;
 ```
 
-## C.2- **JOIN con Alias:**
+## C.2- **JOIN CON ALIAS:**
 ```sql
 SELECT e.nombre, d.nombre AS "Departamento" 
 FROM empleados e 

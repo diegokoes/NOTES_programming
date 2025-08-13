@@ -1,4 +1,4 @@
-# Dumbbell Fly 
+# DUMBBELL FLY 
 
 1. Chest Up, arch back
 2. Shoulders retracted

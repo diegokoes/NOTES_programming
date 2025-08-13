@@ -1,6 +1,6 @@
-# History
+# HISTORY
 
-## Thematic Approaches
+## THEMATIC APPROACHES
 - [[Political Systems and Governance]]
 - [[Economic Developments]]
 - [[Cultural and Intellectual Movements]]
@@ -9,7 +9,7 @@
 - [[Migration and Population Movements]]
 - [[Religious and Philosophical Thought]]
 
-## Regional Perspectives
+## REGIONAL PERSPECTIVES
 - [[Europe]]
 - [[East Asia]]
 - [[South Asia]]

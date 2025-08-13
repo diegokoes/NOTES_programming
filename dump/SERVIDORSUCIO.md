@@ -19,7 +19,7 @@ La segunda forma para hacer eso : *try con recursos*
 try (parentesis) donde creamos el objeto/inicializamos dentro del bloque en paréntesis, pase lo qu pase lo cierra. Averiguar por qué. 
 
 ,,
-## 17/09/2024
+# 17/09/2024
 
 
 ![[Pasted image 20240918160518.png]]
@@ -28,7 +28,7 @@ try (parentesis) donde creamos el objeto/inicializamos dentro del bloque en par�
 
 
 
-## 19/09/2024
+# 19/09/2024
 ```
 @WebServlet(
     urlPatterns = {"/init", "/init-servlet"},
@@ -43,7 +43,7 @@ try (parentesis) donde creamos el objeto/inicializamos dentro del bloque en par�
 ```
 
 
-## 20/09/2024
+# 20/09/2024
 
 initservlet, dos nombrs, con coma en urlPatterns.
 initParams, valores iniciales, para poener un valor que va a ser constante, leer una vez... un directorio por ej donde va a guardar ficheros. o tipos validos, "jpg,gif,png"...  y peticiones 5, que luego ha hecho una declaracion global private int peticiones ( en el metodo init) . El init se ejecuta solo una vez. Se inicia con valor 5 y con cada una de las peticiones se valor aumentará. 
@@ -53,7 +53,7 @@ init, destroy, doget y dopost
 
 usuario -> init -> service-> hilo/thread -> doPost/doGet   paralelos/concurrente (ampliar)
 
-## 30/09/2024
+# 30/09/2024
 
 Está subido al github
 Por ahora monolíticas las apps, con el war. A nivel de comunicación o relación, es una app cliente/servidor basica normal. 
@@ -72,7 +72,7 @@ En memoria 1 instancia del servlet (1 objeto) por cada petición, el contenedor 
 
 Por rutina lanzar siempre SERVIDOR primero y luego cliente. 
 
-## 02/10/2024
+# 02/10/2024
 
 entender forma 2 de index2.jsp,
 
@@ -94,7 +94,7 @@ Ver todos los materiales de apoyo.
  
 Mañana unidad de trabajo 3
 
-## 03/10/2024
+# 03/10/2024
 
 Teoría cabeceras http
 
@@ -116,7 +116,7 @@ listas/colecciones,  buscar, necesitas el metodo equals.
 
 Comparable y Comparator. 
 
-## 04/10/2024
+# 04/10/2024
 
 Manejar las cabeceras del response, no en html, en otro formato.
 
@@ -129,18 +129,18 @@ Cómo hacer clases genéricas.
 
 metodo response para que pueda llevar tildes?
 
-## 10/10/2024
+# 10/10/2024
 
 Cabeceras : ## Ejercicio 5.3: buscar producto. En el caso de que no se encuentre devolveremos un Status HTTP Response 404
 
-## 14/10/2024
+# 14/10/2024
 
 podemos guardar cualquier cosa en sesiones basicamente.
 accedemos a httpsession, siempre existe. 
 
 getSession  con true por defecto?
 
-## 18/10/2024
+# 18/10/2024
 JDBC
 executeQuery (select)
 executeUpdate (insert, update, delete).
@@ -151,15 +151,15 @@ no vamos a hacer transacciones, con JPA sí
 ver presentaciones jdbc
 
 
-## 24/10/2024
+# 24/10/2024
 
 teoria cdi, spring, quarkus.
 
-## 09/01/2024
+# 09/01/2024
 19:21 
 
-## 20/01/2024
+# 20/01/2024
 Validaciones quedaron pendientes
 
-## 27/01/2024
+# 27/01/2024
 mirar lo de n a m , la tabla intermedia si se actualiza al inscribir estudiantes.

@@ -1,5 +1,5 @@
-# TypeScript -> Union & Intersection
-## Summary
+# TYPESCRIPT -> UNION & INTERSECTION
+## SUMMARY
 
 **Official:**  
 > Los tipos de unión (`Union`) y de intersección (`Intersection`) en TypeScript permiten combinar múltiples tipos para ampliar o restringir las posibilidades de los valores que una variable puede tener.
@@ -11,12 +11,12 @@
 
 ---
 
-## Theory
+## THEORY
 
-### Union Types (`|`)
+### UNION TYPES (`|`)
 Permiten que una variable acepte múltiples tipos de datos. Son útiles cuando un valor puede ser de más de un tipo.
 
-#### Ejemplo Básico:
+#### EJEMPLO BÁSICO:
 >[!info]- **Uso de Union Types**  
 > ```typescript
 > let id: string | number;
@@ -24,7 +24,7 @@ Permiten que una variable acepte múltiples tipos de datos. Son útiles cuando u
 > id = "ABC"; // También válido
 > ```
 
-#### Uso en Funciones:
+#### USO EN FUNCIONES:
 Se pueden usar para manejar parámetros con diferentes tipos.
 >[!info]- **Union Types en funciones**  
 > ```typescript
@@ -41,10 +41,10 @@ Se pueden usar para manejar parámetros con diferentes tipos.
 
 ---
 
-### Intersection Types (`&`)
+### INTERSECTION TYPES (`&`)
 Permiten combinar múltiples tipos, exigiendo que una variable cumpla con las características de todos ellos.
 
-#### Ejemplo Básico:
+#### EJEMPLO BÁSICO:
 >[!info]- **Uso de Intersection Types**  
 > ```typescript
 > type Persona = { nombre: string; };
@@ -54,7 +54,7 @@ Permiten combinar múltiples tipos, exigiendo que una variable cumpla con las ca
 > let trabajador: EmpleadoPersona = { nombre: "Diego", salario: 3000 };
 > ```
 
-#### Uso en Estructuras Complejas:
+#### USO EN ESTRUCTURAS COMPLEJAS:
 >[!info]- **Intersection Types con interfaces complejas**  
 > ```typescript
 > interface Usuario {
@@ -76,7 +76,7 @@ Permiten combinar múltiples tipos, exigiendo que una variable cumpla con las ca
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué es un Union Type en TypeScript?**  
 > Es una combinación de tipos que permite que una variable tenga más de un tipo posible.  

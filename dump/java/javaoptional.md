@@ -1,24 +1,24 @@
-# Java -> Optional
-## Summary
+# JAVA -> OPTIONAL
+## SUMMARY
 > [!summary]-
 > 
 - - - 
-## Theory
-# Understanding Optional Methods in Java
+## THEORY
+# UNDERSTANDING OPTIONAL METHODS IN JAVA
 
 `Optional` provides several methods to work with potentially absent values. Let's explore the key methods and their differences:
 
-### Optional.of vs Optional.ofNullable
+## OPTIONAL.OF VS OPTIONAL.OFNULLABLE
 
 - **`Optional.of(value)`**: Creates an Optional containing the specified non-null value. Throws `NullPointerException` if value is null.
 
 - **`Optional.ofNullable(value)`**: Creates an Optional containing the specified value if non-null, otherwise returns an empty Optional. This is safer when you're not certain if the value is null.
 
-### Common Optional Methods
+## COMMON OPTIONAL METHODS
 
 These are methods of the `Optional` class, not Stream methods (though some have similar names):
 
-#### Terminal Operations (extract value or perform action)
+### TERMINAL OPERATIONS (EXTRACT VALUE OR PERFORM ACTION)
 
 - **`ifPresent(Consumer<T>)`**: Executes the consumer if a value is present
 - **`ifPresentOrElse(Consumer<T>, Runnable)`**: Executes first action if value present, second if empty
@@ -30,13 +30,13 @@ These are methods of the `Optional` class, not Stream methods (though some have 
 - **`orElseThrow()`**: Returns the value if present, otherwise throws NoSuchElementException
 - **`orElseThrow(Supplier<X>)`**: Returns the value if present, otherwise throws exception from supplier
 
-#### Intermediate Operations (returns another Optional)
+### INTERMEDIATE OPERATIONS (RETURNS ANOTHER OPTIONAL)
 
 - **`filter(Predicate<T>)`**: If value present and matches predicate, returns the Optional, otherwise empty
 - **`map(Function<T,U>)`**: If value present, applies function to it and returns Optional of result
 - **`flatMap(Function<T,Optional<U>>)`**: Similar to map but the mapping function returns an Optional
 
-### Example Chaining
+## EXAMPLE CHAINING
 
 You could rewrite parts of your code with different approaches:
 
@@ -68,7 +68,7 @@ Optional.ofNullable(request.getParameter("email"))
     );
 ```
 
-### Key Differences from Stream API
+## KEY DIFFERENCES FROM STREAM API
 
 While some method names overlap with Stream API (like `filter` and `map`):
 
@@ -76,7 +76,7 @@ While some method names overlap with Stream API (like `filter` and `map`):
 - Stream is focused on processing sequences of elements
 
 Both use functional programming concepts but serve different purposes.
-## Questions
+# QUESTIONS
 > [!tip]- Question
 > Answer
 

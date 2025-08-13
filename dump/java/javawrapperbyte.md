@@ -1,15 +1,15 @@
-# Java -> Data Types -> Byte
-## Summary
+# JAVA -> DATA TYPES -> BYTE
+## SUMMARY
 > [!summary]
 > Byte wraps the byte primitive, providing utility methods and a range of −128 to 127.
 
-## Theory
+## THEORY
 Byte is often used for streams or memory-constrained operations. Autoboxing converts byte to Byte automatically:
 
 byte b = 10;
 Byte boxed = b; // Autoboxed
 
-## Questions
+## QUESTIONS
 > [!tip]- What is the default value of a Byte object?
 > null, because Byte is a reference type.
 

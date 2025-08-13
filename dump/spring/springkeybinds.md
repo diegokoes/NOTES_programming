@@ -1,2 +1,2 @@
-# Keybinds
+# KEYBINDS
 - `Ins + Enter` -> 

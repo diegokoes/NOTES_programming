@@ -1,10 +1,10 @@
 {
   "hideStatus": false,
-  "hideTabs": true,
+  "hideTabs": false,
   "hideScroll": true,
   "hideSidebarButtons": true,
   "hideTooltips": false,
-  "hideFileNavButtons": false,
+  "hideFileNavButtons": true,
   "hideSearchSuggestions": false,
   "hideSearchCounts": false,
   "hideInstructions": false,

@@ -1,12 +1,12 @@
-# linux > distros > arch linux
+# LINUX > DISTROS > ARCH LINUX
 
-## Summary
+## SUMMARY
 > [!summary]
 > Arch Linux installation and configuration guide
 
-## Theory
+## THEORY
 
-### Installation Process
+### INSTALLATION PROCESS
 
 Basic installation commands:
 - `setfont ter-132b` - Set larger font for installation
@@ -18,16 +18,16 @@ Network check:
 - `ip link` - Check network interfaces
 - `ping archlinux.org` - Test connectivity
 
-### Partitioning
+### PARTITIONING
 
 ```bash
 fdisk /dev/disktopartition
 ```
 
-### File System
+### FILE SYSTEM
 - Recommended: [[linux_btrfs|Btrfs]]
 
-### Recommended Programs
+### RECOMMENDED PROGRAMS
 
 **Audio/Music:**
 - [Tauon Music Box](https://aur.archlinux.org/packages/tauon-music-box)
@@ -37,7 +37,7 @@ fdisk /dev/disktopartition
 **Virtualization:**
 - Use ext4 submodule for VMs
 
-## Questions
+## QUESTIONS
 
 > [!tip]- What's the recommended font size for installation?
 > Use `ter-132b` for better visibility during installation

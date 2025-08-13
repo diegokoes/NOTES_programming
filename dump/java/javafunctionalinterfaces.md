@@ -1,5 +1,5 @@
-# Java: Functional Interfaces
-## Definition
+# JAVA: FUNCTIONAL INTERFACES
+## DEFINITION
 **Official:**
 > Una **interfaz funcional** es una interfaz que tiene exactamente un método abstracto. Estas interfaces son la base para las expresiones lambda y las referencias a métodos en Java.
 
@@ -25,7 +25,7 @@ public class Main {
 - Pueden tener métodos `default` y `static`.
 - Usan la anotación `@FunctionalInterface` para asegurar que cumplen con esta regla.
 - - - 
-## Questions 
+## QUESTIONS 
 > [!info]- Click to reveal the answer
 JavaScript is a programming language used primarily for web development.
 

@@ -1,8 +1,8 @@
-# JakartaEE
+# JAKARTAEE
 
 !TODO , JSON, COMPARATOR ORDENAR.. EN UTILS? IMPLEMENTING COMPARABLE? METODOS DE LIST, ARRAYLIST?
 <
-## configs 
+## CONFIGS 
 
 config de la 
 
@@ -11,23 +11,23 @@ config de la
 
 !todo leer un json, enviar un json...
 
-### Object to JSON
+### OBJECT TO JSON
 
-### Returning JSON
+### RETURNING JSON
 
-### JSON to Object
+### JSON TO OBJECT
 
-### JSON to Collection
+### JSON TO COLLECTION
 
 
-## Errors
+## ERRORS
 
 	response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Lo sentimos no esta autorizado para ingresar a esta página!");
             
             //response.sendError(HttpServletResponse.SC_UNAUTHORIZED);
 
 
-## Cookies
+## COOKIES
 
 - Create
 
@@ -66,12 +66,12 @@ response.addCookie(cookieName);
 ```java
   cookie.setPath("/");
 ```
-## Ordenar con compareTo
+## ORDENAR CON COMPARETO
 
 la clase debe implementar Comparable `<objeto>` 
 
 
-## Session
+## SESSION
 
 // In a servlet method (doGet/doPost):
 //  - request.getSession() : returns the current session, or creates one if none exists.
@@ -127,7 +127,7 @@ session.invalidate();
 |`session.setMaxInactiveInterval(int seconds)`|set custom timeout interval|
 |`session.isNew()`|`boolean` — `true` if client has not yet acknowledged this session ID|
 
-## Filters
+## FILTERS
 > @WebFilter("/*")                        // All requests (root + sub-paths)
 > @WebFilter("/products/*")              // /products and anything under it
 > @WebFilter({"/products/*", "/shop/*"}) // Multiple paths
@@ -156,7 +156,7 @@ session.invalidate();
 
 
 ```
-## Listeners
+## LISTENERS
 
 - Context
 > @WebListener
@@ -213,7 +213,7 @@ public void sessionCreated(HttpSessionEvent se) {
 
 ```
 
-## Stream ejemplos
+## STREAM EJEMPLOS
 
 - buscar por id 
 ```java
@@ -223,7 +223,7 @@ public Optional<Producto> buscarPorId(Long id) {
 }
 ```
 
-## Beans
+## BEANS
 **OBLIGATORIO SCOPE** 
 @SessionScoped
 
@@ -232,7 +232,7 @@ public Optional<Producto> buscarPorId(Long id) {
 **Obligatorio** que tenga un constructor vacío
 
 
-## Models
+## MODELS
 ```java
 @Entity  !!
 @Table(name="fabricante") <- nombre de la tabla
@@ -248,7 +248,7 @@ private int codigo; -- no haria falta, mismo nombre
 }
 ```
 
-## Exceptions 
+## EXCEPTIONS 
 ```java
 package es.daw.web.exceptions;
 
@@ -261,7 +261,7 @@ public class JPAException extends Exception{
 ## JSF
 
 <h:panelGroup  rendered="#{ condicional para que se renderice o no}">
-## Persistence 
+## PERSISTENCE 
 `No es obligatorio poner el <class> ? `
 persistence.xml
           `<property name="jakarta.persistence.schema-generation.database.action" value="none"/>` value="validate" para que no de errores

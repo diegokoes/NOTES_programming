@@ -1,4 +1,4 @@
-# Standing DB Curls
+# STANDING DB CURLS
 1. 
 >
 ^end

@@ -1,4 +1,4 @@
-#  python > version manager
+#  PYTHON > VERSION MANAGER
 ```
 ##  Installation (macOS with Homebrew)
 brew install pyenv

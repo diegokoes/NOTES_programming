@@ -1,4 +1,4 @@
-# Java -> Data Types
+# JAVA -> DATA TYPES
 1. Primitive Tyes
 	- **[[javabyte|byte]]**
 	- **[[javashort|short]]**
@@ -25,15 +25,15 @@
 	- **[[javawrappercharacter|Character]]**
 	- **[[javawrapperboolean|Boolean]]**
 
-## Summary
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
 Autoboxing and unboxing are mechanisms in Java that handle automatic conversions between primitive data types and their corresponding wrapper classes. These features were introduced in Java 5 (also known as Java 1.5) to make code more readable and reduce the verbosity that was previously required when working with primitives and objects.
 
-### Autoboxing
+### AUTOBOXING
 
 Autoboxing is the automatic conversion of a primitive type to its corresponding wrapper class object. For example, converting an `int` to an `Integer` or a `boolean` to a `Boolean`. Before Java 5, you would have had to explicitly create these wrapper objects:
 
@@ -55,7 +55,7 @@ Map<Character, Integer> charCount = new HashMap<>();
 charCount.put('A', 1); // Autoboxing: char 'A' to Character, int 1 to Integer
 ```
 
-### Unboxing
+### UNBOXING
 
 Unboxing is the reverse process – the automatic conversion of a wrapper class object to its corresponding primitive type. For example, converting an `Integer` to an `int` or a `Boolean` to a `boolean`:
 
@@ -79,7 +79,7 @@ if (isValid) { // Unboxing: Boolean object is converted to boolean primitive
 }
 ```
 
-## Important Considerations
+## IMPORTANT CONSIDERATIONS
 
 While autoboxing and unboxing make code cleaner, there are several important aspects to understand:
 
@@ -108,7 +108,7 @@ While autoboxing and unboxing make code cleaner, there are several important asp
 
 Understanding autoboxing and unboxing helps you write cleaner code while being aware of potential pitfalls. These features are particularly useful when working with Java's collection frameworks (which can only store objects, not primitives) and with generic types.
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

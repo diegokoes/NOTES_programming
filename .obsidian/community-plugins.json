@@ -1,5 +1,8 @@
 [
   "templater-obsidian",
   "obsidian-hider",
-  "obsidian-regex-replace"
+  "obsidian-regex-replace",
+  "obsidian-day-and-night",
+  "obsidian-style-settings",
+  "obsidian-linter"
 ]

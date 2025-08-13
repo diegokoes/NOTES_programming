@@ -1,4 +1,4 @@
-# Wrist Roller
+# WRIST ROLLER
 1. Stand on a box/raiser
 2. Forearms close
 3. One way and the other

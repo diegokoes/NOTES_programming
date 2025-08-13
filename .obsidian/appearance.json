@@ -1,13 +1,9 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "Neovim",
-  "accentColor": "",
-  "nativeMenus": false,
-  "showViewHeader": true,
-  "enabledCssSnippets": [
-    "linewidth"
-  ],
-  "baseFontSizeAction": true,
-  "baseFontSize": 15,
-  "showRibbon": false
+  "theme": "moonstone",
+  "showRibbon": false,
+  "cssTheme": "AnuPpuccin",
+  "interfaceFontFamily": "Avenir",
+  "textFontFamily": "Avenir",
+  "showViewHeader": false,
+  "nativeMenus": false
 }

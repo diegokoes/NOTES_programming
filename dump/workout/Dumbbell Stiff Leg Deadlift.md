@@ -1,4 +1,4 @@
-# Dumbbell Stiff Leg Deadlift
+# DUMBBELL STIFF LEG DEADLIFT
 
 >
 >1. Knees Slightly Bent 

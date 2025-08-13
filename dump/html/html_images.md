@@ -1,4 +1,4 @@
-# HTML -> Images
+# HTML -> IMAGES
 
 Allows inserting images into the page.
 ```html

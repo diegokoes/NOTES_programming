@@ -1,4 +1,4 @@
-# HTML -> Ordered Lists
+# HTML -> ORDERED LISTS
 
 ```html
 <ol>

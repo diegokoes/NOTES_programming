@@ -1,4 +1,4 @@
-# nodejs > fnm
+# NODEJS > FNM
 
 > [GitHub Repo](https://github.com/Schniz/fnm) 
 

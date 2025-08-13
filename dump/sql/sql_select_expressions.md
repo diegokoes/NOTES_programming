@@ -1,5 +1,5 @@
 # SQL -> SELECT EXPRESSIONS
-## Definition
+## DEFINITION
 
 **Official:**  
 > Las expresiones en `SELECT` permiten realizar cálculos, concatenaciones y transformaciones directamente en la consulta, devolviendo columnas personalizadas.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué es una expresión en SELECT?**  
 > Es cualquier operación que genera un nuevo valor en la consulta.  
@@ -38,15 +38,15 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Cálculos y Transformaciones:**
+## C.1- **CÁLCULOS Y TRANSFORMACIONES:**
 ```sql
 SELECT nombre, salario * 1.20 AS salario_aumentado 
 FROM empleados;
 ```
 
-## C.2- **Expresiones Condicionales:**
+## C.2- **EXPRESIONES CONDICIONALES:**
 
 ```sql
 SELECT nombre, 
@@ -58,7 +58,7 @@ SELECT nombre,
 FROM empleados;
 ```
 
-## C.3- **Concatenación de Campos:**
+## C.3- **CONCATENACIÓN DE CAMPOS:**
 ```sql
 SELECT CONCAT(nombre, ' ', apellido) AS nombre_completo 
 FROM empleados;

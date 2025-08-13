@@ -1,8 +1,8 @@
-# linux > template
-## Summary
+# LINUX > TEMPLATE
+## SUMMARY
 > [!summary]
-## Theory
-## Questions
+## THEORY
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

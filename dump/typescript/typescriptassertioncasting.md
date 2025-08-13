@@ -1,5 +1,5 @@
-# TypeScript -> Assertion & Casting
-## Definición
+# TYPESCRIPT -> ASSERTION & CASTING
+## DEFINICIÓN
 
 **Oficial:**
 
@@ -11,13 +11,13 @@
 
 ---
 
-## Teoría
+## TEORÍA
 
-### ¿Qué es una Aserción de Tipo?
+### ¿QUÉ ES UNA ASERCIÓN DE TIPO?
 
 Una aserción de tipo es una forma de decirle a TypeScript que trate un valor como si fuera de un tipo específico. No realiza ninguna validación en tiempo de ejecución; simplemente cambia cómo el compilador interpreta el valor.
 
-#### Sintaxis de las Aserciones de Tipo:
+#### SINTAXIS DE LAS ASERCIONES DE TIPO:
 1. **Usando la palabra clave `as`:**
 
    ```ts
@@ -32,11 +32,11 @@ Una aserción de tipo es una forma de decirle a TypeScript que trate un valor co
    let strLength: number = (<string>someValue).length;
    ```
 
-#### Puntos Clave:
+#### PUNTOS CLAVE:
 - Las aserciones no realizan comprobaciones en tiempo de ejecución; solo influyen en la verificación de tipos en TypeScript.
 - Usa `as` en archivos `.tsx`, ya que los corchetes angulares entran en conflicto con JSX.
 
-#### Aserciones Avanzadas
+#### ASERCIONES AVANZADAS
 En casos más estrictos, puedes castear a través de un tipo intermediario como `unknown` o `any` para eludir la verificación de tipos:
 
 ```ts
@@ -46,11 +46,11 @@ let num: number = value as unknown as number;
 
 ---
 
-### ¿Qué es el Casteo?
+### ¿QUÉ ES EL CASTEO?
 
 El casteo en TypeScript es un proceso mediante el cual forzamos la conversión de un valor a un tipo diferente, generalmente usando aserciones. Aunque se usa de manera intercambiable con "aserción", en un contexto técnico, el casteo puede implicar transformaciones más amplias.
 
-#### Métodos de Casteo en TypeScript:
+#### MÉTODOS DE CASTEO EN TYPESCRIPT:
 
 1. **Con `as`:**
    ```ts
@@ -77,7 +77,7 @@ El casteo en TypeScript es un proceso mediante el cual forzamos la conversión d
 
 ---
 
-### Casos Comunes
+### CASOS COMUNES
 
 4. **Manipulación del DOM:**
 
@@ -111,7 +111,7 @@ El casteo en TypeScript es un proceso mediante el cual forzamos la conversión d
 
 ---
 
-## Preguntas
+## PREGUNTAS
 
 > [!tip]- **¿Qué son las aserciones de tipo en TypeScript?**
 > Son una forma de indicar explícitamente el tipo de un valor cuando TypeScript no puede inferirlo correctamente.

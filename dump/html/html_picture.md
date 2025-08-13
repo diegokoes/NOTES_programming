@@ -1,4 +1,4 @@
-# HTML -> Picture
+# HTML -> PICTURE
 
 For adaptive images.
 ```html

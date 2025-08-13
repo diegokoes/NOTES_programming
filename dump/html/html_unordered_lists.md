@@ -1,4 +1,4 @@
-# HTML -> Unordered Lists
+# HTML -> UNORDERED LISTS
 
 ```html
 <ul>

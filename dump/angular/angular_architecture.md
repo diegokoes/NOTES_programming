@@ -1,4 +1,4 @@
-# Definition
+# DEFINITION
 
 **Official Definition:** Angular architecture is the design framework that underpins the structure and functionality of Angular applications, built around modules, components, templates, services, and dependency injection. It enables the development of scalable and maintainable single-page applications (SPAs).
 
@@ -6,9 +6,9 @@
 
 ---
 
-# Theory
+# THEORY
 
-### **1. Main Entry Point: `main.ts`**
+## **1. MAIN ENTRY POINT: `main.ts`**
 
 `main.ts` is the entry point of an Angular application. It initializes the application by bootstrapping the root module or component. Example:
 
@@ -27,7 +27,7 @@ bootstrapApplication(AppComponent, appConfig)
 
 ---
 
-### **2. App Configuration: `app.config.ts`**
+## **2. APP CONFIGURATION: `app.config.ts`**
 
 The `app.config.ts` file defines an object implementing `ApplicationConfig`. This controls core settings like routing and dependency injection.
 
@@ -52,7 +52,7 @@ export const appConfig: ApplicationConfig = {
 
 ---
 
-### **3. Root Component: `AppComponent`**
+## **3. ROOT COMPONENT: `AppComponent`**
 
 **Structure:**
 
@@ -86,7 +86,7 @@ set title(value: string) { this._title = value; }
 
 ---
 
-### **4. Interaction Between `index.html` and Components**
+## **4. INTERACTION BETWEEN `index.html` AND COMPONENTS**
 
 **`index.html`:**
 
@@ -110,7 +110,7 @@ set title(value: string) { this._title = value; }
 
 ---
 
-### **5. Dependency Injection and Services**
+## **5. DEPENDENCY INJECTION AND SERVICES**
 
 - **What:** Mechanism to provide services throughout the app.
 - **Example:** Services shared across components are instantiated once and reused.
@@ -118,7 +118,7 @@ set title(value: string) { this._title = value; }
 
 ---
 
-### **6. Routing in Angular**
+## **6. ROUTING IN ANGULAR**
 
 **Routes Configuration:**
 
@@ -143,7 +143,7 @@ export const routes: Routes = [
 
 ---
 
-# Questions
+# QUESTIONS
 
 >[!tip]- **What is the purpose of `main.ts`?**
 >It bootstraps the Angular application by initializing the root component and application configuration.

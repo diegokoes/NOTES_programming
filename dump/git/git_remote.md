@@ -1,9 +1,9 @@
-# Git Remote Repositories
+# GIT REMOTE REPOSITORIES
 
-## Understanding Remotes
+## UNDERSTANDING REMOTES
 Remotes are versions of your repository hosted on the internet or network. They enable collaboration and backup of your code.
 
-## Basic Remote Operations
+## BASIC REMOTE OPERATIONS
 ```bash
 # Add remote repository
 git remote add origin <repository-url>
@@ -23,7 +23,7 @@ git remote remove <remote-name>
 git remote rename <old-name> <new-name>
 ```
 
-## Fetching and Pulling
+## FETCHING AND PULLING
 ```bash
 # Fetch changes (doesn't merge)
 git fetch origin
@@ -38,7 +38,7 @@ git pull --rebase origin main
 git config --global pull.rebase true      # Set as default
 ```
 
-## Pushing Changes
+## PUSHING CHANGES
 ```bash
 # Push to remote
 git push origin main
@@ -59,7 +59,7 @@ git push --force origin main
 git push --force-with-lease origin main   # Safer force push
 ```
 
-## Working with Forks
+## WORKING WITH FORKS
 ```bash
 # Fork workflow
 git clone <your-fork-url>
@@ -78,7 +78,7 @@ git push -u origin feature/new-feature
 # Create PR on GitHub/GitLab
 ```
 
-## Remote Branches
+## REMOTE BRANCHES
 ```bash
 # List remote branches
 git branch -r
@@ -96,7 +96,7 @@ git remote prune origin
 git fetch --prune
 ```
 
-## SSH vs HTTPS
+## SSH VS HTTPS
 ### HTTPS
 - Easier to set up
 - Works through firewalls
@@ -118,7 +118,7 @@ ssh-add ~/.ssh/id_ed25519
 ssh -T git@github.com
 ```
 
-## Multiple Remotes
+## MULTIPLE REMOTES
 ```bash
 # Working with multiple remotes
 git remote add origin <your-repo>
@@ -134,7 +134,7 @@ git remote set-url --add --push origin <url1>
 git remote set-url --add --push origin <url2>
 ```
 
-## Remote Configuration
+## REMOTE CONFIGURATION
 ```bash
 # Configure default push behavior
 git config --global push.default simple
@@ -149,7 +149,7 @@ git config --global credential.helper store
 git config --global credential.helper cache
 ```
 
-## Troubleshooting Remote Issues
+## TROUBLESHOOTING REMOTE ISSUES
 ```bash
 # Reset remote URL
 git remote set-url origin <new-url>

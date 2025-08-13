@@ -1,4 +1,4 @@
-# Proxmox
+# PROXMOX
 1. [What is Proxmox?](what_is_proxmox.md)
 2. [Installation and Basic Configuration](installation_configuration_proxmox.md)
     1. [System Requirements](system_requirements_proxmox.md)

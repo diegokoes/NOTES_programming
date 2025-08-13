@@ -1,10 +1,10 @@
-# SQL -> Sets
-## Summary
+# SQL -> SETS
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Las operaciones de conjuntos en SQL combinan resultados de múltiples consultas usando operadores como `UNION`, `INTERSECT` o `EXCEPT`.
@@ -14,7 +14,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace UNION en SQL?**  
 > Combina los resultados de dos consultas eliminando duplicados.  
@@ -50,28 +50,28 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Combinación Básica:**
+## C.1- **COMBINACIÓN BÁSICA:**
 ```sql
 SELECT nombre FROM empleados 
 UNION 
 SELECT nombre FROM clientes;
 ```
-## C.2- **Conservar Duplicados:**
+## C.2- **CONSERVAR DUPLICADOS:**
 ```sql
 SELECT nombre FROM empleados 
 UNION ALL 
 SELECT nombre FROM clientes;
 ```
 
-## C.3- **Filtrar Coincidencias:**
+## C.3- **FILTRAR COINCIDENCIAS:**
 ```sql
 SELECT nombre FROM empleados 
 INTERSECT 
 SELECT nombre FROM clientes;
 ```
-## C.4- **Excluir Resultados:**
+## C.4- **EXCLUIR RESULTADOS:**
 ```sql
 SELECT nombre FROM empleados 
 EXCEPT 

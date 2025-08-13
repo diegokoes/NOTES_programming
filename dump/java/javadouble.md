@@ -1,13 +1,13 @@
-# Java -> Data Types -> double
-## Summary
+# JAVA -> DATA TYPES -> DOUBLE
+## SUMMARY
 > [!summary]
 > - 64-bit double-precision floating-point
 >- Common default for decimals
 
-## Theory
+## THEORY
 double covers a wide range of fractional values with more precision than float. Used for most floating-point calculations by default.
 
-## Questions
+## QUESTIONS
 > [!tip]- Why use double?
 > Better precision for calculations
 

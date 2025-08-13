@@ -1,8 +1,8 @@
-# Git Troubleshooting
+# GIT TROUBLESHOOTING
 
-## Common Problems and Solutions
+## COMMON PROBLEMS AND SOLUTIONS
 
-### "Detached HEAD" State
+### "DETACHED HEAD" STATE
 When you checkout a specific commit instead of a branch:
 ```bash
 # Check current state
@@ -15,7 +15,7 @@ git checkout -b new-branch-name
 git checkout main
 ```
 
-### Accidentally Committed to Wrong Branch
+### ACCIDENTALLY COMMITTED TO WRONG BRANCH
 ```bash
 # Move last commit to new branch
 git branch new-branch
@@ -29,7 +29,7 @@ git checkout main
 git reset --hard HEAD~1
 ```
 
-### Undo Last Commit
+### UNDO LAST COMMIT
 ```bash
 # Keep changes but undo commit
 git reset --soft HEAD~1
@@ -44,7 +44,7 @@ git reset --hard HEAD~1
 git revert HEAD
 ```
 
-### Recovering Lost Commits
+### RECOVERING LOST COMMITS
 ```bash
 # Find lost commits
 git reflog
@@ -59,7 +59,7 @@ git checkout -b recovery-branch <commit-hash>
 git reset --hard <commit-hash>
 ```
 
-### Force Push Gone Wrong
+### FORCE PUSH GONE WRONG
 ```bash
 # Find previous state
 git reflog
@@ -71,7 +71,7 @@ git reset --hard <previous-commit>
 git push --force-with-lease origin main
 ```
 
-### Merge Conflicts
+### MERGE CONFLICTS
 ```bash
 # Check conflict status
 git status
@@ -87,7 +87,7 @@ git add <resolved-files>
 git commit
 ```
 
-### Rebase Conflicts
+### REBASE CONFLICTS
 ```bash
 # During rebase, after resolving conflicts
 git add <resolved-files>
@@ -100,9 +100,9 @@ git rebase --skip
 git rebase --abort
 ```
 
-### Working Directory Issues
+### WORKING DIRECTORY ISSUES
 
-#### Discard All Local Changes
+#### DISCARD ALL LOCAL CHANGES
 ```bash
 # Discard unstaged changes
 git checkout -- .
@@ -117,7 +117,7 @@ git clean -fd
 git clean -n
 ```
 
-#### Restore Deleted Files
+#### RESTORE DELETED FILES
 ```bash
 # Restore single file
 git checkout HEAD -- <file-path>
@@ -129,9 +129,9 @@ git checkout <commit-hash> -- <file-path>
 git checkout HEAD -- .
 ```
 
-### Authentication Issues
+### AUTHENTICATION ISSUES
 
-#### HTTPS Authentication
+#### HTTPS AUTHENTICATION
 ```bash
 # Clear stored credentials
 git config --global --unset credential.helper
@@ -143,7 +143,7 @@ git remote set-url origin https://token@github.com/user/repo.git
 git config --global credential.helper store
 ```
 
-#### SSH Issues
+#### SSH ISSUES
 ```bash
 # Test SSH connection
 ssh -T git@github.com
@@ -158,9 +158,9 @@ ssh-add -l
 ssh-keygen -t ed25519 -C "your.email@example.com"
 ```
 
-### Remote Repository Issues
+### REMOTE REPOSITORY ISSUES
 
-#### Diverged Branches
+#### DIVERGED BRANCHES
 ```bash
 # When local and remote have diverged
 git fetch origin
@@ -174,7 +174,7 @@ git rebase origin/main
 git reset --hard origin/main
 ```
 
-#### Rejected Push
+#### REJECTED PUSH
 ```bash
 # Pull first, then push
 git pull origin main
@@ -185,7 +185,7 @@ git pull --rebase origin main
 git push origin main
 ```
 
-#### Wrong Remote URL
+#### WRONG REMOTE URL
 ```bash
 # Check current remote
 git remote -v
@@ -197,9 +197,9 @@ git remote set-url origin <new-url>
 git remote add upstream <url>
 ```
 
-### Large File Issues
+### LARGE FILE ISSUES
 
-#### File Too Large Error
+#### FILE TOO LARGE ERROR
 ```bash
 # Remove large file from last commit
 git reset --soft HEAD~1
@@ -210,7 +210,7 @@ git commit
 git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch <large-file>' --prune-empty --tag-name-filter cat -- --all
 ```
 
-#### Use Git LFS for Large Files
+#### USE GIT LFS FOR LARGE FILES
 ```bash
 # Install Git LFS
 git lfs install
@@ -224,9 +224,9 @@ git add .gitattributes
 git commit -m "Add LFS tracking"
 ```
 
-### Performance Issues
+### PERFORMANCE ISSUES
 
-#### Slow Git Operations
+#### SLOW GIT OPERATIONS
 ```bash
 # Garbage collection
 git gc
@@ -244,7 +244,7 @@ git config core.preloadindex true
 git config core.untrackedCache true
 ```
 
-### Line Ending Issues
+### LINE ENDING ISSUES
 ```bash
 # Configure line endings
 git config --global core.autocrlf true    # Windows
@@ -256,9 +256,9 @@ git add --renormalize .
 git commit -m "Normalize line endings"
 ```
 
-### Debugging Git Issues
+### DEBUGGING GIT ISSUES
 
-#### Verbose Output
+#### VERBOSE OUTPUT
 ```bash
 # Enable debug output
 GIT_TRACE=1 git status
@@ -270,7 +270,7 @@ GIT_TRACE_PACK_ACCESS=1 git status
 GIT_TRACE_PACKET=1 git fetch
 ```
 
-#### Check Git Configuration
+#### CHECK GIT CONFIGURATION
 ```bash
 # Show all configuration
 git config --list
@@ -282,9 +282,9 @@ git config --list --show-origin
 git config core.autocrlf
 ```
 
-### Emergency Recovery
+### EMERGENCY RECOVERY
 
-#### Corrupted Repository
+#### CORRUPTED REPOSITORY
 ```bash
 # Check repository integrity
 git fsck
@@ -299,7 +299,7 @@ git remote add broken /path/to/broken/repo
 git fetch broken
 ```
 
-#### Complete Reset (Nuclear Option)
+#### COMPLETE RESET (NUCLEAR OPTION)
 ```bash
 # Backup first!
 cp -r .git .git.backup
@@ -312,7 +312,7 @@ cd project-recovery
 # Copy over any uncommitted work manually
 ```
 
-### Prevention Strategies
+### PREVENTION STRATEGIES
 
 1. **Regular backups**: Push frequently to remote repositories
 2. **Use branches**: Don't work directly on main/master
@@ -321,7 +321,7 @@ cd project-recovery
 5. **Test before pushing**: Use pre-push hooks
 6. **Keep repositories clean**: Regular garbage collection
 
-### Useful Aliases for Troubleshooting
+### USEFUL ALIASES FOR TROUBLESHOOTING
 ```bash
 git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'

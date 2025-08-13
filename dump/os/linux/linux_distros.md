@@ -1,10 +1,10 @@
-# linux > distros
+# LINUX > DISTROS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Different Linux distributions and their characteristics
 
-## Available Distributions
+## AVAILABLE DISTRIBUTIONS
 
 - [Arch Linux](linux_archlinux.md)
 

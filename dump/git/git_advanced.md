@@ -1,8 +1,8 @@
-# Git Advanced Operations
+# GIT ADVANCED OPERATIONS
 
-## Rebasing
+## REBASING
 
-### Basic Rebase
+### BASIC REBASE
 ```bash
 # Rebase current branch onto main
 git checkout feature-branch
@@ -21,7 +21,7 @@ git rebase --skip
 git rebase --abort
 ```
 
-### Interactive Rebase
+### INTERACTIVE REBASE
 ```bash
 # Interactive rebase last 3 commits
 git rebase -i HEAD~3
@@ -41,7 +41,7 @@ Interactive rebase commands:
 - `fixup` (f): Like squash but discard commit message
 - `drop` (d): Remove commit
 
-### Rebase vs Merge
+### REBASE VS MERGE
 ```bash
 # Before rebase:     After rebase:
 #   A---B---C topic     A'--B'--C' topic
@@ -54,7 +54,7 @@ Interactive rebase commands:
 # D---E---F---G main  D---E---F---G main
 ```
 
-## Cherry-Picking
+## CHERRY-PICKING
 Apply specific commits from one branch to another:
 ```bash
 # Cherry-pick single commit
@@ -77,7 +77,7 @@ git cherry-pick --continue
 git cherry-pick --abort
 ```
 
-## Stashing
+## STASHING
 Temporarily save work without committing:
 ```bash
 # Stash current changes
@@ -104,7 +104,7 @@ git stash show
 git stash show -p stash@{1}                # Show changes
 ```
 
-## Advanced Stashing
+## ADVANCED STASHING
 ```bash
 # Stash only staged changes
 git stash --staged
@@ -119,7 +119,7 @@ git stash branch <branch-name> stash@{1}
 git stash -p                               # Choose hunks to stash
 ```
 
-## Reflog
+## REFLOG
 Git's safety net - tracks all repository changes:
 ```bash
 # Show reflog
@@ -138,7 +138,7 @@ git checkout -b recovery-branch
 git reflog --since="2 hours ago"
 ```
 
-## Reset Operations
+## RESET OPERATIONS
 ```bash
 # Soft reset (keep changes staged)
 git reset --soft HEAD~1
@@ -158,7 +158,7 @@ git reset HEAD <file>                      # Unstage file
 git checkout HEAD -- <file>               # Discard changes
 ```
 
-## Git Bisect
+## GIT BISECT
 Binary search to find problematic commits:
 ```bash
 # Start bisect
@@ -182,7 +182,7 @@ git bisect reset
 git bisect run ./test-script.sh
 ```
 
-## Worktrees
+## WORKTREES
 Multiple working directories for same repository:
 ```bash
 # Create new worktree
@@ -198,7 +198,7 @@ git worktree remove ../project-feature
 git worktree prune
 ```
 
-## Submodules
+## SUBMODULES
 Include other Git repositories as subdirectories:
 ```bash
 # Add submodule
@@ -219,10 +219,10 @@ git submodule deinit <submodule-path>
 git rm <submodule-path>
 ```
 
-## Git Hooks
+## GIT HOOKS
 Automate tasks at Git events:
 
-### Client-side Hooks
+### CLIENT-SIDE HOOKS
 - `pre-commit`: Before commit creation
 - `prepare-commit-msg`: Before commit message editor
 - `commit-msg`: Validate commit message
@@ -231,12 +231,12 @@ Automate tasks at Git events:
 - `post-checkout`: After checkout
 - `post-merge`: After merge
 
-### Server-side Hooks
+### SERVER-SIDE HOOKS
 - `pre-receive`: Before push acceptance
 - `update`: Before branch update
 - `post-receive`: After push completion
 
-### Example Pre-commit Hook
+### EXAMPLE PRE-COMMIT HOOK
 ```bash
 #!/bin/sh
 # .git/hooks/pre-commit
@@ -256,7 +256,7 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-## Advanced Log and Diff
+## ADVANCED LOG AND DIFF
 ```bash
 # Log with custom format
 git log --pretty=format:"%C(yellow)%h %C(red)%d %C(reset)%s %C(green)[%cn]" --graph
@@ -280,7 +280,7 @@ git log --merges
 git log --no-merges
 ```
 
-## Git Attributes
+## GIT ATTRIBUTES
 Configure Git behavior per file type:
 ```bash
 # .gitattributes
@@ -297,7 +297,7 @@ secrets.txt filter=secret
 *.generated merge=ours
 ```
 
-## Performance Optimization
+## PERFORMANCE OPTIMIZATION
 ```bash
 # Garbage collection
 git gc

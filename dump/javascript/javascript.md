@@ -1,4 +1,4 @@
-# JavaScript
+# JAVASCRIPT
 1. [Basics](javascript_basics.md)
 2. [Functions](javascript_functions.md)
 3. [Objects and Arrays](javascript_objects_arrays.md.md)

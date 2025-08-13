@@ -1,4 +1,4 @@
-# HTML -> Structure
+# HTML -> STRUCTURE
 
 ```html
 <!DOCTYPE html> 

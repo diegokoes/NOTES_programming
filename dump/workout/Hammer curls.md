@@ -1,4 +1,4 @@
-# Hammer Curls
+# HAMMER CURLS
 1. 
 >
 ^end

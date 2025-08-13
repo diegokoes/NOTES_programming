@@ -1,4 +1,4 @@
-# python > dictionaries
+# PYTHON > DICTIONARIES
 
 access values based on keys, not on indexed 
 

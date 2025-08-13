@@ -1,5 +1,5 @@
-### Cómo auto mount de hdds al plug
-#### Pasos
+# CÓMO AUTO MOUNT DE HDDS AL PLUG
+## PASOS
 ```
 ## Paso 1: Crear Archivos de Unidad de Montaje en systemd
 
@@ -53,7 +53,7 @@ sudo systemctl daemon-reload
 - **Revisa los Logs:** Utiliza `journalctl -f` para monitorear mensajes del sistema relacionados con el proceso de montaje.
 ```
 
-#### Explicación de Por Qué Funciona Esta Configuración
+## EXPLICACIÓN DE POR QUÉ FUNCIONA ESTA CONFIGURACIÓN
 
 **Limitaciones de udev al Ejecutar Comandos de Montaje:**
 

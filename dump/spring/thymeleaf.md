@@ -1,12 +1,12 @@
-# spring -> thymeleaf
-# Subindex
+# SPRING -> THYMELEAF
+# SUBINDEX
 
-## Summary
+## SUMMARY
 > [!summary]
 
-## Theory
+## THEORY
 
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

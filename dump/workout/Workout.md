@@ -1,5 +1,5 @@
-# Workout
-## Body
+# WORKOUT
+## BODY
 - [[Shoulders]]
 - [[Back]]
 - [[Chest]]
@@ -13,13 +13,13 @@
 
 
 
-## Planning
+## PLANNING
 - [[Plan1 PPL]]
 ```mermaid
 graph TD
 Push --> Pull --> LegsForearms
 ```
-## Mobility
+## MOBILITY
 - [[Mobility]]
 
 - - - 

@@ -1,17 +1,17 @@
-# React -> Virtual DOM
+# REACT -> VIRTUAL DOM
 
-## Summary
+## SUMMARY
 >
 > [!summary]
 > The Virtual DOM is a core concept in React that optimizes rendering performance. It's a lightweight in-memory representation of the UI that React synchronizes with the browser's real DOM. When state or props change, React first updates this virtual representation, compares it with the previous version (diffing), and then efficiently updates only the necessary parts of the actual DOM. This approach significantly reduces costly DOM manipulations and improves application performance, especially for complex UIs with frequent updates.
 
-## Theory
+## THEORY
 
-### What is the DOM?
+### WHAT IS THE DOM?
 
 The Document Object Model (DOM) is a logical tree structure created by browsers to represent an HTML document. It provides an API for programmatically accessing and manipulating the structure, style, and content of a webpage.
 
-### Drawbacks of updating the DOM
+### DRAWBACKS OF UPDATING THE DOM
 
 Direct DOM updates can be inefficient because:
 
@@ -19,7 +19,7 @@ Direct DOM updates can be inefficient because:
 - Frequent DOM manipulations significantly impact performance
 - Complex applications with many elements suffer from expensive update operations
 
-### React's Virtual DOM Implementation
+### REACT'S VIRTUAL DOM IMPLEMENTATION
 
 React addresses DOM performance issues through its Virtual DOM:
 
@@ -28,7 +28,7 @@ React addresses DOM performance issues through its Virtual DOM:
 - Compares the updated virtual DOM with previous version
 - Only applies necessary changes to the real DOM
 
-### Components of the Virtual DOM
+### COMPONENTS OF THE VIRTUAL DOM
 
 React Elements are the building blocks of the Virtual DOM:
 
@@ -37,7 +37,7 @@ React Elements are the building blocks of the Virtual DOM:
 - Have a special `$$typeof` symbol to identify them as React elements
 - Maintain parent-child relationships through `props.children`
 
-### The Diffing Algorithm
+### THE DIFFING ALGORITHM
 
 React's reconciliation process uses an O(n) heuristic algorithm with these assumptions:
 
@@ -51,7 +51,7 @@ The algorithm:
 - Updates component props while maintaining state for same-type components  
 - Uses keys to efficiently identify moved elements in a list
 
-### Virtual DOM vs. Real DOM
+### VIRTUAL DOM VS. REAL DOM
 
 | Real DOM | Virtual DOM |
 |----------|-------------|
@@ -61,14 +61,14 @@ The algorithm:
 | Can manipulate screen elements | Cannot directly manipulate screen elements |
 | Updates are slow and expensive | Updates are fast and efficient |
 
-### Virtual DOM vs. Shadow DOM
+### VIRTUAL DOM VS. SHADOW DOM
 
 These are distinct concepts:
 
 - Virtual DOM: React's optimization technique for DOM updates
 - Shadow DOM: Browser API for encapsulated DOM trees within elements (used for web components)
 
-### Performance Optimization in React
+### PERFORMANCE OPTIMIZATION IN REACT
 
 The Virtual DOM provides performance benefits by:
 
@@ -77,14 +77,14 @@ The Virtual DOM provides performance benefits by:
 - Applying minimal necessary changes to the real DOM
 - Allowing efficient updates for complex UIs
 
-### Common Pitfalls
+### COMMON PITFALLS
 
 - Too many re-renders
 - Improper use of keys in lists
 - Deeply nested component structures
 - Inline functions and objects causing unnecessary re-renders
 
-## Questions
+## QUESTIONS
 >
 > [!tip]- What is React's Virtual DOM and why is it important?
 > React's Virtual DOM is a lightweight JavaScript representation of the actual DOM kept in memory. It's important because it allows React to minimize expensive DOM operations by first updating this virtual representation, comparing it with the previous version (diffing), and then efficiently updating only the necessary parts of the real DOM. This approach significantly improves performance, especially in applications with complex UIs and frequent state changes.

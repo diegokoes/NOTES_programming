@@ -1,8 +1,8 @@
-# Programming
-## General
+# PROGRAMMING
+## GENERAL
 - [Concepts & Protocols](concepts.md)
 
-## Databases
+## DATABASES
 - [SQL](sql.md)
 - [PostgreSQL](postgresql.md)
 - [MySQL](mysql.md)

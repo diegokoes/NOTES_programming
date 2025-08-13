@@ -1,4 +1,4 @@
-# HTML -> Svg
+# HTML -> SVG
 
 Allows defining scalable vector graphics directly in HTML code.
 ```html

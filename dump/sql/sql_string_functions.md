@@ -1,10 +1,10 @@
-# SQL -> String Functions
-## Summary
+# SQL -> STRING FUNCTIONS
+## SUMMARY
 > [!summary]
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Las funciones de cadenas permiten manipular y analizar valores de texto, como concatenar, buscar o transformar cadenas.
@@ -14,7 +14,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace CONCAT()?**  
 > Combina dos cadenas en una sola.  
@@ -42,9 +42,9 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Búsqueda y Transformación:**
+## C.1- **BÚSQUEDA Y TRANSFORMACIÓN:**
 ```sql
 SELECT UPPER(nombre) AS nombre_mayus, 
        LOWER(nombre) AS nombre_minus, 
@@ -52,7 +52,7 @@ SELECT UPPER(nombre) AS nombre_mayus,
 FROM empleados;
 ```
 
-## C.2- **Concatenación:**
+## C.2- **CONCATENACIÓN:**
 
 ```sql
 SELECT CONCAT(nombre, ' ', apellido) AS nombre_completo 

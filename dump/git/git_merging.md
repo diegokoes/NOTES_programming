@@ -1,8 +1,8 @@
-# Git Merging and Conflicts
+# GIT MERGING AND CONFLICTS
 
-## Types of Merges
+## TYPES OF MERGES
 
-### Fast-Forward Merge
+### FAST-FORWARD MERGE
 When the target branch hasn't diverged from the source branch:
 ```bash
 git checkout main
@@ -10,14 +10,14 @@ git merge feature-branch                   # Fast-forward if possible
 git merge --no-ff feature-branch           # Force merge commit
 ```
 
-### Three-Way Merge
+### THREE-WAY MERGE
 When both branches have new commits:
 ```bash
 git checkout main
 git merge feature-branch                   # Creates merge commit
 ```
 
-### Squash Merge
+### SQUASH MERGE
 Combines all commits from feature branch into one:
 ```bash
 git checkout main
@@ -25,7 +25,7 @@ git merge --squash feature-branch
 git commit -m "Add feature: combined all changes"
 ```
 
-## Merge Strategies
+## MERGE STRATEGIES
 ```bash
 # Default recursive strategy
 git merge feature-branch
@@ -40,13 +40,13 @@ git merge -X theirs feature-branch
 git merge branch1 branch2 branch3
 ```
 
-## Understanding Conflicts
+## UNDERSTANDING CONFLICTS
 Conflicts occur when Git can't automatically merge changes. Common scenarios:
 - Same line modified in both branches
 - File deleted in one branch, modified in another
 - Binary files changed in both branches
 
-### Conflict Markers
+### CONFLICT MARKERS
 ```
 <<<<<<< HEAD
 Your changes
@@ -55,9 +55,9 @@ Their changes
 >>>>>>> feature-branch
 ```
 
-## Resolving Conflicts
+## RESOLVING CONFLICTS
 
-### Manual Resolution
+### MANUAL RESOLUTION
 ```bash
 # 1. Start merge
 git merge feature-branch
@@ -75,7 +75,7 @@ git add <resolved-file>
 git commit                                 # Don't use -m, let Git generate message
 ```
 
-### Using Merge Tools
+### USING MERGE TOOLS
 ```bash
 # Configure merge tool
 git config --global merge.tool vimdiff     # or meld, kdiff3, etc.
@@ -86,7 +86,7 @@ git mergetool
 # Available tools: vimdiff, meld, kdiff3, opendiff, emerge, tortoisemerge
 ```
 
-### Aborting Merge
+### ABORTING MERGE
 ```bash
 # Cancel merge process
 git merge --abort
@@ -95,9 +95,9 @@ git merge --abort
 git reset --hard HEAD
 ```
 
-## Advanced Conflict Resolution
+## ADVANCED CONFLICT RESOLUTION
 
-### Show Conflict Details
+### SHOW CONFLICT DETAILS
 ```bash
 # Show both sides of conflict
 git diff
@@ -110,7 +110,7 @@ git show $(git merge-base HEAD feature-branch)
 git diff HEAD...feature-branch
 ```
 
-### Checkout Specific Version
+### CHECKOUT SPECIFIC VERSION
 ```bash
 # Take our version
 git checkout --ours <file>
@@ -122,7 +122,7 @@ git checkout --theirs <file>
 git checkout <commit-hash> -- <file>
 ```
 
-## Merge Commit Messages
+## MERGE COMMIT MESSAGES
 ```bash
 # Default merge message
 git merge feature-branch
@@ -134,9 +134,9 @@ git merge feature-branch -m "Merge feature: add user authentication"
 git merge feature-branch --edit
 ```
 
-## Preventing Conflicts
+## PREVENTING CONFLICTS
 
-### Good Practices
+### GOOD PRACTICES
 1. **Keep branches up-to-date**
 ```bash
 git checkout feature-branch
@@ -147,7 +147,7 @@ git merge main                             # Or rebase
 3. **Clear communication in teams**
 4. **Use .gitattributes for line endings**
 
-### Git Attributes for Merge
+### GIT ATTRIBUTES FOR MERGE
 ```bash
 # .gitattributes file
 *.png binary
@@ -156,14 +156,14 @@ git merge main                             # Or rebase
 package-lock.json merge=npm                # Custom merge driver
 ```
 
-## Three-Way Merge Visualization
+## THREE-WAY MERGE VISUALIZATION
 ```
     A---B---C topic
    /         \
   D---E---F---G main
 ```
 
-## Merge vs Rebase Decision Tree
+## MERGE VS REBASE DECISION TREE
 **Use Merge when:**
 - You want to preserve branch history
 - Working on public/shared branches
@@ -174,7 +174,7 @@ package-lock.json merge=npm                # Custom merge driver
 - Working on private feature branch
 - Want to clean up commits before merging
 
-## Octopus Merge
+## OCTOPUS MERGE
 Merging multiple branches simultaneously:
 ```bash
 # Merge multiple feature branches
@@ -185,8 +185,8 @@ git merge feature1 feature2 feature3
 # If conflicts, fall back to individual merges
 ```
 
-## Merge Hooks
-### Pre-merge Hook
+## MERGE HOOKS
+### PRE-MERGE HOOK
 ```bash
 #!/bin/sh
 # .git/hooks/pre-merge-commit
@@ -199,7 +199,7 @@ if [ $? -ne 0 ]; then
 fi
 ```
 
-## Troubleshooting Merges
+## TROUBLESHOOTING MERGES
 ```bash
 # Find problematic merge
 git log --merges --oneline
@@ -214,7 +214,7 @@ git reset --hard HEAD~1
 git revert -m 1 <merge-commit-hash>
 ```
 
-## Merge Strategies Comparison
+## MERGE STRATEGIES COMPARISON
 | Strategy | Use Case | History | Conflicts |
 |----------|----------|---------|-----------|
 | Fast-forward | Linear development | Clean | None |

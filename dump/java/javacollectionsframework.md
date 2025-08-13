@@ -1,12 +1,12 @@
-# Java -> Collections Framework
-## Summary
+# JAVA -> COLLECTIONS FRAMEWORK
+## SUMMARY
 > [!summary]
 
-## Theory
+## THEORY
 
 The Java Collections Framework can be better understood by breaking it down into its main hierarchies. Let's explore each part with clear explanations and focused diagrams.
 
-### The Foundation: Object and Core Interfaces
+### THE FOUNDATION: OBJECT AND CORE INTERFACES
 
 Everything in Java ultimately extends from `Object`. The Collections Framework builds upon this with several core interfaces.
 
@@ -58,7 +58,7 @@ The Collections Framework has two primary branches extending from `Object`:
 
 This separation is fundamental to understanding the framework: Collections store elements, Maps store key-value pairs.
 
-### The Collection Interface Hierarchy
+### THE COLLECTION INTERFACE HIERARCHY
 
 Let's expand the `Collection` branch to see its primary sub-interfaces:
 
@@ -115,7 +115,7 @@ Each of these sub-interfaces defines a distinct collection behavior:
     - Typically follows FIFO (first-in-first-out) order
     - Provides operations for adding, removing, and examining elements
 
-### Extended Collection Interfaces
+### EXTENDED COLLECTION INTERFACES
 
 Each primary collection interface has specialized extensions that add functionality:
 
@@ -181,7 +181,7 @@ These extended interfaces add specialized behaviors:
     - Allows elements to be added or removed from both ends
     - Can be used as a queue, stack, or both
 
-### The Map Interface Hierarchy
+### THE MAP INTERFACE HIERARCHY
 
 Maps have their own hierarchy of interfaces:
 
@@ -229,7 +229,7 @@ The Map hierarchy mirrors some of the patterns seen in the Collection interfaces
     - Adds methods to find entries relative to a given key
     - Enables range operations and relative key finding
 
-### Abstract Classes as Partial Implementations
+### ABSTRACT CLASSES AS PARTIAL IMPLEMENTATIONS
 
 The framework provides abstract classes that partially implement the interfaces:
 
@@ -289,7 +289,7 @@ These abstract classes serve an important purpose:
 - They enforce consistent behavior across concrete implementations
 - Methods marked with * are often left abstract for concrete classes to implement
 
-### List Implementations
+### LIST IMPLEMENTATIONS
 
 Now let's look at the concrete implementations of the `List` interface:
 
@@ -376,7 +376,7 @@ The `List` implementations each have distinct characteristics:
     - Provides push(), pop(), and peek() operations
     - Recommended alternative: use ArrayDeque for stack operations
 
-### Set Implementations
+### SET IMPLEMENTATIONS
 
 The `Set` interface has several implementations with different characteristics:
 
@@ -446,7 +446,7 @@ The `Set` implementations offer different performance and behavior tradeoffs:
     - Implements NavigableSet for range operations and relative element finding
     - Good choice when you need elements maintained in a specific order
 
-### Queue and Deque Implementations
+### QUEUE AND DEQUE IMPLEMENTATIONS
 
 The Queue and Deque interfaces have these implementations:
 
@@ -508,7 +508,7 @@ These queue implementations serve different purposes:
     - Can be used as a Queue, Deque, or List
     - Versatile but sometimes less efficient than specialized implementations
 
-### Map Implementations
+### MAP IMPLEMENTATIONS
 
 Finally, let's look at the concrete implementations of the `Map` interface:
 
@@ -674,11 +674,11 @@ This table shows how quickly different operations run for each collection type. 
 
 This comprehensive breakdown should help you understand the Java Collections Framework more clearly. Each diagram focuses on a specific part of the framework, making it easier to visualize the relationships while studying in Obsidian.
 
-# Ordering in TreeSet/TreeMap vs. LinkedHashSet/LinkedHashMap
+# ORDERING IN TREESET/TREEMAP VS. LINKEDHASHSET/LINKEDHASHMAP
 
 The key difference between these collection types lies in _how_ they maintain order and _what kind_ of order they preserve.
 
-## TreeSet and TreeMap: Sorted Order
+## TREESET AND TREEMAP: SORTED ORDER
 
 TreeSet and TreeMap maintain elements in **sorted order** based on a specific sorting criterion:
 
@@ -700,7 +700,7 @@ fruits.add("cherry");
 
 The sorting is maintained dynamically—whenever you add a new element, it's placed in its correct position according to the sort order. This sorting functionality comes at a performance cost, as operations typically run in O(log n) time rather than the O(1) time of hash-based collections.
 
-## LinkedHashSet and LinkedHashMap: Insertion Order
+## LINKEDHASHSET AND LINKEDHASHMAP: INSERTION ORDER
 
 LinkedHashSet and LinkedHashMap maintain elements in **insertion order** by default. They remember the sequence in which elements were added:
 
@@ -724,11 +724,11 @@ LinkedHashMap<String, Integer> cache = new LinkedHashMap<>(16, 0.75f, true);
 
 In access-order mode, each time you get or put an entry, it moves to the end of the iteration sequence. This makes LinkedHashMap suitable for implementing LRU (Least Recently Used) caches.
 
-## Regular HashSet and HashMap
+## REGULAR HASHSET AND HASHMAP
 
 For completeness, it's worth noting that regular HashSet and HashMap make no guarantees about iteration order. The order may appear random and can change when the collection is modified or even between different program runs.
 
-## Practical Implications
+## PRACTICAL IMPLICATIONS
 
 These ordering differences lead to different use cases:
 
@@ -752,7 +752,7 @@ These ordering differences lead to different use cases:
 - You want the fastest possible performance for basic operations
 
 Understanding these ordering characteristics helps you choose the right collection type for your specific requirements.
-## Questions
+## QUESTIONS
 > [!tip]- Question
 > Answer
 

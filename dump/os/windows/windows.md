@@ -1,5 +1,5 @@
-# Windows
-## Core Concepts
+# WINDOWS
+## CORE CONCEPTS
 
 1. [Windows Editions and Features](windows_editions_features.md)
 2. [File Systems (NTFS, FAT32, exFAT)](windows_file_systems.md)
@@ -9,7 +9,7 @@
     3. [Windows Subsystem for Linux (WSL)](windows_wsl.md)
     4. [Windows Commands](windows_commands.md)
 
-## System Administration
+## SYSTEM ADMINISTRATION
 
 4. [User and Group Management](windows_user_management.md)
 5. [Disk and Storage Management](windows_disk_management.md)
@@ -21,7 +21,7 @@
 8. [Registry Editor](windows_registry_editor.md)
 9. [Event Viewer](windows_event_viewer.md)
 
-## Networking
+## NETWORKING
 
 10. [Network Configuration](windows_network_configuration.md)
     1. [IP Settings and DNS](windows_ip_dns.md)
@@ -31,7 +31,7 @@
     2. [Windows Remote Assistance](windows_remote_assistance.md)
 12. [File Sharing and Permissions](windows_file_sharing.md)
 
-## Security
+## SECURITY
 
 13. [Windows Security Center](windows_security_center.md)
 14. [Firewall Configuration](windows_firewall.md)
@@ -39,14 +39,14 @@
 16. [User Account Control (UAC)](windows_uac.md)
 17. [Windows Updates](windows_updates.md)
 
-## Performance and Optimization
+## PERFORMANCE AND OPTIMIZATION
 
 18. [Task Manager](windows_task_manager.md)
 19. [Performance Monitor](windows_performance_monitor.md)
 20. [Startup Applications Management](windows_startup_apps.md)
 21. [Resource Monitor](windows_resource_monitor.md)
 
-## Troubleshooting
+## TROUBLESHOOTING
 
 22. [Blue Screen of Death (BSOD)](windows_bsod.md)
 23. [Safe Mode](windows_safe_mode.md)
@@ -55,20 +55,20 @@
     1. [SFC (System File Checker)](windows_sfc.md)
     2. [DISM (Deployment Image Servicing and Management)](windows_dism.md)
 
-## Software and Applications
+## SOFTWARE AND APPLICATIONS
 
 26. [Windows Package Manager (winget)](windows_winget.md)
 27. [Microsoft Store](windows_microsoft_store.md)
 28. [Application Compatibility](windows_app_compatibility.md)
 
-## Advanced Topics
+## ADVANCED TOPICS
 
 29. [Group Policy Management](windows_group_policy.md)
 30. [Hyper-V Virtualization](windows_hyperv.md)
 31. [Active Directory Basics](windows_active_directory.md)
 32. [Windows Deployment Services (WDS)](windows_deployment_services.md)
 
-## File Management
+## FILE MANAGEMENT
 
 33. [File Explorer](windows_file_explorer.md)
 34. [OneDrive Integration](windows_onedrive.md)

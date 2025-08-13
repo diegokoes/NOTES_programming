@@ -1,14 +1,14 @@
-# wayland > tools
+# WAYLAND > TOOLS
 
-## Summary
+## SUMMARY
 > [!summary]
 > Essential tools and utilities for Wayland desktop environments and compositors
 
-## Theory
+## THEORY
 
-### Core Wayland Tools
+### CORE WAYLAND TOOLS
 
-#### **Display and Screen Management**
+#### **DISPLAY AND SCREEN MANAGEMENT**
 - **wlr-randr** - Display configuration for wlroots-based compositors
 - **kanshi** - Dynamic display configuration
 - **wdisplays** - GUI display manager
@@ -21,7 +21,7 @@ pacman -S wlr-randr kanshi wdisplays
 wlr-randr --output DP-1 --mode 1920x1080@144
 ```
 
-#### **Screenshots and Screen Recording**
+#### **SCREENSHOTS AND SCREEN RECORDING**
 - **grim** - Screenshot utility
 - **slurp** - Screen area selection
 - **swappy** - Screenshot annotation
@@ -44,7 +44,7 @@ grim -g "$(slurp)" - | wl-copy
 wf-recorder -f ~/recording.mp4
 ```
 
-#### **Clipboard Management**
+#### **CLIPBOARD MANAGEMENT**
 - **wl-clipboard** - Command-line clipboard utilities
 - **cliphist** - Clipboard history manager
 
@@ -62,9 +62,9 @@ wl-paste
 cliphist list | wofi --dmenu | cliphist decode | wl-copy
 ```
 
-### Application Launchers
+### APPLICATION LAUNCHERS
 
-#### **wofi** - Wayland-native launcher
+#### **WOFI** - WAYLAND-NATIVE LAUNCHER
 ```bash
 # Install
 pacman -S wofi
@@ -93,7 +93,7 @@ gtk_dark=true
 EOF
 ```
 
-#### **rofi-wayland** - Rofi for Wayland
+#### **ROFI-WAYLAND** - ROFI FOR WAYLAND
 ```bash
 # Install
 yay -S rofi-lbonn-wayland-git
@@ -102,9 +102,9 @@ yay -S rofi-lbonn-wayland-git
 rofi -show drun
 ```
 
-### Terminal Emulators
+### TERMINAL EMULATORS
 
-#### **Popular Wayland Terminals**
+#### **POPULAR WAYLAND TERMINALS**
 - **kitty** - GPU-accelerated terminal
 - **alacritty** - Cross-platform terminal
 - **foot** - Lightweight Wayland terminal
@@ -118,22 +118,22 @@ pacman -S kitty alacritty foot wezterm
 kitty --single-instance
 ```
 
-### File Managers
+### FILE MANAGERS
 
-#### **GUI File Managers**
+#### **GUI FILE MANAGERS**
 - **nautilus** - GNOME file manager
 - **dolphin** - KDE file manager
 - **thunar** - XFCE file manager
 - **nemo** - Cinnamon file manager
 
-#### **Terminal File Managers**
+#### **TERMINAL FILE MANAGERS**
 - **[yazi](../yazi/yazi.md)** - Modern terminal file manager
 - **ranger** - Vi-like file manager
 - **lf** - Lightweight file manager
 
-### Notification Systems
+### NOTIFICATION SYSTEMS
 
-#### **mako** - Lightweight notification daemon
+#### **MAKO** - LIGHTWEIGHT NOTIFICATION DAEMON
 ```bash
 # Install
 pacman -S mako
@@ -147,7 +147,7 @@ border-radius=5
 default-timeout=5000
 ```
 
-#### **dunst** - Configurable notification daemon
+#### **DUNST** - CONFIGURABLE NOTIFICATION DAEMON
 ```bash
 # Install
 pacman -S dunst
@@ -155,9 +155,9 @@ pacman -S dunst
 # Works with Wayland via XWayland
 ```
 
-### Status Bars
+### STATUS BARS
 
-#### **waybar** - Highly customizable status bar
+#### **WAYBAR** - HIGHLY CUSTOMIZABLE STATUS BAR
 ```bash
 # Install
 pacman -S waybar
@@ -185,7 +185,7 @@ cat > ~/.config/waybar/config.jsonc << EOF
 EOF
 ```
 
-#### **eww** - Widget system
+#### **EWW** - WIDGET SYSTEM
 ```bash
 # Install
 yay -S eww-wayland
@@ -193,9 +193,9 @@ yay -S eww-wayland
 # Highly customizable widgets
 ```
 
-### Screen Lockers
+### SCREEN LOCKERS
 
-#### **swaylock** - Screen locker for Wayland
+#### **SWAYLOCK** - SCREEN LOCKER FOR WAYLAND
 ```bash
 # Install
 pacman -S swaylock
@@ -207,7 +207,7 @@ swaylock
 swaylock --screenshots --effect-blur 7x5
 ```
 
-#### **hyprlock** - Hyprland's screen locker
+#### **HYPRLOCK** - HYPRLAND'S SCREEN LOCKER
 ```bash
 # Install
 pacman -S hyprlock
@@ -215,9 +215,9 @@ pacman -S hyprlock
 # Configuration in ~/.config/hypr/hyprlock.conf
 ```
 
-### Wallpaper Tools
+### WALLPAPER TOOLS
 
-#### **swaybg** - Wallpaper utility
+#### **SWAYBG** - WALLPAPER UTILITY
 ```bash
 # Install
 pacman -S swaybg
@@ -229,16 +229,16 @@ swaybg -i ~/wallpaper.jpg
 swaybg -i ~/wallpaper.jpg -m fill
 ```
 
-#### **hyprpaper** - Hyprland wallpaper daemon
+#### **HYPRPAPER** - HYPRLAND WALLPAPER DAEMON
 ```bash
 # Configuration in ~/.config/hypr/hyprpaper.conf
 preload = ~/wallpaper.jpg
 wallpaper = ,~/wallpaper.jpg
 ```
 
-### Logout/Session Management
+### LOGOUT/SESSION MANAGEMENT
 
-#### **wlogout** - Logout menu
+#### **WLOGOUT** - LOGOUT MENU
 ```bash
 # Install
 pacman -S wlogout
@@ -247,9 +247,9 @@ pacman -S wlogout
 wlogout
 ```
 
-### Audio Control
+### AUDIO CONTROL
 
-#### **pipewire** ecosystem
+#### **PIPEWIRE** ECOSYSTEM
 ```bash
 # Install
 pacman -S pipewire pipewire-pulse pipewire-alsa wireplumber
@@ -259,7 +259,7 @@ wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
 wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 ```
 
-#### **pavucontrol** - GUI audio control
+#### **PAVUCONTROL** - GUI AUDIO CONTROL
 ```bash
 # Install
 pacman -S pavucontrol
@@ -268,7 +268,7 @@ pacman -S pavucontrol
 pavucontrol
 ```
 
-## Questions
+## QUESTIONS
 
 > [!tip]- Which screenshot tool should I use?
 > Use grim + slurp for basic screenshots, add swappy for annotation features

@@ -1,11 +1,11 @@
-# Java -> OOP -> Interfaces
-## Summary
+# JAVA -> OOP -> INTERFACES
+## SUMMARY
 > [!summary]
 > 
 - - - 
-## Theory
+## THEORY
 
-### Types of Interfaces
+### TYPES OF INTERFACES
 - [Functional Intefaces](javafunctionalinterfaces.md)
 -  [Marker Intefaces](java_markerinterfaces.md)
 - [General Interfaces](javainterfaces.md)
@@ -28,7 +28,7 @@
     
     - Solucionan problemas específicos, como el ordenamiento (`Comparable`) o la concurrencia (`Runnable`).
 
-### Types of Methods in Interfaces
+### TYPES OF METHODS IN INTERFACES
 
 1. **Métodos Abstractos:**
     - Son métodos que no tienen cuerpo y deben ser implementados por la clase que implementa la interfaz.
@@ -88,9 +88,9 @@
 
 ---
 
-### Examples
+### EXAMPLES
 
-### E.1.1- **Ejemplo Completo:**
+### E.1.1- **EJEMPLO COMPLETO:**
 ```java
 public interface Vehiculo {
     // Método abstracto
@@ -123,7 +123,7 @@ public class Coche implements Vehiculo {
     }
 }
 ```
-## Questions
+## QUESTIONS
 
 - > [!tip]- **¿Qué es una interfaz en Java?**
     Es una estructura que define un conjunto de métodos que una clase debe implementar. Una interfaz puede contener métodos abstractos y métodos con implementación (a partir de Java 8).

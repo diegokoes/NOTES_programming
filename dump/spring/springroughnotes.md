@@ -1,4 +1,4 @@
-# Spring -> Rough Notes
+# SPRING -> ROUGH NOTES
 
-## Set-Up
+## SET-UP
 

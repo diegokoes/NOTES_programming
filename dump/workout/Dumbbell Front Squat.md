@@ -1,4 +1,4 @@
-# Dumbbell Front Squat
+# DUMBBELL FRONT SQUAT
 >1. Feet shoulder length apart
 >2. Toes pointing out
 >3. Chest up

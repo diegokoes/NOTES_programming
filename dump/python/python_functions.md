@@ -1,4 +1,4 @@
-# python > functions
+# PYTHON > FUNCTIONS
 
 #todo 
 

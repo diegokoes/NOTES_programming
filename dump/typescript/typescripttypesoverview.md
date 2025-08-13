@@ -1,11 +1,11 @@
-# TypeScript -> Types Overview
-## Summary
+# TYPESCRIPT -> TYPES OVERVIEW
+## SUMMARY
 > [!summary]
 >In TypeScript, “types” are annotations that allow you to explicitly define the>structure and nature of data for variables, function parameters, and return values. By enforcing these rules, TypeScript helps detect errors at compile time, making code more reliable and maintainable.
 >
 > A
 
-## Theory
+## THEORY
 - [Basic Types](typescript_basic_types.md)
 - [Objects](typescript_objects.md)
 - [Functions](typescript_functions.md)
@@ -21,7 +21,7 @@
 	- [Record Type](typescriptrecord.md)
 	- [Custom Types](typescript_custom_types.md)
 	- [[typescriptgenerics|Generics]]
-### Inference
+### INFERENCE
 
 TypeScript inferences the type automaticly if it isn't specified.
 
@@ -30,7 +30,7 @@ TypeScript inferences the type automaticly if it isn't specified.
 let age = 30; // TypeScript inferes that it is a number
 ```
 
-#### Best common type
+#### BEST COMMON TYPE
 > [!summary] 
 >Infers the type by what's assigned to it 
 
@@ -47,7 +47,7 @@ let zoo: Animal[] = [new Rhino(), new Elephant(), new Snake() ];
 		// type-> let zoo: Animal[]
 ```
 
-#### Contextual Typing
+#### CONTEXTUAL TYPING
 > [!summary]
 > Infers the type by the **location** where a variable is placed
 
@@ -62,7 +62,7 @@ window.onmousedown = function (mouseEvent) {
 // Property 'kangaroo' does not exist on type 'MouseEvent'.
 };
 ```
-## Questions
+## QUESTIONS
 > [!tip]- What is a type annotation in TypeScript?
 > A type annotation is an explicit way to specify the data type of a variable, function parameter, or return value.
 > ```typescript

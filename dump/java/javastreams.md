@@ -1,17 +1,17 @@
-# Java: Streams
-## Related Notes
+# JAVA: STREAMS
+## RELATED NOTES
 1. [Optional](javaoptional.md)
 2. [Intermediate Operations](javaintermediateoperations.md)
 3. [Terminal Operations](javaterminaloperations.md)
-## Summary
+## SUMMARY
 > [!summary]
 > 
 
-## Theory
+## THEORY
 
 ![[372081412-349c5bb6-903c-422e-be19-63db2f66ff77.png]]
 
-## Questions
+## QUESTIONS
 	
 - > [!tip]- **¿Qué es un Stream?**
     Es un flujo de datos que se puede procesar con operaciones funcionales como `filter()`, `map()` o `reduce()`.
@@ -30,7 +30,7 @@
 - > [!warning]- **¿Cuáles son las operaciones terminales en un Stream?**
     Las operaciones terminales, como `collect()`, `forEach()` y `reduce()`, consumen el Stream para generar un resultado. Para más detalles, revisa el archivo [[javaterminaloperations]].
 
-## Examples
+## EXAMPLES
 
 ```java
 List<String> nombres = Arrays.asList("Diego", "Ana", "Carlos");

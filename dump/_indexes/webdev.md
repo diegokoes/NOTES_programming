@@ -1,4 +1,4 @@
-# Webdev
+# WEBDEV
 - [Frontend](frontend)
 	-  [Angular](angular.md)
 	-  [React](REACT.md)

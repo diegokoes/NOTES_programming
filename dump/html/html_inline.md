@@ -1,4 +1,4 @@
-# HTML -> Inline
+# HTML -> INLINE
 
 Inline tags only take up the necessary space and do not force a line break.
 

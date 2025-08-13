@@ -1,4 +1,4 @@
-# Dumbbell Split Squat
+# DUMBBELL SPLIT SQUAT
 >1. 4-5 feet apart, front feet over a small platform
 >2. Chest Up Right
 >3. Until knee lightly touches floor

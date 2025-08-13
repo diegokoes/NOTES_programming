@@ -1,10 +1,10 @@
-# TypeScript -> Mapped Types
-## Summary
+# TYPESCRIPT -> MAPPED TYPES
+## SUMMARY
 > [!summary]
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Los **Mapped Types** son una forma de crear nuevos tipos transformando propiedades de un tipo existente, utilizando una sintaxis basada en claves y modificadores.
@@ -14,16 +14,16 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- ¿Cómo funcionan los Mapped Types?
+## B.1- ¿CÓMO FUNCIONAN LOS MAPPED TYPES?
 
 Un Mapped Type recorre las claves de un tipo existente (`T`) y aplica una transformación a sus propiedades. La sintaxis usa un bucle implícito:
 ```typescript
 type NuevoTipo<K extends keyof T> = { [P in K]: Transformación };
 ```
 
-### Ejemplo Básico:
+### EJEMPLO BÁSICO:
 
 ```ts
 type Usuario = {
@@ -38,13 +38,13 @@ let usuario: SoloLectura<Usuario> = { id: 1, nombre: "Diego" };
 
 ```
 
-## B.2- Modificadores en Mapped Types
+## B.2- MODIFICADORES EN MAPPED TYPES
 
 1. **`readonly`**: Convierte todas las propiedades en solo lectura.
 2. **`?` (opcional):** Hace que todas las propiedades sean opcionales.
 3. **`-readonly` o `-?`**: Elimina `readonly` o `?` de las propiedades.
 
-### Ejemplo con Modificadores:
+### EJEMPLO CON MODIFICADORES:
 
 ```ts
 type Usuario = {
@@ -59,11 +59,11 @@ let parcial: Parcial<Usuario> = { id: 1 }; // OK: nombre es opcional
 let requerido: Requerido<Parcial<Usuario>> = { id: 1, nombre: "Diego" }; // Todo es obligatorio
 ```
 
-## B.3- Uso Avanzado: Herencia y Transformación de Tipos
+## B.3- USO AVANZADO: HERENCIA Y TRANSFORMACIÓN DE TIPOS
 
 Los Mapped Types permiten extender y transformar tipos complejos, ideal para librerías y API dinámicas.
 
-### Ejemplo con Herencia:
+### EJEMPLO CON HERENCIA:
 
 ```ts
 type Respuesta<T> = {
@@ -76,7 +76,7 @@ type UsuarioRespuesta = Respuesta<Usuario>;
 let usuario: UsuarioRespuesta = { id: 1, nombre: null }; // OK
 ```
 
-# Questions
+# QUESTIONS
 
 >[!tip]- **¿Qué son los Mapped Types en TypeScript?**  
 > Son tipos derivados que transforman propiedades de un tipo existente.  

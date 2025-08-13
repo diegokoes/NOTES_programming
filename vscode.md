@@ -1,11 +1,8 @@
-
-# vscode
-## Keyboard shortcuts
+# VSCODE
+## KEYBOARD SHORTCUTS
 - `CTRL K + CTRL S` = KEYBOARD SHORTCUTS 
-## Profiles
-- `ALT + SHIFT + P` = SELECT PROFILE
-- `CTRL + SHIFT + P` = SELECT PROJECT
-## Search
+## PROFILES
+## SEARCH
 - `CTRL + H` = REPLACE
 - `CTRL + SHIFT + ALT + P` = PEEK DEFINITION
 - `CTRL + SHIFT + ALT + I` = PEEK IMPLEMENTATION
@@ -14,5 +11,5 @@
 
 
 - `CTRL D`
-## Emmet
+## EMMET
 fasterwithemmet

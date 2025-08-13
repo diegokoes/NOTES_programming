@@ -1,13 +1,13 @@
-# DOM (Document Object Model)
+# DOM (DOCUMENT OBJECT MODEL)
 
-## Summary
+## SUMMARY
 
 > [!summary]
 > The Document Object Model (DOM) is a programming interface for HTML and XML documents that represents the page as a tree-structured hierarchy of nodes. It allows JavaScript to access, manipulate, and update the content, structure, and style of web documents dynamically. The DOM serves as a bridge between web pages and programming languages, enabling interactive web applications by providing methods and properties to interact with every element on a page.
 
-## Theory
+## THEORY
 
-### What is the DOM?
+### WHAT IS THE DOM?
 
 The DOM represents an HTML document as a hierarchical tree structure where each part of the document (elements, attributes, text) becomes a node in the tree. This representation allows scripts to:
 
@@ -16,7 +16,7 @@ The DOM represents an HTML document as a hierarchical tree structure where each 
 - Respond to user interactions
 - Create dynamic content without page reloads
 
-### DOM Tree Structure
+### DOM TREE STRUCTURE
 
 - **Document node**: The root of the DOM tree
 - **Element nodes**: HTML elements like `<div>`, `<p>`, `<body>`
@@ -24,7 +24,7 @@ The DOM represents an HTML document as a hierarchical tree structure where each 
 - **Text nodes**: Text content inside elements
 - **Comment nodes**: HTML comments
 
-### DOM Creation Process
+### DOM CREATION PROCESS
 
 1. The browser receives HTML content
 2. The parser processes HTML tags and creates a DOM tree
@@ -33,7 +33,7 @@ The DOM represents an HTML document as a hierarchical tree structure where each 
 5. Layout calculation (reflow) determines element positions
 6. Visual display (repaint) draws elements on screen
 
-### DOM Traversal
+### DOM TRAVERSAL
 
 ```javascript
 // Parent relationships
@@ -55,7 +55,7 @@ element.previousSibling  // Previous sibling
 element.previousElementSibling // Previous element sibling
 ```
 
-### DOM Selection Methods
+### DOM SELECTION METHODS
 
 ```javascript
 // Single element selectors
@@ -68,7 +68,7 @@ document.getElementsByTagName('tag')
 document.querySelectorAll('selector')
 ```
 
-### DOM Manipulation
+### DOM MANIPULATION
 
 ```javascript
 // Creating elements
@@ -107,7 +107,7 @@ element.after(...nodes)           // Insert after element
 element.replaceWith(...nodes)     // Replace element
 ```
 
-### Events
+### EVENTS
 
 ```javascript
 // Adding event listeners
@@ -121,7 +121,7 @@ event.preventDefault()  // Prevent default action
 event.stopPropagation() // Stop event bubbling/capturing
 ```
 
-### Performance Considerations
+### PERFORMANCE CONSIDERATIONS
 
 - DOM manipulation is expensive for performance
 - Batch DOM updates when possible
@@ -129,7 +129,7 @@ event.stopPropagation() // Stop event bubbling/capturing
 - Use document fragments for multiple insertions
 - Consider virtual DOM libraries for complex applications
 
-## Questions
+## QUESTIONS
 
 > [!tip]- What's the difference between textContent and innerHTML?
 > **textContent** sets or returns the text content of a node and all its descendants, treating HTML as plain text (safer, prevents XSS attacks). **innerHTML** sets or returns the HTML content inside an element, parsing and rendering any HTML tags (potentially unsafe if using user input).

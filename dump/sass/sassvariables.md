@@ -1,12 +1,12 @@
-# SASS -> Variables
-## Definition
+# SASS -> VARIABLES
+## DEFINITION
 **Official:**
 > Las **variables en Sass** son valores reutilizables definidos con un nombre específico, que permiten gestionar colores, tamaños, fuentes y otros valores de diseño en un proyecto SCSS.
 
 **Personal:**
 >Las variables de Sass son como "cajas" donde guardas valores que puedes reutilizar en todo tu proyecto. Son útiles para cambiar un valor en un solo lugar y que se refleje en todo el diseño.
 - - - 
-## Questions
+## QUESTIONS
 >[!tip]- **¿Cómo se define una variable en Sass?**  
 >Se utiliza el símbolo `$` seguido del nombre de la variable y su valor.```
 >$color-primario: #3498db;```
@@ -26,9 +26,9 @@
 >- Las variables Sass son compiladas y no existen en el archivo CSS final.
 >- Las variables CSS (`--nombre-variable`) permanecen en el CSS y pueden cambiar según el contexto (e.g., por tema o elemento).
 
-## Use
+## USE
 
-###  **1. Uso de Variables con Operaciones**
+###  **1. USO DE VARIABLES CON OPERACIONES**
 ```sass
 $base: 16px; 
 $margen: $base * 2; ◘
@@ -37,7 +37,7 @@ $margen: $base * 2; ◘
 											}
 ```
 
-###  Configuración de Módulos con Variables por Defecto
+###  CONFIGURACIÓN DE MÓDULOS CON VARIABLES POR DEFECTO
 
 Las variables definidas con `!default` en un módulo pueden ser configuradas al cargarlo con `@use`.
 
@@ -58,7 +58,7 @@ body {
   $espaciado: 20px
 );
 ```
-###  Shadowing de Variables
+###  SHADOWING DE VARIABLES
 Es posible tener variables locales que "sombran" variables globales con el mismo nombre. Sin embargo, estas no las reemplazan fuera de su bloque.
 ```scss
 $variable: global value;
@@ -73,7 +73,7 @@ $variable: global value;
 }
 ```
 
-###  Variables en Control de Flujo
+###  VARIABLES EN CONTROL DE FLUJO
 Dentro de estructuras condicionales (`@if`, `@for`, `@each`), las variables asignadas modifican el valor existente en el ámbito actual. Si no están definidas previamente, deben ser inicializadas como `null`.
 
 ```scss
@@ -89,11 +89,11 @@ $primary-color: #f8bbd0 !default;
 }
 ```
 
-## C.2- **Avanzado: Verificar Existencia de Variables**
+## C.2- **AVANZADO: VERIFICAR EXISTENCIA DE VARIABLES**
 
 Sass proporciona funciones del módulo `meta` para comprobar si una variable está definida en el contexto actual o en el global. Estas funciones son especialmente útiles para evitar errores en proyectos complejos o en librerías reutilizables.
 
-###  **Funciones Clave**
+###  **FUNCIONES CLAVE**
 
 1. **`meta.variable-exists(name)`**
     
@@ -127,9 +127,9 @@ $global-variable: "I'm global!";
 }
 ```
     
-###  **Cómo Usar la Verificación de Variables**
+###  **CÓMO USAR LA VERIFICACIÓN DE VARIABLES**
 
-####  **1. Validar Variables Opcionales**
+####  **1. VALIDAR VARIABLES OPCIONALES**
 
 Cuando desarrollas librerías o temas, puedes verificar si una variable está definida antes de usarla para evitar errores.
 
@@ -145,11 +145,11 @@ $primary-color: #3498db !default;
 }
 ```
 
-####  **2. Debugging en Sass**
+####  **2. DEBUGGING EN SASS**
 
 Sass incluye directivas útiles para depurar problemas relacionados con variables:
 
-#### - **`@debug`: Imprime información**
+#### - **`@debug`: IMPRIME INFORMACIÓN**
 
 Usa `@debug` para mostrar información útil durante la compilación.
 
@@ -157,7 +157,7 @@ Usa `@debug` para mostrar información útil durante la compilación.
 ```scss
 @debug $primary-color; // Muestra el valor de $primary-color`
 ```
-####  **`@warn`: Advertencias**
+####  **`@warn`: ADVERTENCIAS**
 
 Emite un mensaje de advertencia cuando algo no cumple una condición, pero continúa con la compilación.
 
@@ -167,7 +167,7 @@ Copy code
 
 `@warn "El valor de $padding es muy grande." if $padding > 100px;`
 
-####  **`@error`: Interrumpe la compilación**
+####  **`@error`: INTERRUMPE LA COMPILACIÓN**
 
 Emite un mensaje de error y detiene la compilación.
 
@@ -179,7 +179,7 @@ Copy code
 
 ---
 
-###  **Ejemplo Completo: Restringir Valores de Padding**
+###  **EJEMPLO COMPLETO: RESTRINGIR VALORES DE PADDING**
 
 Supongamos que quieres restringir el uso de `padding` para que solo acepte valores relacionados con `top` y emita un error si se intenta usar `left`.
 
@@ -198,11 +198,11 @@ Supongamos que quieres restringir el uso de `padding` para que solo acepte valor
 }
 ```
 
-###  **Cómo Limitar o Controlar Opciones**
+###  **CÓMO LIMITAR O CONTROLAR OPCIONES**
 
 Puedes usar listas para restringir valores aceptados y evitar errores en tus mixins o configuraciones.
 
-####  **Ejemplo: Lista de Valores Permitidos**
+####  **EJEMPLO: LISTA DE VALORES PERMITIDOS**
 
 ```scss
 $allowed-directions: top, right, bottom, left;  
@@ -218,9 +218,9 @@ $allowed-directions: top, right, bottom, left;
 ```
 ---
 
-###  **Uso Real: Condicionales con Variables**
+###  **USO REAL: CONDICIONALES CON VARIABLES**
 
-####  **1. Comprobar si una Variable Está Inicializada**
+####  **1. COMPROBAR SI UNA VARIABLE ESTÁ INICIALIZADA**
 
 Esto es útil para evitar sobrescribir configuraciones globales:
 
@@ -235,7 +235,7 @@ Esto es útil para evitar sobrescribir configuraciones globales:
 @include initialize-variable(primary-color, #3498db);
 ```
 
-####  **2. Combinar `@error` y Validación**
+####  **2. COMBINAR `@error` Y VALIDACIÓN**
 
 Crea mixins robustos para detectar configuraciones incorrectas:
 

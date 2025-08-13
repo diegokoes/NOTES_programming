@@ -1,12 +1,12 @@
-# Java -> Data Types -> Annotations
-## Summary
+# JAVA -> DATA TYPES -> ANNOTATIONS
+## SUMMARY
 > [!summary]
 > Annotations provide metadata for compilers and tools, influencing how code is processed. They serve as a powerful way to embed supplementary information within Java code that can be used for documentation, compile-time checking, code generation, and runtime processing. Annotations reduce boilerplate code and enable frameworks to interpret your code according to specific rules.
 
-## Theory
+## THEORY
 Annotations are preceded by @ and can affect compiler behavior, generate code, or provide configuration details. They can be applied to declarations (classes, methods, fields, etc.) and, since Java 8, also to type uses.
 
-### Basic Annotation Format
+### BASIC ANNOTATION FORMAT
 ```java
 @Entity  // Simple annotation
 @Override void myMethod() { ... }  // Common annotation
@@ -14,14 +14,14 @@ Annotations are preceded by @ and can affect compiler behavior, generate code, o
 @SuppressWarnings("unchecked")  // Single element shorthand
 ```
 
-### Built-in Annotations
+### BUILT-IN ANNOTATIONS
 - **@Override**: Verifies method is overriding a superclass method
 - **@Deprecated**: Marks code as obsolete with compiler warnings
 - **@SuppressWarnings**: Instructs compiler to ignore specific warnings
 - **@FunctionalInterface**: Ensures interface has exactly one abstract method
 - **@SafeVarargs**: Suppresses warnings for potentially unsafe varargs operations
 
-### Meta-Annotations
+### META-ANNOTATIONS
 Annotations that apply to other annotations:
 - **@Retention**: Controls annotation visibility (SOURCE, CLASS, RUNTIME)
 - **@Target**: Restricts where an annotation can be applied
@@ -29,7 +29,7 @@ Annotations that apply to other annotations:
 - **@Inherited**: Allows annotation to be inherited by subclasses
 - **@Repeatable**: Enables multiple applications of the same annotation
 
-### Creating Custom Annotations
+### CREATING CUSTOM ANNOTATIONS
 ```java
 @Documented
 @interface ClassPreamble {
@@ -40,13 +40,13 @@ Annotations that apply to other annotations:
 }
 ```
 
-### Type Annotations (Java 8+)
+### TYPE ANNOTATIONS (JAVA 8+)
 ```java
 List<@NonNull String> list;
 @NotNull String text = (@NotNull String) input;
 ```
 
-### Repeating Annotations (Java 8+)
+### REPEATING ANNOTATIONS (JAVA 8+)
 ```java
 @Repeatable(Schedules.class)
 public @interface Schedule {
@@ -63,7 +63,7 @@ public @interface Schedules {
 public void doPeriodicCleanup() { ... }
 ```
 
-## Questions
+## QUESTIONS
 > [!tip]- Why use annotations?
 > They reduce boilerplate code, provide metadata for tools and frameworks, enable compile-time checking, support documentation, and facilitate aspect-oriented programming features without modifying actual business logic.
 

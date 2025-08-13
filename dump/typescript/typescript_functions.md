@@ -1,5 +1,5 @@
-# TypeScript -> Functions
-## Definition
+# TYPESCRIPT -> FUNCTIONS
+## DEFINITION
 
 **Oficial:**
 > En TypeScript, las funciones son bloques de código reutilizables que realizan una tarea específica. Las funciones pueden tener parámetros con tipos explícitos, y se puede definir el tipo de su valor de retorno.
@@ -9,13 +9,13 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- Funciones en TypeScript
+## B.1- FUNCIONES EN TYPESCRIPT
 
 Las funciones pueden ser declarativas, expresivas o incluso anidadas. Además, permiten una gran variedad de estilos dependiendo del contexto y los requisitos del programa.
 
-### **Tipos de Funciones**
+### **TIPOS DE FUNCIONES**
 
 1. **Funciones Declarativas:**
    Son la forma clásica de definir una función. Se declaran usando la palabra clave `function`.
@@ -61,7 +61,7 @@ Las funciones pueden ser declarativas, expresivas o incluso anidadas. Además, p
    procesarCallback(5, 10, (res) => console.log(res)); // 15
    ```
 
-### **Parámetros Opcionales y Predeterminados**
+### **PARÁMETROS OPCIONALES Y PREDETERMINADOS**
 
 1. **Parámetros Opcionales:** Se definen usando `?` y pueden omitirse al llamar a la función.
    ```ts
@@ -77,7 +77,7 @@ Las funciones pueden ser declarativas, expresivas o incluso anidadas. Además, p
    }
    ```
 
-### **Tipos para el Retorno**
+### **TIPOS PARA EL RETORNO**
 Puedes especificar el tipo del valor que devuelve una función:
 ```ts
 function dividir(a: number, b: number): number {
@@ -92,7 +92,7 @@ function logMensaje(mensaje: string): void {
 }
 ```
 
-### **Funciones con Tipos Generics**
+### **FUNCIONES CON TIPOS GENERICS**
 Los tipos genéricos permiten que las funciones trabajen con diferentes tipos, manteniendo la tipificación:
 ```ts
 function identidad<T>(valor: T): T {
@@ -100,7 +100,7 @@ function identidad<T>(valor: T): T {
 }
 ```
 
-### **Funciones Lambda en Declaraciones Complejas**
+### **FUNCIONES LAMBDA EN DECLARACIONES COMPLEJAS**
 Puedes combinar funciones flecha dentro de declaraciones de funciones tradicionales para mayor flexibilidad.
 ```ts
 function operacionesAvanzadas(a: number, b: number): number {

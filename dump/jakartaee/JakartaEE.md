@@ -1,4 +1,4 @@
-# Jakarta EE
+# JAKARTA EE
 
 - [Rough Notes](jakartaeeroughnotes.md)
 - [Overview](jakartaeeoverview.md)

@@ -1,6 +1,6 @@
-# HTML -> Input Fields
+# HTML -> INPUT FIELDS
 
-## Inputs 
+## INPUTS 
 The `<input>` tag is versatile and used for different types of data. Depending on the `type` attribute, its behavior changes.
 
 Common types:
@@ -55,7 +55,7 @@ Useful attributes:
 <input type="file" id="file" name="file">
 ```
 
-#### **Checkboxes (`checkbox`)**
+### **CHECKBOXES (`checkbox`)**
 
 - Allow multiple selections.
 - The **`checked`** attribute indicates that the checkbox is selected by default.
@@ -72,7 +72,7 @@ Useful attributes:
 </label>
 ```
 
-#### **Radio Buttons (`radio`)**
+### **RADIO BUTTONS (`radio`)**
 
 - Allow selecting only one option among several (exclusive selection).
 - Ensure that all radio buttons in the same group have the same `name` attribute value.
@@ -90,7 +90,7 @@ Useful attributes:
 </label>
 ``` 
 
-#### **Select Field (`<select>`)**
+### **SELECT FIELD (`<select>`)**
 
 Allows creating dropdown menus to select one or multiple options.
 
@@ -106,7 +106,7 @@ Allows creating dropdown menus to select one or multiple options.
 - **`<option>`**: Defines each option in the dropdown menu.
 - The **`value`** attribute in `<option>` defines the value sent to the server.
 - The **`selected`** attribute in `<option>` indicates that the option is selected by default.
-##### **Multiple Selection in `<select>`**
+#### **MULTIPLE SELECTION IN `<select>`**
 
 - Add the **`multiple`** attribute to `<select>` to allow selecting multiple options.
 - You can define the number of visible options with the **`size`** attribute.
@@ -127,7 +127,7 @@ To send all selected options to the server, ensure that the **`name`** attribute
 </select>
 ```
 
-#### **Option Grouping (`<optgroup>`)**
+### **OPTION GROUPING (`<optgroup>`)**
 
 - Allows grouping options within a `<select>`.
 ```html
@@ -144,7 +144,7 @@ To send all selected options to the server, ensure that the **`name`** attribute
 </select>
 ```
 
-### `<label>` Tag
+## `<label>` TAG
 
 - Associated with a form control to improve accessibility.
 - Clicking on the label focuses the associated field.
@@ -162,7 +162,7 @@ To send all selected options to the server, ensure that the **`name`** attribute
 </label>
 ```
 
-### Buttons
+## BUTTONS
 
 - **`<button>`**: More flexible than `<input type="button">`, allows including content inside (text, images).
 - Common attributes:
@@ -174,7 +174,7 @@ To send all selected options to the server, ensure that the **`name`** attribute
 <button type="button" onclick="alert('Hello')">Click Here</button>
 ```
 
-### Text Area (`<textarea>`)
+## TEXT AREA (`<textarea>`)
 
 Field for long text inputs. You can control its size with the **`rows`** and **`cols`** attributes, or preferably with CSS.
 ```html
@@ -182,7 +182,7 @@ Field for long text inputs. You can control its size with the **`rows`** and **`
 <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Write your comments here"></textarea>
 ```
 
-### Data List Selectors (`<datalist>`)
+## DATA LIST SELECTORS (`<datalist>`)
 
 Provides a list of predefined options for an input field, allowing the user to choose or enter a custom value.
 
@@ -198,7 +198,7 @@ Provides a list of predefined options for an input field, allowing the user to c
 </datalist>
 ```
 
-### Grouping Controls (`<fieldset>` and `<legend>`)
+## GROUPING CONTROLS (`<fieldset>` AND `<legend>`)
 
 Used to group related elements within a form, improving organization and accessibility.
 ```html
@@ -222,7 +222,7 @@ Used to group related elements within a form, improving organization and accessi
   <input type="tel" id="phone" name="phone">
 </fieldset>
 ```
-### Selectors (`<select>` and `<option>`)
+## SELECTORS (`<select>` AND `<option>`)
 
 Allows creating dropdown menus.
 
@@ -235,9 +235,9 @@ Allows creating dropdown menus.
 </select>
 ```
 
-### Gauges (`<progress>` and `<meter>`)
+## GAUGES (`<progress>` AND `<meter>`)
 
-#### **`<progress>`**
+### **`<progress>`**
 
 Indicates the progress of an ongoing task, like a progress bar.
 
@@ -248,7 +248,7 @@ Indicates the progress of an ongoing task, like a progress bar.
 <progress id="downloadProgress" value="30" max="100">30%</progress>
 ```
 
-#### **`<meter>`**
+### **`<meter>`**
 
 Represents a scalar value within a known range, such as a measurement or rating.
 
@@ -261,7 +261,7 @@ Represents a scalar value within a known range, such as a measurement or rating.
 <meter id="batteryLevel" value="0.6">60%</meter>
 ```
 
-### Form Submission
+## FORM SUBMISSION
 
 - **`<input type="submit">`**: Button to submit the form.
 - **`<input type="reset">`**: Button to reset the form fields.
@@ -273,7 +273,7 @@ Represents a scalar value within a known range, such as a measurement or rating.
 <button type="submit">Submit Form</button>
 ```
 
-### Form Validation
+## FORM VALIDATION
 
 Modern browsers provide basic validation:
 
@@ -289,7 +289,7 @@ Modern browsers provide basic validation:
 <input type="number" id="age" name="age" min="18" max="100" required>
 ```
 
-### Use of Placeholders and Titles
+## USE OF PLACEHOLDERS AND TITLES
 
 - **`placeholder`**: Shows helper text inside the field.
 - **`title`**: Provides additional information when hovering over the field.
@@ -297,14 +297,14 @@ Modern browsers provide basic validation:
 <input type="email" name="email" placeholder="email@example.com" required title="Enter a valid email">
 ```
 
-### Hidden Fields (`<input type="hidden">`)
+## HIDDEN FIELDS (`<input type="hidden">`)
 
 Used to send information to the server without the user seeing or being able to modify it.
 ```html
 <input type="hidden" name="token" value="1234567890">
 ```
 
-### Form Attributes
+## FORM ATTRIBUTES
 
 - **`novalidate`**: Disables form validation upon submission.
 
@@ -320,7 +320,7 @@ Used to send information to the server without the user seeing or being able to 
 <input type="text" name="username" autocomplete="off">
 ```
 
-### `<output>` Tag
+## `<output>` TAG
 
 Displays the result of a calculation or action.
 
@@ -344,7 +344,7 @@ function calculateTotal() {
 </script>
 ```
 
-### `form` Attribute
+## `form` ATTRIBUTE
 
 Allows associating controls with a specific form using the `form` attribute with the form's `id`, even if they are outside the `<form>`.
 
@@ -356,7 +356,7 @@ Allows associating controls with a specific form using the `form` attribute with
 <input type="text" name="extraField" form="myForm">
 ```
 
-### `disabled` Attribute
+## `disabled` ATTRIBUTE
 
 Disables a form control, preventing interaction and submission to the server.
 
@@ -364,7 +364,7 @@ Disables a form control, preventing interaction and submission to the server.
 <input type="text" name="username" disabled placeholder="Disabled field">
 ```
 
-### `readonly` Attribute
+## `readonly` ATTRIBUTE
 
 The field is read-only; it cannot be modified but is still submitted to the server.
 
@@ -372,13 +372,13 @@ The field is read-only; it cannot be modified but is still submitted to the serv
 <input type="text" name="code" value="ABC123" readonly>
 ```
 
-### Accessible Forms
+## ACCESSIBLE FORMS
 
 - Use `<label>` tags for all fields.
 - Provide clear information in `placeholders` and `titles`.
 - Ensure that fields are properly grouped and structured.
 
-### Complete Form Example
+## COMPLETE FORM EXAMPLE
 
 ```html
 <form action="register.php" method="post">

@@ -1,4 +1,4 @@
-# React -> API's React
+# REACT -> API'S REACT
 
 1.  [XMLHttpRequest](react_xmlhttprequest.md)
 2. [Fetch](fetch_react.md)

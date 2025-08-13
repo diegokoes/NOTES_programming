@@ -1,11 +1,11 @@
-# TypeScript -> Utility Types
+# TYPESCRIPT -> UTILITY TYPES
 
-## Summary
+## SUMMARY
 > [!summary]-
 > 
 - - - 
 
-## Definition
+## DEFINITION
 
 **Official:**  
 > Los **Utility Types** son tipos predefinidos en TypeScript que permiten realizar transformaciones comunes en tipos existentes, como hacerlos opcionales, de solo lectura, o seleccionar o excluir ciertas propiedades.
@@ -15,9 +15,9 @@
 
 ---
 
-## Theory
+## THEORY
 
-## B.1- Tipos Principales de Utility Types
+## B.1- TIPOS PRINCIPALES DE UTILITY TYPES
 
 ### **1. `Partial<T>`**
 Convierte todas las propiedades de un tipo en opcionales.

@@ -1,4 +1,4 @@
-# conceptsprotocols >Functional Programming 
+# CONCEPTSPROTOCOLS >FUNCTIONAL PROGRAMMING 
 *A paradigm that treats computation as the evaluation of mathematical functions.*
 
 - [Pure Functions](pure_functions.md): Functions without side effects that return the same output for the same input.

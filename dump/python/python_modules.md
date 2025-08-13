@@ -1,8 +1,8 @@
-# Python Standard Library Modules
+# PYTHON STANDARD LIBRARY MODULES
 
 This note serves as a central reference for Python standard library modules.
 
-## Table of Contents
+## TABLE OF CONTENTS
 - [Random](#random)
 - [Time](#time)
 - [Math](#math)
@@ -12,7 +12,7 @@ This note serves as a central reference for Python standard library modules.
 - [CSV](#csv)
 - [Datetime](#datetime)
 
-## Random
+## RANDOM
 
 See detailed notes: [[python_random|Random Module]]
 
@@ -28,7 +28,7 @@ random.sample(seq, k) # k unique random items from sequence
 random.shuffle(seq)   # Shuffle sequence in-place
 ```
 
-## Time
+## TIME
 
 ```python
 import time
@@ -43,7 +43,7 @@ time.sleep(2)
 time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 ```
 
-## Math
+## MATH
 
 ```python
 import math
@@ -73,7 +73,7 @@ os.path.join('folder', 'file.txt')
 os.path.exists('path/to/check')
 ```
 
-## Adding New Modules
+## ADDING NEW MODULES
 
 To add a new module:
 1. Add it to the Table of Contents

@@ -1,5 +1,5 @@
 # SQL -> CONNECT BY
-## Definition
+## DEFINITION
 
 **Official:**  
 > `CONNECT BY` se utiliza en SQL para construir consultas jerárquicas, como relaciones de empleados y supervisores, o estructuras de árbol.
@@ -9,7 +9,7 @@
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué hace CONNECT BY en SQL?**  
 > Crea una relación jerárquica entre filas de una tabla, como padre-hijo.  
@@ -39,9 +39,9 @@
 
 ---
 
-## Use
+## USE
 
-## C.1- **Construir una Jerarquía:**
+## C.1- **CONSTRUIR UNA JERARQUÍA:**
 ```sql
 SELECT empleado_id, supervisor_id, LEVEL 
 FROM empleados 
@@ -49,7 +49,7 @@ START WITH supervisor_id IS NULL
 CONNECT BY PRIOR empleado_id = supervisor_id;
 ```
 
-## C.2- **Ordenar Jerarquías:**
+## C.2- **ORDENAR JERARQUÍAS:**
 ```sql
 SELECT empleado_id, supervisor_id, LEVEL 
 FROM empleados 
@@ -58,7 +58,7 @@ CONNECT BY PRIOR empleado_id = supervisor_id
 ORDER SIBLINGS BY empleado_id;
 ```
 
-## C.3- **Contar Niveles:**
+## C.3- **CONTAR NIVELES:**
 ```sql
 SELECT MAX(LEVEL) AS profundidad_maxima 
 FROM empleados 

@@ -1,4 +1,4 @@
-# JavaScript -> Operators
+# JAVASCRIPT -> OPERATORS
 
 
 - - - 

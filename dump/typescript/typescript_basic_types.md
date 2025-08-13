@@ -1,6 +1,6 @@
-# TypeScript: Basic Types
+# TYPESCRIPT: BASIC TYPES
 
-## Definition
+## DEFINITION
 **Official:**  
 > Los tipos básicos en TypeScript representan los datos primitivos disponibles en JavaScript, incluyendo cadenas, números y booleanos, además de los tipos adicionales como `null`, `undefined` y `any`.
 
@@ -9,11 +9,11 @@
 
 ---
 
-## Theory
+## THEORY
 
 Los **tipos básicos** en TypeScript abarcan desde los primitivos de JavaScript hasta tipos específicos de TypeScript que ofrecen mayor flexibilidad y control en el manejo de datos.
 
-### C.1- Tipos Primitivos
+### C.1- TIPOS PRIMITIVOS
 - **`string`:** Representa cadenas de texto.
 - **`number`:** Acepta números enteros y decimales.
 - **`boolean`:** Representa valores lógicos (`true`/`false`).
@@ -30,7 +30,7 @@ Los **tipos básicos** en TypeScript abarcan desde los primitivos de JavaScript 
 > let algo: any = "Puede ser cualquier cosa";
 > ```
 
-### C.2- Inferencia de Tipos
+### C.2- INFERENCIA DE TIPOS
 TypeScript puede inferir automáticamente el tipo basado en el valor asignado.
 
 >[!info]- **Ejemplo de inferencia**
@@ -39,7 +39,7 @@ TypeScript puede inferir automáticamente el tipo basado en el valor asignado.
 > let total = 100;      // Infierido como number
 > ```
 
-### C.3- Tipo `unknown`
+### C.3- TIPO `unknown`
 `unknown` es más seguro que `any` y obliga a comprobar el tipo antes de usarlo.
 
 >[!info]- **Ejemplo de tipo `unknown`**
@@ -61,7 +61,7 @@ Permite convertir explícitamente un tipo a otro.
 
 ---
 
-## Questions
+## QUESTIONS
 
 >[!tip]- **¿Qué tipos básicos existen en TypeScript?**  
 > Incluyen:
