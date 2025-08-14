@@ -44,7 +44,7 @@
 ### DIFERENCIAS ENTRE `type` E `interface`
 
 | Característica                | `type`                           | `interface`                      |
-|-------------------------------|-----------------------------------|-----------------------------------|
+|-------------------------------|--------------------------------|-----------------------------------|
 | **Definición de uniones**     | ✅ Sí                            | ❌ No                            |
 | **Herencia directa**          | ❌ No                            | ✅ Sí                            |
 | **Extensión mediante intersecciones** | ✅ Sí                            | ✅ Sí                            |
@@ -107,4 +107,3 @@ Cada uno de estos temas se encuentra explicado con detalle en su respectiva nota
 >type PropiedadesUsuario = keyof Usuario; // "nombre" | "edad"
 >```
 - - - 
-#typescript 

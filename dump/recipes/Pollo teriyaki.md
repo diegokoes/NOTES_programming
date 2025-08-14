@@ -19,4 +19,3 @@
 Puede acompañarse de [[Arroz Basmati]]
 
 - - - 
-#recipes 

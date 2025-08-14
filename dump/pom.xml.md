@@ -253,4 +253,3 @@ mvn install -Pprod
 
 This breakdown provides a comprehensive understanding of the POM structure, its key components, and practical use cases. 
 - - - 
-#java 

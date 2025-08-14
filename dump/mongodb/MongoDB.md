@@ -27,4 +27,3 @@
       2. [MongoDB Indexing Strategies](mongodb_indexing_strategies.md)  
       3. [MongoDB Backup and Recovery](mongodb_backup_recovery.md)  
 - - - 
-#mongodb

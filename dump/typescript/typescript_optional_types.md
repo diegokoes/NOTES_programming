@@ -84,4 +84,3 @@ Los parámetros opcionales pueden tener valores por defecto, lo cual mejora la l
 >```
 
 ---
-#typescript 

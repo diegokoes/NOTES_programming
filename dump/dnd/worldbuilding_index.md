@@ -6,4 +6,3 @@
 - [Mythology and Pantheon](mythology_pantheon.md)
 - [Historical Events](historical_events.md)
 - - - 
-#rol 

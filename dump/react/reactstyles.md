@@ -2,4 +2,3 @@
 2. [Styled Components](reactstylescomponents)
 3. [SASS in React](reactsass)
 - - - 
-#react 

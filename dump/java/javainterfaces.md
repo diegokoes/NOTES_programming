@@ -142,4 +142,4 @@ public class Coche implements Vehiculo {
     Las interfaces pueden contener métodos abstractos, predeterminados (`default`), estáticos (`static`) y privados (`private`). Consulta los apartados detallados más adelante.
 
 - - - 
-[[poo_java]] [[clases_abstractas]] #java
+[[poo_java]] [[clases_abstractas]] ava

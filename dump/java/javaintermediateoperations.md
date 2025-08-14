@@ -61,4 +61,3 @@ Ordena los elementos del Stream. Por defecto, utiliza el orden natural o un `Com
 Utilizando operaciones perezosas como `limit()` para reducir el tamaño del Stream antes de procesarlo por completo.
 
 - - -
-#java

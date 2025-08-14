@@ -27,4 +27,3 @@ The global variable **special** is declared outside of any function and can be 
 
 **Built-in scope** includes **built-in functions and objects** (like print(), len(), etc.), but not **reserved keywords** (like def, for, if, etc.).
 - - -
-#python

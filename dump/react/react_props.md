@@ -46,7 +46,7 @@ No, las props son inmutables. Esto significa que no se pueden cambiar dentro del
 Si no se pasa una prop, su valor será undefined a menos que el componente tenga un valor predeterminado configurado.
 
 - - - 
-#react 
+
 
 
 

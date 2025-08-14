@@ -50,7 +50,7 @@ TypeScript puede inferir automáticamente el tipo basado en el valor asignado.
 > }
 > ```
 
-### C.4- [[typescriptassertioncasting|Casteo]] (`as`)
+### C.4- [[typescript_assertioncasting|Casteo]] (`as`)
 Permite convertir explícitamente un tipo a otro.
 
 >[!info]- **Ejemplo de casteo**
@@ -99,4 +99,3 @@ Permite convertir explícitamente un tipo a otro.
 > algo = 42; // Permitido, pero puede ser problemático
 > ```
 - - - 
-#typescript 

@@ -1,9 +1,10 @@
 {
-  "theme": "moonstone",
+  "theme": "obsidian",
   "showRibbon": false,
   "cssTheme": "AnuPpuccin",
   "interfaceFontFamily": "Avenir",
   "textFontFamily": "Avenir",
   "showViewHeader": false,
-  "nativeMenus": false
+  "nativeMenus": false,
+  "baseFontSize": 18
 }

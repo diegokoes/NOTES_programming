@@ -9,7 +9,7 @@ if (folder) {
     folderName = folder.split("/").pop();
     if (folderName) {
         // Format content
-        output = `# ${folderName} > \n\n\n- - -\n#${folderName}`;
+        output = `# ${folderName} > \n\n`;
     }
 }
 

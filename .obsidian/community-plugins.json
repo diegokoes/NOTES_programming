@@ -4,5 +4,7 @@
   "obsidian-regex-replace",
   "obsidian-day-and-night",
   "obsidian-style-settings",
-  "obsidian-linter"
+  "obsidian-linter",
+  "wikilinks-to-mdlinks-obsidian",
+  "global-search-and-replace"
 ]

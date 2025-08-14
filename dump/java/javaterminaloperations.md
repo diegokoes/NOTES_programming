@@ -34,4 +34,3 @@ Combina elementos en un único resultado.
 int suma = Stream.of(1, 2, 3).reduce(0, Integer::sum);
 ```
 - - - 
-#java

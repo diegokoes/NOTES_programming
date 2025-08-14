@@ -248,4 +248,3 @@ export const routes: Routes = [
 
 cada elemento del objeto router es un objeto de la calse Route de angualr y representa el objeto encargado de decir al modulo de enroutamiento de angular qué componente carga ante una url en el navegador. Las rutas no pueden empezar con / no?
 - - - 
-#angular 

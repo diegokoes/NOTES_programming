@@ -27,4 +27,3 @@ const
 > [!danger]- Question
 > Answer
 - - - 
-#javascript 

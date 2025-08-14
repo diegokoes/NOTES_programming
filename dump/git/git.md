@@ -76,4 +76,3 @@ Git operates on a simple but powerful model with three main areas:
 
 
 - - -
-#git

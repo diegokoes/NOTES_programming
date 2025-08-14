@@ -17,4 +17,3 @@ float is used where fractional values are required but less precision is accepta
 > [!danger]- Conversions?
 > Casting from double to float can lose precision
 - - - 
-#java 

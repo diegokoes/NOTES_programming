@@ -179,4 +179,4 @@ function operacionesAvanzadas(a: number, b: number): number {
 > ejecutarProceso(() => console.log("Proceso completado"));
 > ```
 - - - 
-[[javascript_functions|Funciones JavaScript]] #typescript 
+[[javascript_functions|Funciones JavaScript]] 

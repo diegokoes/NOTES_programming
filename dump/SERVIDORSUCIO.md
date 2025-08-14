@@ -124,7 +124,7 @@ Manejar las cabeceras del response, no en html, en otro formato.
 las propias: t . 17:04 
 Cómo hacer clases genéricas.
 - [ ] Mirar lo de las copias profundas/superficiales de arrays / listas
-#todo
+odo
 
 
 metodo response para que pueda llevar tildes?

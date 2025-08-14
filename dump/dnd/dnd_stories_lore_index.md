@@ -4,4 +4,3 @@
 - [Shared Campaign Lore](shared_campaign_lore.md)
 - [System-Specific Lore](system_specific_lore.md)
 - - - 
-#rol 

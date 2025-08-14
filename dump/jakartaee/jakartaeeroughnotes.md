@@ -274,4 +274,3 @@ lo mismo que el enunciado de la ordinaria, pero con JSF, Y CDI BEAN
 
 
 - - - 
-#jakartaee 

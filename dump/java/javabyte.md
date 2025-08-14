@@ -17,7 +17,7 @@ The byte type is often used to save space in arrays or when dealing with raw dat
 > [!danger]- Why use it over int?
 > Primarily for memory constraints or specific byte-level operations
 - - - 
-#java 
+
 
 # JAVA -> DATA TYPES -> (DATATYPE)
 ## SUMMARY

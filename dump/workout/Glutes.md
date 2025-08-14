@@ -1,4 +1,3 @@
 # GLUTES
 - [[Hip Thrust]]
 - - - 
-#workout 

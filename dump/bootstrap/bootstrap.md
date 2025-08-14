@@ -63,4 +63,4 @@ All of these points make investing time to learn Bootstrap a great way to boost 
 24. [Using Bootstrap Responsively](bootstrap_responsive_design.md)
 25. [Combining Bootstrap with Custom CSS](bootstrap_custom_css.md)
 - - - 
-[[CSS]] #bootstrap
+[[CSS]] ootstrap

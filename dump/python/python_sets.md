@@ -17,8 +17,7 @@ set1 - set2
 set1.symetric_difference(set2)
 
 no operations with index, no subscriptable 
-#todo
+odo
 
 
 - - -
-#python

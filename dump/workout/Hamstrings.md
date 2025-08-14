@@ -3,4 +3,3 @@
 - [[Dumbbell Stiff Leg Deadlift]]
 
 - - - 
-#workout 

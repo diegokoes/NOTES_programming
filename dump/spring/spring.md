@@ -1,25 +1,25 @@
-# SPRING 
-- [[springroughnotes|Rough Notes]]
+# SPRING
+
+- [[spring_roughnotes|Rough Notes]]
 - **Basic**
-	- [Keybinds](springkeybinds.md)
-	- [Spring Architecture](spring_architecture.md)
-	- [Setting Up a Project](spring_setup.md)
-		- [Lombok](springlombok.md)
+  - [[spring_keybinds|Keybinds]]
+  - [[spring_architecture|Spring Architecture]]
+  - [[spring_setup|Setting Up a Project]]
+    - [[spring_lombok|Lombok]]
 - **Core Concepts**
-	- [Spring Beans and Lifecycle](spring_beans.md)
-	- [Spring Context](spring_context.md)
-	- [AOP (Aspect-Oriented Programming)](spring_aop.md)
-	- [Dependency Injection and Inversion of Control (IoC)](spring_dependency_injection.md)
+  - [[spring_beans|Spring Beans and Lifecycle]]
+  - [[spring_context|Spring Context]]
+  - [[spring_aop|AOP (Aspect-Oriented Programming)]]
+  - [[spring_dependency_injection|Dependency Injection and Inversion of Control (IoC)]]
 - **Data Access**
-	- [Spring JDBC](spring_jdbc.md)
-	- [Spring Data JPA](spring_data_jpa.md)
-	- [Transactions in Spring](spring_transactions.md)
+  - [[spring_jdbc|Spring JDBC]]
+  - [[spring_data_jpa|Spring Data JPA]]
+  - [[spring_transactions|Transactions in Spring]]
 - **Web Development**
-	- [Spring MVC Basics](spring_mvc_basics.md)
-	- [Controllers](spring_controllers.md)
-	- [View Resolvers and Templates](spring_view_resolvers.md)
-		- [Thymeleaf](thymeleaf.md)
-	- [RESTful APIs](spring_rest_apis.md)
-- **[Security](spring_security.md)**
- - - - 
-#spring 
+  - [[spring_mvc_basics|Spring MVC Basics]]
+  - [[spring_controllers|Controllers]]
+  - [[spring_view_resolvers|View Resolvers and Templates]]
+    - [[spring_thymeleaf|Thymeleaf]]
+  - [[spring_rest_apis|RESTful APIs]]
+- **[[spring_security|Security]]**
+

@@ -1,21 +1,21 @@
 # TYPESCRIPT
 - [Introduction to TypeScript](typescript_introduction.md)
-- [Set-Up](typescriptsetup.md)
-- [Types Overview](typescripttypesoverview.md)
+- [Set-Up](typescript_setup.md)
+- [Types Overview](typescript_typesoverview.md)
 	- [Basic Types](typescript_basic_types.md)
 	- [Objects](typescript_objects.md)
 	- [Functions](typescript_functions.md)
 	- [Optional Types](typescript_optional_types.md)
-	- [Type Assertions and Casting](typescriptassertioncasting.md)
+	- [Type Assertions and Casting](typescript_assertioncasting.md)
 	- **Advanced Types**
-		- [Union and Intersection Types](typescriptunionintersection.md)
-		- [Literal Types](typescriptliteraltypes.md)
-		- [Mapped Types](typescriptmappedtypes.md)
-		- [Conditional Types](typescriptconditionaltypes.md)
-		- [Utility Types](typescriptutilitytypes.md)
-		- [Record Type](typescriptrecord.md)
+		- [Union and Intersection Types](typescript_unionintersection.md)
+		- [Literal Types](typescript_literaltypes.md)
+		- [Mapped Types](typescript_mappedtypes.md)
+		- [Conditional Types](typescript_conditionaltypes.md)
+		- [Utility Types](typescript_utilitytypes.md)
+		- [Record Type](typescript_record.md)
 		- [Custom Types](typescript_custom_types.md)
-		- [Generics](typescriptgenerics.md)
+		- [Generics](typescript_generics.md)
 
 - [Interfaces and Types](typescript_interfaces_types.md)
 - [Enums](typescript_enums.md)
@@ -31,4 +31,4 @@
 - [Mocking and Integration Testing](typescript_mocking_testing.md)
 - [Best Practices](typescript_best_practices.md)
 - - - 
-#typescript   [[javascript]] - [[angular]]
+ypescript   [[javascript]] - [[angular]]

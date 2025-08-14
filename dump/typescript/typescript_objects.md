@@ -227,4 +227,3 @@ Permiten definir objetos que aceptan tipos dinámicos.
 >interface Config { color?: string; ancho?: number; [propiedad: string]: unknown; }
 >```
 - - - 
-#typescript 

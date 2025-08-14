@@ -6,4 +6,4 @@
 6. [WeakMap and WeakSet](js_weakmap_weakset.md)
 
 - - - 
-#javascript 
+

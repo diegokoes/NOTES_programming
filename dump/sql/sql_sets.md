@@ -78,4 +78,3 @@ EXCEPT
 SELECT nombre FROM clientes;
 ```
 - - - 
-#sql 

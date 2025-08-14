@@ -28,4 +28,3 @@ Como norma, directorios para:
 ## 4.PACKAGE.JSON'S
 
 - - - 
-#react 

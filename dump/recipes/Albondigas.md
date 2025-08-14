@@ -23,4 +23,3 @@
 17. Ponemos la olla donde estaban las albondigas, quitamos la sarten, pasamos el sofrito por un pasapuré. Y cubrimos las albóndigas con agua. Y se dejan cocer a fuego lento moviendo de vez en cuando.30 min al menos.
 
 - - - 
-#recipes 

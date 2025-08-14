@@ -5,4 +5,3 @@
 4. [Encapsulation and Immediate Functions](encapsulation_immediate_functions.md)
 5. [Mono Thread](nodejs_monothread.md)
 - - - 
-#nodejs

@@ -50,4 +50,3 @@ It is good practice to write automated tests for your code as a professional dev
 If you're curious to learn more about these libraries, their websites feature setup guides, tutorials and documentation to get started. These libraries will be covered later on.
 
 - - -
-#react

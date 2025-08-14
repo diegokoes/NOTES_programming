@@ -7,6 +7,7 @@
 - [[python_files|File Handling]]
 - [[python_modules|Standard Library Modules]]
 - [[python_functions|Functions]]
+- [[python_poo|POO]]
 
 \ to indicate new line 
 
@@ -76,7 +77,3 @@ function :
 variable scopes:
 ```
 
-
-
-- - - 
-#python

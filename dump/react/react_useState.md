@@ -64,4 +64,3 @@ No, useState es ideal para estados locales dentro de un componente. Para estados
   - > [!info]- Click to reveal the answer
     Cuando utilizas la forma funcional de setState en React, es necesario que la función que pasas devuelva el nuevo estado. Esto es fundamental porque React necesita saber cuál es el nuevo estado para poder actualizarlo correctamente. Sin el return, la función no devolvería nada, y el estado no cambiaría.
 - - - 
-#react 

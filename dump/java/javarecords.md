@@ -258,4 +258,4 @@ A continuación, resumimos lo que ilustran los ejemplos principales:
 Con esto, dispones de una **visión completa** de cómo funcionan los records en Java y de cómo cada ejemplo ilustra conceptos clave: constructores, métodos estáticos, asociaciones, validaciones, herencia con interfaces, etc. ¡Te servirán para simplificar y hacer más segura la definición de estructuras de datos inmutables en tus proyectos Java!
 
 - - - 
-#java  #todo 
+ava  odo 

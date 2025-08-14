@@ -3,4 +3,3 @@
 - [[obsidiankeybinds|Obsidian Keybinds]]
 - 
 - - - 
-#obsidian 

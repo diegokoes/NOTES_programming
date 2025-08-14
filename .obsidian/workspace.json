@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "75751b020ca9e0f3",
+        "id": "0bbefb67a4ca5300",
         "type": "tabs",
         "children": [
           {
-            "id": "1a07c5b3afc07bb4",
+            "id": "6e2847a62cf5ccc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dump/python/Python.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "New tab"
             }
           }
         ]
@@ -42,13 +37,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dump/python/Python.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Python"
+              "title": "Outline"
             }
           }
         ]
@@ -64,7 +58,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dump/python/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,7 +67,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Python"
+              "title": "Backlinks"
             }
           }
         ]
@@ -110,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#typescript  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 365
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -136,48 +129,48 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "1a07c5b3afc07bb4",
+  "active": "6e2847a62cf5ccc9",
   "lastOpenFiles": [
-    "dump/react/REACT.md",
-    "tty1.md",
-    "dump/python/Python.md",
-    "dump/workout/Plan1 PPL.md",
-    "dump/workout/Back.md",
-    "dump/java/javainterfaces.md",
-    "dump/java/javaoop.md",
-    "dump/java/javaencapsulation.md",
-    "dump/java/Java.md",
+    "dump/concepts/functional_programming/functional_programming_pure_functions.md",
+    "dump/concepts/functional_programming/functional_programming_lambda.md",
+    "dump/concepts/functional_programming/concepts_functional_programming.md",
+    "dump/concepts/functional_programming/functional_programming_immutability.md",
+    "dump/concepts/concepts_programming_paradigms.md",
+    "dump/concepts/functional_programming",
+    "dump/concepts/functional_programming.md",
+    "dump/concepts/oop/concepts_oop.md",
+    "dump/concepts/oop/oop_abstraction.md",
+    "dump/concepts/oop_solid.md",
+    "dump/concepts/oop/oop_encapsulation.md",
+    "dump/concepts/concepts.md",
+    "dump/concepts/concepts_design_patterns.md",
+    "dump/concepts/concepts_webdevconcepts.md",
+    "oop.md",
+    "oop_encapsulation.md",
+    "dump/concepts/oop",
+    "dump/_indexes/programming.md",
+    "formats_dataExchange.md",
+    "dump/json.md",
     "dump/_indexes/webdev.md",
-    "vscode.md",
-    "dump/react/reacthooks.md",
-    "dump/react/reactcomponents.md",
-    "dump/react/jsx.md",
-    "dump/react/reactstructure.md",
-    "web_scrapper.md",
-    "accesibility.md",
-    "a.md",
+    "dump/_indexes/webdesign.md",
+    "dump/css/CSS.md",
+    "dump/bootstrap/bootstrap.md",
+    "dump/concepts/concepts_responsive_design.md",
+    "dump/html/html_DOM.md",
+    "dump/concepts/dom.md",
+    "dump/_indexes/nexus.md",
+    "dump/linux/proxmox",
     "Untitled",
-    "metacourse.md",
-    "technology.md",
-    "dump/os/linux/linux.md",
-    "dump/_indexes/technology.md",
-    "dump/os/linux/linux_commands.md",
-    "NTFS.md",
-    "qbittorrentconfig_.md",
-    "dump/config/IP'S.md",
     "Assets/{52FA080D-F610-4443-BF1E-F5808B1CFCF3}.png",
     "Assets/Pasted image 20240911193149.png",
     "Assets/Pasted image 20240212182305.png",
-    "dump/os/linux/wayland",
-    "dump/os/linux/wayland/hyprland",
-    "dump/os/linux/yazi",
+    "dump/linux/wayland",
+    "dump/linux/wayland/hyprland",
+    "dump/linux/yazi",
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
     "dump/git",
     "dump/config",
     "dump/obsidian",
-    "dump/browsers",
-    "dump/php",
-    "dump/os/windows",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "Assets/{E10EF46D-0EF3-4300-ADE1-B23719867B1A}.png",
     "Assets/372081412-349c5bb6-903c-422e-be19-63db2f66ff77.png",

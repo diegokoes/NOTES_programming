@@ -4,4 +4,3 @@
 - [[Lean-In DB Lateral Raise]]
 - [[Lying Lateral Raise]] 
 - - - 
-#workout 

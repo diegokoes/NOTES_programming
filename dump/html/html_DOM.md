@@ -1,4 +1,4 @@
-# DOM (DOCUMENT OBJECT MODEL)
+# HTML -> DOM (DOCUMENT OBJECT MODEL)
 
 ## SUMMARY
 
@@ -244,4 +244,3 @@ event.stopPropagation() // Stop event bubbling/capturing
 > - Shadow DOM focuses on style and markup isolation; Virtual DOM focuses on performance optimization
 
 - - - 
-#conceptsprotocols

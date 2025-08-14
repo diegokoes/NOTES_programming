@@ -12,4 +12,3 @@
 > Answer
  
 - - - 
-#react 

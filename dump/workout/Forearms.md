@@ -4,4 +4,3 @@
 - [[Plate Pinch]]
 - [[Forearm DB Curl]]
 - - - 
-#workout 

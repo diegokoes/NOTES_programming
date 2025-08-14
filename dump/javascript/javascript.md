@@ -5,7 +5,7 @@
 4. [DOM (Document Object Model)](javascript_dom.md)
 5. [Asynchronous Programming](javascript_asynchronous.md)
 6. [Modules](javascript_modules.md.md)
-7. [Classes and Object-Oriented Programming (OOP)](javascript_oop.md.md)
+7. [Classes and Object-Oriented Programming (OOP)](javascript_poo.md.md)
 8. [Errors and Exception Handling](js_errors_exceptions.md)
     1. [Try-Catch-Finally](js_try_catch_finally.md)
     2. [Custom Error Creation](js_custom_errors.md)
@@ -18,7 +18,7 @@
     2. [SessionStorage](js_sessionstorage.md)
     3. [Cookies](js_cookies.md)
 11. Frameworks and Libraries
-    1. [React](REACT.md)
+    1. [React](react.md)
     2. [Vue.js](vue.md)
     3. [Angular](angular.md)
 12. [Testing](js_testing.md)
@@ -36,4 +36,4 @@
     2. [Using Linters (ESLint)](using_eslint.md)
     3. [Performance Optimization](performance_optimization.md)
 - - - 
-[[HTML]] #javascript
+[[HTML]] avascript

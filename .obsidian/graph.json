@@ -1,168 +1,168 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": true,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
-      "query": "tag:#mainindex  ",
+      "query": "tag:#mainindex section:()",
       "color": {
         "a": 1,
         "rgb": 2368548
       }
     },
     {
-      "query": "tag:#nodejs",
+      "query": "path:dump/nodejs  ",
       "color": {
         "a": 1,
         "rgb": 35351
       }
     },
     {
-      "query": "tag:#java  ",
+      "query": "path:dump/java  ",
       "color": {
         "a": 1,
         "rgb": 15485771
       }
     },
     {
-      "query": "tag:#angular  ",
+      "query": "path:dump/angular  ",
       "color": {
         "a": 1,
         "rgb": 9306306
       }
     },
     {
-      "query": "tag:#react  ",
+      "query": "path:dump/react  ",
       "color": {
         "a": 1,
         "rgb": 54783
       }
     },
     {
-      "query": "tag:#html  ",
+      "query": "path:dump/html  ",
       "color": {
         "a": 1,
         "rgb": 12077312
       }
     },
     {
-      "query": "tag:#css  ",
+      "query": "path:dump/css  ",
       "color": {
         "a": 1,
         "rgb": 25343
       }
     },
     {
-      "query": "tag:#sass  ",
+      "query": "path:dump/bootstrap  ",
       "color": {
         "a": 1,
         "rgb": 16711888
       }
     },
     {
-      "query": "tag:#bootstrap  ",
+      "query": "path:dump/bootstrap  ",
       "color": {
         "a": 1,
         "rgb": 10035642
       }
     },
     {
-      "query": "tag:#spring  ",
+      "query": "path:dump/spring ",
       "color": {
         "a": 1,
         "rgb": 16775495
       }
     },
     {
-      "query": "tag:#javascript  ",
+      "query": "path:dump/javascript  ",
       "color": {
         "a": 1,
         "rgb": 16759552
       }
     },
     {
-      "query": "tag:#linux  ",
+      "query": "path:dump/os/linux  ",
       "color": {
         "a": 1,
         "rgb": 14324991
       }
     },
     {
-      "query": "tag:#conceptsprotocols  ",
+      "query": "path:dump/concepts  ",
       "color": {
         "a": 1,
         "rgb": 14385303
       }
     },
     {
-      "query": "tag:#typescript  ",
+      "query": "path:dump/typescript  ",
       "color": {
         "a": 1,
         "rgb": 19322
       }
     },
     {
-      "query": "tag:#mongodb  ",
+      "query": "path:dump/mongodb  ",
       "color": {
         "a": 1,
         "rgb": 5896036
       }
     },
     {
-      "query": "tag:#obsidian",
+      "query": "path:dump/obsidian  ",
       "color": {
         "a": 1,
         "rgb": 8537586
       }
     },
     {
-      "query": "tag:#workout",
+      "query": "path:dump/workout  ",
       "color": {
         "a": 1,
         "rgb": 11696467
       }
     },
     {
-      "query": "tag:#recipes  ",
+      "query": "path:dump/recipes  ",
       "color": {
         "a": 1,
         "rgb": 14937250
       }
     },
     {
-      "query": "tag:#rol  ",
+      "query": "path:dump/dnd  ",
       "color": {
         "a": 1,
         "rgb": 16711680
       }
     },
     {
-      "query": "tag:#jakartaee  ",
+      "query": "path:dump/jakartaee  ",
       "color": {
         "a": 1,
         "rgb": 16751964
       }
     },
     {
-      "query": "tag:#proxmox  ",
+      "query": "proxmox",
       "color": {
         "a": 1,
         "rgb": 16737792
       }
     },
     {
-      "query": "tag:#windows  ",
+      "query": "path:dump/os/windows  ",
       "color": {
         "a": 1,
         "rgb": 22015
       }
     },
     {
-      "query": "tag:#python  ",
+      "query": "path:dump/python  ",
       "color": {
         "a": 1,
         "rgb": 16699500
@@ -179,6 +179,6 @@
   "repelStrength": 20,
   "linkStrength": 0.903735720901513,
   "linkDistance": 500,
-  "scale": 0.09532759082086573,
+  "scale": 0.01171875,
   "close": true
 }

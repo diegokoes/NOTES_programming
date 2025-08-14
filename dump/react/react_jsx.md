@@ -41,4 +41,3 @@ Solo un elemento html único. Si necesitas varios, los englobas en un elemento r
 Operador ternario o && para una condicional simple. Para bucles: [Map](javascript_map.md)
 
 - - - 
-#react 

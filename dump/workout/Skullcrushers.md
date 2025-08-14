@@ -5,4 +5,4 @@
 >![[Pasted image 20250211231346.png]]
 ^end
 ---
-#workout [[triceps]]
+orkout [[triceps]]

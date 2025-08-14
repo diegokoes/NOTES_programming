@@ -4,4 +4,3 @@
 >![[Pasted image 20250211231859.png]]
 ^end
 ---
-#workout 

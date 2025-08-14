@@ -8,16 +8,17 @@
   "promptDelete": true,
   "attachmentFolderPath": "Assets",
   "focusNewTab": false,
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "newFileLocation": "current",
-  "livePreview": false,
+  "livePreview": true,
   "propertiesInDocument": "visible",
   "autoPairMarkdown": false,
   "newFileFolderPath": "dump",
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "defaultViewMode": "source",
   "readableLineLength": true,
   "showUnsupportedFiles": true,
   "userIgnoreFilters": null,
-  "tabSize": 5
+  "tabSize": 5,
+  "useMarkdownLinks": false
 }

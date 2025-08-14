@@ -223,4 +223,4 @@ git revert -m 1 <merge-commit-hash>
 | Rebase | Linear history | Rewrites | Per commit |
 
 ---
-#git
+

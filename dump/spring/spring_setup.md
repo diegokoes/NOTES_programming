@@ -1,9 +1,10 @@
 # SPRING: SET UP
-- [[springlombok|Lombok]]
 
-https://start.spring.io
-#todo 
+- [Lombok](springlombok)
 
+<https://start.spring.io>
 
-- - - 
-#spring 
+# TODO
+
+- - -
+ pring

@@ -244,7 +244,14 @@
       "key": "N"
     }
   ],
-  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-window": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
   "editor:fold-less": [
     {
       "modifiers": [

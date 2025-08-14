@@ -21,4 +21,3 @@ boolean is used for simple flags or conditions. It's either true or false, with 
 > [!danger]- What's the difference between boolean primitive and Boolean wrapper class? 
 > The primitive can only be true/false while the wrapper is an object that can be null. Boolean wrapper provides utility methods and can be used with collections.
 - - - 
-#java 

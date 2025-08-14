@@ -2,4 +2,3 @@
 2. [Synchronization](synchronization_java.md)
 3. [Executors](executors_java.md)
 - - - 
-#java 

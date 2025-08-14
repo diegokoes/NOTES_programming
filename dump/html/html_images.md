@@ -12,4 +12,3 @@ Important attributes:
 - **`title`**: Additional information that appears when hovering.
 
 - - -
-#html

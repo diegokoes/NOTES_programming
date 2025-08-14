@@ -45,5 +45,5 @@ Tables are useful for organizing data into rows and columns.
     - **`rowspan`**: Merges cells vertically.
 
 - - -
-#html
+
 ````

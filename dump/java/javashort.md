@@ -17,4 +17,3 @@ short is a middle ground between byte and int. It can store more than a byte but
 > [!danger]- Overflow or underflow?
 > Happens if values exceed the short range
 - - - 
-#java 

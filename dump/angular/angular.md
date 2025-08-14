@@ -30,4 +30,3 @@
     2. [Linting and Formatting in Angular](angular_linting.md)
     3. [Patterns and Anti-Patterns](angular_patterns.md)
 - - - 
-#angular 

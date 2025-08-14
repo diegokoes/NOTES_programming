@@ -57,4 +57,3 @@ Ambas tecnologías son compatibles y entender los fundamentos de Jakarta EE pued
 
 
 - - - 
-#jakartaee 

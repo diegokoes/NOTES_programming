@@ -24,4 +24,3 @@ array.map((element, index, array) => {
  // lógica para transformar cada elemento
 });
 - - - 
-#javascript 

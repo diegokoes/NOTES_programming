@@ -3,4 +3,3 @@
 - [[Lateral Delt]]
 - [[Rear Delt]]
 - - - 
-#workout 

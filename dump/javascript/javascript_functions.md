@@ -6,4 +6,4 @@
 6. [IIFE (Immediately Invoked Function Expression)](js_iife.md)
 
 - - - 
-#javascript 
+

@@ -1,4 +1,0 @@
-# SPRING -> ROUGH NOTES
-
-## SET-UP
-

@@ -33,4 +33,3 @@ En react, todos los hooks, sean nativos o personalizados deben comenzar con ' us
 
 > [!danger]- Question
 > Answer
-#react 

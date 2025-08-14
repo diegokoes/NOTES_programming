@@ -3,4 +3,3 @@
 2. [Route parameters](parametros_rutas.md)
 3. [Protected routes](rutas_protegidas.md)
 - - - 
-#react 

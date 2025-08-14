@@ -4,4 +4,3 @@
 3. [Operators](javascript_operators.md)
 4. [Control Flow](js_control_flow.md)
 - - - 
-#javascript 

@@ -1,12 +1,12 @@
 {
   "pluginEnabled": true,
   "currentTheme": "AnuPpuccin",
-  "currentColorScheme": "moonstone",
+  "currentColorScheme": "obsidian",
   "dayColorScheme": "moonstone",
   "dayTime": "7:00",
   "dayTheme": "AnuPpuccin",
   "nightColorScheme": "obsidian",
-  "nightTime": "20:00",
+  "nightTime": "21:00",
   "nightTheme": "AnuPpuccin",
   "pauseThemeToggle": false
 }

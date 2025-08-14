@@ -7,4 +7,4 @@
 >![[Pasted image 20250206113840.png]] 
 ^end
 - - -
-#workout [[Glutes]] [[Hamstrings]]
+orkout [[Glutes]] [[Hamstrings]]

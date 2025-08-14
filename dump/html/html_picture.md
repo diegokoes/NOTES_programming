@@ -19,4 +19,3 @@ For adaptive images.
 </picture>
 ```
 - - -
-#html

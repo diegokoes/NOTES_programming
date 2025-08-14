@@ -31,4 +31,3 @@
     5. [Refactoring](refactoring_java.md)
     6. [Design Patterns](design_patterns_java.md)
 - - - 
-#java 

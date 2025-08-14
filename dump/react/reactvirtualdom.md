@@ -166,4 +166,3 @@ The Virtual DOM provides performance benefits by:
 >
 > Each approach has tradeoffs in terms of performance, memory usage, developer experience, and bundle size. React's Virtual DOM provides a good balance of performance and developer experience but may not be the most efficient for all use cases compared to more specialized approaches like Svelte's compile-time optimizations.
 - - - 
-#react 

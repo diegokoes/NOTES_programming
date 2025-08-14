@@ -1,2 +1,0 @@
-# KEYBINDS
-- `Ins + Enter` -> 

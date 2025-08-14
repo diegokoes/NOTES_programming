@@ -17,4 +17,3 @@ double covers a wide range of fractional values with more precision than float. 
 > [!danger]- Overflow and precision loss?
 > Still possible with extremely large or repetitive calculations
 - - - 
-#java 

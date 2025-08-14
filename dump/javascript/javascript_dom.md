@@ -19,4 +19,3 @@
 > [!danger]- Question
 > Answer
 - - - 
-#javascript 

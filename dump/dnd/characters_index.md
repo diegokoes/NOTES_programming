@@ -8,4 +8,3 @@
     - [D&D Characters](dnd_characters.md)
     - [Pathfinder Characters](pathfinder_characters.md)
 - - - 
-#rol 

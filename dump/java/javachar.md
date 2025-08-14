@@ -17,4 +17,3 @@ char can hold one character, including Unicode. Useful when dealing with individ
 > [!danger]- Conversions?
 > Casting char to int yields its numeric code
 - - - 
-#java

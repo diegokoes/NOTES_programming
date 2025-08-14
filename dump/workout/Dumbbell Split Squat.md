@@ -10,4 +10,4 @@
 >![[Pasted image 20250206123938.png]]
 ^end
 - - - 
-#workout [[Glutes]] [[Quads]]
+orkout [[Glutes]] [[Quads]]

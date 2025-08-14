@@ -17,4 +17,3 @@ int is widely used for integer arithmetic. It provides enough range for most cal
 > [!danger]- When to avoid int?
 > If larger or smaller data ranges are required
 - - - 
-#java 

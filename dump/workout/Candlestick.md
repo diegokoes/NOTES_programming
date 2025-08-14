@@ -6,4 +6,3 @@
 >![[Pasted image 20250211233836.png]]
 >![[Pasted image 20250211233850.png]]
 ---
-#workout 

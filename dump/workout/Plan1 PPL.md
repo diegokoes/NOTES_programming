@@ -47,11 +47,11 @@
 > [!info]- Lean-In Lateral Dumbbell Raise
 > ![[Lean-In DB Lateral Raise#Lean-In DB Lateral Raise]]
 
-#todo cable lateral raise & cable y-raise
+odo cable lateral raise & cable y-raise
 
-#todo Face pulls
+odo Face pulls
 
-#todo bent over reverse db flye
+odo bent over reverse db flye
 ### LATS
 
 > [!info]- Lat DB Pullover  
@@ -76,7 +76,7 @@
 ## LEGS & ABS & FOREARMS
 
 ### QUADS
-#todo sissy squat, nordic one, jeff nippard best quad exercises
+odo sissy squat, nordic one, jeff nippard best quad exercises
 > [!info]- Dumbbell Front Squat  
 > ![[Dumbbell Front Squat#Dumbbell Front Squat]]
 
@@ -126,4 +126,4 @@
 > [!info]- Wrist Roller
 > ![[Wrist Roller#Wrist Roller]]
 - - - 
-#workout
+

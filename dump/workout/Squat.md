@@ -11,4 +11,3 @@
 - [[Pistol Squat]]
 - [[Sissy Squat]]
 - - - 
-#workout

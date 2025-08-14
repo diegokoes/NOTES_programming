@@ -83,4 +83,3 @@ public void doPeriodicCleanup() { ... }
 > Custom processors must extend AbstractProcessor, be registered via the ServiceLoader mechanism with a META-INF/services file, implement the process() method to analyze annotated elements, and use the Filer API to generate code. They run during compilation as part of the Java compiler's annotation processing tool.
 
 - - - 
-#java

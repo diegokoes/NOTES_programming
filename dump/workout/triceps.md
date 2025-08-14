@@ -3,4 +3,3 @@
 - [[One Arm Dumbell Overhead Extension]]
 - [[Cable Triceps Kickback]]
 - - - 
-#workout 

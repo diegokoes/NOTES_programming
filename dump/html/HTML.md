@@ -259,4 +259,3 @@ Permiten crear enlaces a secciones específicas dentro de una página.
 <h2 id="seccion1">Sección 1</h2>
 ```
 - - - 
-#html

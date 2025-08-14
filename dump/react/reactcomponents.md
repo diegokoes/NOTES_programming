@@ -30,7 +30,7 @@ Una función javascript, generalmente el nombre de la función es el nombre del 
 > [!info]- Click to reveal the answer
 La comunicación se hace a través de props, que permiten pasar datos de un componente padre a uno hijo. Para enviar datos de un hijo a un padre, se pueden usar funciones callback pasadas como props.
 - - - 
-#react 
+
 
 
 

@@ -277,7 +277,8 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "Assets"
+    "Assets",
+    "Templates"
   ],
   "filesToIgnore": [],
   "linterLocale": "system-default",
