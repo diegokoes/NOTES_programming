@@ -1,6 +1,0 @@
-- [Standalone Stories](standalone_stories.md)
-    - [Story 1: Title](story1rol.md)
-    - [Story 2: Title](story2rol.md)
-- [Shared Campaign Lore](shared_campaign_lore.md)
-- [System-Specific Lore](system_specific_lore.md)
-- - - 

@@ -402,5 +402,26 @@
     }
   ],
   "workspace:goto-tab-1": [],
-  "workspace:goto-tab-2": []
+  "workspace:goto-tab-2": [],
+  "obsidian-linter:paste-as-plain-text": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
+  ],
+  "theme:use-dark": [
+    {
+      "modifiers": [],
+      "key": "F10"
+    }
+  ],
+  "theme:use-light": [
+    {
+      "modifiers": [],
+      "key": "F9"
+    }
+  ]
 }

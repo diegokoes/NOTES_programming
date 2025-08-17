@@ -4,7 +4,7 @@
 3. [Operators](operators_java.md)
 4. [Control Flow](control_flow_java.md)
 5. [Methods](methods_java.md)
-6. [Object-Oriented Programming (OOP)](javaoop.md)
+6. [Object-Oriented Programming (OOP)](java_oop.md)
 7. [Annotations](javaannotations.md)
 8. [[javacollectionsframework|Collections]]
 9. [Java Streams](javastreams.md)

@@ -1,4 +1,0 @@
-# CHEST
-- [[Dumbbell Fly]]
-- [[Pushups]]
-- - - 

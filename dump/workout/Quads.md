@@ -1,3 +1,0 @@
-# QUADS
-- [[Dumbbell Front Squat]]
-- - - 

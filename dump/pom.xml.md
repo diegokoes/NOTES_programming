@@ -160,9 +160,9 @@ Below is a detailed breakdown of the POM’s structure and key elements:
 ## QUESTIONS
 > [!tip]-  What is the minimum required information in a POM file?
 > - `modelVersion`, `groupId`, `artifactId`, and `version`.  
->- Example:  
+> - Example:  
 >  ```xml  
-><project>  
+>  <project>  
 >    <modelVersion>4.0.0</modelVersion>  
 >   <groupId>com.example</groupId>  
 >    <artifactId>my-app</artifactId>  

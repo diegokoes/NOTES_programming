@@ -1,6 +1,6 @@
 # REACT
-- [Installation and project creation](reactinstallcreate.md)
-- [Structure](reactstructure.md)
+- [Installation and project creation](react_setup.md)
+- [Structure](react_structure.md)
 - **Basic concepts**
     - [Virtual DOM and reconciliation](reactvirtualdom.md)
     - [JSX](jsx.md)

@@ -23,8 +23,8 @@
 
 9. [File Manager - Yazi](yazi.md)
 
-## VIRTUALIZATION
+
 
 10. [Proxmox](proxmox.md)
 
-- - -
+

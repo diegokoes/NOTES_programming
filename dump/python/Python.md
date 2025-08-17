@@ -1,6 +1,6 @@
 # PYTHON
 - [[python_versionmanager|Version Manager]]
-- [[python_variablescopes|Variable Scopes]]
+- [[python_scopes|Variable Scopes]]
 - [[python_datastructures|Data Structures]]
 - [[python_args_kwargs|Args & Kwargs]]
 - [[python_exceptions|Exceptions]]
@@ -8,7 +8,8 @@
 - [[python_modules|Standard Library Modules]]
 - [[python_functions|Functions]]
 - [[python_poo|POO]]
-
+- [[python_modules|Modules]]
+![[Pasted image 20250815224933.png]]
 \ to indicate new line 
 
 \# single line comments
@@ -32,7 +33,7 @@ String to int ERROR
 
 str() int() float() bool()
 
-ord() hex() oct() tuple() set() list() dict() type()
+ord() hex() oct() tuple() set() list() dict() type()Q
 
 email = input('owo email')
 	

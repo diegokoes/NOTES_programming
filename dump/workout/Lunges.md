@@ -1,5 +1,0 @@
-# LUNGES
-
-- [[Reverse Lunge]]
-
-- - -

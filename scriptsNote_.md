@@ -1,3 +1,1 @@
 for dir in ~/.config/Code/User/profiles/*/; do echo "=== Profile: $(basename "$dir") ==="; if [ -f "$dir/extensions.json" ]; then cat "$dir/extensions.json" | grep -o '"[a-zA-Z0-9_-]*\.[a-zA-Z0-9_-]*"' | tr -d '"' | sort -u; else echo "No extensions.json found"; fi; echo ""; done
-
-- - -

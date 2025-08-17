@@ -1,5 +1,0 @@
-# OBSIDIAN
-
-- [[obsidiankeybinds|Obsidian Keybinds]]
-- 
-- - - 

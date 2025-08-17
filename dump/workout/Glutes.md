@@ -1,3 +1,0 @@
-# GLUTES
-- [[Hip Thrust]]
-- - - 
