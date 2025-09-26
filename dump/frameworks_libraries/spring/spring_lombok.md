@@ -1,7 +1,7 @@
 # SPRING: LOMBOK
 ## SUMMARY
 > [!summary]
-> Lombok is a [[Java]] library that reduces boilerplate code by generating common methods ([[javagetters|getters]], [[javasetters|setters]],[[javaconstructor|constructors]], [[javahashcode|hashCode]], [[javatostring|toString]], etc.) at compile time with tags.
+> Lombok is a [[java]] library that reduces boilerplate code by generating common methods ([[javagetters|getters]], [[javasetters|setters]],[[javaconstructor|constructors]], [[javahashcode|hashCode]], [[javatostring|toString]], etc.) at compile time with tags.
 - - - 
 ## THEORY
 

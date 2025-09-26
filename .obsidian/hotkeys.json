@@ -423,5 +423,13 @@
       "modifiers": [],
       "key": "F9"
     }
+  ],
+  "obsidian-linter:lint-all-files": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F9"
+    }
   ]
 }

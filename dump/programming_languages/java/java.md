@@ -1,19 +1,19 @@
 # JAVA
 1. [Installation and Setup](javainstallation.md)
-2. [Data Types](javadatatypes.md)
+2. [Data Types](java_datatypes.md)
 3. [Operators](operators_java.md)
 4. [Control Flow](control_flow_java.md)
 5. [Methods](methods_java.md)
 6. [Object-Oriented Programming (OOP)](java_oop.md)
 7. [Annotations](javaannotations.md)
-8. [[javacollectionsframework|Collections]]
+8. [[java_collectionsframework|Collections]]
 9. [Java Streams](javastreams.md)
 10. [Exceptions](javaexceptions.md)
 11. [Input/Output (I/O)](io_java.md)
     1. [Files and Directories](files_directories_java.md)
     2. [Input and Output Streams](io_streams_java.md)
     3. [Serialization](serialization_java.md)
-12. [Concurrency](javaconcurrency.md)
+12. [Concurrency](java_concurrency.md)
 13. [Databases](databases_java.md)
     1. [JDBC](JDBC.md)
     2. [Hibernate](hibernate_java.md)

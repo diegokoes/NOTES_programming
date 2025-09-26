@@ -22,7 +22,7 @@ Wayland is a display server protocol and a library implementing that protocol. I
 - **Protocols** - Extensions for specific functionality
 
 ### POPULAR WAYLAND COMPOSITORS
-- **[Hyprland](hyprland.md)** - Feature-rich tiling compositor
+- **[Hyprland](dump/linux/wayland/hyprland/hyprland.md)** - Feature-rich tiling compositor
 - **Sway** - i3-compatible tiling compositor
 - **GNOME (Mutter)** - GNOME's compositor
 - **KDE (KWin)** - KDE's compositor

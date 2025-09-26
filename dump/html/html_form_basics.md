@@ -16,4 +16,4 @@ Forms allow users to submit data to the server.
 ```
 
 - **`action`**: Specifies the URL to which the form data will be sent.
-- **`method`**: Defines the [[HTTP]] method for sending data (`get` or `post`).
+- **`method`**: Defines the [[concepts_http]] method for sending data (`get` or `post`).

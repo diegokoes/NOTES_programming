@@ -9,7 +9,7 @@
 ### TILING WINDOW MANAGERS
 - **i3wm** - Popular tiling window manager
 - **Sway** - Wayland-compatible i3 replacement
-- **[Hyprland](hyprland.md)** - Modern Wayland compositor
+- **[Hyprland](dump/linux/wayland/hyprland/hyprland.md)** - Modern Wayland compositor
 
 ### FLOATING WINDOW MANAGERS
 - **Openbox** - Lightweight floating window manager

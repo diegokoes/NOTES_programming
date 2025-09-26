@@ -1,4 +1,4 @@
-# concepts > oop
+# CONCEPTS > OOP
 
 - [[oop_solid|SOLID Principles]]
 - [[oop_encapsulation|Encapsulation]]

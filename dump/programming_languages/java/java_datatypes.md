@@ -1,20 +1,20 @@
 # JAVA -> DATA TYPES
 1. Primitive Tyes
-	- **[[javabyte|byte]]**
+	- **[[java_byte|byte]]**
 	- **[[javashort|short]]**
 	- **[[javaint|int]]**
-	- **[[javalong|long]]**
-	- **[[javafloat|float]]**
-	- **[[javadouble|double]]**
-	- **[[javachar|char]]**
-	- **[[javaboolean|boolean]]**
+	- **[[java_long|long]]**
+	- **[[java-float|float]]**
+	- **[[java_double|double]]**
+	- **[[java_char|char]]**
+	- **[[java_boolean|boolean]]**
 2. Reference Types
-	- **[[javaclasses|Classes]]**
+	- **[[java_classes|Classes]]**
 	- **[[javainterfaces|Interfaces]]**
-	- **[[javaarrays|Arrays]]**
+	- **[[java_arrays|Arrays]]**
 	- **[[javastrings|Strings]]**
-	- **[[javaenums|Enums]]** 
-	- **[[javarecords|Records]]**
+	- **[[java_enums|Enums]]** 
+	- **[[java_records|Records]]**
 3. Wrapper Types
 	- **[[javawrapperbyte|Byte]]**
 	- **[[javawrappershort|Short]]**

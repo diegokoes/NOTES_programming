@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "8241accb4e0a93a1",
+        "id": "d2d9f8b9ce47e3e7",
         "type": "tabs",
         "children": [
           {
-            "id": "8129cd5b42684609",
+            "id": "12b3a9aa394a9f68",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "servidor_sucio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "servidor_sucio"
             }
           }
         ]
@@ -29,7 +34,7 @@
       {
         "id": "d920f33dfe96dc72",
         "type": "tabs",
-        "dimension": 71.20370370370371,
+        "dimension": 61.089866156787764,
         "children": [
           {
             "id": "77e881ccac936092",
@@ -37,12 +42,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "servidor_sucio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of servidor_sucio"
             }
           }
         ]
@@ -50,7 +56,7 @@
       {
         "id": "bedf647ec6464905",
         "type": "tabs",
-        "dimension": 28.796296296296294,
+        "dimension": 38.910133843212236,
         "children": [
           {
             "id": "9b2972a896ec0f84",
@@ -58,6 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "servidor_sucio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -67,7 +74,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for servidor_sucio"
             }
           }
         ]
@@ -104,7 +111,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "hyprland",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,10 +126,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365
+    "width": 250,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "command-palette:Open command palette": true,
@@ -130,8 +139,40 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "b0d6ac92bcf66e4b",
+  "active": "12b3a9aa394a9f68",
   "lastOpenFiles": [
+    "servidor_sucio.md",
+    "digitalización_sostenibilidad.md",
+    "dump/programming_languages/java/java_collectionsframework.md",
+    "dump/concepts/concepts_sop.md",
+    "dump/programming_languages/java/java_datatypes.md",
+    "dump/programming_languages/java/java_records.md",
+    "dump/programming_languages/java/java_long.md",
+    "dump/programming_languages/java/java_encapsulation.md",
+    "dump/programming_languages/java/javaexceptionhierarchy.md",
+    "dump/programming_languages/java/java_double.md",
+    "dump/programming_languages/java/java-float.md",
+    "dump/programming_languages/java/java_enums.md",
+    "dump/programming_languages/java/java_classes.md",
+    "dump/programming_languages/java/java_arrays.md",
+    "dump/programming_languages/java/java_concurrency.md",
+    "dump/programming_languages/java/java_byte.md",
+    "dump/programming_languages/java/java_char.md",
+    "dump/programming_languages/java/java_boolean.md",
+    "dump/programming_languages/java/java_abstraction.md",
+    "dump/programming_languages/java/java.md",
+    "http_module.md",
+    "web_scrapper.md",
+    "vscode.md",
+    "dump/linux/linux.md",
+    "tty1.md",
+    "scriptsNote_.md",
+    "dump/databases",
+    "dump/frameworks_libraries",
+    "dump/programming_languages",
+    "dump/hyprland",
+    "dump/tailscale",
+    "Assets/Pasted image 20250211233230.png",
     "Assets/Pasted image 20250211233223.png",
     "Assets/Pasted image 20250211232918.png",
     "Assets/Pasted image 20250211232902.png",
@@ -141,43 +182,11 @@
     "Assets/Pasted image 20240913205700.png",
     "Assets/Pasted image 20240913201816.png",
     "Assets/Pasted image 20240911193149.png",
-    "Assets/Pasted image 20240212181804.png",
-    "Assets/372081412-349c5bb6-903c-422e-be19-63db2f66ff77.png",
-    "dump/react/nextjs/nextjs_installation.md",
-    "dump/react/nextjs/nextjs.md",
-    "dump/history/history.md",
-    "dump/react/nextjs",
-    "dump/linux/linux.md",
-    "dump/linux/linux_laptop.md",
-    "dump/react/react.md",
-    "dump/pom.xml.md",
-    "dump/SERVIDORSUCIO.md",
-    "dump/recipes/Arroz Basmati.md",
-    "dump/react/react_structure.md",
-    "dump/react/react_.md",
-    "dump/react/react_services.md",
-    "dump/react/react_setup.md",
-    "dump/python/Python.md",
-    "dump/python/python_poo.md",
-    "dump/python/python_modules.md",
-    "dump/python/python_scopes.md",
-    "dump/obsidian/obsidian.md",
-    "scriptsNote_.md",
-    "web_scrapper.md",
-    "dump/java/java_oop.md",
-    "dump/concepts/oop/oop_encapsulation.md",
-    "dump/concepts/functional_programming/functional_programming_pure_functions.md",
-    "dump/concepts/functional_programming/functional_programming_lambda.md",
-    "dump/concepts/functional_programming/concepts_functional_programming.md",
+    "dump/frameworks_libraries/react/nextjs",
     "dump/concepts/functional_programming",
     "dump/concepts/oop",
     "dump/linux/proxmox",
     "Untitled",
-    "dump/linux/wayland",
-    "dump/linux/wayland/hyprland",
-    "dump/linux/yazi",
-    "dump/git",
-    "dump/config",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

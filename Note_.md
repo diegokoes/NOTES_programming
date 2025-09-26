@@ -1,0 +1,3 @@
+10+ years ago I mainly played on Xbox 360, I had an Xbox account linked to the email 'diego_ikki_825@hotmail.com' and had a Rockstar Social Club with those credentials.
+
+Owning L.A Noire and wanting to play it on Steam (my acc id: koeshunter), I've never been able because it seems like my steam account is linked to that rockstar account. I don't have access to that email and is not recoverable in any way (I've tried), so I'd like to know a solution that doesn't prevent me to play Rockstar games 

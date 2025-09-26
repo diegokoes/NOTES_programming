@@ -1,8 +1,8 @@
-# API Concepts
+# API CONCEPTS
 
 - [[concepts_api|API]]
 
-## Architectural Styles
+## ARCHITECTURAL STYLES
 
 - [[concepts_rest|REST]]
 - [[concepts_restful|RESTful]]

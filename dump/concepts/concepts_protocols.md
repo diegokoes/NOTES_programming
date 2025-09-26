@@ -1,6 +1,6 @@
 # CONCEPTS > PROTOCOLS
 
-## Protocols
+## PROTOCOLS
 
 - [[concepts_http2|HTTP/2]]
 - [[concepts_http3|HTTP/3]]
@@ -11,7 +11,7 @@
 - [[concepts_websockets|WebSockets]]
 - [[concepts_grpc|gRPC]]
 
-## Standards
+## STANDARDS
 
 - [[concepts_mime|MIME (Multipurpose Internet Mail Extensions)]]
 
