@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2d9f8b9ce47e3e7",
+        "id": "324a5f8fdcfd4b8d",
         "type": "tabs",
         "children": [
           {
-            "id": "12b3a9aa394a9f68",
+            "id": "ce82ddea673f0a8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "servidor_sucio.md",
+                "file": "digitalización_sostenibilidad.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "servidor_sucio"
+              "title": "digitalización_sostenibilidad"
             }
           }
         ]
@@ -42,13 +42,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "servidor_sucio.md",
+                "file": "digitalización_sostenibilidad.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of servidor_sucio"
+              "title": "Outline of digitalización_sostenibilidad"
             }
           }
         ]
@@ -64,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "servidor_sucio.md",
+                "file": "digitalización_sostenibilidad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,7 +74,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for servidor_sucio"
+              "title": "Backlinks for digitalización_sostenibilidad"
             }
           }
         ]
@@ -139,10 +139,10 @@
       "obsidian-day-and-night:Toggle Theme": false
     }
   },
-  "active": "12b3a9aa394a9f68",
+  "active": "ce82ddea673f0a8c",
   "lastOpenFiles": [
-    "servidor_sucio.md",
     "digitalización_sostenibilidad.md",
+    "servidor_sucio.md",
     "dump/programming_languages/java/java_collectionsframework.md",
     "dump/concepts/concepts_sop.md",
     "dump/programming_languages/java/java_datatypes.md",
