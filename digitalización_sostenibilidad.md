@@ -1,6 +1,6 @@
-## digitalización
-### Tema 1 Creación de entornos IT y OT
-#### Digitalización
+# DIGITALIZACIÓN
+## TEMA 1 CREACIÓN DE ENTORNOS IT Y OT
+### DIGITALIZACIÓN
 > **Digitalización** : En las empresas es la transformación de la *información analógica* a un formato digital.   
 
 > **Para qué**: 
@@ -26,17 +26,47 @@
 > 4. Organización/Estructura:
 > 5. Jerarquía: 
 > 6. Marketing: 2
-#### IT & OT 
+### IT & OT 
 
 
+# SOSTENIBILIDAD
 
-
-## sostenibilidad
-
-### tema 1
+## 1. SOSTENIBILIDAD EN LAS ORGANIZACIONES EMPRESARIALES
 
 el desarrollo sostenible como el aumento del bienestar de los ciudadanos, sin poner el peligro el bienestar de las generaciones futuras a través de la ejora continua en la calidad de  vida de la sociedad, garantizado al mismo tiempo un equilibrio entre el crecimiento de la economia, el respeto del medioambiente y el bienestar social.
 
 tipos: ambiental, social, económica.
 
 sostenibilidad aplicada al sistema productivo
+
+#### Sostenibilidad y su marco jurídico 
+#### 1.2 La agenda 2030 y la ODS 
+
+#### 1.3 Aspectos ambientales sociales y de gobernanza (ASG)
+
+#### 1.4 Los stakeholders y los criterios ASG
+
+#### 1.5 Medición de la sostenibilidad
+
+> **Indicadores de sostenibilidad** : factores que se peuden medir, y que contribuyen a que una empresa sea sostenible.
+
+- - - 
+Plan de ahorro de recursos aplicable a nuestro entorno profesional:
+
+Indra torrejón: 
+- descripción del entorno
+- 
+## 2. RETOS AMBIENTALES Y SOCIALES
+
+
+## 3. ODS EN EL DESEMPEÑO PROFESIONAL Y PERSONAL
+
+
+## 4. ECONOMÍA VERDE Y CIRCULAR
+
+
+## 5. ACVITIVIDADES SOSTENIBLES Y MEDIOAMBIENTALES
+
+
+## EL PLAN DE SOSTENIBILIDAD
+

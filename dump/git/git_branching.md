@@ -1,9 +1,11 @@
 # GIT BRANCHING
 
 ## BRANCH FUNDAMENTALS
+
 Branches in Git are lightweight movable pointers to specific commits. They allow you to work on different features or experiments without affecting the main codebase.
 
 ## BASIC BRANCH OPERATIONS
+
 ```bash
 # List branches
 git branch                  # Local branches only
@@ -26,6 +28,7 @@ git push origin --delete <branch-name>  # Delete remote branch
 ```
 
 ## BRANCH INFORMATION
+
 ```bash
 # Show current branch
 git branch --show-current
@@ -44,6 +47,7 @@ git branch -v
 ## BRANCH STRATEGIES
 
 ### GIT FLOW
+
 - **main/master**: Production-ready code
 - **develop**: Integration branch for features
 - **feature/**: Individual feature development
@@ -51,15 +55,18 @@ git branch -v
 - **hotfix/**: Critical fixes for production
 
 ### GITHUB FLOW
+
 - **main**: Always deployable
 - **feature branches**: Short-lived branches for specific features
 - Pull requests for code review before merging
 
 ### GITLAB FLOW
+
 - Similar to GitHub Flow but with environment branches
 - **main** → **pre-production** → **production**
 
 ## ADVANCED BRANCH OPERATIONS
+
 ```bash
 # Rename branch
 git branch -m <old-name> <new-name>
@@ -81,7 +88,9 @@ git log main..feature-branch
 ```
 
 ## BRANCH PROTECTION
+
 Best practices for protecting important branches:
+
 - Require pull request reviews
 - Require status checks to pass
 - Require branches to be up to date before merging
@@ -89,6 +98,7 @@ Best practices for protecting important branches:
 - Require signed commits
 
 ## COMMON BRANCHING PATTERNS
+
 ```bash
 # Feature branch workflow
 git checkout main
@@ -109,4 +119,3 @@ git push origin main --tags
 ```
 
 ---
-

@@ -3,7 +3,9 @@
 ## TYPES OF MERGES
 
 ### FAST-FORWARD MERGE
+
 When the target branch hasn't diverged from the source branch:
+
 ```bash
 git checkout main
 git merge feature-branch                   # Fast-forward if possible
@@ -11,14 +13,18 @@ git merge --no-ff feature-branch           # Force merge commit
 ```
 
 ### THREE-WAY MERGE
+
 When both branches have new commits:
+
 ```bash
 git checkout main
 git merge feature-branch                   # Creates merge commit
 ```
 
 ### SQUASH MERGE
+
 Combines all commits from feature branch into one:
+
 ```bash
 git checkout main
 git merge --squash feature-branch
@@ -26,6 +32,7 @@ git commit -m "Add feature: combined all changes"
 ```
 
 ## MERGE STRATEGIES
+
 ```bash
 # Default recursive strategy
 git merge feature-branch
@@ -41,12 +48,15 @@ git merge branch1 branch2 branch3
 ```
 
 ## UNDERSTANDING CONFLICTS
+
 Conflicts occur when Git can't automatically merge changes. Common scenarios:
+
 - Same line modified in both branches
 - File deleted in one branch, modified in another
 - Binary files changed in both branches
 
 ### CONFLICT MARKERS
+
 ```
 <<<<<<< HEAD
 Your changes
@@ -58,6 +68,7 @@ Their changes
 ## RESOLVING CONFLICTS
 
 ### MANUAL RESOLUTION
+
 ```bash
 # 1. Start merge
 git merge feature-branch
@@ -76,6 +87,7 @@ git commit                                 # Don't use -m, let Git generate mess
 ```
 
 ### USING MERGE TOOLS
+
 ```bash
 # Configure merge tool
 git config --global merge.tool vimdiff     # or meld, kdiff3, etc.
@@ -87,6 +99,7 @@ git mergetool
 ```
 
 ### ABORTING MERGE
+
 ```bash
 # Cancel merge process
 git merge --abort
@@ -98,6 +111,7 @@ git reset --hard HEAD
 ## ADVANCED CONFLICT RESOLUTION
 
 ### SHOW CONFLICT DETAILS
+
 ```bash
 # Show both sides of conflict
 git diff
@@ -111,6 +125,7 @@ git diff HEAD...feature-branch
 ```
 
 ### CHECKOUT SPECIFIC VERSION
+
 ```bash
 # Take our version
 git checkout --ours <file>
@@ -123,6 +138,7 @@ git checkout <commit-hash> -- <file>
 ```
 
 ## MERGE COMMIT MESSAGES
+
 ```bash
 # Default merge message
 git merge feature-branch
@@ -137,7 +153,9 @@ git merge feature-branch --edit
 ## PREVENTING CONFLICTS
 
 ### GOOD PRACTICES
+
 1. **Keep branches up-to-date**
+
 ```bash
 git checkout feature-branch
 git merge main                             # Or rebase
@@ -148,6 +166,7 @@ git merge main                             # Or rebase
 4. **Use .gitattributes for line endings**
 
 ### GIT ATTRIBUTES FOR MERGE
+
 ```bash
 # .gitattributes file
 *.png binary
@@ -157,6 +176,7 @@ package-lock.json merge=npm                # Custom merge driver
 ```
 
 ## THREE-WAY MERGE VISUALIZATION
+
 ```
     A---B---C topic
    /         \
@@ -164,18 +184,23 @@ package-lock.json merge=npm                # Custom merge driver
 ```
 
 ## MERGE VS REBASE DECISION TREE
+
 **Use Merge when:**
+
 - You want to preserve branch history
 - Working on public/shared branches
 - Feature is complete and tested
 
 **Use Rebase when:**
+
 - You want linear history
 - Working on private feature branch
 - Want to clean up commits before merging
 
 ## OCTOPUS MERGE
+
 Merging multiple branches simultaneously:
+
 ```bash
 # Merge multiple feature branches
 git checkout main
@@ -186,7 +211,9 @@ git merge feature1 feature2 feature3
 ```
 
 ## MERGE HOOKS
+
 ### PRE-MERGE HOOK
+
 ```bash
 #!/bin/sh
 # .git/hooks/pre-merge-commit
@@ -200,6 +227,7 @@ fi
 ```
 
 ## TROUBLESHOOTING MERGES
+
 ```bash
 # Find problematic merge
 git log --merges --oneline
@@ -215,6 +243,7 @@ git revert -m 1 <merge-commit-hash>
 ```
 
 ## MERGE STRATEGIES COMPARISON
+
 | Strategy | Use Case | History | Conflicts |
 |----------|----------|---------|-----------|
 | Fast-forward | Linear development | Clean | None |
@@ -223,4 +252,3 @@ git revert -m 1 <merge-commit-hash>
 | Rebase | Linear history | Rewrites | Per commit |
 
 ---
-

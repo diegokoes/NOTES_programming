@@ -1,9 +1,11 @@
 # GIT REMOTE REPOSITORIES
 
 ## UNDERSTANDING REMOTES
+
 Remotes are versions of your repository hosted on the internet or network. They enable collaboration and backup of your code.
 
 ## BASIC REMOTE OPERATIONS
+
 ```bash
 # Add remote repository
 git remote add origin <repository-url>
@@ -24,6 +26,7 @@ git remote rename <old-name> <new-name>
 ```
 
 ## FETCHING AND PULLING
+
 ```bash
 # Fetch changes (doesn't merge)
 git fetch origin
@@ -39,6 +42,7 @@ git config --global pull.rebase true      # Set as default
 ```
 
 ## PUSHING CHANGES
+
 ```bash
 # Push to remote
 git push origin main
@@ -60,6 +64,7 @@ git push --force-with-lease origin main   # Safer force push
 ```
 
 ## WORKING WITH FORKS
+
 ```bash
 # Fork workflow
 git clone <your-fork-url>
@@ -79,6 +84,7 @@ git push -u origin feature/new-feature
 ```
 
 ## REMOTE BRANCHES
+
 ```bash
 # List remote branches
 git branch -r
@@ -97,12 +103,15 @@ git fetch --prune
 ```
 
 ## SSH VS HTTPS
+
 ### HTTPS
+
 - Easier to set up
 - Works through firewalls
 - Requires username/password or token
 
 ### SSH
+
 - More secure
 - No password prompts once set up
 - Requires SSH key setup
@@ -119,6 +128,7 @@ ssh -T git@github.com
 ```
 
 ## MULTIPLE REMOTES
+
 ```bash
 # Working with multiple remotes
 git remote add origin <your-repo>
@@ -135,6 +145,7 @@ git remote set-url --add --push origin <url2>
 ```
 
 ## REMOTE CONFIGURATION
+
 ```bash
 # Configure default push behavior
 git config --global push.default simple
@@ -150,6 +161,7 @@ git config --global credential.helper cache
 ```
 
 ## TROUBLESHOOTING REMOTE ISSUES
+
 ```bash
 # Reset remote URL
 git remote set-url origin <new-url>
@@ -166,4 +178,3 @@ git push --force-with-lease origin main
 ```
 
 ---
-

@@ -1,6 +1,7 @@
 # GIT BASICS
 
 ## INSTALLATION AND CONFIGURATION
+
 ```bash
 # Set up your identity
 git config --global user.name "Your Name"
@@ -12,6 +13,7 @@ git config user.name
 ```
 
 ## REPOSITORY INITIALIZATION
+
 ```bash
 # Create a new repository
 git init
@@ -22,6 +24,7 @@ git clone <repository-url> <directory-name>
 ```
 
 ## BASIC WORKFLOW
+
 ```bash
 # Check repository status
 git status
@@ -43,6 +46,7 @@ git log --graph --oneline --all
 ```
 
 ## FILE OPERATIONS
+
 ```bash
 # Show differences
 git diff                     # Working directory vs staging area
@@ -58,6 +62,7 @@ git mv <old-name> <new-name>
 ```
 
 ## VIEWING CHANGES AND HISTORY
+
 ```bash
 # Show specific commit
 git show <commit-hash>
@@ -71,7 +76,9 @@ git blame <filename>
 ```
 
 ## IGNORING FILES
+
 Create a `.gitignore` file to specify which files Git should ignore:
+
 ```
 # Dependencies
 node_modules/
@@ -95,6 +102,7 @@ Thumbs.db
 ```
 
 ## USEFUL ALIASES
+
 ```bash
 # Set up useful shortcuts
 git config --global alias.st status
@@ -105,4 +113,3 @@ git config --global alias.lg "log --oneline --graph --all"
 ```
 
 ---
-
