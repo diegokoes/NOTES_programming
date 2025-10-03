@@ -1,3 +1,0 @@
-opinionated
-contain libraries
-structure

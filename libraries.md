@@ -1,2 +1,0 @@
-unopinionated
-replaceable
