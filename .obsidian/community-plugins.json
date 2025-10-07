@@ -5,7 +5,7 @@
   "obsidian-day-and-night",
   "obsidian-style-settings",
   "obsidian-linter",
-  "wikilinks-to-mdlinks-obsidian",
   "global-search-and-replace",
-  "obsidian-wakatime"
+  "obsidian-wakatime",
+  "obsidian-discordrpc"
 ]

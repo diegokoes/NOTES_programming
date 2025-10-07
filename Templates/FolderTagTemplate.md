@@ -15,7 +15,6 @@ if (folder) {
 
 // If in root folder, just create separator
 if (!folder || !output) {
-    output = "\n\n- - -";
     folderName = "Note"; // Default name for root folder
 }
 

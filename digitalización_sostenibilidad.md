@@ -1,6 +1,6 @@
 # DIGITALIZACIÓN
 ## TEMA 1 CREACIÓN DE ENTORNOS IT Y OT
-### DIGITALIZACIÓN
+### 1.1 DIGITALIZACIÓN
 > **Digitalización** : En las empresas es la transformación de la *información analógica* a un formato digital.   
 
 > **Para qué**: 
@@ -22,13 +22,58 @@
 > **Impacto**: 
 > 1. Recursos humanos: Desaparición y aparición de puestos de trabajo en torno a las nuevas tecnologías.
 > 2. Formas de trabajo: Tareas repetitivas automatizadas y tareas complejas simplificadas.
-> 3. Comunicación y colaboración: Videoconferencias, mensajería instantánea, colaboración en línea... Fuidez y rapidez.
-> 4. Organización/Estructura:
-> 5. Jerarquía: 
-> 6. Marketing: 2
-### IT & OT 
+> 3. Comunicación y colaboración: Videoconferencias, mensajería instantánea, colaboración en línea... Fluidez y rapidez.
+> 4. Organización/Estructura: Formación permanente, abandono de antiguas rutinas o estrategias.
+> 5. Jerarquía: Jerarquía horizontal multidisciplinar.
+> 6. Marketing: Personalización, datos de clientes.
+### 1.2 IT & OT 
+> **IT**: Tecnologías de la información: EN NEGOCIO
+> 
+>	-  procesamiento de datos, gestión información. CEREBRO.
+
+> **OT**: Tecnologḉias de la operación: EN PLANTA
+>
+>	- control y automatización de procesos físicos. BRAZOS, PIERNAS.
+
+> **Cómo evolucionaron IT-OT?** 
+> 1. Diferenciadas (1970-1990) - Por separado.
+> 2. Convergencia (1990-2000) - Puentes, integración.
+> 3. Ciberseguridad (2000-2010) - Integridad de datos, más ataques.
+> 4. IA, edge computing (2010-2020) 
+> 5. Gemelos digitales (actualidad) - Simulación de lo físico en lo digital.
+
+> **Departamentos**
+> Tradicional: Producción, Compraventa, RH, Contabilidad, I+D+I, Marketing.
+> IT: TI, Des. Software, Ges. Datos, Seguridad, Des. Web, Soporte, Innovación y Estrategia Digital. Muchos externalizados.
+
+> **Efectos**: 
+> + Eficiencia
+> + Decisiones informadas
+> + Innovacion
+> + Manteminiento predictivo
+> + Seguridad Integral
+> + Flexibilidad
+> + Cumplimiento normativo
+> + Exp. cliente mejorada
+
+> **Semejanzas**: 
+> 1. Interconexión
+> 2. Gestión de datos
+> 3. Colaboración
+> 4. Mejora de la eficiencia
 
 
+> **Diferencias**:
+> 1. Enfoque: 
+> 2. Tecnologías
+> 3. Seguridad
+> 4. Ciclo de vida
+
+
+
+![[Pasted image 20251004194402.png]]
+
+![[Pasted image 20251004194354.png]]
 # SOSTENIBILIDAD
 
 ## 1. SOSTENIBILIDAD EN LAS ORGANIZACIONES EMPRESARIALES
