@@ -45,10 +45,12 @@
 > **Departamentos**
 > Tradicional: 
 ![[Pasted image 20251008085639.png]]
+> Nuevas:
+> Tec.Información, Des. Software, Gestión de Datos, Seguridad de la Información, Des. Web, Soporte técnico, Innovación y Estrategia digital.
+> 
+> *Muchos de ellos externalizados*
 
-
-
-> **Efectos**: 
+> **Efectos de integrar IT y OT**: 
 > + Eficiencia
 > + Decisiones informadas
 > + Innovacion
@@ -59,17 +61,17 @@
 > + Exp. cliente mejorada
 
 > **Semejanzas**: 
-> 1. Interconexión
-> 2. Gestión de datos
-> 3. Colaboración
-> 4. Mejora de la eficiencia
+> 1. Interconexión: dispositivos + sistemas
+> 2. Gestión de datos: ambos manejan datos (IT empresa y operaciones, OT producción y rendimiento)
+> 3. Colaboración: Buscan mejorar eficiencia en sus áreas
+> 4. Mejora de la eficiencia: La misma basura de punto
 
 
 > **Diferencias**:
-> 1. Enfoque: 
-> 2. Tecnologías
-> 3. Seguridad
-> 4. Ciclo de vida
+> 5. Enfoque: IT datos, análisis, OT operación/energía/logística.
+> 6. Tecnologías: IT software,redes,BD,apps, OT: sensores, sis. automatización..
+> 7. Seguridad: IT: Proteger datos de ataques, OT: proteger sis industriales.
+> 8. Ciclo de vida: IT: más cortos, + updates, OT: estabilidad, + coste.
 
 
 
