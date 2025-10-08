@@ -43,8 +43,10 @@
 > 5. Gemelos digitales (actualidad) - Simulación de lo físico en lo digital.
 
 > **Departamentos**
-> Tradicional: Producción, Compraventa, RH, Contabilidad, I+D+I, Marketing.
-> IT: TI, Des. Software, Ges. Datos, Seguridad, Des. Web, Soporte, Innovación y Estrategia Digital. Muchos externalizados.
+> Tradicional: 
+![[Pasted image 20251008085639.png]]
+
+
 
 > **Efectos**: 
 > + Eficiencia

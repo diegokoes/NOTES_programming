@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming_languages/typescript/typescript_basic_types.md",
+                "file": "digitalización_sostenibilidad.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "typescript_basic_types"
+              "title": "digitalización_sostenibilidad"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -132,12 +133,13 @@
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
       "command-palette:Open command palette": true,
-      "templater-obsidian:Templater": true,
-      "obsidian-day-and-night:Toggle Theme": false
+      "templater-obsidian:Templater": true
     }
   },
   "active": "6b79e53f9213c0f9",
   "lastOpenFiles": [
+    "Assets/Pasted image 20251008085639.png",
+    "notes/programming_languages/typescript/typescript_basic_types.md",
     "notes/programming_languages/typescript/TypeScript.md",
     "digitalización_sostenibilidad.md",
     "Assets/Pasted image 20251004194402.png",
@@ -167,8 +169,6 @@
     "vscode.md",
     "scriptsNote_.md",
     "notes/programming_languages/javascript/js_fetch_basics.md",
-    "notes/programming_languages/java/java_collectionsframework.md",
-    "notes/concepts/concepts_sop.md",
     "notes/databases",
     "notes/frameworks_libraries",
     "notes/programming_languages",
