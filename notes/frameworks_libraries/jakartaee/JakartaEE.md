@@ -1,6 +1,4 @@
 # JAKARTA EE
-
-- [Rough Notes](jakartaeeroughnotes.md)
 - [Overview](jakartaeeoverview.md)
 - [Servlets](jakartaeeservlets.md)
 - [Filters and Listeners](jakartaeefilterslisteners.md)
@@ -18,5 +16,3 @@
 - [Custom Filters and Interceptors](jakartaee_customfilters.md)
 - [Asynchronous Processing](jakartaeeasync.md)
 - [Security in Jakarta EE](jakartaeesecurity.md)
-- - - 
-[[java]]  akartaee

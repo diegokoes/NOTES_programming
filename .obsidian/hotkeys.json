@@ -431,5 +431,14 @@
       ],
       "key": "F9"
     }
-  ]
+  ],
+  "obsidian-hider:toggle-hider-status": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "5"
+    }
+  ],
+  "workspace:goto-tab-5": []
 }

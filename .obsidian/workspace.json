@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "08da080eb54903f4",
+        "id": "505d9a76039af5f0",
         "type": "tabs",
         "children": [
           {
-            "id": "6b79e53f9213c0f9",
+            "id": "dd953b0e2d58a6fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "digitalización_sostenibilidad.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "digitalización_sostenibilidad"
+              "title": "New tab"
             }
           }
         ]
@@ -42,13 +37,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/programming_languages/typescript/typescript_basic_types.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of typescript_basic_types"
+              "title": "Outline"
             }
           }
         ]
@@ -64,7 +58,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/programming_languages/typescript/typescript_basic_types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,15 +67,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for typescript_basic_types"
+              "title": "Backlinks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -136,39 +128,40 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "6b79e53f9213c0f9",
+  "active": "dd953b0e2d58a6fb",
   "lastOpenFiles": [
+    "notes/frameworks_libraries/jakartaee/jakartaeeoverview.md",
+    "notes/frameworks_libraries/jakartaee/JakartaEE.md",
+    "notes/frameworks_libraries/jakartaee/jakartaeeroughnotes.md",
+    "exam_Server.md",
+    "notes/programming_languages/python/Python.md",
+    "tty1.md",
+    "metacourse.md",
+    "accesibility.md",
+    "backend.md",
+    "digitalización_sostenibilidad.md",
+    "README.md",
+    "notes/concepts/framework.md",
+    "notes/frameworks_libraries/angular/angular.md",
+    "notes/frameworks_libraries/angular/angular_introduction.md",
+    "notes/programming_languages/java/javastreams.md",
+    "notes/programming_languages/java/javaoptional.md",
     "Assets/Pasted image 20251008085639.png",
     "notes/programming_languages/typescript/typescript_basic_types.md",
     "notes/programming_languages/typescript/TypeScript.md",
-    "digitalización_sostenibilidad.md",
     "Assets/Pasted image 20251004194402.png",
     "Assets/Pasted image 20251004194354.png",
     "notes/config/config_iptables.md",
-    "README.md",
-    "metacourse.md",
-    "Note_.md",
-    "Note_.md",
+    "exam_Server.md",
+    "exam_Server.md",
     "Untitled 1.md",
     "Untitled 2.md",
     "Templates/FolderTagTemplate.md",
     "Templates/Untitled.md",
     "notes/linux/linux_encryption.md",
-    "tty1.md",
-    "dump/config/config_cachyos.md",
-    "dump/config/arch_cachyos/arch_cachyos_.md",
     "dump/config/arch_cachyos",
-    "notes/config/config_keybinds.md",
-    "notes/git/git.md",
-    "notes/projects/web_scrapper.md",
-    "servidor_sucio.md",
-    "notes/tailscale/tailscale.md",
-    "notes/programming_languages/javascript/javascript.md",
     "dump/Untitled",
     "notes/projects",
-    "vscode.md",
-    "scriptsNote_.md",
-    "notes/programming_languages/javascript/js_fetch_basics.md",
     "notes/databases",
     "notes/frameworks_libraries",
     "notes/programming_languages",
@@ -181,7 +174,6 @@
     "Assets/Pasted image 20250211232850.png",
     "Assets/Pasted image 20250211231853.png",
     "Assets/Pasted image 20240916192407.png",
-    "Assets/Pasted image 20240913205700.png",
     "notes/frameworks_libraries/react/nextjs",
     "notes/concepts/functional_programming",
     "Untitled 2.canvas",
