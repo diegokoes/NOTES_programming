@@ -36,9 +36,9 @@ Jakarta EE is a **specification platform** (not a single library or framework). 
 - **Vendor portability**: Standard APIs allow apps to run on any compliant server.
 - **Enterprise-ready**: Built-in server-side services for scalable, managed applications.
 
-### Jakarta EE vs Spring
+### Jakarta EE vs [[spring|Spring]]
 
-| Aspect | Jakarta EE | Spring |
+| Aspect | Jakarta EE | [[spring|Spring]] |
 |--------|------------|--------|
 | Nature | Standards/specifications | Framework with implementations |
 | DI & Programming Model | Uses CDI and standard APIs | Own container and opinionated modules |
@@ -49,13 +49,13 @@ Jakarta EE is a **specification platform** (not a single library or framework). 
 ## QUESTIONS
 
 > [!tip]- How does selecting a specific Jakarta EE application server impact what features or APIs you can use in your application?
-> Server choice determines compliance levels, vendor extensions (e.g., proprietary APIs), and runtime capabilities; unlike Spring's fixed embedded server, Jakarta allows swapping servers for portability but may limit access to non-standard features or require testing for compatibility across vendors.
+> Server choice determines compliance levels, vendor extensions (e.g., proprietary APIs), and runtime capabilities; unlike [[spring|Spring]]'s fixed embedded server, Jakarta allows swapping servers for portability but may limit access to non-standard features or require testing for compatibility across vendors.
 
 > [!warning]- What are the trade-offs of using vendor-specific extensions in a Jakarta EE application?
 > Extensions can provide advanced features or optimizations but reduce portability, as they may not work on other servers; always weigh against sticking to standard APIs for multi-vendor compatibility.
 
-> [!warning]- How do you handle configuration of resources like datasources in Jakarta EE versus Spring?
-> In Jakarta EE, resources are often configured via JNDI on the server (e.g., in server.xml), promoting centralized management; Spring uses application properties or annotations for embedded, app-specific config, offering more developer control but less server-level standardization.
+> [!warning]- How do you handle configuration of resources like datasources in Jakarta EE versus [[spring|Spring]]?
+> In Jakarta EE, resources are often configured via JNDI on the server (e.g., in server.xml), promoting centralized management; [[spring|Spring]] uses application properties or annotations for embedded, app-specific config, offering more developer control but less server-level standardization.
 
 > [!danger]- Describe a scenario where Jakarta EE's server selection would influence a project's architecture or performance.
-> For high-performance needs, choosing a server like WildFly for its clustering might suit distributed apps, but switching to a lighter runtime like OpenLiberty could improve startup times for microservices; unlike Spring's consistent embedded Tomcat, this requires evaluating server-specific trade-offs in memory, scaling, and feature sets.
+> For high-performance needs, choosing a server like WildFly for its clustering might suit distributed apps, but switching to a lighter runtime like OpenLiberty could improve startup times for microservices; unlike [[spring|Spring]]'s consistent embedded Tomcat, this requires evaluating server-specific trade-offs in memory, scaling, and feature sets.

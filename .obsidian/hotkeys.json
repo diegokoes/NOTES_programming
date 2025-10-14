@@ -282,14 +282,6 @@
       "key": "J"
     }
   ],
-  "editor:insert-embed": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "H"
-    }
-  ],
   "workspace:close-window": [],
   "workspace:close-others": [
     {

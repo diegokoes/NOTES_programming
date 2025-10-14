@@ -1,6 +1,6 @@
 {
-  "findText": "# ",
-  "replaceText": "## ",
+  "findText": "spring",
+  "replaceText": "[[spring|Spring]]",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": true,

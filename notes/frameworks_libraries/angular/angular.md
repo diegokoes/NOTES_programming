@@ -1,9 +1,5 @@
 # ANGULAR
 
-## SUMMARY
-> [!summary]
-> It is a frontend JavaScript [[framework]]
-
 1. [Architecture](angular_architecture.md)
 2. [Commands](angular_commands.md)
 3. [Modules Overview](angular_modules.md)

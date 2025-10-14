@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "505d9a76039af5f0",
+        "id": "30b39c2644319c5d",
         "type": "tabs",
         "children": [
           {
-            "id": "dd953b0e2d58a6fb",
+            "id": "ef58a545310c63df",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -37,12 +42,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           }
         ]
@@ -58,6 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -67,7 +74,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           }
         ]
@@ -128,9 +135,14 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "dd953b0e2d58a6fb",
+  "active": "ef58a545310c63df",
   "lastOpenFiles": [
+    "notes/frameworks_libraries/angular/angular.md",
+    "notes/concepts/concepts_framework.md",
+    "notes/concepts/concepts.md",
+    "Note_.md",
     "notes/frameworks_libraries/jakartaee/jakartaeeoverview.md",
+    "notes/frameworks_libraries/spring/spring.md",
     "notes/frameworks_libraries/jakartaee/JakartaEE.md",
     "notes/frameworks_libraries/jakartaee/jakartaeeroughnotes.md",
     "exam_Server.md",
@@ -141,8 +153,6 @@
     "backend.md",
     "digitalización_sostenibilidad.md",
     "README.md",
-    "notes/concepts/framework.md",
-    "notes/frameworks_libraries/angular/angular.md",
     "notes/frameworks_libraries/angular/angular_introduction.md",
     "notes/programming_languages/java/javastreams.md",
     "notes/programming_languages/java/javaoptional.md",
@@ -156,9 +166,6 @@
     "exam_Server.md",
     "Untitled 1.md",
     "Untitled 2.md",
-    "Templates/FolderTagTemplate.md",
-    "Templates/Untitled.md",
-    "notes/linux/linux_encryption.md",
     "dump/config/arch_cachyos",
     "dump/Untitled",
     "notes/projects",
