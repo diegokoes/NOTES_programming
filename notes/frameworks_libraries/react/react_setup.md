@@ -12,12 +12,6 @@ npm install
 
 
 
-npm create vite@latest
-# WHEN PROMPTED:
-# - PROJECT NAME: EBAY-REACT
-# - FRAMEWORK: REACT
-# - VARIANT: TYPESCRIPT
-
 
 npm i react-hook-form zod @hookform/resolvers react-router-dom
 

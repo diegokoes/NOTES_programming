@@ -7,11 +7,11 @@
 
 ## THEORY
 
-### What Jakarta EE is
+### WHAT JAKARTA EE IS
 
 Jakarta EE is a **specification platform** (not a single library or framework). Vendors implement the specs (e.g., WildFly, Payara, OpenLiberty, TomEE). Its core purpose is to ensure **portability and standardization** across application servers.
 
-### Core APIs
+### CORE APIS
 
 | API | Purpose |
 |-----|---------|
@@ -25,18 +25,18 @@ Jakarta EE is a **specification platform** (not a single library or framework). 
 | Jakarta Security | Manage security |
 | EJB | Optional business components |
 
-### Runtime Model & Server Features
+### RUNTIME MODEL & SERVER FEATURES
 
 - **Container-managed lifecycle**: Handles app startup, shutdown, and resource injection (e.g., datasources, JNDI).
 - **Declarative services**: Includes transactions, security, and pooling out of the box.
 - **Packaging**: Apps deploy as WAR/EAR on compliant servers or lightweight runtimes with MicroProfile.
 
-### Benefits
+### BENEFITS
 
 - **Vendor portability**: Standard APIs allow apps to run on any compliant server.
 - **Enterprise-ready**: Built-in server-side services for scalable, managed applications.
 
-### Jakarta EE vs [[spring|Spring]]
+### JAKARTA EE VS [[spring|Spring]]
 
 | Aspect | Jakarta EE | [[spring|Spring]] |
 |--------|------------|--------|

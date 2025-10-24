@@ -1,4 +1,4 @@
-# concepts > framework
+# CONCEPTS > FRAMEWORK
 
 ## SUMMARY
 >
@@ -7,11 +7,11 @@
 
 ## THEORY
 
-### What is a Framework?
+### WHAT IS A FRAMEWORK?
 
 A framework serves as a foundational template for application development, built on programming languages to provide tools, elements, and conventions that accelerate the process. It helps avoid starting from zero by offering reusable components and patterns, allowing modifications to fit specific project needs.
 
-### Why Use Frameworks?
+### WHY USE FRAMEWORKS?
 
 Frameworks are essential because coding from scratch is error-prone, time-consuming, and hard to maintain or collaborate on.
 
@@ -25,11 +25,11 @@ Frameworks are essential because coding from scratch is error-prone, time-consum
 
 By handling common tasks, they let developers focus on unique logic.
 
-### Types of Frameworks
+### TYPES OF FRAMEWORKS
 
 Frameworks fall into categories based on language and purpose, such as web development (front-end and back-end) or data science. Choosing one depends on project requirements, language familiarity, and goals—research options like [[angular|Angular]] or [[vue|Vue]] for [[javascript|JavaScript]]-based projects.
 
-#### Web Development Frameworks
+#### WEB DEVELOPMENT FRAMEWORKS
 
 Frameworks support building websites and apps by managing resources, services, and APIs.
 

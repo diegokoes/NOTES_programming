@@ -1,3 +1,3 @@
-# linux > encryption
+# LINUX > ENCRYPTION
 
 

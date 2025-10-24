@@ -18,15 +18,14 @@
     1. [JDBC](JDBC.md)
     2. [Hibernate](hibernate_java.md)
     3. [JPA](jpa_java.md)
-14. [Frameworks](java_frameworks.md)
-15. [Testing](testing_java.md)
+14. [Testing](testing_java.md)
     1. [JUnit](junit_java.md)
     2. [Mockito](mockito_java.md)
-16. Management
+15. Management
     1. [Maven](javamaven.md)
     2. [Introduction to Gradle](gradle_intro_java.md)
     3. [Dependency Management](dependency_management_java.md)
-17. Best Practices
+16. Best Practices
     4. [Code Style](code_style_java.md)
     5. [Refactoring](refactoring_java.md)
     6. [Design Patterns](design_patterns_java.md)

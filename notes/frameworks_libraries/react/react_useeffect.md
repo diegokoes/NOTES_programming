@@ -10,7 +10,7 @@
 
 # THEORY
 
-## B.1- UNDERSTANDING `useEffect`
+## UNDERSTANDING `useEffect`
 
 The `useEffect` hook replaces lifecycle methods like `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` in class components.
 
@@ -31,7 +31,7 @@ The `useEffect` hook replaces lifecycle methods like `componentDidMount`, `compo
 
 ---
 
-## B.2- DEPENDENCY ARRAY
+## DEPENDENCY ARRAY
 
 The second argument to `useEffect` is the **dependency array**, which controls when the effect should run.
 
@@ -61,7 +61,7 @@ The second argument to `useEffect` is the **dependency array**, which controls w
 
 ---
 
-## B.3- CLEANUP IN `useEffect`
+##  CLEANUP IN `useEffect`
 
 The `useEffect` function can return a cleanup function. This is useful for cleaning up subscriptions, timers, or other resources.
 

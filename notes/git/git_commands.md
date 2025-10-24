@@ -1,6 +1,6 @@
-# Git Commands — Quick Reference
+# GIT COMMANDS — QUICK REFERENCE
 
-## Table of contents
+## TABLE OF CONTENTS
 
 - [Purpose & conventions](#purpose--conventions)
 - [Porcelain vs plumbing](#porcelain-vs-plumbing)
@@ -22,7 +22,7 @@
 
 ---
 
-## Purpose & conventions
+## PURPOSE & CONVENTIONS
 
 This file is a compact, script-friendly reference of commonly used Git commands. Each entry follows this small contract:
 
@@ -38,7 +38,7 @@ Use `git <command> --help` for full details.
 
 ---
 
-## Porcelain vs plumbing
+## PORCELAIN VS PLUMBING
 
 - Porcelain: user-oriented commands and stable flags meant for humans and many scripts. Example: `git status --porcelain`.
 - Plumbing: low-level commands used by tools and libraries. Example: `git ls-files`, `git cat-file`.
@@ -47,7 +47,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 
 ---
 
-## Common workflows (quick links)
+## COMMON WORKFLOWS (QUICK LINKS)
 
 - Initialize / clone → configure → create branch → commit → push
 - Inspect / fix mistakes → `git log`, `git restore`, `git revert`, `git rebase -i`
@@ -55,9 +55,9 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 
 ---
 
-## Commands by category
+## COMMANDS BY CATEGORY
 
-### Setup / config
+### SETUP / CONFIG
 
 - `git config --global user.name "Your Name"`
   - Set your identity.
@@ -71,7 +71,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git remote add origin <url>`
   - Add a remote named `origin`.
 
-### Repository info & status
+### REPOSITORY INFO & STATUS
 
 - `git status`
   - Human-readable working tree summary.
@@ -96,7 +96,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git remote -v`
   - Show remotes and their URLs.
 
-### Staging & commits
+### STAGING & COMMITS
 
 - `git add <pathspec>`
   - Stage changes.
@@ -110,7 +110,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git commit --amend`
   - Amend the last commit (don't amend pushed commits unless you know what you're doing).
 
-### Branching
+### BRANCHING
 
 - `git branch`
   - List local branches.
@@ -126,7 +126,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 
 - `git branch -d <branch>` / `-D` to force delete.
 
-### Merging & rebase
+### MERGING & REBASE
 
 - `git merge <branch>`
   - Merge another branch into the current branch.
@@ -137,7 +137,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git rebase -i <base>`
   - Interactive rebase for rewriting history.
 
-### Syncing remotes
+### SYNCING REMOTES
 
 - `git fetch [remote] [refspec]`
   - Update remote refs without merging.
@@ -160,7 +160,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
  > [!warning] Credentials
  > You may be prompted for credentials when switching to HTTPS unless a credential helper is configured.
 
-### Undoing changes
+### UNDOING CHANGES
 
 - `git restore <file>`
   - Restore working-tree file from `HEAD` (or a specified commit).
@@ -171,7 +171,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git revert <commit>`
   - Create a new commit that undoes `commit` (safe for published history).
 
-### History & inspection
+### HISTORY & INSPECTION
 
 - `git log --oneline --graph --decorate --all`
   - Compact, visual history.
@@ -185,7 +185,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git blame <file>`
   - Annotate file with last-change information per line.
 
-### Stash, tags, submodules
+### STASH, TAGS, SUBMODULES
 
 - `git stash push -m "msg"`
   - Stash local changes.
@@ -199,7 +199,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 - `git submodule update --init --recursive`
   - Initialize/update submodules.
 
-### Plumbing (for scripts/tools)
+### PLUMBING (FOR SCRIPTS/TOOLS)
 
 - `git rev-parse --abbrev-ref HEAD`
   - Get current branch name (useful in prompts and scripts).
@@ -212,7 +212,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 
 ---
 
-## Examples & script-friendly outputs
+## EXAMPLES & SCRIPT-FRIENDLY OUTPUTS
 
 - Check for a clean working tree (script-friendly):
 
@@ -238,7 +238,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
 
 ---
 
-## Aliases & tips
+## ALIASES & TIPS
 
 - Useful aliases (set with `git config --global`):
 
@@ -253,7 +253,7 @@ Use porcelain when you want stable, parsable output for CI, prompt detection, or
   - Use porcelain (`--porcelain`) or plumbing consistently in scripts.
   - Add a small TOC or headings to long notes so Obsidian/GitHub can link directly to sections.
 
-## References
+## REFERENCES
 
 - `git help <command>`
 - Pro Git book: <https://git-scm.com/book/en/v2>
