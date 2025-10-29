@@ -1,6 +1,6 @@
 # SERVIDOR :D 
 
-## Welcome file
+## WELCOME FILE
 ```xml
 <welcome-file-list>  
     <welcome-file>welcome.jsp</welcome-file>  
@@ -13,12 +13,12 @@ resp.setHeader("Content-Disposition", "attachment; filename=\"productos.xls\"");
 req.setAttribute("x", x);
 getServletContext().getRequestDispatcher("/.jsp").forward(req, resp);
 ```
-## Parameters 
-### List's 
+## PARAMETERS 
+### LIST'S 
 ```java
 List<String> X = Optional.ofNullable(request.getParameterValues("X")) .map(Arrays::asList) .orElseGet(Collections::emptyList);
 ```
-## Logging / error.jsp / status codes
+## LOGGING / ERROR.JSP / STATUS CODES
 ```java
 //logger
 private static final Logger log = Logger.getLogger(NOMBRECLASE.class.getName());
@@ -41,9 +41,10 @@ ${empty cookie.color.value ? "blue" : cookie.color.value}
 
 ```java
 Cookie cookie = new Cookie("AAAAAA", "AAAAAA");
-cookie.setMaxAge(7 * 24 * 60 * 60); 
+cookie.setMaxAge(7 * 24 * 60 * 60);
+cookie.setPath(request.getContextPath()); 
 response.addCookie(cookie);
-cookie.setPath(request.getContextPath());
+
 ```
 
 > read
@@ -70,7 +71,7 @@ cookie.setPath(request.getContextPath())
 response.addCookie(cookie);
 ```
 
-## Date
+## DATE
 
 ```java
 if (fechaParam != null && !fechaParam.isBlank()) {
@@ -90,7 +91,15 @@ errors.add("La fecha de publicación no tiene el formato yyyy-MM-dd.");
 }
 ```
 
-
-
-
-
+## INIT
+```java
+@Override  
+public void init() throws ServletException {  
+    super.init();  
+    try {  
+        daoP = new ProductoDAO();  
+    } catch (Exception e) {  
+        throw new ServletException("Error inicializando DAOs", e);  
+    }  
+}
+```

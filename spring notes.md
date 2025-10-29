@@ -1,9 +1,9 @@
-## SPRING NOTES
+# SPRING NOTES
 
 > DTO -> para no devolver el entity directamente 
 
 Tantos servicios como entities en general, y tantas entities como tablas
-### Entity 
+## ENTITY 
 Sus campos tienen que coincidir con los campos de una tabla. Con annotaciones:
 ```java
 @Getter 
@@ -24,13 +24,16 @@ private String firstName
 // En la parte de n -> Una lista
 ```
 
-### DTO 
+## DTO 
 No hay etiquetas DTO
 `Necesita Getters y Setters`:
 @Data =  @Get,Set... @RequiredArgs..., @EqualsAndHashCode,  @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-### Repository
+
+> **Dependencia:** `Validation`
+
+## REPOSITORY
 
 Interface que hereda de CrudRepository, la básica. 
 
@@ -38,9 +41,6 @@ Interface que hereda de CrudRepository, la básica.
 
 > ResponseEntity?  !TODO
 siempre DTOS, entradas DTO's, contra la BD siempre ENTITIES
-
-
-
 
 > Inyección por dos tipos:
 > 1. por propiedad (autowired)
@@ -54,7 +54,7 @@ si @AllArgsConstructor y es un @Entity tienes que crear un constructor vacío.  
 @Id -> PK 
 @GeneratedValue -> strategy = GenerationType.Identity
 
-### Controller 
+## CONTROLLER 
 @RestController  -> devuelve JSON
 @RequestMapping("/auth") // para todos los endpoints hijos
 > Inyectar Repository al controller
@@ -74,7 +74,20 @@ Lista de Entity a Lista de DTO -> .stream, .map return.... .toList()
 ResponseEntity.notFound().build() (vacio)
 
 ResponseEntity`<?>`
-### Mapper
+
+!! NO DOUBLE WRAP OPTIONAL 
+
+@Valid @RequestBody en un controller, porque tienen el mismo nombre las de JSOn <-> DTO. 
+
+@JsonProperty(access = JsonProperty.Access.WRITE_ONLY) 
+^--- Sólo se usa propiedad al crear un producto, no al listar.
+
+@Valid solo para DTO's 
+
+@Pattern(regexp="^..$",message="") !!ANTES DE LA DECLARACION DE LA VARIABLE 
+^para RequestParam/PathVariable
+
+## MAPPER
 
 ```java
 package com.example.myapp.mapper;
@@ -91,6 +104,21 @@ public interface CustomerMapper {
     Customer toEntity(CustomerDTO dto);
 }
 ```
+En el caso de nombres diferentes de propiedades entre el DTO y el Entity -> @Mapping (source = , target = )
 
-### X
+Nombres iguales de propiedades DTO<->ENTIDAD **no hace falta hacer nada**  
+Si tuvieran nombres distintos :  
+```java
+@Mapping(source="nombrePropiedadENTIDAD", target="nombrePropiedadDTO")  
+//si es de DTO a ENTIDAD -
+> se invierten  
+@InheritInverseConfiguration lo hace solo
+```
 
+## GLOBALEXCEPTIONHANDLER
+```java
+@ControllerAdvice
+public class GlobalExceptionHandler...
+	@ExceptionHandler 
+
+```

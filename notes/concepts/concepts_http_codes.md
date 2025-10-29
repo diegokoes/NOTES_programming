@@ -1,4 +1,4 @@
-# concepts > http codes
+# CONCEPTS > HTTP CODES
 
 — Status codes: what the numbers mean
 Codes are grouped by the first digit:
