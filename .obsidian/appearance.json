@@ -1,10 +1,3 @@
 {
-  "theme": "system",
-  "showRibbon": false,
-  "cssTheme": "AnuPpuccin",
-  "interfaceFontFamily": "Avenir",
-  "textFontFamily": "Avenir",
-  "showViewHeader": false,
-  "nativeMenus": false,
-  "baseFontSize": 18
+  "cssTheme": "AnuPpuccin"
 }

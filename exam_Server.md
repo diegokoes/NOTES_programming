@@ -1,5 +1,19 @@
 # SERVIDOR :D 
 
+## COSAS A HACER
+- [x] 1. MOSTRAR NOMBRE CLIENTE EN VEZ DE ID EN **PRODUCTOS** 
+- [x] 2. FILTRAR PEDIDO POR CLIENTE, VIA DAO, NO UN FILTRO DE UN LIST.
+UNA VEZ FILTRADO SE MANTIENE EL CLIENTE SELECCIONADO
+- [ ] 3.  ORDENAR PEDIDO POR ESTADO
+ASCENDENTE y DESCENDENTE (FLECHA)
+SI SE HAN FILTRADO, DEBEN APARECER ESOS TMBN ORDENADOR POR ESTADO
+- [x] 4. Nº pedidos por pagina - COOKIE
+- [ ]! todo leer
+- [x] 5. Eliminar clientes. si error -> error.jsp 
+Mari Luz ELola no error, salen las fichas actualizadas.
+
+Con error: borrando cualquier otro daría error (restricción ya hecha en BD que no permite borrar clientes con pedidos).
+
 ## WELCOME FILE
 ```xml
 <welcome-file-list>  

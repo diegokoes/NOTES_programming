@@ -7,7 +7,7 @@
     - [JSX](jsx.md)
     - [Rendering and updates](reactrenderingupdates.md)
 - [Components](reactcomponents.md)
-- [Hooks](reacthooks.md)
+- [Hooks](react_hooks.md)
 - [Routing](reactrouting.md)
 - [Global state](reactglobalstate.md)
 - [Styling](reactstyles.md)
@@ -18,3 +18,7 @@
 	- [Naming conventions](convenciones_nombres.md)
 	- [Code organization](organizacion_codigo.md)
 	- [Common patterns in React](patrones_comunes.md)
+- - - 
+TOADD:
+- React Compìler 1.0 (OCT 2025)
+- 
