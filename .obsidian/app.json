@@ -8,7 +8,7 @@
   "promptDelete": true,
   "attachmentFolderPath": "Assets",
   "focusNewTab": false,
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "newFileLocation": "current",
   "livePreview": true,
   "propertiesInDocument": "visible",

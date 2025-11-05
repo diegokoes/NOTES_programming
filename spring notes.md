@@ -165,3 +165,6 @@ Clase App config
 ## Security
 
 `... implements UserDetails` - para gestionar permisos.
+
+**Examen -> personalizar seguridad, para reglas de permisos y endopoints** 
+

@@ -3,7 +3,6 @@
 - [Basic Concepts](basic_concepts_nodejs.md)
 - [Core Modules](nodejs_core_modules.md)
 - [NPM (Node Package Manager)](nodejs_npm.md)
-- [Asynchronous Programming in Node.js](nodejs_asynchronous.md)
 - [Creating a Server](creating_server_nodejs.md)
 - [Express.js](nodejs_express.md)
 - [Databases with Node.js](nodejs_databases.md)
@@ -25,6 +24,3 @@
     2. [Vercel](deploy_vercel.md)
     3. [AWS and Docker](deploy_aws_docker.md)
 
-cookie parser bodyparser  cors
-- - - 
-odejs [[javascript]] [[TypeScript]]

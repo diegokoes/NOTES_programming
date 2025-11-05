@@ -16,13 +16,10 @@ Returns a [[javascript_promises|promise]].
 
 Request Response Headers
 
-## QUESTIONS
 
-> [!tip]- Question
-> Answer
+Two ways:
 
-> [!warning]- Question
-> Answer
+>1. `async / await`
 
-> [!danger]- Question
-> Answer
+
+>2. `.then / .catch`

@@ -1,4 +1,4 @@
-# react > useRef()
+# react > useRef
 
 ## SUMMARY
 > [!summary]
