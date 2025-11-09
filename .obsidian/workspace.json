@@ -4,22 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "82eaa03fa3c1ef59",
+        "id": "a00b0bc7ba8348fd",
         "type": "tabs",
         "children": [
           {
-            "id": "a6f13ad258cf6d7d",
+            "id": "d4a60e4f751ad2d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/programming_languages/javascript/javascript_fetch.md",
+                "file": "CLIENTE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "javascript_fetch"
+              "title": "CLIENTE"
+            }
+          },
+          {
+            "id": "350bf7c803602f5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/frameworks_libraries/react/react_useeffect.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "react_useeffect"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "97c953ca3125843c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8988e41138192200",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLIENTE.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CLIENTE"
             }
           }
         ]
@@ -42,12 +79,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "notes/frameworks_libraries/react/react_useeffect.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of react_useeffect"
             }
           }
         ]
@@ -63,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "notes/frameworks_libraries/react/react_useeffect.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -72,15 +111,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for react_useeffect"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 279,
-    "collapsed": true
+    "width": 279
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -135,34 +173,35 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "a6f13ad258cf6d7d",
+  "active": "350bf7c803602f5a",
   "lastOpenFiles": [
-    "notes/frameworks_libraries/react/react_useeffect.md",
-    "notes/frameworks_libraries/react/react_hooks.md",
-    "notes/frameworks_libraries/react/react_useState.md",
-    "notes/frameworks_libraries/react/react_useref.md",
-    "notes/frameworks_libraries/react/react.md",
-    "spring notes.md",
-    "notes/programming_languages/javascript/javascript_fetch.md",
-    "javascript_promises.md",
-    "notes/frameworks_libraries/nodejs/nodejs.md",
-    "notes/frameworks_libraries/nodejs/nodejs_asynchronous.md",
-    "async_await_nodejs.md",
-    "notes/frameworks_libraries/nodejs/promises_nodejs.md",
-    "notes/programming_languages/javascript/xmlhttprequest.md",
     "CLIENTE.md",
-    "notes/frameworks_libraries/react/react_xmlhttprequest.md",
-    "notes/frameworks_libraries/react/react_apis.md",
-    "notes/programming_languages/javascript/javascript.md",
-    "notes/concepts/concepts_apis.md",
-    "notes/concepts/concepts_rest.md",
-    "notes/concepts/concepts_.md",
+    "notes/frameworks_libraries/react/react_useeffect.md",
+    "spring notes.md",
+    "notes/frameworks_libraries/angular/angular_architecture.md",
+    "Templates/summary.md",
     "Templates/question.md",
-    "notes/concepts/concepts_api.md",
-    "concepts_api.md",
-    "context_api.md",
-    "notes/programming_languages/javascript/js_fetch_basics.md",
-    "notes/programming_languages/javascript/javascript_asynchronous.md",
+    "Templates/theory.md",
+    "notes/frameworks_libraries/react/react_hooks.md",
+    "notes/frameworks_libraries/react/usecontext.md",
+    "notes/frameworks_libraries/react/react.md",
+    "notes/frameworks_libraries/expressjs/expressjs.md",
+    "notes/programming_languages/javascript/javascript_fetch.md",
+    "notes/nodejs/nodejs_modules.md",
+    "notes/nodejs/nodejs.md",
+    "notes/nodejs/nodejs_setup.md",
+    "notes/nodejs/expressjs.md",
+    "notes/frameworks_libraries/react/zustand.md",
+    "notes/frameworks_libraries/expressjs",
+    "notes/nodejs/nodejs_fnm.md",
+    "notes/frameworks_libraries/nodejs/nodejs_testing.md",
+    "notes/frameworks_libraries/nodejs/promises_nodejs.md",
+    "notes/frameworks_libraries/nodejs/nodejs_databases.md",
+    "notes/frameworks_libraries/nodejs/nodejs_event_loop.md",
+    "notes/frameworks_libraries/nodejs/nodejs_express.md",
+    "notes/frameworks_libraries/nodejs/nodejs_buffer_module.md",
+    "notes/frameworks_libraries/nodejs/cors_nodejs.md",
+    "notes/frameworks_libraries/nodejs/nodejs_npm.md",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "Assets/376050291-513b4bff-698b-4a89-bcda-b5dffeade3eb.png",
     "Assets/Pasted image 20251004194402.png",
@@ -182,7 +221,6 @@
     "notes/tailscale",
     "Assets/Pasted image 20250211233230.png",
     "notes/frameworks_libraries/react/nextjs",
-    "notes/concepts/functional_programming",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

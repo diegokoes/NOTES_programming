@@ -1,8 +1,49 @@
 # SPRING NOTES
-
-> DTO -> para no devolver el entity directamente 
-
-Tantos servicios como entities en general, y tantas entities como tablas
+## SET UP
+### DEPENDENCIES
+- Lombok
+- Spring Web
+- Spring Security
+- H2 Database
+- Validation
+- Spring Boot Actuator
+- Spring Data JPA
+### POM
+```xml
+<dependency>  
+    <groupId>org.mapstruct</groupId>  
+    <artifactId>mapstruct</artifactId>  
+    <version>1.5.5.Final</version>  
+</dependency>  
+<dependency>  
+    <groupId>org.mapstruct</groupId>  
+    <artifactId>mapstruct-processor</artifactId>  
+    <version>1.5.5.Final</version>  
+</dependency>
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-api</artifactId>  
+    <version>0.12.6</version>  
+</dependency>  
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-impl</artifactId>  
+    <version>0.12.6</version>  
+    <scope>compile</scope>  
+</dependency>  
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-jackson</artifactId>  
+    <version>0.12.6</version>  
+    <scope>compile</scope>  
+</dependency>
+- - - 
+  <path>  
+    <groupId>org.mapstruct</groupId>  
+    <artifactId>mapstruct-processor</artifactId>  
+    <version>1.6.2</version>  
+</path>
+``` 
 ## ENTITY 
 Sus campos tienen que coincidir con los campos de una tabla. Con annotaciones:
 ```java
@@ -168,3 +209,4 @@ Clase App config
 
 **Examen -> personalizar seguridad, para reglas de permisos y endopoints** 
 
+4-> 

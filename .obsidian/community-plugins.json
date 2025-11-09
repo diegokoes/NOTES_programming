@@ -2,7 +2,7 @@
   "templater-obsidian",
   "obsidian-hider",
   "obsidian-regex-replace",
-  "obsidian-style-settings",
   "global-search-and-replace",
-  "obsidian-wakatime"
+  "obsidian-wakatime",
+  "obsidian-style-settings"
 ]
