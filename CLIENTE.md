@@ -2,13 +2,9 @@
 
 ## REACT
 ### EXAM
-- [ ] 1-
-- [ ] 2-
-- [ ] 3
-- [ ] 4-
-- [ ] 5-
-- [ ] 6-
 
+email:    hola@gmail.com
+password: Hola1234
 ### useEffect() 
 - \[ \] -> INITIAL RENDER
 - NO -> EVERY RE RENDER
@@ -133,3 +129,12 @@ const petCreateCustomer = await fetch(`${BASE_URL_STRIPE}/customers`, {
     body: params
 });
 ```
+
+
+
+## ANGULAR
+
+//TODO ver componentes standalone diffs versiones
+
+@ decorators A nivel de clase //TODO 
+

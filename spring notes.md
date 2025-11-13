@@ -37,6 +37,7 @@
     <version>0.12.6</version>  
     <scope>compile</scope>  
 </dependency>
+//TODO Meter dependencia .env
 - - - 
   <path>  
     <groupId>org.mapstruct</groupId>  
@@ -65,6 +66,18 @@ private String firstName
 // En la parte de n -> Una lista
 ```
 
+
+**Objetos bidireccionales**
+Entidad propietaria y entidad inversa
+
+mapped by -> inversa - 
+//! TODO Ver lo de llamadas cíclicas ?? 
+con el join -> entidad propietaria
+
+//TODO ver extends GrantedAuthority
+
+
+cuidado con lo de defer-datasource-initalization, tiene que ser true o lee primero data.sql y casca.
 ## DTO 
 No hay etiquetas DTO
 `Necesita Getters y Setters`:
@@ -72,7 +85,7 @@ No hay etiquetas DTO
 @AllArgsConstructor
 @NoArgsConstructor
 
-> **Dependencia:** `Validation`
+> **Dependencia:** `Validation` 
 
 ## REPOSITORY
 
@@ -138,8 +151,6 @@ relacion tabla tipo Producto que tiene objeto Fabricante:
 objectMapper.converValue... 
 !TODO ver pasos en el github
 **¿Entra reflexión en el examen?**
-
-
 
 ## MAPPER
 
@@ -207,6 +218,19 @@ Clase App config
 
 `... implements UserDetails` - para gestionar permisos.
 
-**Examen -> personalizar seguridad, para reglas de permisos y endopoints** 
+**Examen -> personalizar seguridad, para reglas de permisos y endopoints**
 
-4-> 
+//TODO Ver ROLES DUPLICADOS 
+
+>[!tip] @PreAuthorize y @PostAuthorize
+>  Necesita @EnableMethodSecurity
+
+>[!danger] EnableWebSecurity
+> 
+EnableWebSecurity no es necesario con Spring Boot 3.X / Security 6.x
+
+## Thymeleaf
+
+
+## 12-11-25
+

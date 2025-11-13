@@ -4,5 +4,6 @@
   "obsidian-regex-replace",
   "global-search-and-replace",
   "obsidian-wakatime",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "obsidian-linter"
 ]

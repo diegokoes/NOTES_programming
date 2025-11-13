@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "a00b0bc7ba8348fd",
+        "id": "90f8fb07e93b67aa",
         "type": "tabs",
         "children": [
           {
-            "id": "d4a60e4f751ad2d3",
+            "id": "8e41d88c9537789c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLIENTE.md",
+                "file": "notes/frameworks_libraries/angular/angular.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CLIENTE"
-            }
-          },
-          {
-            "id": "350bf7c803602f5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/frameworks_libraries/react/react_useeffect.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "react_useeffect"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "97c953ca3125843c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8988e41138192200",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CLIENTE.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CLIENTE"
+              "title": "angular"
             }
           }
         ]
@@ -79,13 +42,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/frameworks_libraries/react/react_useeffect.md",
+                "file": "notes/frameworks_libraries/angular/angular.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of react_useeffect"
+              "title": "Outline of angular"
             }
           }
         ]
@@ -101,7 +64,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/frameworks_libraries/react/react_useeffect.md",
+                "file": "notes/frameworks_libraries/angular/angular.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,14 +74,15 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for react_useeffect"
+              "title": "Backlinks for angular"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 279
+    "width": 279,
+    "collapsed": true
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -162,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250,
-    "collapsed": true
+    "width": 250
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,12 +136,24 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "350bf7c803602f5a",
+  "active": "8e41d88c9537789c",
   "lastOpenFiles": [
-    "CLIENTE.md",
-    "notes/frameworks_libraries/react/react_useeffect.md",
-    "spring notes.md",
     "notes/frameworks_libraries/angular/angular_architecture.md",
+    "notes/frameworks_libraries/angular/angular_form_validation.md",
+    "notes/frameworks_libraries/angular/angular_templates.md",
+    "notes/frameworks_libraries/angular/angular_template_forms.md",
+    "notes/frameworks_libraries/angular/angular_state_services.md",
+    "notes/frameworks_libraries/angular/angular_router_basics.md",
+    "notes/frameworks_libraries/angular/angular_route_guards.md",
+    "notes/frameworks_libraries/angular/angular_interceptors.md",
+    "notes/frameworks_libraries/angular/angular.md",
+    "notes/frameworks_libraries/angular/angular_modules.md",
+    "notes/frameworks_libraries/angular/angular_commands.md",
+    "angular_ngrx.md",
+    "CLIENTE.md",
+    "spring notes.md",
+    "notes/frameworks_libraries/react/react_useref.md",
+    "notes/frameworks_libraries/react/react_useeffect.md",
     "Templates/summary.md",
     "Templates/question.md",
     "Templates/theory.md",
@@ -189,19 +164,7 @@
     "notes/programming_languages/javascript/javascript_fetch.md",
     "notes/nodejs/nodejs_modules.md",
     "notes/nodejs/nodejs.md",
-    "notes/nodejs/nodejs_setup.md",
-    "notes/nodejs/expressjs.md",
-    "notes/frameworks_libraries/react/zustand.md",
     "notes/frameworks_libraries/expressjs",
-    "notes/nodejs/nodejs_fnm.md",
-    "notes/frameworks_libraries/nodejs/nodejs_testing.md",
-    "notes/frameworks_libraries/nodejs/promises_nodejs.md",
-    "notes/frameworks_libraries/nodejs/nodejs_databases.md",
-    "notes/frameworks_libraries/nodejs/nodejs_event_loop.md",
-    "notes/frameworks_libraries/nodejs/nodejs_express.md",
-    "notes/frameworks_libraries/nodejs/nodejs_buffer_module.md",
-    "notes/frameworks_libraries/nodejs/cors_nodejs.md",
-    "notes/frameworks_libraries/nodejs/nodejs_npm.md",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "Assets/376050291-513b4bff-698b-4a89-bcda-b5dffeade3eb.png",
     "Assets/Pasted image 20251004194402.png",
