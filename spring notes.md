@@ -37,7 +37,12 @@
     <version>0.12.6</version>  
     <scope>compile</scope>  
 </dependency>
-//TODO Meter dependencia .env
+<!-- https://mvnrepository.com/artifact/me.paulschwarz/spring-dotenv -->
+<dependency>
+    <groupId>me.paulschwarz</groupId>
+    <artifactId>spring-dotenv</artifactId>
+    <version>4.0.0</version>
+</dependency>
 - - - 
   <path>  
     <groupId>org.mapstruct</groupId>  
@@ -78,12 +83,17 @@ con el join -> entidad propietaria
 
 
 cuidado con lo de defer-datasource-initalization, tiene que ser true o lee primero data.sql y casca.
+
+length, nullable, precision, scale...
 ## DTO 
-No hay etiquetas DTO
-`Necesita Getters y Setters`:
+@Getters
+@Setters
+@Data // lo hace todo
 @Data =  @Get,Set... @RequiredArgs..., @EqualsAndHashCode,  @ToString
 @AllArgsConstructor
 @NoArgsConstructor
+
+
 
 > **Dependencia:** `Validation` 
 
@@ -108,19 +118,21 @@ si @AllArgsConstructor y es un @Entity tienes que crear un constructor vacío.  
 @Id -> PK 
 @GeneratedValue -> strategy = GenerationType.Identity
 
-## CONTROLLER 
+## CONTROLLER
 @RestController  -> devuelve JSON
 @RequestMapping("/auth") // para todos los endpoints hijos
 > Inyectar Repository al controller
-	
+
 1. (Peor) Inyección por 
 2. Inyección por constructor
 
 Devolvemos ResponseEntity y no Entities, DTO's
 siempre devolvemos un ResponseEntity (HttpResponse) que encapsula lo que se devuelve en el body (cualquier cosa).
 
+@RequestBody-> viene un json. 
+@RequestBody CustomerDTO customer -> que va a tener exactamente las mismas propiedades que CustomerDTO. Necesita que tenga 1 constructor vacío y setters.
 
-@RequestBody-> viene un json
+
 @RequestParam ?
 
 Lista de Entity a Lista de DTO -> .stream, .map return.... .toList()
@@ -152,6 +164,8 @@ objectMapper.converValue...
 !TODO ver pasos en el github
 **¿Entra reflexión en el examen?**
 
+
+? extends globalDTO? y //  \<?\>
 ## MAPPER
 
 ```java
@@ -201,8 +215,10 @@ en el service  `.orElseThrow()`
 @Validated para
 
 Próximo día: en vez de recibir un ProductoDTO, un Map.  en el PatchMapping.
+¿Web Client?
 
-## Configuracion personalizada 
+
+## CONFIGURACION PERSONALIZADA 
 
 importamos @Value de SpringFramework
 
@@ -214,7 +230,7 @@ https://github.com/diegokoes/DWES-03-2025-26/tree/main/EJERCICIOS
 @EnableConfigurationProperties...
 Clase App config 
 
-## Security
+## SECURITY
 
 `... implements UserDetails` - para gestionar permisos.
 
@@ -228,9 +244,54 @@ Clase App config
 >[!danger] EnableWebSecurity
 > 
 EnableWebSecurity no es necesario con Spring Boot 3.X / Security 6.x
+## THYMELEAF
 
-## Thymeleaf
+@Configuration
+class en config de MvcConfig inmplements WebMvcConfigurer
+
+registry.addViewControllers y dentro de él el mapeo de ruta y vistas 
 
 
-## 12-11-25
+@{/path} -> manera de resolver URL's 
+
+siempre pasar por controller de vista a vista. Principal (autentificacion) //TODO *model* y *principal* ?? 
+
+//TODO comunicación MVC > API REST
+
+Par pasar de un controller a una vista, Spring proporciona Model model.  model.adAttribute.
+ej. restaurants y le pasas una lista.
+
+@Configuration
+ AppConfig (en carpeta config): 
+ @Value("${nombrepropiedadApplicationProperties}")
+
+¿Web Client? -> en AppConfig (WebFlux) 
+
+@RequiredArgsConstructor
+|_ para inyectar Web Client en el **SERVICE** . 
+|_ Hay 2 Beans mismo nombre? nombre diferente var.
+
+Restaurants -> NO PAGING
+Platos -> Paging
+
+como si fuera un repository, con métodos en vez de BBDD con métodos de HTTP requests.
+
+.get() -> .uri(sobre la base url) -> .retrieve() -> bodyToMono(clase dto) -> block()  ... 
+
+En MVC; excepction handler devolvemos una página a la que ir.
+le metemos un atributo y redireccionamos
+
+**ETIQUETAS THYMELEAF** 
+
+th:
+...
+
+**Utility Objects** 
+
+para accedder a clases de utilidades
+
+
+**MVCCONFIG SÓLO LAS PÁGINAS SIN LOGICA; ESTÁTICAS, SI HAY CONTROLLER PARA ESA RUTA, SE QUITA DEL MVC CONFIG** 
+
+## API GRADLE 
 

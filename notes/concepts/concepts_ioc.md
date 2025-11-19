@@ -1,9 +1,8 @@
-# SPRING -> THYMELEAF
+# CONCEPTS > INVERSION OF CONTROL
 ## SUMMARY
 > [!summary]
 
 ## THEORY
-
 ## QUESTIONS
 > [!tip]- Question
 > Answer
@@ -13,3 +12,5 @@
 
 > [!danger]- Question
 > Answer
+
+

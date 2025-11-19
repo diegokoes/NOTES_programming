@@ -1,6 +1,6 @@
 {
-  "findText": "spring",
-  "replaceText": "[[spring|Spring]]",
+  "findText": "\\d.",
+  "replaceText": "",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": true,

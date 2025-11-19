@@ -13,6 +13,6 @@
 
 ## STANDARDS
 
-- [[concepts_mime|MIME (Multipurpose Internet Mail Extensions)]]
+- [[concepts_mime_types|MIME (Multipurpose Internet Mail Extensions)]]
 
 - - -

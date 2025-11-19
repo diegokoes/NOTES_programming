@@ -5,7 +5,7 @@
 
 email:    hola@gmail.com
 password: Hola1234
-### useEffect() 
+### USEEFFECT() 
 - \[ \] -> INITIAL RENDER
 - NO -> EVERY RE RENDER
 - \[dep1,dep2,\] -> WHEN THOSE DEPENDENCIES CHANGE
@@ -22,16 +22,16 @@ import {useLoaderData, useParams} from 'react-router-dom';
 const navigate = useNavigate();
 ```
 
-### **useLoaderData()**
+### **USELOADERDATA()**
 - What the loader returns (anything)
 `const products = useLoaderData();`
-### **useParams()**
+### **USEPARAMS()**
 - Gets **URL parameters** from the current route
 `const nameCategory = useParams().nameCat;`
 
 ## NODE
 
-### Express SETUP
+### EXPRESS SETUP
 npm init 
 npm install express --save
 ### MONGODB
@@ -90,19 +90,19 @@ process.env.JWT_SERVER_SIGNATURE,
 const jwt_payload = jwt.verify(token, process.env(JWT_SIGNING_KEY));
 ```
 
-### bcrypt
+### BCRYPT
 
-#### hash data
+#### HASH DATA
 ```js
 const hash = await bcrypt.hash(password, 10);
 ``` 
-#### compare
+#### COMPARE
 ```js
 const passwordsMatch = await bcrypt.compare(password, userData.password);
 ```
 
 
-### URLSearchParams
+### URLSEARCHPARAMS
 
 ```javascript
 const body = {
@@ -138,3 +138,33 @@ const petCreateCustomer = await fetch(`${BASE_URL_STRIPE}/customers`, {
 
 @ decorators A nivel de clase //TODO 
 
+### FORMS
+
+Two types of forms: 
+- Reactive forms // recommended + complicated 
+FormGroup-> constructor
+controls: object of  form controls
+
+We map FormGroup with the <form...> 
+	*how?* -> FormGroupDirective 
+
+and inside the FormGroup constructor:
+	-> mapping 
+	name_input : new FormControl()
+isn't needed to put attribute name, if we use FormControlName (directive) 
+- template-forms // simple forms
+
+
+FormControl, *constructor* : 
+- if you want to initialize the input with a value.
+- second param, array of synchronous  Validators, we can program our own Validators. Fired in sequence
+- asynchronous Validators (Custom) 
+**ORDERN MATTERS FOR SYNC AND ASYNC VALIDATORS** 
+
+Validation errors  -- *saved* - - > in property `errors` FormControl
+some FormControl invalid ? form invalid
+
+in component : imports : \[ ReactiveFormsModule \] 
+
+//TODO map form , prepare endpoint node
+button disabled until valid form.

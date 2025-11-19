@@ -8,7 +8,7 @@
 >- Layering: Application protocol on top of [[concepts_protocols|TCP/QUIC]]; resolves names via [[concepts_dns|DNS]].
 >- Typical ports: 80 (HTTP), 443 for [[concepts_https|HTTPS]].
 >- Common uses: Web pages, [[concepts_rest|REST]] APIs, file transfer, streaming, and service-to-service communication.
->- Related: [[concepts_cors|CORS]], [[concepts_mime|MIME types]], [[concepts_sop|Same-Origin Policy]], [[concepts_security|Web security basics]].
+>- Related: [[concepts_cors|CORS]], [[concepts_mime_types|MIME types]], [[concepts_sop|Same-Origin Policy]], [[concepts_security|Web security basics]].
 
 ## THEORY
 
@@ -53,7 +53,7 @@ Safe vs idempotent matters for intermediaries and retries: idempotent methods ca
 [[concepts_http_codes|codes]]
 
 — Representation and negotiation
-The response body is a representation of a resource. Content-Type (a [[concepts_mime|MIME type]]) tells the client how to interpret it; Content-Language and Content-Encoding add detail. Clients can influence what they get using Accept, Accept-Language, and Accept-Encoding. Servers pick the best match and may signal it with Vary so caches build correct keys.
+The response body is a representation of a resource. Content-Type (a [[concepts_mime_types|MIME type]]) tells the client how to interpret it; Content-Language and Content-Encoding add detail. Clients can influence what they get using Accept, Accept-Language, and Accept-Encoding. Servers pick the best match and may signal it with Vary so caches build correct keys.
 
 — Caching, freshness, and validation
 Freshness says “you may reuse this response without recontacting the origin” and is controlled by Cache-Control (max-age, s-maxage, public/private) and Expires. When a response becomes stale, clients may validate it using validators: strong ETag (exact match) or Last-Modified timestamps. If the server answers 304 Not Modified to If-None-Match/If-Modified-Since, the client can reuse its cached body. Weak ETags (W/"...") allow change-tolerant comparisons. Vary declares which request headers are part of the cache key. Some directives like must-revalidate, no-store, and stale-while-revalidate change behavior for reliability and privacy.

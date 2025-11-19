@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90f8fb07e93b67aa",
+        "id": "283bdacc964c6d2b",
         "type": "tabs",
         "children": [
           {
-            "id": "8e41d88c9537789c",
+            "id": "f9bcaa962047e6b4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "notes/frameworks_libraries/angular/angular.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "angular"
+              "title": "New tab"
             }
           }
         ]
@@ -42,13 +37,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/frameworks_libraries/angular/angular.md",
+                "file": "spring notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of angular"
+              "title": "Outline of spring notes"
             }
           }
         ]
@@ -64,7 +59,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/frameworks_libraries/angular/angular.md",
+                "file": "spring notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -74,14 +69,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for angular"
+              "title": "Backlinks for spring notes"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 279,
+    "width": 219.5,
     "collapsed": true
   },
   "right": {
@@ -111,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rebase",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250
+    "width": 237.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -136,36 +131,37 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "8e41d88c9537789c",
+  "active": "f9bcaa962047e6b4",
   "lastOpenFiles": [
-    "notes/frameworks_libraries/angular/angular_architecture.md",
-    "notes/frameworks_libraries/angular/angular_form_validation.md",
-    "notes/frameworks_libraries/angular/angular_templates.md",
-    "notes/frameworks_libraries/angular/angular_template_forms.md",
-    "notes/frameworks_libraries/angular/angular_state_services.md",
-    "notes/frameworks_libraries/angular/angular_router_basics.md",
-    "notes/frameworks_libraries/angular/angular_route_guards.md",
-    "notes/frameworks_libraries/angular/angular_interceptors.md",
-    "notes/frameworks_libraries/angular/angular.md",
-    "notes/frameworks_libraries/angular/angular_modules.md",
-    "notes/frameworks_libraries/angular/angular_commands.md",
-    "angular_ngrx.md",
     "CLIENTE.md",
-    "spring notes.md",
-    "notes/frameworks_libraries/react/react_useref.md",
-    "notes/frameworks_libraries/react/react_useeffect.md",
+    "notes/linux/yazi/yazi_mime_types.md",
+    "notes/linux/linux_xdg_base_directory.md",
+    "notes/linux/linux_xdg_mime.md",
     "Templates/summary.md",
-    "Templates/question.md",
-    "Templates/theory.md",
-    "notes/frameworks_libraries/react/react_hooks.md",
-    "notes/frameworks_libraries/react/usecontext.md",
+    "notes/linux/linux.md",
+    "notes/linux/proxmox/proxmox.md",
+    "notes/linux/yazi/yazi.md",
+    "notes/concepts/concepts_mime_types.md",
+    "notes/concepts/concepts_.md",
+    "Assets/Pasted image 20251119101651.png",
+    "notes/linux/yazi/yazi_structure.md",
+    "spring notes.md",
+    "notes/git/git_advanced.md",
+    "notes/git/git_commits.md",
+    "notes/git/git.md",
+    "notes/git/git_branching.md",
+    "notes/git/git_basics.md",
     "notes/frameworks_libraries/react/react.md",
-    "notes/frameworks_libraries/expressjs/expressjs.md",
-    "notes/programming_languages/javascript/javascript_fetch.md",
-    "notes/nodejs/nodejs_modules.md",
-    "notes/nodejs/nodejs.md",
-    "notes/frameworks_libraries/expressjs",
+    "Note_.md",
+    "notes/concepts/concepts_dependency_injection.md",
+    "notes/concepts/concepts_ioc.md",
+    "notes/frameworks_libraries/spring/spring.md",
+    "Untitled.md",
+    "notes/frameworks_libraries/react/react_useref.md",
+    "notes/frameworks_libraries/react/react_hooks.md",
+    "notes/frameworks_libraries/react/react_useState.md",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
+    "notes/frameworks_libraries/expressjs",
     "Assets/376050291-513b4bff-698b-4a89-bcda-b5dffeade3eb.png",
     "Assets/Pasted image 20251004194402.png",
     "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
@@ -182,7 +178,6 @@
     "notes/programming_languages",
     "dump/hyprland",
     "notes/tailscale",
-    "Assets/Pasted image 20250211233230.png",
     "notes/frameworks_libraries/react/nextjs",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

@@ -1,32 +1,21 @@
-# SPRING: LOMBOK
+# SPRING > LOMBOK
+
 ## SUMMARY
 > [!summary]
-> Lombok is a [[java]] library that reduces boilerplate code by generating common methods ([[javagetters|getters]], [[javasetters|setters]],[[javaconstructor|constructors]], [[javahashcode|hashCode]], [[javatostring|toString]], etc.) at compile time with tags.
-- - - 
+
 ## THEORY
 
-**1\.** In Spring
+### @DATA
 
-![[Pasted image 20250124172627.png]]
+It is equivalent to using:
 
-**2\.** Generates a dependency in ==pom.xml==
+- `@Getter` — generates getters for all fields
+    
+- `@Setter` — generates setters for all **non-final** fields
+    
+- `@RequiredArgsConstructor` — generates a constructor for all **final** fields and fields with `@NonNull`
+    
+- `@ToString` — generates a `toString()` method
+    
+- `@EqualsAndHashCode` — generates `equals()` and `hashCode()`
 
-```xml
-<dependency>  
-    <groupId>org.projectlombok</groupId>  
-    <artifactId>lombok</artifactId>  
-    <scope>annotationProcessor</scope>  
-</dependency>  
-```
-
-
-## QUESTIONS
-> [!tip]- Question
-> Answer
-
-> [!warning]- Question
-> Answer
-
-> [!danger]- Question
-> Answer
-- - - 

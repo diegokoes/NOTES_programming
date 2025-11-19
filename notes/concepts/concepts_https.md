@@ -6,7 +6,7 @@ HTTPS is HTTP over TLS. It adds confidentiality, integrity, and server authentic
 
 - Building blocks: [[concepts_tls|TLS]], [[concepts_pki|PKI/certificates]], SNI, ALPN, OCSP stapling, and modern ciphers with forward secrecy.
 - Typical benefits: privacy on the wire, tamper protection, trusted identity, and better performance with HTTP/2 and HTTP/3.
-- Related: [[concepts_security|security]], [[concepts_http|HTTP]], [[concepts_cors|CORS]], [[concepts_sop|SOP]], [[concepts_mime|MIME]].
+- Related: [[concepts_security|security]], [[concepts_http|HTTP]], [[concepts_cors|CORS]], [[concepts_sop|SOP]], [[concepts_mime_types|MIME]].
 
 ## THEORY
 
