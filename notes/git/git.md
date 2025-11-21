@@ -1,9 +1,15 @@
-# git
+# GIT
+
+> [!info] DOCS
+> https://docs.github.com/en
 
 ## SUMMARY
 
 > [!summary]
 >  It is a [[concepts_vcs|version control system]] that allows managing different versions of files, keeping track of changes and allowing multiple operations to restore, remove, merge...
+
+
+
 
 
 - [[git_commands|Commands Cheatsheet]]
@@ -14,4 +20,6 @@
 - [[git_merging|Merging & Conflicts]] - Merge strategies, conflicts, and resolution
 - [[git_advanced|Advanced Operations]] - Rebasing, cherry-picking, hooks, and advanced workflows
 - [[git_troubleshooting|Troubleshooting]] - Common problems and how to fix them
+
+
 

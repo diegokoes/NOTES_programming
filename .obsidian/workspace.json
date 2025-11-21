@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "283bdacc964c6d2b",
+        "id": "276783a69f7b2a6d",
         "type": "tabs",
         "children": [
           {
-            "id": "f9bcaa962047e6b4",
+            "id": "5eb6a68243cc9dbf",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -106,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rebase",
+                "query": "RECA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,11 +117,12 @@
               "title": "Search"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 237.5
+    "width": 234.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,35 +132,36 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "f9bcaa962047e6b4",
+  "active": "5eb6a68243cc9dbf",
   "lastOpenFiles": [
-    "CLIENTE.md",
-    "notes/linux/yazi/yazi_mime_types.md",
-    "notes/linux/linux_xdg_base_directory.md",
-    "notes/linux/linux_xdg_mime.md",
-    "Templates/summary.md",
-    "notes/linux/linux.md",
-    "notes/linux/proxmox/proxmox.md",
-    "notes/linux/yazi/yazi.md",
-    "notes/concepts/concepts_mime_types.md",
-    "notes/concepts/concepts_.md",
-    "Assets/Pasted image 20251119101651.png",
-    "notes/linux/yazi/yazi_structure.md",
-    "spring notes.md",
-    "notes/git/git_advanced.md",
-    "notes/git/git_commits.md",
     "notes/git/git.md",
-    "notes/git/git_branching.md",
-    "notes/git/git_basics.md",
-    "notes/frameworks_libraries/react/react.md",
-    "Note_.md",
-    "notes/concepts/concepts_dependency_injection.md",
-    "notes/concepts/concepts_ioc.md",
+    "notes/git/git_troubleshooting.md",
+    "notes/nodejs/nodejs_setup.md",
+    "notes/nodejs/nodejs.md",
+    "notes/frameworks_libraries/angular/angular.md",
+    "notes/concepts/concepts_imperative_programming.md",
+    "notes/concepts/concepts_framework.md",
+    "notes/programming_languages/java/java.md",
     "notes/frameworks_libraries/spring/spring.md",
-    "Untitled.md",
-    "notes/frameworks_libraries/react/react_useref.md",
-    "notes/frameworks_libraries/react/react_hooks.md",
-    "notes/frameworks_libraries/react/react_useState.md",
+    "notes/frameworks_libraries/angular/angular_architecture.md",
+    "notes/tailscale/tailscale.md",
+    "spring notes.md",
+    "CLIENTE.md",
+    "digitalización.md",
+    "notes/programming_languages/javascript/javascript_variables.md",
+    "exam_Server.md",
+    "Note_.md",
+    "notes/programming_languages/javascript/javascript_promises.md",
+    "metacourse.md",
+    "README.md",
+    "notes/frameworks_libraries/react/react.md",
+    "notes/frameworks_libraries/react/reactstyles.md",
+    "notes/frameworks_libraries/react/react_optimization.md",
+    "notes/frameworks_libraries/react/react_apis.md",
+    "react_apis.md",
+    "notes/programming_languages/typescript/TypeScript.md",
+    "Untitled",
+    "Assets/Pasted image 20251119101651.png",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "notes/frameworks_libraries/expressjs",
     "Assets/376050291-513b4bff-698b-4a89-bcda-b5dffeade3eb.png",
@@ -178,7 +180,6 @@
     "notes/programming_languages",
     "dump/hyprland",
     "notes/tailscale",
-    "notes/frameworks_libraries/react/nextjs",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

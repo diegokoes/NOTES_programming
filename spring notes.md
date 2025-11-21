@@ -6,8 +6,8 @@
 - Spring Security
 - H2 Database
 - Validation
-- Spring Boot Actuator
 - Spring Data JPA
+- Spring Dev Tools
 ### POM
 ```xml
 <dependency>  
@@ -43,9 +43,10 @@
     <artifactId>spring-dotenv</artifactId>
     <version>4.0.0</version>
 </dependency>
-- - - 
-  <path>  
-    <groupId>org.mapstruct</groupId>  
+```
+
+```xml
+<path>  <groupId>org.mapstruct</groupId>  
     <artifactId>mapstruct-processor</artifactId>  
     <version>1.6.2</version>  
 </path>
@@ -293,5 +294,6 @@ para accedder a clases de utilidades
 
 **MVCCONFIG SÓLO LAS PÁGINAS SIN LOGICA; ESTÁTICAS, SI HAY CONTROLLER PARA ESA RUTA, SE QUITA DEL MVC CONFIG** 
 
-## API GRADLE 
+!! Gradle no.
+
 

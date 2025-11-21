@@ -17,13 +17,3 @@ let
 const
 
     Declares a block-scoped, read-only named constant.
-## QUESTIONS
-> [!tip]- Question
-> Answer
-
-> [!warning]- Question
-> Answer
-
-> [!danger]- Question
-> Answer
-- - - 

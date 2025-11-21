@@ -168,3 +168,28 @@ in component : imports : \[ ReactiveFormsModule \]
 
 //TODO map form , prepare endpoint node
 button disabled until valid form.
+
+- - - 
+
+SERVICIOS, peticiones al exterior, al intercomunicar componentes que no tienen conexión entre sí.
+
+@Injectable -> crea una instancia de la clase y la introduce en el DI
+provideIn: 'root', para toda la app
+
+Si no en root, en cada componente tienes que poner providers: [ ] 
+
+
+NO HAY FETCH -> **HttpClient** . *HAY QUE HABILITARLO* !!!
+> En app.config.ts -> EN PROVIDERS 
+> provideHttpClient()
+
+constructor (private http: HttpClient ) {}
+
+a partir de la 19 (lo de arriba es antiguo) :
+
+private http = inject(HttpClient);
+
+Observable (post returns Observable) 
+
+OnInit & OnDestroy - interfaces 
+

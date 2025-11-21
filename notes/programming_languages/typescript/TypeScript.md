@@ -7,7 +7,7 @@
 	- [Functions](typescript_functions.md)
 	- [Optional Types](typescript_optional_types.md)
 	- [Type Assertions and Casting](typescript_assertioncasting.md)
-	- **Advanced Types**
+	- *Advanced Types*
 		- [Union and Intersection Types](typescript_unionintersection.md)
 		- [Literal Types](typescript_literaltypes.md)
 		- [Mapped Types](typescript_mappedtypes.md)
@@ -21,14 +21,3 @@
 - [Enums](typescript_enums.md)
 - [Decorators](typescript_decorators.md)
 - [Type Guards](typescript_type_guards.md)
-- [Type Declaration Files (`.d.ts`)](typescript_declaration_files.md)
-- [Promises and Async/Await](typescript_async.md)
-- [Using Fetch with TypeScript](typescript_fetch.md)
-- [TSConfig File](typescript_tsconfig.md)
-- [Linting and Formatting with ESLint and Prettier](typescript_linting.md)
-- [Debugging TypeScript](typescript_debugging.md)
-- [Unit Testing with TypeScript](typescript_unit_testing.md)
-- [Mocking and Integration Testing](typescript_mocking_testing.md)
-- [Best Practices](typescript_best_practices.md)
-- - - 
-ypescript   [[javascript]] - [[angular]]
