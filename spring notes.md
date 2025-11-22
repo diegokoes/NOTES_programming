@@ -294,6 +294,9 @@ para accedder a clases de utilidades
 
 **MVCCONFIG SÓLO LAS PÁGINAS SIN LOGICA; ESTÁTICAS, SI HAY CONTROLLER PARA ESA RUTA, SE QUITA DEL MVC CONFIG** 
 
-!! Gradle no.
+## EXAMEN
+
+- Seguridad de endpoints en SecurityConfig, en los endpoints o como queramos.
 
 
+@ModelAttribute -> para recoger datos de una vista 

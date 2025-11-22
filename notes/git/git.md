@@ -9,7 +9,7 @@
 >  It is a [[concepts_vcs|version control system]] that allows managing different versions of files, keeping track of changes and allowing multiple operations to restore, remove, merge...
 
 
-
+//add the push protection + git rebase -i {id}~{n} ... 
 
 
 - [[git_commands|Commands Cheatsheet]]
