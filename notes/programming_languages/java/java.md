@@ -9,24 +9,6 @@
 8. [[java_collectionsframework|Collections]]
 9. [Java Streams](javastreams.md)
 10. [Exceptions](javaexceptions.md)
-11. [Input/Output (I/O)](io_java.md)
-    1. [Files and Directories](files_directories_java.md)
-    2. [Input and Output Streams](io_streams_java.md)
-    3. [Serialization](serialization_java.md)
-12. [Concurrency](java_concurrency.md)
-13. [Databases](databases_java.md)
-    1. [JDBC](JDBC.md)
-    2. [Hibernate](hibernate_java.md)
-    3. [JPA](jpa_java.md)
-14. [Testing](testing_java.md)
-    1. [JUnit](junit_java.md)
-    2. [Mockito](mockito_java.md)
-15. Management
-    1. [Maven](javamaven.md)
-    2. [Introduction to Gradle](gradle_intro_java.md)
-    3. [Dependency Management](dependency_management_java.md)
-16. Best Practices
-    4. [Code Style](code_style_java.md)
-    5. [Refactoring](refactoring_java.md)
-    6. [Design Patterns](design_patterns_java.md)
-- - - 
+11. [JPA](jpa_java.md)
+12. [Maven](javamaven.md)
+13. [[java_POJO|POJO]]

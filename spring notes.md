@@ -43,12 +43,17 @@
     <artifactId>spring-dotenv</artifactId>
     <version>4.0.0</version>
 </dependency>
+<dependency> 
+	<groupId>org.thymeleaf.extras</groupId> 
+	<artifactId>thymeleaf-extras-springsecurity6</artifactId> 
+</dependency>
 ```
 
 ```xml
-<path>  <groupId>org.mapstruct</groupId>  
-    <artifactId>mapstruct-processor</artifactId>  
-    <version>1.6.2</version>  
+<path>
+   <groupId>org.mapstruct</groupId>
+   <artifactId>mapstruct-processor</artifactId>
+   <version>1.5.5.Final</version>
 </path>
 ``` 
 ## ENTITY 
@@ -84,7 +89,7 @@ con el join -> entidad propietaria
 
 
 cuidado con lo de defer-datasource-initalization, tiene que ser true o lee primero data.sql y casca.
-
+### VALIDATIONS
 length, nullable, precision, scale...
 ## DTO 
 @Getters
@@ -93,31 +98,10 @@ length, nullable, precision, scale...
 @Data =  @Get,Set... @RequiredArgs..., @EqualsAndHashCode,  @ToString
 @AllArgsConstructor
 @NoArgsConstructor
-
-
-
-> **Dependencia:** `Validation` 
-
-## REPOSITORY
-
-Interface que hereda de CrudRepository, la básica. 
-
-> CrudRepository solo tiene Iterable... JPARepository da List , etc.... usaremos JPARepository
-
-> ResponseEntity?  !TODO
-siempre DTOS, entradas DTO's, contra la BD siempre ENTITIES
-
-> Inyección por dos tipos:
-> 1. por propiedad (autowired)
-> 2. MEJOR por constructor (@RequiredArgsConstructor // crear un constructor con propiedades final)
-
-
-Nunca devolvemos 1 entity.
-
-si @AllArgsConstructor y es un @Entity tienes que crear un constructor vacío.  @NoArgsConstructorw
-
-@Id -> PK 
-@GeneratedValue -> strategy = GenerationType.Identity
+### VALIDATIONS
+@DecimalMin( value = "100.00", message = " " )
+@Size( min=4, max=4, message=" " )
+@NotBlank
 
 ## CONTROLLER
 @RestController  -> devuelve JSON
@@ -167,6 +151,32 @@ objectMapper.converValue...
 
 
 ? extends globalDTO? y //  \<?\>
+
+### VALIDATIONS
+
+
+## REPOSITORY
+
+Interface que hereda de CrudRepository, la básica. 
+
+> CrudRepository solo tiene Iterable... JPARepository da List , etc.... usaremos JPARepository
+
+> ResponseEntity?  !TODO
+siempre DTOS, entradas DTO's, contra la BD siempre ENTITIES
+
+> Inyección por dos tipos:
+> 1. por propiedad (autowired)
+> 2. MEJOR por constructor (@RequiredArgsConstructor // crear un constructor con propiedades final)
+
+
+Nunca devolvemos 1 entity.
+
+si @AllArgsConstructor y es un @Entity tienes que crear un constructor vacío.  @NoArgsConstructorw
+
+@Id -> PK 
+@GeneratedValue -> strategy = GenerationType.Identity
+
+
 ## MAPPER
 
 ```java

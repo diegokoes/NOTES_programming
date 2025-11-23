@@ -2,6 +2,7 @@
 # MY OBSIDIAN VAULT FOR PROGRAMMING
 
 > ⚠️ It's a backup of my obsidian notes, they are not formatted to be properly linked and rendered in GitHub. 
+> **and they are being actively organized and created, so they may look a bit chaotic and empty in some topics** 
 
 > **Why**:
 > When I wanna learn about a topic, I search info about it in a mix of a structured/chaotic way, so I end up with what I searched for, and lots of extra stuff I find interesting. This vault is my attempt at placing all that information in a structured way, **that works for me**.

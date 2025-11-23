@@ -4,52 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "15735b425e8eacbe",
+        "id": "d0d4241a578ea298",
         "type": "tabs",
         "children": [
           {
-            "id": "f9e5170d7169c78b",
+            "id": "2d9338cff876dddd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/frameworks_libraries/angular/angular_component.md",
+                "file": "spring notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "angular_component"
+              "title": "spring notes"
             }
           },
           {
-            "id": "3ca43997771bd959",
+            "id": "96375a1faab72761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/nodejs/nodejs_package.json.md",
+                "file": "notes/frameworks_libraries/spring/spring_entity.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "nodejs_package.json"
+              "title": "spring_entity"
             }
           },
           {
-            "id": "00f9db478f9595e7",
+            "id": "e2886ac55225d754",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/frameworks_libraries/angular/angular_component.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "angular_component"
+              "title": "README"
             }
           }
         ],
@@ -73,13 +73,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "spring notes.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of spring notes"
+              "title": "Outline of README"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "spring notes.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,15 +105,14 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for spring notes"
+              "title": "Backlinks for README"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 219.5,
-    "collapsed": true
+    "width": 219.5
   },
   "right": {
     "id": "52365d8cf2e0fd6b",
@@ -167,8 +166,30 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "00f9db478f9595e7",
+  "active": "e2886ac55225d754",
   "lastOpenFiles": [
+    "notes/programming_languages/java/java.md",
+    "notes/frameworks_libraries/spring/spring_entity.md",
+    "notes/programming_languages/java/javainstallation.md",
+    "notes/programming_languages/java/javaannotations.md",
+    "notes/programming_languages/java/javaexceptions.md",
+    "notes/programming_languages/java/JDBC.md",
+    "notes/programming_languages/java/jpa_java.md",
+    "notes/programming_languages/java/gradle_intro_java.md",
+    "notes/programming_languages/java/dependency_management_java.md",
+    "notes/programming_languages/java/javamaven.md",
+    "notes/programming_languages/java/testing_java.md",
+    "notes/concepts/oop/concepts_oop.md",
+    "spring notes.md",
+    "notes/frameworks_libraries/spring/spring.md",
+    "notes/frameworks_libraries/angular/angular_component.md",
+    "notes/nodejs/nodejs_package.json.md",
+    "notes/concepts/concepts_programming_paradigms.md",
+    "notes/concepts/concepts_imperative_paradigm.md",
+    "notes/concepts/concepts_declarative_programming.md",
+    "notes/concepts/reactive_programming.md",
+    "notes/concepts/procedural_programming.md",
+    "declarative_programming.md",
     "Assets/Pasted image 20251122152600.png",
     "Assets/Pasted image 20251122152529.png",
     "Assets/Pasted image 20251122152430.png",
@@ -176,37 +197,15 @@
     "notes/programming_languages/javascript/javascript_variables.md",
     "notes/programming_languages/javascript/javascript.md",
     "notes/programming_languages/javascript/javascript_operators.md",
-    "notes/frameworks_libraries/angular/angular_component.md",
     "Assets/Pasted image 20251122124748.png",
     "notes/frameworks_libraries/angular/angular.md",
-    "notes/frameworks_libraries/angular/angular_initial_structure.md",
-    "notes/frameworks_libraries/angular/angular_architecture.md",
-    "notes/nodejs/nodejs_package.json.md",
-    "notes/nodejs/nodejs.md",
-    "notes/frameworks_libraries/angular/angular_setup.md",
-    "notes/frameworks_libraries/angular/angular_versions.md",
     "Assets/Pasted image 20251121175620.png",
-    "spring notes.md",
-    "notes/git/git.md",
-    "notes/git/git_troubleshooting.md",
-    "notes/nodejs/nodejs_setup.md",
-    "notes/concepts/concepts_imperative_programming.md",
-    "notes/concepts/concepts_framework.md",
-    "notes/programming_languages/java/java.md",
-    "notes/frameworks_libraries/spring/spring.md",
-    "notes/tailscale/tailscale.md",
-    "CLIENTE.md",
-    "digitalización.md",
-    "exam_Server.md",
-    "Note_.md",
-    "notes/programming_languages/javascript/javascript_promises.md",
     "Untitled",
     "Assets/Pasted image 20251119101651.png",
     "Assets/{D2195147-892A-4344-A8C0-1966D6FC7AAE}.png",
     "notes/frameworks_libraries/expressjs",
     "Assets/376050291-513b4bff-698b-4a89-bcda-b5dffeade3eb.png",
     "Assets/Pasted image 20251004194402.png",
-    "Assets/zVPJ6v2bRB-Tyer9m1Qf5A_33700a0849b040bf8f8afefe2a38ebe1_BED_C2M2L1_item04-img01.png",
     "dump/config/arch_cachyos",
     "dump/Untitled",
     "notes/projects",

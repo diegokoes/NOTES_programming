@@ -1,32 +1,32 @@
 # CONCEPTS > PROGRAMMING PARADIGMS
 
-## **[[procedural_programming|Procedural Programming]]**
+## SUMMARY
 
-*A paradigm based on the concept of procedure calls and structured programming principles.*
+> [!summary]  
+> Programming paradigms are general styles or approaches to programming that define how solutions are expressed and how programs are structured.
+## THEORY
 
-- [[procedural_structured|Structured Programming]]
-- [[procedural_modular|Modular Programming]]
-- [[procedural_top_down|Top-Down Design]]
+### **[[concepts_imperative_paradigm|Imperative Paradigm]]**
 
-## **[[concepts_oop|Object-Oriented Programming (OOP)]]**
+- **[[concepts_procedural|Procedural Programming]]**
+    
+- **[[concepts_oop|Object-Oriented Programming (OOP)]]**
+    
+- **[[concepts_structured|Structured Programming]]**
+    
+- **[[concepts_concurrent_imperative|Concurrent/Parallel Imperative Programming]]**
 
+### **[[concepts_declarative_paradigm|Declarative Paradigm]]**
 
+- **[[concepts_functional|Functional Programming]]**
+    
+- **[[concepts_logic|Logic Programming]]**
+    
+- **[[concepts_constraint|Constraint Programming]]**
+    
+- **[[concepts_query_languages|Database/Query Languages (SQL, Datalog)]]**
+    
 
+---
 
-## **[[functional_programming|Functional Programming]]**
-
-## **[[declarative_programming|Declarative Programming]]**
-
-*Programming paradigms that express the logic without describing control flow.*
-
-- [[declarative_logic|Logic Programming]]
-- [[declarative_constraint|Constraint Programming]]
-- [[declarative_dsl|Domain-Specific Languages]]
-
-## **[[reactive_programming|Reactive Programming]]**
-
-*Programming with asynchronous data streams and the propagation of change.*
-
-- [[reactive_event_driven|Event-Driven Programming]]
-- [[reactive_stream|Stream Processing]]
-- [[reactive_observer|Observer Pattern]]
+If you'd like, I can generate the individual concept pages (e.g., `concepts_oop`, `concepts_imperative_paradigm`, etc.) in the same style.
