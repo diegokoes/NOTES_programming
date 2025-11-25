@@ -56,37 +56,6 @@
    <version>1.5.5.Final</version>
 </path>
 ``` 
-## ENTITY 
-Sus campos tienen que coincidir con los campos de una tabla. Con annotaciones:
-```java
-@Getter 
-@Setter
-@Entity 
-@AllArgsConstructor /*-> Para que sea una Entidad tiene que tener también un constructor vacío*/
-@NoArgsConstructor
-public class 'Blablabla' => 'blablabla' tablename
-o @TableName
-//@Id <- clave primaria
-//@GeneratedValue(strategy = GenerationType.IDENTITY)
-@Column(name="nombre")/*<-nombreTabla*/
-private String firstName
-
-@OneToMany(mappedBy ="fabricante", cascade = CascadeType.ALL, orphanRemoval = true)
-// ONE TO MANY / MANY TO ONE
-// En la parte de 1 -> Un objeto 
-// En la parte de n -> Una lista
-```
-
-
-**Objetos bidireccionales**
-Entidad propietaria y entidad inversa
-
-mapped by -> inversa - 
-//! TODO Ver lo de llamadas cíclicas ?? 
-con el join -> entidad propietaria
-
-//TODO ver extends GrantedAuthority
-
 
 cuidado con lo de defer-datasource-initalization, tiene que ser true o lee primero data.sql y casca.
 ### VALIDATIONS
@@ -108,8 +77,8 @@ length, nullable, precision, scale...
 @RequestMapping("/auth") // para todos los endpoints hijos
 > Inyectar Repository al controller
 
-1. (Peor) Inyección por 
-2. Inyección por constructor
+
+1. Inyección por constructor
 
 Devolvemos ResponseEntity y no Entities, DTO's
 siempre devolvemos un ResponseEntity (HttpResponse) que encapsula lo que se devuelve en el body (cualquier cosa).

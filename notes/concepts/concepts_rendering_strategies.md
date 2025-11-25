@@ -1,8 +1,6 @@
 # CONCEPTS > RENDERING STRATEGIES
-
-*Techniques for rendering web pages efficiently and effectively.*
-
 - [[concepts_csr|CSR (Client-Side Rendering)]]
+	- [[concepts_spa|SPA (Single Page Access]]
 - [[concepts_ssr|SSR (Server-Side Rendering)]]
 - [[concepts_ssg|SSG (Static Site Generation)]]
 - [[concepts_isr|ISR (Incremental Static Regeneration)]]
