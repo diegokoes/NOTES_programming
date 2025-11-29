@@ -1,6 +1,8 @@
-# CONCEPTS > INVERSION OF CONTROL
+# CONCEPTS > BYTECODE
 ## SUMMARY
 > [!summary]
-
+> 
 ## THEORY
+
+
 

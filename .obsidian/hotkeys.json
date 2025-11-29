@@ -144,7 +144,7 @@
       "modifiers": [
         "Mod"
       ],
-      "key": "E"
+      "key": "R"
     }
   ],
   "templater-obsidian:_/Templates/story.md": [
@@ -328,7 +328,8 @@
   "markdown:toggle-preview": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "R"
     }
@@ -432,5 +433,13 @@
       "key": "5"
     }
   ],
-  "workspace:goto-tab-5": []
+  "workspace:goto-tab-5": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ]
 }

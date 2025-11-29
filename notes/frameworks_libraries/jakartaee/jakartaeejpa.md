@@ -1,4 +1,0 @@
-- [Entity Mapping](jpa_entity_mapping.md)
-- [Relationships (OneToMany, ManyToMany)](jpa_relationships.md)
-- [Lifecycle Events (PrePersist, PreUpdate)](jpa_lifecycle_events.md)
-- - - 

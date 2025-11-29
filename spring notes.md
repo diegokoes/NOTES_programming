@@ -267,15 +267,32 @@ th:
 ...
 
 **Utility Objects** 
-
+no hace falta etiqueta name=""
 para accedder a clases de utilidades
 
 
 **MVCCONFIG SÓLO LAS PÁGINAS SIN LOGICA; ESTÁTICAS, SI HAY CONTROLLER PARA ESA RUTA, SE QUITA DEL MVC CONFIG** 
 
+:redirect:/restaurants ... //TODO 
+## SESSION
 ## EXAMEN
 
 - Seguridad de endpoints en SecurityConfig, en los endpoints o como queramos.
 
-
 @ModelAttribute -> para recoger datos de una vista 
+No entra reflexión en Patch
+
+**Revisar @Builder de Entity y de DTO**
+
+25/11 20:53 -> examen authentication, simplificar plantilla.
+
+- **SIN MAPSTRUCK** 
+Mirar lo de BindingResult 26-11
+Fields, lo coge automatico al redirigir. 
+- - - 
+IMPORTANTE EL MODELATTRIBUTE("NAMEOFATTRIBUTE) , o llamar la variable como en thymeleaf en object. en controller en MVC
+
+joincolumns en manytomany, da igual el nombre de la column si es en memoria, se crea con eso.
+
+Endpoints parámetros opcionales: -> @requestparam required = false
+

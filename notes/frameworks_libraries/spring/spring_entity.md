@@ -5,7 +5,7 @@
 ## THEORY
 > [!danger]- NEVER FINAL
 ```java
-@Entity /* (name="") for JPQL*/
+@Entity /* (name="") for JPQL*/3
 @Table(name="tableName", schema="")
 public class ClassName {
 ```
@@ -16,15 +16,13 @@ public class ClassName {
 ```
 ### VALIDATIONS
 
+[[jpa]]/database contraints not jakarta or hibernate.
 
+> [!question] VALIDATE IN BOTH DTO AND ENTITY LAYER?
+> **YES, ALWAYS SRIVE TO PERFORM VALIDATION AT MULTIPLE STAGES OF ANY APPLICATION**
 
-### OBJECTS
+### MAPPING TO OTHER TABLES
 
-**Objetos bidireccionales**
-Entidad propietaria y entidad inversa
-
-mapped by -> inversa - 
-con el join -> entidad propietaria
-
-
-//TODO ver extends GrantedAuthority
+Two key concepts: 
+- **Owning entity**: Controls the relationship and contains the FK
+- **Inverse entity**: mapped

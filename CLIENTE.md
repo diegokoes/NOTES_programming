@@ -193,3 +193,44 @@ Observable (post returns Observable)
 
 OnInit & OnDestroy - interfaces 
 
+### ROUTING
+
+`<router-outlet/>`
+
+Lazy Loading 
+
+Resolvers = React loaders.
+
+2 servicios: Router y ActivatedRoute (leer param url, y recuperar datos de los resolvers)
+
+antes eran clases, ahora funciones los RESOLVERS.
+
+Como recuperar los datos en el comp: 
+
+paramMap de ActivatedRoute... IGUAL QUE EN REACT
+
+Guards: guarda, bloquea acceso a una ruta si se cumple codig de una función.
+	true: permite, false : bloquea.
+puedes redireccionar a otro aldo con Urltree, desde el guard.
+canActivate (rutas padres) , canActivateChild (hijas)...
+
+Url Tree en el guard para redirigir.
+
+### INTERCEPTORS
+
+Servicio http client, con interceptors, puedes configurarle que son funciones que interceptan la petición captan el objeto request, pueden modificar cabeceras, el body y la mandan. Puede haber más de un icterceptor (chain of interceptors) , como si fueran middleware de express. 
+
+No puedes trabajar sobre el inmutable request, hay que hacer clone() .
+
+Hay que inyectarlo en el Http Client. 
+
+pipe()  para manipular los datos -> el orden tiene importancia. 
+//tap 
+//map
+//switc3hMap ?? 
+
+puedes detectar si es request o response. HttpEventType
+siguiente coge el modificado en función rsjx
+
+Ej: almacenar en cache con un interceptor. 
+
