@@ -20,7 +20,12 @@ public class ClassName {
 
 > [!question] VALIDATE IN BOTH DTO AND ENTITY LAYER?
 > **YES, ALWAYS SRIVE TO PERFORM VALIDATION AT MULTIPLE STAGES OF ANY APPLICATION**
-
+```java
+// PLUS THE ONES IN DTO'S
+    @Column(nullable = false, length = 4, unique = true)
+    @Column(nullable = false, length = 255)
+    @Column(nullable = false, precision = 10, scale = 2)
+```
 ### MAPPING TO OTHER TABLES
 
 Two key concepts: 

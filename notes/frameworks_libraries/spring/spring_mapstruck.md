@@ -51,3 +51,7 @@ public interface SimpleSourceDestinationMapper {
 ```
 **Second**:
 //TODO
+
+@InheritInverseConfiguration lo hace solo
+
+@Mapping(source="nombrePropiedadENTIDAD", target="nombrePropiedadDTO")  

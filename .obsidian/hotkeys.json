@@ -441,5 +441,13 @@
       ],
       "key": "E"
     }
+  ],
+  "workspace:split-horizontal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "0"
+    }
   ]
 }
